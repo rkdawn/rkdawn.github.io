@@ -17,20 +17,20 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"rkdawn.top","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="不同寻常的路，才能塑造不一样的我。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="之命记录">
-<meta property="og:url" content="http://example.com/archives/2023/index.html">
+<meta property="og:url" content="http://rkdawn.top/archives/2023/index.html">
 <meta property="og:site_name" content="之命记录">
 <meta property="og:description" content="不同寻常的路，才能塑造不一样的我。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="之命">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/archives/2023/">
+<link rel="canonical" href="http://rkdawn.top/archives/2023/">
 
 
 <script id="page-configurations">
@@ -101,6 +101,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -135,11 +136,38 @@
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -165,13 +193,53 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
+        <span class="collection-header">嗯..! 目前共计 5 篇文章。 继续努力。</span>
       </div>
 
       
     <div class="collection-year">
       <span class="collection-header">2023</span>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2023-06-25T13:17:22+08:00"
+              content="2023-06-25">
+          06-25
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2023/06/25/13-17-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/" itemprop="url">
+            <span itemprop="name">在hexo new之后立即打开Markdown文稿</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2023-06-25T11:42:11+08:00"
+              content="2023-06-25">
+          06-25
+        </time>
+      </div>
+
+      <div class="post-title">
+          <a class="post-title-link" href="/2023/06/25/11-42-%E7%9C%8B%E7%9B%98%E7%9A%84%E5%9B%9B%E4%B8%AA%E6%97%B6%E9%97%B4%E7%82%B9/" itemprop="url">
+            <span itemprop="name">看盘的四个时间点</span>
+          </a>
+      </div>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -185,7 +253,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/06/24/%E7%9F%AD%E7%BA%BF%E7%82%92%E8%82%A1%E7%BB%8F%E9%AA%8C/" itemprop="url">
+          <a class="post-title-link" href="/2023/06/24/19-31-%E7%9F%AD%E7%BA%BF%E7%82%92%E8%82%A1%E7%BB%8F%E9%AA%8C/" itemprop="url">
             <span itemprop="name">短线炒股经验</span>
           </a>
       </div>
@@ -205,7 +273,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/06/24/%E8%82%A1%E5%B8%82%E5%90%8D%E8%AF%8D/" itemprop="url">
+          <a class="post-title-link" href="/2023/06/24/18-58-%E8%82%A1%E5%B8%82%E5%90%8D%E8%AF%8D/" itemprop="url">
             <span itemprop="name">股市名词</span>
           </a>
       </div>
@@ -225,7 +293,7 @@
       </div>
 
       <div class="post-title">
-          <a class="post-title-link" href="/2023/06/24/%E9%80%80%E5%AD%A6%E7%82%92%E8%82%A1/" itemprop="url">
+          <a class="post-title-link" href="/2023/06/24/18-57-%E9%80%80%E5%AD%A6%E7%82%92%E8%82%A1/" itemprop="url">
             <span itemprop="name">退学炒股（心理总结）</span>
           </a>
       </div>
@@ -306,8 +374,8 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">3</span>
-          <span class="site-state-item-name">日志</span>
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
@@ -315,6 +383,12 @@
           
         <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -364,12 +438,10 @@
     </span>
     <span title="站点阅读时长">9 分钟</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
-  </div>
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共8.9k字</span>
+  <span class="post-count">博客全站共9.2k字</span>
 </div>
         
 
@@ -405,6 +477,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
