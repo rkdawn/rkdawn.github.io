@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>修改文章默认模板</title>
-    <url>/2023/06/25/16-47-%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
+    <title>短线炒股经验</title>
+    <url>/2023/06/24/19-31-%E7%9F%AD%E7%BA%BF%E7%82%92%E8%82%A1%E7%BB%8F%E9%AA%8C/</url>
+    <content><![CDATA[<p>1、在下降趋势中阳线反弹一般就是1根或者2根，最多不会超过3根。一旦超过3连阳，则说明趋势很可能就要发生逆转。同理，在上升趋势中的阴线回调一般也就1或2根阴线，最多不会超过3连阴。一旦超过3连阴，则说明健康的上升趋势已经被破坏了，要做好股票见顶的准备！</p>
 <span id="more"></span>
 
-<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>将其修改为你需要的模式：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搭建博客中常见的问题和解决办法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>看盘的四个时间点</title>
-    <url>/2023/06/25/11-42-%E7%9C%8B%E7%9B%98%E7%9A%84%E5%9B%9B%E4%B8%AA%E6%97%B6%E9%97%B4%E7%82%B9/</url>
-    <content><![CDATA[<p>1、9点钟看富时A50的涨跌情况，基本就能确定今天大盘走向<br>2、9点30分快速浏览板块排行，看下集合竞价资金去了哪些板块。<br>3、10点30分，看指数位置。<br>如果高于10点钟的位置，今天最坏的情况就是收平<br>4、看下午2点45分，今天决定交易的人，基本在这个时间进行，因为收盘价已经固定了。</p>
+<p>2、在震荡行情中，如果出现量涨价平的时候，一般情况下后期都会有个大突破，遇到这种情况就可以提前介入！放量突破后小幅回踩，等2次阳量高于前期阴量的时候，进场机会也就来了。<br>3、强势股要想拿住，最简单的一个方法就是日线只要不破依托上涨的均线就不抛，不要看什么技术指标都已经是高位钝化的状态了。<br>4、从K线的组合角度看，一根中阳线配上两根十字星形态的K线，这样的组合通常是上涨中继的空中加油形态，也是大部分强势股的上涨形态。<br> 5、股票在相对高位出现3连阴的回调形态，如果紧接着出现的是一个缩量阳十字星，是下跌中继的概率比较大，到了第二天，一旦跳空低开，则继续收出中阴线的概率高达80%以上。<br>6、在股市中有一个重要的规律，就是市场会证明大部分人的看法是错误的，所以当大家都觉得这票好的话往往是主力释放的烟雾，大家都觉得大盘还能大涨往往是一轮顶部。<br>7、节假日前一天如果大盘收小阴，节后往往出现大跌，一般情况下重要节假日之前大盘收小阳线制造节日喜庆气氛居多，一旦出现阴线咱们就要多个心眼。<br>8、当股票涨势良好，突然遭遇连续大阴线砸盘，一旦KDJ的J线小于-12，则意味着短线反弹一触即发，此时不要再急于割肉离场股票，等待反弹的到来，反弹之后再根据趋势判断！<br>9、当一只股票开始向上突破时，突破的阳线换手率如果在百分之8左右的话，这就是健康的攻击量，这样的股票往往会有不错的持续拉升。换手率过大散户追风盘太多就会出现回调，过小则人气散淡往往很难连续涨。<br>10、每月的第一个交易日出现涨停的股票，尤其是底部构筑完毕突破的股票往往会成为当月的大黑马。因为该股的主力刻意选择在当月的第一个交易日启动行情，这就是一种主力的盘口暗语。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -33,32 +16,9 @@
       </tags>
   </entry>
   <entry>
-    <title>新建文章时自动打开编辑器</title>
-    <url>/2023/06/25/13-17-%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0%E6%97%B6%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E7%BC%96%E8%BE%91%E5%99%A8/</url>
-    <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事，在网上发现有直接能在新建完后自动打开markdown文档的js脚本。</p>
-<span id="more"></span>
-
-<p>首先安装 shelljs模块，实现自动部署加载JS脚本，键入以下命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save shelljs</span><br></pre></td></tr></table></figure>
-
-<p>在 Hexo 根目录的 <code>scripts文件夹</code>下新建一个 <code>js文件</code>。</p>
-<p>稍微修改后用这个脚本成功：</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).<span class="property">exec</span>;</span><br><span class="line"></span><br><span class="line">hexo.<span class="title function_">on</span>(<span class="string">&#x27;new&#x27;</span>, <span class="keyword">function</span>(<span class="params">data</span>)&#123;</span><br><span class="line">  <span class="title function_">spawn</span>(<span class="string">&#x27;start  &quot;D:\Program Files\Typora\Typora.exe&quot; &#x27;</span> + data.<span class="property">path</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搭建博客中常见的问题和解决办法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股市名词</title>
-    <url>/2023/06/24/18-58-%E8%82%A1%E5%B8%82%E5%90%8D%E8%AF%8D/</url>
-    <content><![CDATA[<h3 id="一些常见的短线名词"><a href="#一些常见的短线名词" class="headerlink" title="一些常见的短线名词"></a>一些常见的短线名词</h3><span id="more"></span>
-
-<p><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449584.jpg" alt="xbtc8e834dc8efded62b49b5232f1ffd0f70"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449585.jpg" alt="xbtce0ff3acd6668a098a75ca03bac499c6c"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449586.jpg" alt="xbtc8a7bf70a8ef0f1e936a4f2ab3fa438bf"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449587.jpg" alt="xbtc853ff944375f633f47fa6d1700211357"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449588.jpg" alt="xbtc02c1ca65926beefb8e9a8e5cf49287d2"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449589.jpg" alt="xbtcdecc964d6f825bf3fcff2af40593c3ef"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449590.jpg" alt="xbtcff66af0f9632fbe488286b7e1bd25bb4"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449591.jpg" alt="xbtc10b27fc7e4bde43d530a8052755a3bb8"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449592.jpg" alt="xbtc9dc06696db1b4759cb75cedb0a16bd83"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449593.jpg" alt="xbtc42387202a1d27bea11f5d221dc0730f1"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449594.jpg" alt="xbtc6b9bdaf92ebcac29609c2fb164599bd7"></p>
+    <title>看盘的四个时间点</title>
+    <url>/2023/06/25/11-42-%E7%9C%8B%E7%9B%98%E7%9A%84%E5%9B%9B%E4%B8%AA%E6%97%B6%E9%97%B4%E7%82%B9/</url>
+    <content><![CDATA[<p>1、9点钟看富时A50的涨跌情况，基本就能确定今天大盘走向<br>2、9点30分快速浏览板块排行，看下集合竞价资金去了哪些板块。<br>3、10点30分，看指数位置。<br>如果高于10点钟的位置，今天最坏的情况就是收平<br>4、看下午2点45分，今天决定交易的人，基本在这个时间进行，因为收盘价已经固定了。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -136,6 +96,61 @@
       </categories>
       <tags>
         <tag>股市传奇人物</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>修改文章默认模板</title>
+    <url>/2023/06/25/16-47-%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
+<span id="more"></span>
+
+<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>将其修改为你需要的模式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客中常见的问题和解决办法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新建文章时自动打开编辑器</title>
+    <url>/2023/06/25/13-17-%E6%96%B0%E5%BB%BA%E6%96%87%E7%AB%A0%E6%97%B6%E8%87%AA%E5%8A%A8%E6%89%93%E5%BC%80%E7%BC%96%E8%BE%91%E5%99%A8/</url>
+    <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事，在网上发现有直接能在新建完后自动打开markdown文档的js脚本。</p>
+<span id="more"></span>
+
+<p>首先安装 shelljs模块，实现自动部署加载JS脚本，键入以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save shelljs</span><br></pre></td></tr></table></figure>
+
+<p>在 Hexo 根目录的 <code>scripts文件夹</code>下新建一个 <code>js文件</code>。</p>
+<p>稍微修改后用这个脚本成功：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).<span class="property">exec</span>;</span><br><span class="line"></span><br><span class="line">hexo.<span class="title function_">on</span>(<span class="string">&#x27;new&#x27;</span>, <span class="keyword">function</span>(<span class="params">data</span>)&#123;</span><br><span class="line">  <span class="title function_">spawn</span>(<span class="string">&#x27;start  &quot;D:\Program Files\Typora\Typora.exe&quot; &#x27;</span> + data.<span class="property">path</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客中常见的问题和解决办法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股市名词</title>
+    <url>/2023/06/24/18-58-%E8%82%A1%E5%B8%82%E5%90%8D%E8%AF%8D/</url>
+    <content><![CDATA[<h3 id="一些常见的短线名词"><a href="#一些常见的短线名词" class="headerlink" title="一些常见的短线名词"></a>一些常见的短线名词</h3><span id="more"></span>
+
+<p><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449584.jpg" alt="xbtc8e834dc8efded62b49b5232f1ffd0f70"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449585.jpg" alt="xbtce0ff3acd6668a098a75ca03bac499c6c"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449586.jpg" alt="xbtc8a7bf70a8ef0f1e936a4f2ab3fa438bf"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449587.jpg" alt="xbtc853ff944375f633f47fa6d1700211357"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449588.jpg" alt="xbtc02c1ca65926beefb8e9a8e5cf49287d2"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449589.jpg" alt="xbtcdecc964d6f825bf3fcff2af40593c3ef"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449590.jpg" alt="xbtcff66af0f9632fbe488286b7e1bd25bb4"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449591.jpg" alt="xbtc10b27fc7e4bde43d530a8052755a3bb8"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449592.jpg" alt="xbtc9dc06696db1b4759cb75cedb0a16bd83"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449593.jpg" alt="xbtc42387202a1d27bea11f5d221dc0730f1"><br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230128_1674905449594.jpg" alt="xbtc6b9bdaf92ebcac29609c2fb164599bd7"></p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>技术面</tag>
       </tags>
   </entry>
 </search>
