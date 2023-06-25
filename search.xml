@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>在hexo new之后立即打开Markdown文稿</title>
+    <url>/2023/06/25/13-17-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事。基于此，在网上发现有直接能在新建完后自动打开markdown文档的js脚本，怀着试一试的心态按着步骤走，最后成功了。</p>
+<p>首先安装 shelljs模块，实现自动部署加载JS脚本，键入以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save shelljs</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>在 Hexo 根目录的 <code>scripts文件夹</code>下新建一个 <code>js文件</code>。</li>
+</ol>
+<p>稍微修改后用这个脚本成功：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).<span class="property">exec</span>;</span><br><span class="line"></span><br><span class="line">hexo.<span class="title function_">on</span>(<span class="string">&#x27;new&#x27;</span>, <span class="keyword">function</span>(<span class="params">data</span>)&#123;</span><br><span class="line">  <span class="title function_">spawn</span>(<span class="string">&#x27;start  &quot;D:\Program Files\Typora\Typora.exe&quot; &#x27;</span> + data.<span class="property">path</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客中常见的问题和解决办法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>看盘的四个时间点</title>
     <url>/2023/06/25/11-42-%E7%9C%8B%E7%9B%98%E7%9A%84%E5%9B%9B%E4%B8%AA%E6%97%B6%E9%97%B4%E7%82%B9/</url>
     <content><![CDATA[<p>1、9点钟看富时A50的涨跌情况，基本就能确定今天大盘走向<br>2、9点30分快速浏览板块排行，看下集合竞价资金去了哪些板块。<br>3、10点30分，看指数位置。<br>如果高于10点钟的位置，今天最坏的情况就是收平<br>4、看下午2点45分，今天决定交易的人，基本在这个时间进行，因为收盘价已经固定了。</p>
@@ -25,27 +46,6 @@
 ]]></content>
       <tags>
         <tag>炒股</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>在hexo new之后立即打开Markdown文稿</title>
-    <url>/2023/06/25/13-17-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事。基于此，在网上发现有直接能在新建完后自动打开markdown文档的js脚本，怀着试一试的心态按着步骤走，最后成功了。</p>
-<p>首先安装 shelljs模块，实现自动部署加载JS脚本，键入以下命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save shelljs</span><br></pre></td></tr></table></figure>
-
-<ol>
-<li>在 Hexo 根目录的 <code>scripts文件夹</code>下新建一个 <code>js文件</code>。</li>
-</ol>
-<p>稍微修改后用这个脚本成功：</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).<span class="property">exec</span>;</span><br><span class="line"></span><br><span class="line">hexo.<span class="title function_">on</span>(<span class="string">&#x27;new&#x27;</span>, <span class="keyword">function</span>(<span class="params">data</span>)&#123;</span><br><span class="line">  <span class="title function_">spawn</span>(<span class="string">&#x27;start  &quot;D:\Program Files\Typora\Typora.exe&quot; &#x27;</span> + data.<span class="property">path</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>搭建博客中常见的问题和解决办法</tag>
       </tags>
   </entry>
   <entry>
