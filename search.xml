@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>修改文章默认模板</title>
+    <url>/2023/06/25/16-47-%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
+<span id="more"></span>
+
+<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>将其修改为你需要的模式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>搭建博客中常见的问题和解决办法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在hexo new之后立即打开Markdown文稿</title>
     <url>/2023/06/25/13-17-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事，在网上发现有直接能在新建完后自动打开markdown文档的js脚本。</p>
