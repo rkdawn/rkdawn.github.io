@@ -51,7 +51,7 @@
 <li>具体步骤如下：<ol>
 <li><p>右键开始菜单，选择“运行”，输入<strong>regedit</strong>，点确定。<br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688266184925.jpg" alt="xbtc61bebe6cdebc6f9f805bc4f8448b4888"></p>
 </li>
-<li><p>在弹出的注册表编辑器左侧栏，依次展开以下目录。<br><code>计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings</code></p>
+<li><p>在弹出的注册表编辑器左侧栏，依次展开以下目录。<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings</code></p>
 </li>
 <li><p>窗口右侧空白处，右键选择新建一个“<strong>DWORD（32位）</strong>值”。</p>
 </li>
