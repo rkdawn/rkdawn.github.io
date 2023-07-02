@@ -89,44 +89,25 @@
     <content><![CDATA[<p><a href="https://hexo.io/zh-cn/">Hexo</a> 约有二十个命令，但普通用户经常使用的大概只有下列几个.</p>
 <span id="more"></span>
 
-<ul>
-<li><strong>hexo s</strong></li>
-</ul>
-<p><code>hexo server</code></p>
+<h4 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h4><p><code>hexo server</code></p>
 <p>启动本地服务器，用于预览主题。默认地址: <a href="http://localhost:4000/">http://localhost:4000/</a></p>
 <p>预览的同时可以修改文章内容或主题代码，保存后刷新页面即可；</p>
 <p>对 Hexo 根目录 _config.yml 的修改，需要重启本地服务器后才能预览效果。</p>
-<ul>
-<li><strong>hexo n</strong></li>
-</ul>
-<p><code>hexo new</code></p>
+<h4 id="hexo-n"><a href="#hexo-n" class="headerlink" title="hexo n"></a>hexo n</h4><p><code>hexo new</code></p>
 <p>新建一篇文章，如果标题里有空格，需要加上了引号。</p>
 <p>文章标题可以在对应 md 文件里改，新建时标题可以写的简单些。</p>
-<ul>
-<li><strong>hexo d</strong></li>
-</ul>
-<p><code>hexo deploy</code></p>
+<h4 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h4><p><code>hexo deploy</code></p>
 <p>自动生成网站静态文件，并部署到设定的仓库。</p>
 <p>hexo d 是 hexo deploy 的缩写，命令效果一致。</p>
-<ul>
-<li><strong>hexo c</strong></li>
-</ul>
-<p><code>hexo clean</code></p>
+<h4 id="hexo-c"><a href="#hexo-c" class="headerlink" title="hexo c"></a>hexo c</h4><p><code>hexo clean</code></p>
 <p>清除缓存文件 db.json 和已生成的静态文件 public </p>
 <p>网站显示异常时可以执行这条命令试试。</p>
-<ul>
-<li><strong>hexo g</strong></li>
-</ul>
-<p><code>hexo generate</code></p>
+<h4 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h4><p><code>hexo generate</code></p>
 <p>生成网站静态文件到默认设置的 public 文件夹，便于查看网站生成的静态文件或者手动部署网站，如果使用自动部署，不需要先执行该命令。</p>
 <p>常见的一键命令</p>
-<ul>
-<li>部署到本地</li>
-</ul>
+<p>部署到本地</p>
 <p><code>hexo c &amp;&amp; hexo g &amp;&amp; hexo s</code></p>
-<ul>
-<li>部署到网站</li>
-</ul>
+<p>部署到网站</p>
 <p><code>hexo c &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
 ]]></content>
       <categories>
@@ -135,7 +116,7 @@
   </entry>
   <entry>
     <title>KDJ信号</title>
-    <url>/2023/07/02/15-16-%E5%A4%A7%E7%9B%98%E5%8F%98%E7%9B%98%E4%BF%A1%E5%8F%B7/</url>
+    <url>/2023/07/02/15-16-KDJ%E4%BF%A1%E5%8F%B7/</url>
     <content><![CDATA[<p><strong>主要针对大盘</strong></p>
 <ul>
 <li>KDJ的J值大于80时，墨迹不想涨了，就容易产生一个“拱形”（（上乖离）散户买太多了市场要砸盘了</li>
