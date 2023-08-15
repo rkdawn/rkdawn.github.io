@@ -484,6 +484,53 @@
       </tags>
   </entry>
   <entry>
+    <title>ADB工具包的使用方法以及常见的命令</title>
+    <url>/2023/08/15/16-16-ADB%E5%B7%A5%E5%85%B7%E5%8C%85%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<h4 id="一、ADB工具的简介"><a href="#一、ADB工具的简介" class="headerlink" title="一、ADB工具的简介"></a>一、ADB工具的简介</h4><p>ADB（全称：Android Debug Bridge），ADB是android sdk里的一个工具, 用这个工具可以直接操作管理android模拟器或者真实的android设备。Android的初衷是用adb这样的一个工具来协助开发人员在开发android应用的过程中更快更好的调试apk，因此adb具有安装卸载apk、拷贝推送文件、查看设备硬件信息、查看应用程序占用资源、在设备执行shell命令等功能。</p>
+<span id="more"></span>
+
+<h4 id="二、ADB工具包的使用"><a href="#二、ADB工具包的使用" class="headerlink" title="二、ADB工具包的使用"></a>二、ADB工具包的使用</h4><ul>
+<li><p>去[官网](<a href="https://adbdownload.com/">ADB Download - Get the latest version of ADB and fastboot</a>)下载ADB工具包<br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692089102312.jpg" alt="xbtc4136c648bc22916a5fc3ffb3f4d43124"></p>
+</li>
+<li><p>下载好压缩包后解压如下</p>
+<p><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087707290.jpg" alt="xbtc87e6789c1e4d31cad82a2b30e628bcda"></p>
+</li>
+<li><p>在adb工具包所在文件夹下的空白处，按住shift+右键，会出现以下选项<br><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870960.jpg" alt="xbtc4142f38354d0be5a2bd90f3ac25d6bbf"></p>
+</li>
+<li><p>进入Powershell以后，输入<code>CMD</code>命令</p>
+<p><img src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870961.jpg" alt="xbtcb5a11617212b484ec1ea2172ebf340f8"></p>
+</li>
+</ul>
+<p>接下来就可以直接使用了</p>
+<h4 id="三、ADB的常见的命令"><a href="#三、ADB的常见的命令" class="headerlink" title="三、ADB的常见的命令"></a>三、ADB的常见的命令</h4><ol>
+<li>手机开启USB调试模式，</li>
+<li>输入查看设备的命令：adb devices</li>
+<li>连接成功会出现设备编码</li>
+</ol>
+<p>如果想知道所有的adb命令，在窗口中直接输入adb，然后回车就能看到了。</p>
+<p><strong>以下是常用命令，可供大家查阅：</strong></p>
+<ul>
+<li>启动 adb server 命令：adb start-server</li>
+<li>停止 adb server 命令：adb kill-server</li>
+<li>查看 adb 版本：adb version</li>
+<li>安装 APK命令：adb install [-lrtsdg] <path_to_apk></li>
+<li>卸载应用命令：adb uninstall [-k] <packagename> </li>
+<li>清除应用数据与缓存：adb shell pm clear <packagename></li>
+<li>查看正在运行的 Services命令：adb shell dumpsys activity services [<packagename>]</li>
+<li>查看应用详细信息命令：adb shell dumpsys package <packagename></li>
+<li>发送广播，命令格式：adb shell am broadcast [options] <INTENT></li>
+<li>强制停止应用命令：adb shell am force-stop <packagename></li>
+<li>文件管理复制设备里的文件到电脑：adb pull &lt;设备里的文件路径&gt; [电脑上的目录]</li>
+<li>复制电脑里的文件到设备：adb push &lt;电脑上的文件路径&gt; &lt;设备里的目录&gt;</li>
+<li>电池状况命令：adb shell dumpsys battery</li>
+<li>adb help, 列出所有的选项说明及子命令</li>
+</ul>
+]]></content>
+      <categories>
+        <category>PC使用教程</category>
+      </categories>
+  </entry>
+  <entry>
     <title>短线炒股之卡位龙头</title>
     <url>/2023/07/30/13-13-%E7%9F%AD%E7%BA%BF%E7%82%92%E8%82%A1%E4%B9%8B%E5%8D%A1%E4%BD%8D%E9%BE%99%E5%A4%B4/</url>
     <content><![CDATA[<p>本来我不想写这篇文章的，但是不写有些人在文一，日出，奥维上面亏钱了，可能要几年时间才能搞明白，做错了，并不可怕，最怕不知道原因，下次还要错，甚至要几年时间才能搞明白这个问题。</p>
