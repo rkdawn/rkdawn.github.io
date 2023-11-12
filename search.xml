@@ -484,6 +484,40 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo最常用的几个命令</title>
+    <url>/2023/11/12/20-20-Hexo%E6%9C%80%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%A0%E4%B8%AA%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><a href="https://hexo.io/zh-cn/">Hexo</a> 约有二十个命令，但普通用户经常使用的大概只有下列几个.</p>
+<span id="more"></span>
+
+<h4 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<p>启动本地服务器，用于预览主题。默认地址: <a href="http://localhost:4000/">http://localhost:4000/</a></p>
+<p>预览的同时可以修改文章内容或主题代码，保存后刷新页面即可；</p>
+<p>对 Hexo 根目录 _config.yml 的修改，需要重启本地服务器后才能预览效果。</p>
+<h4 id="hexo-n"><a href="#hexo-n" class="headerlink" title="hexo n"></a>hexo n</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new</span><br></pre></td></tr></table></figure>
+<p>新建一篇文章，如果标题里有空格，需要加上了引号。</p>
+<p>文章标题可以在对应 md 文件里改，新建时标题可以写的简单些。</p>
+<h4 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<p>自动生成网站静态文件，并部署到设定的仓库。</p>
+<p>hexo d 是 hexo deploy 的缩写，命令效果一致。</p>
+<h4 id="hexo-c"><a href="#hexo-c" class="headerlink" title="hexo c"></a>hexo c</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p>清除缓存文件 db.json 和已生成的静态文件 public </p>
+<p>网站显示异常时可以执行这条命令试试。</p>
+<h4 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>生成网站静态文件到默认设置的public文件夹，便于查看网站生成的静态文件或者手动部署网站，如果使用自动部署，不需要先执行该命令。</p>
+<p>常见的一键命令</p>
+<p>部署到本地</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo c &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>部署到网站</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo c &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+  </entry>
+  <entry>
     <title>ADB工具包的使用方法以及常见的命令</title>
     <url>/2023/08/15/16-16-ADB%E5%B7%A5%E5%85%B7%E5%8C%85%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<h4 id="一、ADB工具的简介"><a href="#一、ADB工具的简介" class="headerlink" title="一、ADB工具的简介"></a>一、ADB工具的简介</h4><p>ADB（全称：Android Debug Bridge），ADB是android sdk里的一个工具, 用这个工具可以直接操作管理android模拟器或者真实的android设备。Android的初衷是用adb这样的一个工具来协助开发人员在开发android应用的过程中更快更好的调试apk，因此adb具有安装卸载apk、拷贝推送文件、查看设备硬件信息、查看应用程序占用资源、在设备执行shell命令等功能。</p>
@@ -2202,40 +2236,6 @@
       <tags>
         <tag>炒股技巧</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hexo最常用的几个命令</title>
-    <url>/2023/07/02/15-20-Hexo%E6%9C%80%E5%B8%B8%E7%94%A8%E7%9A%84%E5%87%A0%E4%B8%AA%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><a href="https://hexo.io/zh-cn/">Hexo</a> 约有二十个命令，但普通用户经常使用的大概只有下列几个.</p>
-<span id="more"></span>
-
-<h4 id="hexo-s"><a href="#hexo-s" class="headerlink" title="hexo s"></a>hexo s</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
-
-<p>启动本地服务器，用于预览主题。默认地址: <a href="http://localhost:4000/">http://localhost:4000/</a></p>
-<p>预览的同时可以修改文章内容或主题代码，保存后刷新页面即可；</p>
-<p>对 Hexo 根目录 _config.yml 的修改，需要重启本地服务器后才能预览效果。</p>
-<h4 id="hexo-n"><a href="#hexo-n" class="headerlink" title="hexo n"></a>hexo n</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new</span><br></pre></td></tr></table></figure>
-<p>新建一篇文章，如果标题里有空格，需要加上了引号。</p>
-<p>文章标题可以在对应 md 文件里改，新建时标题可以写的简单些。</p>
-<h4 id="hexo-d"><a href="#hexo-d" class="headerlink" title="hexo d"></a>hexo d</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
-<p>自动生成网站静态文件，并部署到设定的仓库。</p>
-<p>hexo d 是 hexo deploy 的缩写，命令效果一致。</p>
-<h4 id="hexo-c"><a href="#hexo-c" class="headerlink" title="hexo c"></a>hexo c</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<p>清除缓存文件 db.json 和已生成的静态文件 public </p>
-<p>网站显示异常时可以执行这条命令试试。</p>
-<h4 id="hexo-g"><a href="#hexo-g" class="headerlink" title="hexo g"></a>hexo g</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>生成网站静态文件到默认设置的public文件夹，便于查看网站生成的静态文件或者手动部署网站，如果使用自动部署，不需要先执行该命令。</p>
-<p>常见的一键命令</p>
-<p>部署到本地</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo c &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>部署到网站</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo c &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
   </entry>
   <entry>
     <title>KDJ信号</title>
