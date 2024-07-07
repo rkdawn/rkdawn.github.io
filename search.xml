@@ -38,6 +38,56 @@
       </tags>
   </entry>
   <entry>
+    <title>ADB工具包的使用方法以及常见的命令</title>
+    <url>/posts/3831723035/</url>
+    <content><![CDATA[<h4 id="一、ADB工具的简介"><a href="#一、ADB工具的简介" class="headerlink" title="一、ADB工具的简介"></a>一、ADB工具的简介</h4><p>ADB（全称：Android Debug Bridge），ADB是android sdk里的一个工具, 用这个工具可以直接操作管理android模拟器或者真实的android设备。Android的初衷是用adb这样的一个工具来协助开发人员在开发android应用的过程中更快更好的调试apk，因此adb具有安装卸载apk、拷贝推送文件、查看设备硬件信息、查看应用程序占用资源、在设备执行shell命令等功能。</p>
+<span id="more"></span>
+
+<h4 id="二、ADB工具包的使用"><a href="#二、ADB工具包的使用" class="headerlink" title="二、ADB工具包的使用"></a>二、ADB工具包的使用</h4><ul>
+<li><p>去[官网](<span class="exturl" data-url="aHR0cHM6Ly9hZGJkb3dubG9hZC5jb20v">ADB Download - Get the latest version of ADB and fastboot<i class="fa fa-external-link-alt"></i></span>)下载ADB工具包<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692089102312.jpg" alt="xbtc4136c648bc22916a5fc3ffb3f4d43124"></p>
+</li>
+<li><p>下载好压缩包后解压如下</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087707290.jpg" alt="xbtc87e6789c1e4d31cad82a2b30e628bcda"></p>
+</li>
+<li><p>在adb工具包所在文件夹下的空白处，按住shift+右键，会出现以下选项<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870960.jpg" alt="xbtc4142f38354d0be5a2bd90f3ac25d6bbf"></p>
+</li>
+<li><p>进入Powershell以后，输入<code>CMD</code>命令</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870961.jpg" alt="xbtcb5a11617212b484ec1ea2172ebf340f8"></p>
+</li>
+</ul>
+<p>接下来就可以直接使用了</p>
+<h4 id="三、ADB的常见的命令"><a href="#三、ADB的常见的命令" class="headerlink" title="三、ADB的常见的命令"></a>三、ADB的常见的命令</h4><ol>
+<li>手机开启USB调试模式，</li>
+<li>输入查看设备的命令：adb devices</li>
+<li>连接成功会出现设备编码</li>
+</ol>
+<p>如果想知道所有的adb命令，在窗口中直接输入adb，然后回车就能看到了。</p>
+<p><strong>以下是常用命令，可供大家查阅：</strong></p>
+<ul>
+<li>启动 adb server 命令：adb start-server</li>
+<li>停止 adb server 命令：adb kill-server</li>
+<li>查看 adb 版本：adb version</li>
+<li>安装 APK命令：adb install [-lrtsdg] <path_to_apk></li>
+<li>卸载应用命令：adb uninstall [-k] <packagename> </li>
+<li>清除应用数据与缓存：adb shell pm clear <packagename></li>
+<li>查看正在运行的 Services命令：adb shell dumpsys activity services [<packagename>]</li>
+<li>查看应用详细信息命令：adb shell dumpsys package <packagename></li>
+<li>发送广播，命令格式：adb shell am broadcast [options] <INTENT></li>
+<li>强制停止应用命令：adb shell am force-stop <packagename></li>
+<li>文件管理复制设备里的文件到电脑：adb pull &lt;设备里的文件路径&gt; [电脑上的目录]</li>
+<li>复制电脑里的文件到设备：adb push &lt;电脑上的文件路径&gt; &lt;设备里的目录&gt;</li>
+<li>电池状况命令：adb shell dumpsys battery</li>
+<li>adb help, 列出所有的选项说明及子命令</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>PC使用教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>A神谈周期</title>
     <url>/posts/3536865776/</url>
     <content><![CDATA[<p>橡树资本霍华德·马克斯用《周期》一书告诉我们：做投资，你可以什么都不相信，但你必须相信周期。只要有人在，就有周期。正如马克·吐温的那句名言：历史不会重演细节，过程却会重复相似。</p>
@@ -126,56 +176,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ADB工具包的使用方法以及常见的命令</title>
-    <url>/posts/3831723035/</url>
-    <content><![CDATA[<h4 id="一、ADB工具的简介"><a href="#一、ADB工具的简介" class="headerlink" title="一、ADB工具的简介"></a>一、ADB工具的简介</h4><p>ADB（全称：Android Debug Bridge），ADB是android sdk里的一个工具, 用这个工具可以直接操作管理android模拟器或者真实的android设备。Android的初衷是用adb这样的一个工具来协助开发人员在开发android应用的过程中更快更好的调试apk，因此adb具有安装卸载apk、拷贝推送文件、查看设备硬件信息、查看应用程序占用资源、在设备执行shell命令等功能。</p>
-<span id="more"></span>
-
-<h4 id="二、ADB工具包的使用"><a href="#二、ADB工具包的使用" class="headerlink" title="二、ADB工具包的使用"></a>二、ADB工具包的使用</h4><ul>
-<li><p>去[官网](<span class="exturl" data-url="aHR0cHM6Ly9hZGJkb3dubG9hZC5jb20v">ADB Download - Get the latest version of ADB and fastboot<i class="fa fa-external-link-alt"></i></span>)下载ADB工具包<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692089102312.jpg" alt="xbtc4136c648bc22916a5fc3ffb3f4d43124"></p>
-</li>
-<li><p>下载好压缩包后解压如下</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087707290.jpg" alt="xbtc87e6789c1e4d31cad82a2b30e628bcda"></p>
-</li>
-<li><p>在adb工具包所在文件夹下的空白处，按住shift+右键，会出现以下选项<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870960.jpg" alt="xbtc4142f38354d0be5a2bd90f3ac25d6bbf"></p>
-</li>
-<li><p>进入Powershell以后，输入<code>CMD</code>命令</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870961.jpg" alt="xbtcb5a11617212b484ec1ea2172ebf340f8"></p>
-</li>
-</ul>
-<p>接下来就可以直接使用了</p>
-<h4 id="三、ADB的常见的命令"><a href="#三、ADB的常见的命令" class="headerlink" title="三、ADB的常见的命令"></a>三、ADB的常见的命令</h4><ol>
-<li>手机开启USB调试模式，</li>
-<li>输入查看设备的命令：adb devices</li>
-<li>连接成功会出现设备编码</li>
-</ol>
-<p>如果想知道所有的adb命令，在窗口中直接输入adb，然后回车就能看到了。</p>
-<p><strong>以下是常用命令，可供大家查阅：</strong></p>
-<ul>
-<li>启动 adb server 命令：adb start-server</li>
-<li>停止 adb server 命令：adb kill-server</li>
-<li>查看 adb 版本：adb version</li>
-<li>安装 APK命令：adb install [-lrtsdg] <path_to_apk></li>
-<li>卸载应用命令：adb uninstall [-k] <packagename> </li>
-<li>清除应用数据与缓存：adb shell pm clear <packagename></li>
-<li>查看正在运行的 Services命令：adb shell dumpsys activity services [<packagename>]</li>
-<li>查看应用详细信息命令：adb shell dumpsys package <packagename></li>
-<li>发送广播，命令格式：adb shell am broadcast [options] <INTENT></li>
-<li>强制停止应用命令：adb shell am force-stop <packagename></li>
-<li>文件管理复制设备里的文件到电脑：adb pull &lt;设备里的文件路径&gt; [电脑上的目录]</li>
-<li>复制电脑里的文件到设备：adb push &lt;电脑上的文件路径&gt; &lt;设备里的目录&gt;</li>
-<li>电池状况命令：adb shell dumpsys battery</li>
-<li>adb help, 列出所有的选项说明及子命令</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>PC使用教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>A神谈短线交易系统</title>
     <url>/posts/2518885582/</url>
     <content><![CDATA[<p>—————博观而约取，厚积而薄发—————</p>
@@ -214,24 +214,6 @@
       </categories>
       <tags>
         <tag>游资心法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>KDJ信号</title>
-    <url>/posts/1539336069/</url>
-    <content><![CDATA[<p><strong>主要针对大盘</strong></p>
-<ul>
-<li>KDJ的J值大于80时，墨迹不想涨了，就容易产生一个“拱形”（（上乖离）散户买太多了市场要砸盘了</li>
-<li>KDJ的J值低于20时，墨迹不想跌了，就就容易产生一个“凹形”（（下乖离）数户卖太多了，而 市场要抄底了）</li>
-</ul>
-<span id="more"></span>
-<p><strong>PS:本文节所有技术面参考均选自狙盘手老师，在此表示感谢。</strong></p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>技术面</tag>
       </tags>
   </entry>
   <entry>
@@ -274,6 +256,24 @@
       </categories>
       <tags>
         <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KDJ信号</title>
+    <url>/posts/1539336069/</url>
+    <content><![CDATA[<p><strong>主要针对大盘</strong></p>
+<ul>
+<li>KDJ的J值大于80时，墨迹不想涨了，就容易产生一个“拱形”（（上乖离）散户买太多了市场要砸盘了</li>
+<li>KDJ的J值低于20时，墨迹不想跌了，就就容易产生一个“凹形”（（下乖离）数户卖太多了，而 市场要抄底了）</li>
+</ul>
+<span id="more"></span>
+<p><strong>PS:本文节所有技术面参考均选自狙盘手老师，在此表示感谢。</strong></p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>技术面</tag>
       </tags>
   </entry>
   <entry>
@@ -441,26 +441,6 @@
       </categories>
       <tags>
         <tag>交易心态</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>修改文章默认模板</title>
-    <url>/posts/3859285689/</url>
-    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
-<span id="more"></span>
-
-<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>将其修改为你需要的模式：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">top:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -708,6 +688,26 @@
       </categories>
       <tags>
         <tag>技术面</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>修改文章默认模板</title>
+    <url>/posts/3859285689/</url>
+    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
+<span id="more"></span>
+
+<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>将其修改为你需要的模式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">top:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -1345,6 +1345,23 @@
       </tags>
   </entry>
   <entry>
+    <title>短线炒股之卡位龙头</title>
+    <url>/posts/1231027241/</url>
+    <content><![CDATA[<p>本来我不想写这篇文章的，但是不写有些人在文一，日出，奥维上面亏钱了，可能要几年时间才能搞明白，做错了，并不可怕，最怕不知道原因，下次还要错，甚至要几年时间才能搞明白这个问题。</p>
+<span id="more"></span>
+
+<p>在这个市场，有确定的龙头，就做确定的龙头，比如大港股份 5板我确定为龙头，打板买入。若没有就要关注卡位龙，卡位龙需要试错，需要择强，但前提要做功课理解。<br>我是这样做功课的：<br>周四尾盘，我能断定大港基本结束了，看它那个成交量。<br>那么晚上必须做预案，卡位龙5板奥维，3板日出，3板东旭，3板文一。<br>奥维属军工，但对军工板块的带动力不够。<br>日出是模仿大港形态，属光伏。需要观察。<br>文一属科技股大港的补涨股。<br>东旭低价光伏股。<br>类似于卡位股，我们不仅要看高度，还要上涨的性质，所属板块带动力，个股的K线形态，个股股价的高低，还要看封板强度。<br>我对过往3年牛股，价格，形态有过研究，80%以上都是10元以内启动，并且连板。<br>先讲强度：东旭排第一，昨天早盘竞价4亿多封单，今天早盘封单12亿。<br>股价低：东旭第一。<br>文一科技 ：明确它是大港股份的补涨股，因大港涨到一定高度，它才开始上涨，那么大港止于8板，它能几板呢？<br>先举个例子，中通13板左右，那集泰和世宝也就9板左右。补涨已经4板高度有限这是其一。<br>其二：没有板块的助攻，通富微电 试图带领板块，但上攻无力，江丰电趋势股还走坏了。<br>其三：今天的接力氛围很差，日出东方 无溢价，奥维下砸，很多其它股断板，冲高回落，你若是大资金，是不是会在流动性好的时候板上出货，<br>若你今天不走，下周一平开怎么办，补涨4板本来溢价就不高了，市场氛围又差，所以文一今天没有买点，即使换手板再好，下周一也没有溢价，除非它比东旭更强。</p>
+<p>上面功课做完后，还要结合今天竞价和开盘几分钟，龙头和卡位龙，这几分钟强弱很重要。<br>今早竟价情况：<br>东旭封单12亿，文一封单1.8亿，日出平开，奥维的高开是最后几秒钟跳上去，有主力故意做高竞价出货的可能。<br>也就是说日出竞价就弱了，奥维开盘几分钟后也弱了。<br>要知道龙头只有一个，必须在这四股里晋级产生才能，必须挑选最强的。<br>东旭封单强过文一，文一属于补涨，成交额换手太小，股价高，这都是瑕疵。<br>三天前有个大资金同时买入文一和日出，由于日出格局，今天还回撤几个点卖出，那文一他若还格局，下周一也可能回撤几个点卖出，你们说会不会格局，一个1.7亿的封单，砸上2干万都可能其它资金跟风砸开，这是风险很大的。龙头只有一个，即使砸开封住了，也强不过东旭了。<br>所以卡位龙头股，要看个股上涨性质，板块联动性，认可度及所处阶段，股价低，盘口强度，形态流畅度，成交和换手。这是重中之重。<br>最后，谁强谁就是王者，择强弃弱。</p>
+<p>这篇文章讲述了卡位龙头战法的核心思路和实战，这样的文章不会再多写了，全网都没有，希望对大家有所帮助。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>技术面</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>短线炒股之大局观</title>
     <url>/posts/2790815825/</url>
     <content><![CDATA[<p>可以非常确定的讲，大多数人的方法很欠缺。</p>
@@ -1369,23 +1386,6 @@
 <p>别的不需搞那么复杂。</p>
 <p>每天看明白，手法，周期，情绪，<br>这是炒股的入门基础知识，</p>
 <p>若真正搞懂这些，算炒股入门了。<br>再谈选股票，就很清晰了。<br>我写的很简化，写多了无意义。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>技术面</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>短线炒股之卡位龙头</title>
-    <url>/posts/1231027241/</url>
-    <content><![CDATA[<p>本来我不想写这篇文章的，但是不写有些人在文一，日出，奥维上面亏钱了，可能要几年时间才能搞明白，做错了，并不可怕，最怕不知道原因，下次还要错，甚至要几年时间才能搞明白这个问题。</p>
-<span id="more"></span>
-
-<p>在这个市场，有确定的龙头，就做确定的龙头，比如大港股份 5板我确定为龙头，打板买入。若没有就要关注卡位龙，卡位龙需要试错，需要择强，但前提要做功课理解。<br>我是这样做功课的：<br>周四尾盘，我能断定大港基本结束了，看它那个成交量。<br>那么晚上必须做预案，卡位龙5板奥维，3板日出，3板东旭，3板文一。<br>奥维属军工，但对军工板块的带动力不够。<br>日出是模仿大港形态，属光伏。需要观察。<br>文一属科技股大港的补涨股。<br>东旭低价光伏股。<br>类似于卡位股，我们不仅要看高度，还要上涨的性质，所属板块带动力，个股的K线形态，个股股价的高低，还要看封板强度。<br>我对过往3年牛股，价格，形态有过研究，80%以上都是10元以内启动，并且连板。<br>先讲强度：东旭排第一，昨天早盘竞价4亿多封单，今天早盘封单12亿。<br>股价低：东旭第一。<br>文一科技 ：明确它是大港股份的补涨股，因大港涨到一定高度，它才开始上涨，那么大港止于8板，它能几板呢？<br>先举个例子，中通13板左右，那集泰和世宝也就9板左右。补涨已经4板高度有限这是其一。<br>其二：没有板块的助攻，通富微电 试图带领板块，但上攻无力，江丰电趋势股还走坏了。<br>其三：今天的接力氛围很差，日出东方 无溢价，奥维下砸，很多其它股断板，冲高回落，你若是大资金，是不是会在流动性好的时候板上出货，<br>若你今天不走，下周一平开怎么办，补涨4板本来溢价就不高了，市场氛围又差，所以文一今天没有买点，即使换手板再好，下周一也没有溢价，除非它比东旭更强。</p>
-<p>上面功课做完后，还要结合今天竞价和开盘几分钟，龙头和卡位龙，这几分钟强弱很重要。<br>今早竟价情况：<br>东旭封单12亿，文一封单1.8亿，日出平开，奥维的高开是最后几秒钟跳上去，有主力故意做高竞价出货的可能。<br>也就是说日出竞价就弱了，奥维开盘几分钟后也弱了。<br>要知道龙头只有一个，必须在这四股里晋级产生才能，必须挑选最强的。<br>东旭封单强过文一，文一属于补涨，成交额换手太小，股价高，这都是瑕疵。<br>三天前有个大资金同时买入文一和日出，由于日出格局，今天还回撤几个点卖出，那文一他若还格局，下周一也可能回撤几个点卖出，你们说会不会格局，一个1.7亿的封单，砸上2干万都可能其它资金跟风砸开，这是风险很大的。龙头只有一个，即使砸开封住了，也强不过东旭了。<br>所以卡位龙头股，要看个股上涨性质，板块联动性，认可度及所处阶段，股价低，盘口强度，形态流畅度，成交和换手。这是重中之重。<br>最后，谁强谁就是王者，择强弃弱。</p>
-<p>这篇文章讲述了卡位龙头战法的核心思路和实战，这样的文章不会再多写了，全网都没有，希望对大家有所帮助。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -1558,20 +1558,6 @@
       </categories>
       <tags>
         <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股票的走势构成</title>
-    <url>/posts/664389238/</url>
-    <content><![CDATA[<p>所有股票走势都是由这三种构成：《上》<br>一，上行趋势，高低点不断抬高，上升趋势线是将低点相连接的一条直线。一旦趋势跌破则意味着趋势将发生变化、有可能转折向下。</p>
-<span id="more"></span>
-<p>二，下行趋势，高低点不断降低，下降趋势线将高点相连接的一条直线。反弹总被下行趋势压制如果有效突破，则趋势有可能逆转向上。<br>三，震荡趋势。在箱体内运行。各高点低点连接的两条直线，高低点几乎都是在一个水平线上的。股价大部分时间在箱体内震荡运行。<br>1，价格总是沿着阻力最小的方向运动趋势一旦确立便可延续。<br>2，趋势线与成交量的关系，带量突破确定性高，上升初期时必须放量，下跌时不一定放量。上涨途中最好是缩量这意味着，里面的大部分资金是锁仓的。调整时推动股价上涨所需要资金少上涨更容易。<br>3，趋势线与股价的关系：股价在突破趋势线时反应越大确定性越大，如大阳线超越趋势线5％以上，量能换手都很高，或者直接跳空高开则突破的确定性越大。盘中突破压力位但收盘又回落这种不算。<br>所有股票走势都是由这三种构成：《下》<br>买卖点：<br>1，上升趋势回踩趋势线买，跌破趋势3日收不回或带量破位卖。<br>2，区间震荡个股下沿区间买，上沿区间卖。<br>3，突破下降趋势右侧买，回落趋势线卖，或是突破下降趋势回踩不破趋势线买，破位卖或不能新高卖。<br>股票池建立：<br>1，选择基本面好的个股，有大阳线或涨停激活股性<br>2，连续阳线张幅十几个点确认上升趋势。<br>3，趋势好，均线多头排列，观察是否有大资金入驻。<br>纸上得来终觉浅，绝知此事要躬行。把票放到池子里，不仅回顾以前的分时走势也要看量价，每天回顾感受他的变化。每个票运行没有定式的，有些沿着7天线，有些沿着10，20天线，先熟悉在操作锻炼盘感。对于新手来讲，建议学的方式一切从最简单开始。多观察多练习多总结！</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>技术面</tag>
       </tags>
   </entry>
   <entry>
@@ -1792,6 +1778,20 @@
       </tags>
   </entry>
   <entry>
+    <title>股票的走势构成</title>
+    <url>/posts/664389238/</url>
+    <content><![CDATA[<p>所有股票走势都是由这三种构成：《上》<br>一，上行趋势，高低点不断抬高，上升趋势线是将低点相连接的一条直线。一旦趋势跌破则意味着趋势将发生变化、有可能转折向下。</p>
+<span id="more"></span>
+<p>二，下行趋势，高低点不断降低，下降趋势线将高点相连接的一条直线。反弹总被下行趋势压制如果有效突破，则趋势有可能逆转向上。<br>三，震荡趋势。在箱体内运行。各高点低点连接的两条直线，高低点几乎都是在一个水平线上的。股价大部分时间在箱体内震荡运行。<br>1，价格总是沿着阻力最小的方向运动趋势一旦确立便可延续。<br>2，趋势线与成交量的关系，带量突破确定性高，上升初期时必须放量，下跌时不一定放量。上涨途中最好是缩量这意味着，里面的大部分资金是锁仓的。调整时推动股价上涨所需要资金少上涨更容易。<br>3，趋势线与股价的关系：股价在突破趋势线时反应越大确定性越大，如大阳线超越趋势线5％以上，量能换手都很高，或者直接跳空高开则突破的确定性越大。盘中突破压力位但收盘又回落这种不算。<br>所有股票走势都是由这三种构成：《下》<br>买卖点：<br>1，上升趋势回踩趋势线买，跌破趋势3日收不回或带量破位卖。<br>2，区间震荡个股下沿区间买，上沿区间卖。<br>3，突破下降趋势右侧买，回落趋势线卖，或是突破下降趋势回踩不破趋势线买，破位卖或不能新高卖。<br>股票池建立：<br>1，选择基本面好的个股，有大阳线或涨停激活股性<br>2，连续阳线张幅十几个点确认上升趋势。<br>3，趋势好，均线多头排列，观察是否有大资金入驻。<br>纸上得来终觉浅，绝知此事要躬行。把票放到池子里，不仅回顾以前的分时走势也要看量价，每天回顾感受他的变化。每个票运行没有定式的，有些沿着7天线，有些沿着10，20天线，先熟悉在操作锻炼盘感。对于新手来讲，建议学的方式一切从最简单开始。多观察多练习多总结！</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>技术面</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>解决本地博客无法显示图片的问题</title>
     <url>/posts/444953121/</url>
     <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>Hexo使用图床的方式加载在blog中加载图片，会在非本人的电脑或者手机端报“html访问图片资源403问题(http referrer)”，导致采用图床方式加载的图片全部无法加载。</p>
@@ -1906,6 +1906,43 @@
       </tags>
   </entry>
   <entry>
+    <title>这个市场叫修罗场+名利场</title>
+    <url>/posts/1802661347/</url>
+    <content><![CDATA[<p>这个市场，我叫他，修罗场+名利场</p>
+<p><strong>修罗场</strong>，是魔鬼之地，是战斗之地。</p>
+<p>我写过一篇文章，<a href="http://mp.weixin.qq.com/s?__biz=MzI5NTI4NDI4MQ==&mid=2247484174&idx=1&sn=4fb4ffde987c594bfed39216c54ba190&chksm=ec54b858db23314e89de6436d8817f42f62ca9a19d37e158565aaaf58536f79a1c6c2d68bd94&scene=21#wechat_redirect"><strong>魔鬼的契约</strong>，</a>有兴趣的可以点开看一下。我想类似的文章，许多人也应该都看过。</p>
+<p>本是千军万马过独木桥的行业，却有无数人想走捷径，人性的懒惰。</p>
+<span id="more"></span>
+
+<p>走捷径，有两种：</p>
+<p>一种是喜不劳而获，喜低付出高收益，总是心存侥幸等命运眷顾。这种人无穷无尽，这就是高流量的号能卖出高价的最根本原因，韭菜是永远收割不完，且不自知。</p>
+<p>人嘛，是分层的，这是赤裸裸的现实。越是容易被收割的傻子越不承认自己傻。怕的是好高骛远，踏踏实实的过日子，对于很多人就是那么的难。</p>
+<p>你能干什么，就把什么干好。这是人生最朴素的真理。</p>
+<p>一种是赚快钱，这种比前一种高级点。有点技术含量，还得动脑子，但这不是大智慧。捷径，快钱，不持久，容易让人迷失。只因，大道总是那么艰辛。</p>
+<p><strong>修罗场</strong>，战斗力包括两个层次，武力值和心力值。</p>
+<p>千军万马剩你一个，需要什么？千锤百炼是一定的，也是最基本的，关键还要心性。认清这个市场的认知和规则是最基本的，需要悟性；跳出来，上帝视角，俯瞰市场，审视自己，本心外露，这是智慧。</p>
+<p>所谓，人间大道是沧桑。人的分层，金字塔不是线性的，而是从上至下，几何级的扩张。越底层人越拥挤不堪且不自知。我的话，很多人肯定听了很不爽，没办法，这个市场就是这么残酷，世界就是这么赤裸裸。</p>
+<p>记得5年前，初入淘股吧，走入众生场，曾慷慨激昂，骂产业链骂吹票党，被黑被骂，拒绝写股宝，被销号。然并卵，公众号普及之后，吹成了时尚。这是人性，信息的普及放大了人性。发文章不吹票，那是傻瓜蛋啊。因为无数韭菜前仆后继的等着和布道者你侬我侬，双方都那么期盼的温柔乡。</p>
+<p>于是，我最终成了那个“幼稚”的小孩。呵呵。</p>
+<p>这也是我的修行之路。很多事总需要慢慢看清楚。</p>
+<p><strong>名利场</strong>，普天之下，皆为利。这不是贬义，因为利有因果也有层次。</p>
+<p>名利场，是一本书。讲种正因得正果，不择手段得来的名利终将散去。这是一种理想世界。因果循环，生生灭灭。</p>
+<p>很多人不信，但后面这八个字，你总得信吧。种瓜得瓜，种豆得豆。</p>
+<p>因果二字，很玄，又很接地气。</p>
+<p>人生如此，股市亦如此。</p>
+<p>果，早就藏在了你的所思所行里。</p>
+<p>股市和其他地方不一样，所有的东西都放大了，都显性了，好的坏的终会找到你，藏不住。</p>
+<p>因是点点滴滴，果亦如此，绵而不绝。</p>
+<p><strong>PS：</strong>[本文内容来自]( <span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvVFBNdUZVTjNBeENReTRUVkFEb2Z2QQ==">牵牛牪犇花 股市周期论<i class="fa fa-external-link-alt"></i></span>）</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>牛人语录</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>超短线选牛股的两个精髓</title>
     <url>/posts/916617016/</url>
     <content><![CDATA[<p>一、做超短的核心要点</p>
@@ -1947,43 +1984,6 @@
       </categories>
       <tags>
         <tag>技术面</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>这个市场叫修罗场+名利场</title>
-    <url>/posts/1802661347/</url>
-    <content><![CDATA[<p>这个市场，我叫他，修罗场+名利场</p>
-<p><strong>修罗场</strong>，是魔鬼之地，是战斗之地。</p>
-<p>我写过一篇文章，<a href="http://mp.weixin.qq.com/s?__biz=MzI5NTI4NDI4MQ==&mid=2247484174&idx=1&sn=4fb4ffde987c594bfed39216c54ba190&chksm=ec54b858db23314e89de6436d8817f42f62ca9a19d37e158565aaaf58536f79a1c6c2d68bd94&scene=21#wechat_redirect"><strong>魔鬼的契约</strong>，</a>有兴趣的可以点开看一下。我想类似的文章，许多人也应该都看过。</p>
-<p>本是千军万马过独木桥的行业，却有无数人想走捷径，人性的懒惰。</p>
-<span id="more"></span>
-
-<p>走捷径，有两种：</p>
-<p>一种是喜不劳而获，喜低付出高收益，总是心存侥幸等命运眷顾。这种人无穷无尽，这就是高流量的号能卖出高价的最根本原因，韭菜是永远收割不完，且不自知。</p>
-<p>人嘛，是分层的，这是赤裸裸的现实。越是容易被收割的傻子越不承认自己傻。怕的是好高骛远，踏踏实实的过日子，对于很多人就是那么的难。</p>
-<p>你能干什么，就把什么干好。这是人生最朴素的真理。</p>
-<p>一种是赚快钱，这种比前一种高级点。有点技术含量，还得动脑子，但这不是大智慧。捷径，快钱，不持久，容易让人迷失。只因，大道总是那么艰辛。</p>
-<p><strong>修罗场</strong>，战斗力包括两个层次，武力值和心力值。</p>
-<p>千军万马剩你一个，需要什么？千锤百炼是一定的，也是最基本的，关键还要心性。认清这个市场的认知和规则是最基本的，需要悟性；跳出来，上帝视角，俯瞰市场，审视自己，本心外露，这是智慧。</p>
-<p>所谓，人间大道是沧桑。人的分层，金字塔不是线性的，而是从上至下，几何级的扩张。越底层人越拥挤不堪且不自知。我的话，很多人肯定听了很不爽，没办法，这个市场就是这么残酷，世界就是这么赤裸裸。</p>
-<p>记得5年前，初入淘股吧，走入众生场，曾慷慨激昂，骂产业链骂吹票党，被黑被骂，拒绝写股宝，被销号。然并卵，公众号普及之后，吹成了时尚。这是人性，信息的普及放大了人性。发文章不吹票，那是傻瓜蛋啊。因为无数韭菜前仆后继的等着和布道者你侬我侬，双方都那么期盼的温柔乡。</p>
-<p>于是，我最终成了那个“幼稚”的小孩。呵呵。</p>
-<p>这也是我的修行之路。很多事总需要慢慢看清楚。</p>
-<p><strong>名利场</strong>，普天之下，皆为利。这不是贬义，因为利有因果也有层次。</p>
-<p>名利场，是一本书。讲种正因得正果，不择手段得来的名利终将散去。这是一种理想世界。因果循环，生生灭灭。</p>
-<p>很多人不信，但后面这八个字，你总得信吧。种瓜得瓜，种豆得豆。</p>
-<p>因果二字，很玄，又很接地气。</p>
-<p>人生如此，股市亦如此。</p>
-<p>果，早就藏在了你的所思所行里。</p>
-<p>股市和其他地方不一样，所有的东西都放大了，都显性了，好的坏的终会找到你，藏不住。</p>
-<p>因是点点滴滴，果亦如此，绵而不绝。</p>
-<p><strong>PS：</strong>[本文内容来自]( <span class="exturl" data-url="aHR0cHM6Ly9tcC53ZWl4aW4ucXEuY29tL3MvVFBNdUZVTjNBeENReTRUVkFEb2Z2QQ==">牵牛牪犇花 股市周期论<i class="fa fa-external-link-alt"></i></span>）</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>牛人语录</tag>
       </tags>
   </entry>
   <entry>
