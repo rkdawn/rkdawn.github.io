@@ -1247,7 +1247,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ffffb6;
+    background: #f67d2b;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
