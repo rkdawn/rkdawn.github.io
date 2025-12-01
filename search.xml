@@ -1,97 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ADB工具包的使用方法</title>
-    <url>/posts/bc36718d/</url>
-    <content><![CDATA[<h4 id="一、ADB工具的简介"><a href="#一、ADB工具的简介" class="headerlink" title="一、ADB工具的简介"></a>一、ADB工具的简介</h4><p>ADB（全称：Android Debug Bridge），ADB是android sdk里的一个工具, 用这个工具可以直接操作管理android模拟器或者真实的android设备。Android的初衷是用adb这样的一个工具来协助开发人员在开发android应用的过程中更快更好的调试apk，因此adb具有安装卸载apk、拷贝推送文件、查看设备硬件信息、查看应用程序占用资源、在设备执行shell命令等功能。</p>
-<span id="more"></span>
-
-<h4 id="二、ADB工具包的使用"><a href="#二、ADB工具包的使用" class="headerlink" title="二、ADB工具包的使用"></a>二、ADB工具包的使用</h4><ul>
-<li><p>去[官网](<span class="exturl" data-url="aHR0cHM6Ly9hZGJkb3dubG9hZC5jb20v">ADB Download - Get the latest version of ADB and fastboot<i class="fa fa-external-link-alt"></i></span>)下载ADB工具包<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692089102312.jpg" alt="xbtc4136c648bc22916a5fc3ffb3f4d43124"></p>
-</li>
-<li><p>下载好压缩包后解压如下</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087707290.jpg" alt="xbtc87e6789c1e4d31cad82a2b30e628bcda"></p>
-</li>
-<li><p>在adb工具包所在文件夹下的空白处，按住shift+右键，会出现以下选项<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870960.jpg" alt="xbtc4142f38354d0be5a2bd90f3ac25d6bbf"></p>
-</li>
-<li><p>进入Powershell以后，输入<code>CMD</code>命令</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870961.jpg" alt="xbtcb5a11617212b484ec1ea2172ebf340f8"></p>
-</li>
-</ul>
-<p>接下来就可以直接使用了</p>
-<h4 id="三、ADB的常见的命令"><a href="#三、ADB的常见的命令" class="headerlink" title="三、ADB的常见的命令"></a>三、ADB的常见的命令</h4><ol>
-<li>手机开启USB调试模式，</li>
-<li>输入查看设备的命令：adb devices</li>
-<li>连接成功会出现设备编码</li>
-</ol>
-<p>如果想知道所有的adb命令，在窗口中直接输入adb，然后回车就能看到了。</p>
-<p><strong>以下是常用命令，可供大家查阅：</strong></p>
-<ul>
-<li>启动 adb server 命令：adb start-server</li>
-<li>停止 adb server 命令：adb kill-server</li>
-<li>查看 adb 版本：adb version</li>
-<li>安装 APK命令：adb install [-lrtsdg] <path_to_apk></li>
-<li>卸载应用命令：adb uninstall [-k] <packagename> </li>
-<li>清除应用数据与缓存：adb shell pm clear <packagename></li>
-<li>查看正在运行的 Services命令：adb shell dumpsys activity services [<packagename>]</li>
-<li>查看应用详细信息命令：adb shell dumpsys package <packagename></li>
-<li>发送广播，命令格式：adb shell am broadcast [options] <INTENT></li>
-<li>强制停止应用命令：adb shell am force-stop <packagename></li>
-<li>文件管理复制设备里的文件到电脑：adb pull &lt;设备里的文件路径&gt; [电脑上的目录]</li>
-<li>复制电脑里的文件到设备：adb push &lt;电脑上的文件路径&gt; &lt;设备里的目录&gt;</li>
-<li>电池状况命令：adb shell dumpsys battery</li>
-<li>adb help, 列出所有的选项说明及子命令</li>
-</ul>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>PC使用教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>A神谈短线交易系统</title>
-    <url>/posts/962324ce/</url>
-    <content><![CDATA[<p>—————博观而约取，厚积而薄发—————</p>
-<span id="more"></span>
-
-<p><strong>一、超短交易的基础和前提：</strong><br>1、大的情绪周期如果是上升周期，小周期共振向上时什么模式都好用，什么战法都赚钱,当然龙头战法更暴利；就算看错了小周期，小周期高点进去被套，拿两天也很快可以盈利出来！</p>
-<p>2、大周期如果是衰退期，那么获胜的概率就太低太低，一般选手基本是怎么做怎么亏；超级高手可能在冰点小仓位博弈一下反抽，见高点就走、盈亏比也不会高；对于普通选手那更是火中取栗！</p>
-<p>3、A股单边市很少，80%时间是震荡市；那么情绪大周期往往并没有明确的方向，那么节奏就成为超短的命脉！</p>
-<p>所以建立大局观是超短交易的基础和前提</p>
-<p><strong>二、超短交易的核心是情绪</strong></p>
-<p>读懂超短的情绪就真正的理解了超短和超短的交易核心；交易中的数据、指标等等都可以量化，但是情绪不可以量化，这就是股市灵动的地方、也是股市深不可测的地方！</p>
-<p><strong>三、情绪观察</strong></p>
-<p>1、开盘情绪强未必是好的机会、超预期才是可靠的参与机会！</p>
-<p>2、弱不可怕，因为弱还可以转强；低于预期才可怕！</p>
-<p>3、强势股超预期，强的强势股开一字，昨日分歧的强势股反包，这是很好的投机情绪；但是情绪的持续性还要配合日内指数走强才可靠；否则弱转强还可以再转弱！</p>
-<p>4、主流板块竞价开的很强未必是买入机会，那要看情绪大周期的位置是向上还是向下，向下则是卖出机会，向上才是买入的接力点！</p>
-<p>5、向下的情绪大周期，途中的任何反弹只看做反抽，冰点买入后见高点就要走，千万不要主观看穿越！</p>
-<p>6、选股还是尽量参与市场合力股，板块的地位和强度决定溢价，跟风越强，前排溢价越高；跟风如果都死了，持有龙头就算一字板也要卖出，次日基本没有溢价甚至大低开！</p>
-<p>7、独立走势的个股多数是庄股，不是因为庄股不赚钱，而是操作庄股命运由庄不由你；马后炮看很多庄股涨了好几倍，但是更多的散户参与庄股都是脱一层皮出来的！</p>
-<p><strong>四、建立一套适合自己的交易系统</strong></p>
-<p>1、龙头战法很容易翻倍，也很容易腰斩；那么龙头战法的交易系统一定要低频次交易，在大周期上升期满仓干龙头，下降周期空仓或者极小仓位了！</p>
-<p>就是所谓的龙空龙</p>
-<p>2、接力战法肯定要在涨停溢价尤其是连板溢价高的阶段才好玩，忽视大局只看技术面的接力亏多赢少！</p>
-<p>3、首板战法更多的是要抓住情绪的一些转折点交易，套利为主、不能贪心，不能格局！</p>
-<p>4、操作的模式很多，但是每种模式都有它适应的不同时段，也有它失效的时段，适合自己的模式就是最好的模式！</p>
-<p><strong>五、细节</strong></p>
-<p>基于大局观为前提，以日内情绪为观察点而确定交易进出场点才是更完整的交易！<br>1、 每天都有很多涨停板，但是有参与价值的其实很少，甚至有时就没有一支有参与价值的，因为参与不只是为了买入，考虑参与的性价比，收益率、盈亏比及资金利用率等，甚至很多买入就意味着亏损！</p>
-<p>2、大周期向上、小周期也共振向上时；虽然一年内这样的机会只占10%，但是它极有可能占据了你全年盈利的绝大部分！剩下的90%的交易基本都是无效交易甚至亏损交易！</p>
-<p>3、大周期向下时，你还经常满仓出击，虽然偶尔也有大赚的时候，但是还是大亏的时候多；那么你的短线还没有入门，更不用谈什么稳定盈利和悟道了！</p>
-<p> 股市有千变万化的细节，也有那几乎一成不变的大局；没有大局观，穷其一生研究细节，也很难找到方向，交易系统时灵时不灵，永远不能稳定盈利；</p>
-<p>但只研究大局，而不能精于细节，终归是纸上谈兵，很难落实到具体操作层面！</p>
-<p>所以稳定盈利，道和术缺一不可</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>游资成神录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>A神谈周期</title>
     <url>/posts/d2d049f0/</url>
     <content><![CDATA[<p>橡树资本霍华德·马克斯用《周期》一书告诉我们：做投资，你可以什么都不相信，但你必须相信周期。只要有人在，就有周期。正如马克·吐温的那句名言：历史不会重演细节，过程却会重复相似。</p>
@@ -180,40 +89,53 @@
       </tags>
   </entry>
   <entry>
-    <title>A叔语录常见的几种亏损</title>
-    <url>/posts/9ad1a006/</url>
-    <content><![CDATA[<p>炒股的人都想挣钱，大部分人却成天情绪失控乱干硬干蛮着赔钱的勾当，怎么可能会挣到钱呢？这就是可怕的721定律。</p>
+    <title>ADB工具包的使用方法</title>
+    <url>/posts/bc36718d/</url>
+    <content><![CDATA[<h4 id="一、ADB工具的简介"><a href="#一、ADB工具的简介" class="headerlink" title="一、ADB工具的简介"></a>一、ADB工具的简介</h4><p>ADB（全称：Android Debug Bridge），ADB是android sdk里的一个工具, 用这个工具可以直接操作管理android模拟器或者真实的android设备。Android的初衷是用adb这样的一个工具来协助开发人员在开发android应用的过程中更快更好的调试apk，因此adb具有安装卸载apk、拷贝推送文件、查看设备硬件信息、查看应用程序占用资源、在设备执行shell命令等功能。</p>
 <span id="more"></span>
 
-<p>很多人经常在问错在哪儿的，今天说说最常见的几条赔钱操作！</p>
-<p>1、龙头上仓位上的不够，结果忍不住又去买跟风。龙头挣的钱还不够跟风赔的钱，所以说仓位控制，都是伪命题，关键你是你选的标的。标的是龙头，全仓重仓上不要留，诱惑自己上跟风，很多人都控制不住，所以只在龙头上试错。赌也要在龙头上赌。</p>
-<p>很多人都存在这样的问题，在龙头股上挣了一点儿钱胆子就大啦。飘飘然了，然后就乱买。在龙头股上的仓位都是小仓位。龙头股上挣钱了就觉得自己很厉害。放开了放松警惕，降低标准了就加大仓位买跟风股，结果就是挣的钱没有赔的钱多。</p>
-<p>2、输在幻想：侥幸心理其实就是心存幻想。不要问为什么，不涨就是弱，别认为你觉得它该涨它就能涨，不是你能决定的。却对市场已经发生的对自己的不利信息选择性的视而不见。做股票最难的一点就是放下你自己的执念：你只愿意看到你想看到的，不愿相信盘面告诉你的。很多人在一只股里耗着，就是抱着自己觉得他很好，他能涨。就是因为这样不舍得出来，一直在这耗着，耽误了大把的好机会，把自己耗的心态乱了。</p>
-<p>3、老龙头追高在顶部！</p>
-<p>A、无脑接力昨天最强板块。躲新龙、后知后觉慢半拍、流连忘返！</p>
-<p>被峰终定律困死，只活在昨天，盘后复盘意淫锚定昨天最强板块，无脑接力昨天最强板块。</p>
-<p>B、尤其是轮动时候小题材当天高潮，第二天就歇菜。第一天启动时候小仓位买，第二天加仓买在高点被套。</p>
-<p>4、踏空龙头急躁的高位追涨跟风股，错上加错，两边挨耳光。追高后排，其实还不如低吸市场核心股确定性来的更高。</p>
-<p>5、靠意念意淫盘乱买随便的一个分时脉冲！分时高位追涨跟风杂毛。没有市场地位的跟风杂毛高位打板。</p>
-<p>错误的根源是：意淫锚定心理、挖掘机心理作祟。躲避龙头挖掘跟风，对强势的核心龙头视而不见。对强势的挣钱效应视而不见。看空做空。没有大资金抢筹的时候，不能靠自己的意念盘来买股。</p>
-<p>补涨龙头和跟风的区别，最根本的还是参与资金性质的不同。补涨龙头也是主动出力的资金主动攻击的。补涨龙的跟风股，还是那些踏空资金被动的追高跟风股买的。冲天炮秒涨停、短T字瞬间回封、放全天最大的量青龙波直角90度涨停，都是主力主动攻击的表现出来的现象。</p>
-<p>6、大亏根源：情绪崩盘、情绪困境：买卖被涨跌绑架！幻想反包，对抗已经走弱的现实，开始不舍得割肉。高位接力票走弱，第一时刻走，不要轻易熬。</p>
-<p>A、所有的大亏，往往都是从情绪崩盘开始的。跌的初期，舍不得走，跌深了，开始害怕这害怕那，然后开始闭眼砸，乱割。又或者熬到反弹了，出现减亏机会了，但是又开始YY，解套。</p>
-<p>B、如何避免让自己反复陷入困局：逻辑买卖的坚决执行。你决定是否割肉，是跟你的逻辑是否还在有关系。交易最大的悲剧：高位投机买入被套，瞎查基本面，找个假逻辑装死做中线，最终割在最底部。短线长线错配。其实背后还是自己在意淫狂想，找各种理由对抗市场。不尊重市场的真实走势。不第一时间止损。抱有幻想。</p>
-<p>7、带着自己的意淫锚定看盘，对抗市场。很多人看盘，不光是竞价的时候，任何时候看盘他都是带着自己的观点。带着自己的意淫锚定去看盘。只看自己手里的股。根本就看不到全局，根本就做不到客观的看。自己的股涨了，就觉得自己牛逼的不行。自己的股跌了，总觉得还能涨起来。就是这样的心态。一直在困扰着大部分人。</p>
-<p>不总是说：手中有股心中无股，眼中只有更强股。看盘的时候要忘记自己的持仓。有更好的标的就立即把自己手里的股扔掉。这样才能客观的看到每天的真实的盘面，市场选出来的客观真实的牛股。真实的挣钱亏钱效应是哪些板块和个股。</p>
-<p>婴儿眼光看，很多人是带着成年人固有的私心杂念，带着自己的锚定意淫先入为主看盘。只是在加重自己的锚定意淫、是在对抗市场、错上加错。</p>
-<p>8、贪婪的心态心魔。全是因为贪婪。恐惧的背后全是贪婪。</p>
-<p>股价也如逆水行舟、不进则退。不要按照、不要顺着自己的思路和想法选股买股。不要主升浪走完了到最后反包反抽阶段了还在犹豫要不要进。已经没有性价比、没有风报比了。</p>
-<p>9、不要自己有时间了想做了就下手做。不是你有时间的时候就有好时机的，时机不等人，不是时刻为你准备的。一定要时时的盯着，市场的好机会出现的时候，第一时间上车。</p>
-<p>10、忍无可忍最后高位强行上车高位股。尤其是高位买股时候，连续一字板上来的筹码断层，碰到情绪退潮，板块调整，坚决回避，别再意淫什么天空是尽头。别吃肉时候没赶上，勇猛的高位接盘、给别人买单。来去匆匆、暴涨对应暴跌、缩量上来的，也容易单边下跌，都是对称的！因为补涨龙头没有分歧都是快速涨停，基本上一波涨到顶！加速以后涨到高位了，接力一般都是接盘，最好就别看了，别眼馋啦！</p>
-<p>11、为啥很多人经常问：打板某股错在哪儿？没有大局观，看不懂个股的市场地位，自己意淫锚定就无脑干了！看不懂整个市场全貌，只是一根筋的意淫锚定手里的股是最牛的。要放大视野看整个市场。有没有更好的机会？横向，纵向对比，不能只盯着自己想看的！</p>
+<h4 id="二、ADB工具包的使用"><a href="#二、ADB工具包的使用" class="headerlink" title="二、ADB工具包的使用"></a>二、ADB工具包的使用</h4><ul>
+<li><p>去[官网](<span class="exturl" data-url="aHR0cHM6Ly9hZGJkb3dubG9hZC5jb20v">ADB Download - Get the latest version of ADB and fastboot<i class="fa fa-external-link-alt"></i></span>)下载ADB工具包<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692089102312.jpg" alt="xbtc4136c648bc22916a5fc3ffb3f4d43124"></p>
+</li>
+<li><p>下载好压缩包后解压如下</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087707290.jpg" alt="xbtc87e6789c1e4d31cad82a2b30e628bcda"></p>
+</li>
+<li><p>在adb工具包所在文件夹下的空白处，按住shift+右键，会出现以下选项<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870960.jpg" alt="xbtc4142f38354d0be5a2bd90f3ac25d6bbf"></p>
+</li>
+<li><p>进入Powershell以后，输入<code>CMD</code>命令</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230815_1692087870961.jpg" alt="xbtcb5a11617212b484ec1ea2172ebf340f8"></p>
+</li>
+</ul>
+<p>接下来就可以直接使用了</p>
+<h4 id="三、ADB的常见的命令"><a href="#三、ADB的常见的命令" class="headerlink" title="三、ADB的常见的命令"></a>三、ADB的常见的命令</h4><ol>
+<li>手机开启USB调试模式，</li>
+<li>输入查看设备的命令：adb devices</li>
+<li>连接成功会出现设备编码</li>
+</ol>
+<p>如果想知道所有的adb命令，在窗口中直接输入adb，然后回车就能看到了。</p>
+<p><strong>以下是常用命令，可供大家查阅：</strong></p>
+<ul>
+<li>启动 adb server 命令：adb start-server</li>
+<li>停止 adb server 命令：adb kill-server</li>
+<li>查看 adb 版本：adb version</li>
+<li>安装 APK命令：adb install [-lrtsdg] <path_to_apk></li>
+<li>卸载应用命令：adb uninstall [-k] <packagename> </li>
+<li>清除应用数据与缓存：adb shell pm clear <packagename></li>
+<li>查看正在运行的 Services命令：adb shell dumpsys activity services [<packagename>]</li>
+<li>查看应用详细信息命令：adb shell dumpsys package <packagename></li>
+<li>发送广播，命令格式：adb shell am broadcast [options] <INTENT></li>
+<li>强制停止应用命令：adb shell am force-stop <packagename></li>
+<li>文件管理复制设备里的文件到电脑：adb pull &lt;设备里的文件路径&gt; [电脑上的目录]</li>
+<li>复制电脑里的文件到设备：adb push &lt;电脑上的文件路径&gt; &lt;设备里的目录&gt;</li>
+<li>电池状况命令：adb shell dumpsys battery</li>
+<li>adb help, 列出所有的选项说明及子命令</li>
+</ul>
 ]]></content>
       <categories>
-        <category>炒股</category>
+        <category>技术教程</category>
       </categories>
       <tags>
-        <tag>游资成神录</tag>
+        <tag>PC使用教程</tag>
       </tags>
   </entry>
   <entry>
@@ -259,6 +181,47 @@
       </categories>
       <tags>
         <tag>电脑软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>A神谈短线交易系统</title>
+    <url>/posts/962324ce/</url>
+    <content><![CDATA[<p>—————博观而约取，厚积而薄发—————</p>
+<span id="more"></span>
+
+<p><strong>一、超短交易的基础和前提：</strong><br>1、大的情绪周期如果是上升周期，小周期共振向上时什么模式都好用，什么战法都赚钱,当然龙头战法更暴利；就算看错了小周期，小周期高点进去被套，拿两天也很快可以盈利出来！</p>
+<p>2、大周期如果是衰退期，那么获胜的概率就太低太低，一般选手基本是怎么做怎么亏；超级高手可能在冰点小仓位博弈一下反抽，见高点就走、盈亏比也不会高；对于普通选手那更是火中取栗！</p>
+<p>3、A股单边市很少，80%时间是震荡市；那么情绪大周期往往并没有明确的方向，那么节奏就成为超短的命脉！</p>
+<p>所以建立大局观是超短交易的基础和前提</p>
+<p><strong>二、超短交易的核心是情绪</strong></p>
+<p>读懂超短的情绪就真正的理解了超短和超短的交易核心；交易中的数据、指标等等都可以量化，但是情绪不可以量化，这就是股市灵动的地方、也是股市深不可测的地方！</p>
+<p><strong>三、情绪观察</strong></p>
+<p>1、开盘情绪强未必是好的机会、超预期才是可靠的参与机会！</p>
+<p>2、弱不可怕，因为弱还可以转强；低于预期才可怕！</p>
+<p>3、强势股超预期，强的强势股开一字，昨日分歧的强势股反包，这是很好的投机情绪；但是情绪的持续性还要配合日内指数走强才可靠；否则弱转强还可以再转弱！</p>
+<p>4、主流板块竞价开的很强未必是买入机会，那要看情绪大周期的位置是向上还是向下，向下则是卖出机会，向上才是买入的接力点！</p>
+<p>5、向下的情绪大周期，途中的任何反弹只看做反抽，冰点买入后见高点就要走，千万不要主观看穿越！</p>
+<p>6、选股还是尽量参与市场合力股，板块的地位和强度决定溢价，跟风越强，前排溢价越高；跟风如果都死了，持有龙头就算一字板也要卖出，次日基本没有溢价甚至大低开！</p>
+<p>7、独立走势的个股多数是庄股，不是因为庄股不赚钱，而是操作庄股命运由庄不由你；马后炮看很多庄股涨了好几倍，但是更多的散户参与庄股都是脱一层皮出来的！</p>
+<p><strong>四、建立一套适合自己的交易系统</strong></p>
+<p>1、龙头战法很容易翻倍，也很容易腰斩；那么龙头战法的交易系统一定要低频次交易，在大周期上升期满仓干龙头，下降周期空仓或者极小仓位了！</p>
+<p>就是所谓的龙空龙</p>
+<p>2、接力战法肯定要在涨停溢价尤其是连板溢价高的阶段才好玩，忽视大局只看技术面的接力亏多赢少！</p>
+<p>3、首板战法更多的是要抓住情绪的一些转折点交易，套利为主、不能贪心，不能格局！</p>
+<p>4、操作的模式很多，但是每种模式都有它适应的不同时段，也有它失效的时段，适合自己的模式就是最好的模式！</p>
+<p><strong>五、细节</strong></p>
+<p>基于大局观为前提，以日内情绪为观察点而确定交易进出场点才是更完整的交易！<br>1、 每天都有很多涨停板，但是有参与价值的其实很少，甚至有时就没有一支有参与价值的，因为参与不只是为了买入，考虑参与的性价比，收益率、盈亏比及资金利用率等，甚至很多买入就意味着亏损！</p>
+<p>2、大周期向上、小周期也共振向上时；虽然一年内这样的机会只占10%，但是它极有可能占据了你全年盈利的绝大部分！剩下的90%的交易基本都是无效交易甚至亏损交易！</p>
+<p>3、大周期向下时，你还经常满仓出击，虽然偶尔也有大赚的时候，但是还是大亏的时候多；那么你的短线还没有入门，更不用谈什么稳定盈利和悟道了！</p>
+<p> 股市有千变万化的细节，也有那几乎一成不变的大局；没有大局观，穷其一生研究细节，也很难找到方向，交易系统时灵时不灵，永远不能稳定盈利；</p>
+<p>但只研究大局，而不能精于细节，终归是纸上谈兵，很难落实到具体操作层面！</p>
+<p>所以稳定盈利，道和术缺一不可</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>游资成神录</tag>
       </tags>
   </entry>
   <entry>
@@ -322,64 +285,40 @@
       </tags>
   </entry>
   <entry>
-    <title>Office2024专业增强版安装激活</title>
-    <url>/posts/be9c364c/</url>
-    <content><![CDATA[<p>Office2024专业增强版安装激活的步骤，以下为正文内容。</p>
+    <title>A叔语录常见的几种亏损</title>
+    <url>/posts/9ad1a006/</url>
+    <content><![CDATA[<p>炒股的人都想挣钱，大部分人却成天情绪失控乱干硬干蛮着赔钱的勾当，怎么可能会挣到钱呢？这就是可怕的721定律。</p>
 <span id="more"></span>
 
-<p><strong>PS:本文所用到工具会统一在文末打包</strong></p>
-<ul>
-<li><h4 id="卸载原先的Office"><a href="#卸载原先的Office" class="headerlink" title="卸载原先的Office"></a>卸载原先的Office</h4></li>
-</ul>
-<ol>
-<li><p>卸载原先的Office，Office是一款大型软件，卸载容易，但是要卸载干净非常难！这时候，我们就要借助Office的卸载工具进行卸载。</p>
-<p>首先用<strong>OUninstall</strong>这款软件，卸载工具有32位的，也有64位的，大家按照自己的系统进行选择</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141628484.png" alt="202409291525297_waifu2x_3x_1n_PNG"></p>
-<p>在软件的下方选择你要卸载的版本，这里最多是2021版，但我测试了Office2024的预览版这款软件也可以卸载，大家**勾选“O2013-2021 C2R”**再点【Uninstall Office】即开始卸载。</p>
-<p>当软件出现“Competed”时，代表Office已经卸载成功。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141714865.png" alt="202409291526715_waifu2x_3x_1n_PNG"></p>
-</li>
-<li><p>为了以防万一，接下来用第二款软件<span class="exturl" data-url="aHR0cHM6Ly9vdHAubGFuZGlhbi52aXAvemgtY24v">Office Tool Plus<i class="fa fa-external-link-alt"></i></span>，并且接下来的Office部署也是用这款软件。</p>
-</li>
-</ol>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141801609.png" alt="202409291515582_waifu2x_3x_1n_PNG"></p>
-<p>在【工具箱】中，找到“移除Office”，等移除后，重启以下，即完成卸载工作</p>
-<ul>
-<li><h4 id="部署安装Office"><a href="#部署安装Office" class="headerlink" title="部署安装Office"></a><strong>部署安装Office</strong></h4>选择“部署”里，选择“64位”，Office更新通道选择企业长期版。</li>
-</ul>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142019871.png" alt="202409291533786_waifu2x_3x_1n_PNG"></p>
-<p>再然后是“添加产品”</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141820004.png" alt="202409291533048_waifu2x_3x_1n_PNG"></p>
-<p>在添加产品时选择2024批量许可证。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142048112.png" alt="202409291534813_waifu2x_3x_1n_PNG"></p>
-<p>最后是选择语言，语言比较多，大家可以搜索“简体”两字，即可搜索到简体中文，选择以后点“确定”即可。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142133884.png" alt="202409291534055_waifu2x_3x_1n_PNG"></p>
-<p>在真正部署前还会有个确认。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142151922.png" alt="202409291534090_waifu2x_3x_1n_PNG"></p>
-<p>确认无误后即可开始下载安装了，这个过程比较久，大家耐心等待。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142204797.png" alt="202409291535134_waifu2x_3x_1n_PNG"></p>
-<ul>
-<li><h4 id="激活：安装好就可以进行激活了"><a href="#激活：安装好就可以进行激活了" class="headerlink" title="激活：安装好就可以进行激活了"></a><strong>激活：安装好就可以进行激活了</strong></h4></li>
-</ul>
-<p>**Ohook激活：**以管理员身份运行“Keygen 1.cmd”</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/202409291537237.webp" alt="图片"></p>
-<p>然后在跳出的界面里输入“2”</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142225760.png" alt="202409291538797_waifu2x_3x_1n_PNG"></p>
-<p>再输入“1”进入到激活界面</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142236079.png" alt="202409291538546_waifu2x_3x_1n_PNG"></p>
-<p>稍等片刻，当界面出现了“Office已永久激活”时，关闭界面即可激活！</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142249568.png" alt="202409291539384_waifu2x_3x_1n_PNG"></p>
-<p>激活以后，在Office的帐户里就显示是专业增强版，并已激活。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142309095.png" alt="202409291540828_waifu2x_3x_1n_PNG"></p>
-<p><strong>本文所用到的所有工具连接打包地址:</strong></p>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3hxLmxhbnpvdWUuY29tL2k4dXVtMmI1NndraA==">https://wwxq.lanzoue.com/i8uum2b56wkh<i class="fa fa-external-link-alt"></i></span></p>
-<p><strong>注：因蓝奏云改了规则，使用PC正常下载不受影响，手机浏览器要记得调成PC模式即可正常下载。</strong></p>
+<p>很多人经常在问错在哪儿的，今天说说最常见的几条赔钱操作！</p>
+<p>1、龙头上仓位上的不够，结果忍不住又去买跟风。龙头挣的钱还不够跟风赔的钱，所以说仓位控制，都是伪命题，关键你是你选的标的。标的是龙头，全仓重仓上不要留，诱惑自己上跟风，很多人都控制不住，所以只在龙头上试错。赌也要在龙头上赌。</p>
+<p>很多人都存在这样的问题，在龙头股上挣了一点儿钱胆子就大啦。飘飘然了，然后就乱买。在龙头股上的仓位都是小仓位。龙头股上挣钱了就觉得自己很厉害。放开了放松警惕，降低标准了就加大仓位买跟风股，结果就是挣的钱没有赔的钱多。</p>
+<p>2、输在幻想：侥幸心理其实就是心存幻想。不要问为什么，不涨就是弱，别认为你觉得它该涨它就能涨，不是你能决定的。却对市场已经发生的对自己的不利信息选择性的视而不见。做股票最难的一点就是放下你自己的执念：你只愿意看到你想看到的，不愿相信盘面告诉你的。很多人在一只股里耗着，就是抱着自己觉得他很好，他能涨。就是因为这样不舍得出来，一直在这耗着，耽误了大把的好机会，把自己耗的心态乱了。</p>
+<p>3、老龙头追高在顶部！</p>
+<p>A、无脑接力昨天最强板块。躲新龙、后知后觉慢半拍、流连忘返！</p>
+<p>被峰终定律困死，只活在昨天，盘后复盘意淫锚定昨天最强板块，无脑接力昨天最强板块。</p>
+<p>B、尤其是轮动时候小题材当天高潮，第二天就歇菜。第一天启动时候小仓位买，第二天加仓买在高点被套。</p>
+<p>4、踏空龙头急躁的高位追涨跟风股，错上加错，两边挨耳光。追高后排，其实还不如低吸市场核心股确定性来的更高。</p>
+<p>5、靠意念意淫盘乱买随便的一个分时脉冲！分时高位追涨跟风杂毛。没有市场地位的跟风杂毛高位打板。</p>
+<p>错误的根源是：意淫锚定心理、挖掘机心理作祟。躲避龙头挖掘跟风，对强势的核心龙头视而不见。对强势的挣钱效应视而不见。看空做空。没有大资金抢筹的时候，不能靠自己的意念盘来买股。</p>
+<p>补涨龙头和跟风的区别，最根本的还是参与资金性质的不同。补涨龙头也是主动出力的资金主动攻击的。补涨龙的跟风股，还是那些踏空资金被动的追高跟风股买的。冲天炮秒涨停、短T字瞬间回封、放全天最大的量青龙波直角90度涨停，都是主力主动攻击的表现出来的现象。</p>
+<p>6、大亏根源：情绪崩盘、情绪困境：买卖被涨跌绑架！幻想反包，对抗已经走弱的现实，开始不舍得割肉。高位接力票走弱，第一时刻走，不要轻易熬。</p>
+<p>A、所有的大亏，往往都是从情绪崩盘开始的。跌的初期，舍不得走，跌深了，开始害怕这害怕那，然后开始闭眼砸，乱割。又或者熬到反弹了，出现减亏机会了，但是又开始YY，解套。</p>
+<p>B、如何避免让自己反复陷入困局：逻辑买卖的坚决执行。你决定是否割肉，是跟你的逻辑是否还在有关系。交易最大的悲剧：高位投机买入被套，瞎查基本面，找个假逻辑装死做中线，最终割在最底部。短线长线错配。其实背后还是自己在意淫狂想，找各种理由对抗市场。不尊重市场的真实走势。不第一时间止损。抱有幻想。</p>
+<p>7、带着自己的意淫锚定看盘，对抗市场。很多人看盘，不光是竞价的时候，任何时候看盘他都是带着自己的观点。带着自己的意淫锚定去看盘。只看自己手里的股。根本就看不到全局，根本就做不到客观的看。自己的股涨了，就觉得自己牛逼的不行。自己的股跌了，总觉得还能涨起来。就是这样的心态。一直在困扰着大部分人。</p>
+<p>不总是说：手中有股心中无股，眼中只有更强股。看盘的时候要忘记自己的持仓。有更好的标的就立即把自己手里的股扔掉。这样才能客观的看到每天的真实的盘面，市场选出来的客观真实的牛股。真实的挣钱亏钱效应是哪些板块和个股。</p>
+<p>婴儿眼光看，很多人是带着成年人固有的私心杂念，带着自己的锚定意淫先入为主看盘。只是在加重自己的锚定意淫、是在对抗市场、错上加错。</p>
+<p>8、贪婪的心态心魔。全是因为贪婪。恐惧的背后全是贪婪。</p>
+<p>股价也如逆水行舟、不进则退。不要按照、不要顺着自己的思路和想法选股买股。不要主升浪走完了到最后反包反抽阶段了还在犹豫要不要进。已经没有性价比、没有风报比了。</p>
+<p>9、不要自己有时间了想做了就下手做。不是你有时间的时候就有好时机的，时机不等人，不是时刻为你准备的。一定要时时的盯着，市场的好机会出现的时候，第一时间上车。</p>
+<p>10、忍无可忍最后高位强行上车高位股。尤其是高位买股时候，连续一字板上来的筹码断层，碰到情绪退潮，板块调整，坚决回避，别再意淫什么天空是尽头。别吃肉时候没赶上，勇猛的高位接盘、给别人买单。来去匆匆、暴涨对应暴跌、缩量上来的，也容易单边下跌，都是对称的！因为补涨龙头没有分歧都是快速涨停，基本上一波涨到顶！加速以后涨到高位了，接力一般都是接盘，最好就别看了，别眼馋啦！</p>
+<p>11、为啥很多人经常问：打板某股错在哪儿？没有大局观，看不懂个股的市场地位，自己意淫锚定就无脑干了！看不懂整个市场全貌，只是一根筋的意淫锚定手里的股是最牛的。要放大视野看整个市场。有没有更好的机会？横向，纵向对比，不能只盯着自己想看的！</p>
 ]]></content>
       <categories>
-        <category>软件破解</category>
+        <category>炒股</category>
       </categories>
       <tags>
-        <tag>电脑软件</tag>
+        <tag>游资成神录</tag>
       </tags>
   </entry>
   <entry>
@@ -2106,6 +2045,102 @@
       </tags>
   </entry>
   <entry>
+    <title>Office2024专业增强版安装激活</title>
+    <url>/posts/be9c364c/</url>
+    <content><![CDATA[<p>Office2024专业增强版安装激活的步骤，以下为正文内容。</p>
+<span id="more"></span>
+
+<p><strong>PS:本文所用到工具会统一在文末打包</strong></p>
+<ul>
+<li><h4 id="卸载原先的Office"><a href="#卸载原先的Office" class="headerlink" title="卸载原先的Office"></a>卸载原先的Office</h4></li>
+</ul>
+<ol>
+<li><p>卸载原先的Office，Office是一款大型软件，卸载容易，但是要卸载干净非常难！这时候，我们就要借助Office的卸载工具进行卸载。</p>
+<p>首先用<strong>OUninstall</strong>这款软件，卸载工具有32位的，也有64位的，大家按照自己的系统进行选择</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141628484.png" alt="202409291525297_waifu2x_3x_1n_PNG"></p>
+<p>在软件的下方选择你要卸载的版本，这里最多是2021版，但我测试了Office2024的预览版这款软件也可以卸载，大家**勾选“O2013-2021 C2R”**再点【Uninstall Office】即开始卸载。</p>
+<p>当软件出现“Competed”时，代表Office已经卸载成功。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141714865.png" alt="202409291526715_waifu2x_3x_1n_PNG"></p>
+</li>
+<li><p>为了以防万一，接下来用第二款软件<span class="exturl" data-url="aHR0cHM6Ly9vdHAubGFuZGlhbi52aXAvemgtY24v">Office Tool Plus<i class="fa fa-external-link-alt"></i></span>，并且接下来的Office部署也是用这款软件。</p>
+</li>
+</ol>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141801609.png" alt="202409291515582_waifu2x_3x_1n_PNG"></p>
+<p>在【工具箱】中，找到“移除Office”，等移除后，重启以下，即完成卸载工作</p>
+<ul>
+<li><h4 id="部署安装Office"><a href="#部署安装Office" class="headerlink" title="部署安装Office"></a><strong>部署安装Office</strong></h4>选择“部署”里，选择“64位”，Office更新通道选择企业长期版。</li>
+</ul>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142019871.png" alt="202409291533786_waifu2x_3x_1n_PNG"></p>
+<p>再然后是“添加产品”</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222141820004.png" alt="202409291533048_waifu2x_3x_1n_PNG"></p>
+<p>在添加产品时选择2024批量许可证。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142048112.png" alt="202409291534813_waifu2x_3x_1n_PNG"></p>
+<p>最后是选择语言，语言比较多，大家可以搜索“简体”两字，即可搜索到简体中文，选择以后点“确定”即可。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142133884.png" alt="202409291534055_waifu2x_3x_1n_PNG"></p>
+<p>在真正部署前还会有个确认。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142151922.png" alt="202409291534090_waifu2x_3x_1n_PNG"></p>
+<p>确认无误后即可开始下载安装了，这个过程比较久，大家耐心等待。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142204797.png" alt="202409291535134_waifu2x_3x_1n_PNG"></p>
+<ul>
+<li><h4 id="激活：安装好就可以进行激活了"><a href="#激活：安装好就可以进行激活了" class="headerlink" title="激活：安装好就可以进行激活了"></a><strong>激活：安装好就可以进行激活了</strong></h4></li>
+</ul>
+<p>**Ohook激活：**以管理员身份运行“Keygen 1.cmd”</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/202409291537237.webp" alt="图片"></p>
+<p>然后在跳出的界面里输入“2”</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142225760.png" alt="202409291538797_waifu2x_3x_1n_PNG"></p>
+<p>再输入“1”进入到激活界面</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142236079.png" alt="202409291538546_waifu2x_3x_1n_PNG"></p>
+<p>稍等片刻，当界面出现了“Office已永久激活”时，关闭界面即可激活！</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142249568.png" alt="202409291539384_waifu2x_3x_1n_PNG"></p>
+<p>激活以后，在Office的帐户里就显示是专业增强版，并已激活。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222142309095.png" alt="202409291540828_waifu2x_3x_1n_PNG"></p>
+<p><strong>本文所用到的所有工具连接打包地址:</strong></p>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3hxLmxhbnpvdWUuY29tL2k4dXVtMmI1NndraA==">https://wwxq.lanzoue.com/i8uum2b56wkh<i class="fa fa-external-link-alt"></i></span></p>
+<p><strong>注：因蓝奏云改了规则，使用PC正常下载不受影响，手机浏览器要记得调成PC模式即可正常下载。</strong></p>
+]]></content>
+      <categories>
+        <category>软件破解</category>
+      </categories>
+      <tags>
+        <tag>电脑软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Win10关闭自动更新</title>
+    <url>/posts/e2259213/</url>
+    <content><![CDATA[<p>关于Windows的自动更新，可以说是有人喜欢，也有人讨厌。</p>
+<p>部分小伙伴觉得，自动更新能让系统时刻保持最新状态，提高安全性。</p>
+<p>但也有用户认为，频繁的自动更新很耽误事，有时还会带来意想不到的BUG。</p>
+<p>因此，很多人每次重装完系统，第一件事就是关闭电脑自动更新。</p>
+<span id="more"></span>
+<p><strong>教程开始：</strong></p>
+<ul>
+<li>原理：修改Windows更新周期来达到暂停更新的目的。</li>
+<li>具体步骤如下：<ol>
+<li><p>右键开始菜单，选择“运行”，输入<strong>regedit</strong>，点确定。<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688266184925.jpg" alt="xbtc61bebe6cdebc6f9f805bc4f8448b4888"></p>
+</li>
+<li><p>在弹出的注册表编辑器左侧栏，依次展开以下目录。<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings</code></p>
+</li>
+<li><p>窗口右侧空白处，右键选择新建一个“**DWORD（32位）**值”。</p>
+</li>
+<li><p>将其重命名为FlightSettingsMaxPauseDays，再双击打开它。</p>
+</li>
+<li><p>基数改为十进制，数值数据改为你要暂停更新的天数，比如5000，点确定。<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688266184927.jpg" alt="xbtc6b501b67321e42553153d13cf257707b"></p>
+</li>
+<li><p>打开开始菜单，进入“设置-Windows更新”，就可以选暂停更新几十年。<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688268104335.jpg" alt="xbtc969f522de89070836ec3b9cd40402c4f"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688268104336.jpg" alt="xbtc145887dfce4de59a802028bf8c76e6d1"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688268104337.jpg" alt="xbtc4466c71b23ce6c59e84c9cc0a08da79d"></p>
+</li>
+</ol>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>PC使用教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一瞬流光经典语录</title>
     <url>/posts/d54a4f9d/</url>
     <content><![CDATA[<p>“一瞬流光”新晋游资，最近频繁登上龙虎榜：一年十倍，三年从10W到1Y，那些让人深刻共鸣的心路历程，分享给大家。</p>
@@ -2157,65 +2192,23 @@
       </tags>
   </entry>
   <entry>
-    <title>Win10关闭自动更新</title>
-    <url>/posts/e2259213/</url>
-    <content><![CDATA[<p>关于Windows的自动更新，可以说是有人喜欢，也有人讨厌。</p>
-<p>部分小伙伴觉得，自动更新能让系统时刻保持最新状态，提高安全性。</p>
-<p>但也有用户认为，频繁的自动更新很耽误事，有时还会带来意想不到的BUG。</p>
-<p>因此，很多人每次重装完系统，第一件事就是关闭电脑自动更新。</p>
+    <title>修改文章默认模板</title>
+    <url>/posts/e60806b9/</url>
+    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
 <span id="more"></span>
-<p><strong>教程开始：</strong></p>
-<ul>
-<li>原理：修改Windows更新周期来达到暂停更新的目的。</li>
-<li>具体步骤如下：<ol>
-<li><p>右键开始菜单，选择“运行”，输入<strong>regedit</strong>，点确定。<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688266184925.jpg" alt="xbtc61bebe6cdebc6f9f805bc4f8448b4888"></p>
-</li>
-<li><p>在弹出的注册表编辑器左侧栏，依次展开以下目录。<br><code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings</code></p>
-</li>
-<li><p>窗口右侧空白处，右键选择新建一个“**DWORD（32位）**值”。</p>
-</li>
-<li><p>将其重命名为FlightSettingsMaxPauseDays，再双击打开它。</p>
-</li>
-<li><p>基数改为十进制，数值数据改为你要暂停更新的天数，比如5000，点确定。<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688266184927.jpg" alt="xbtc6b501b67321e42553153d13cf257707b"></p>
-</li>
-<li><p>打开开始菜单，进入“设置-Windows更新”，就可以选暂停更新几十年。<br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688268104335.jpg" alt="xbtc969f522de89070836ec3b9cd40402c4f"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688268104336.jpg" alt="xbtc145887dfce4de59a802028bf8c76e6d1"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20230702_1688268104337.jpg" alt="xbtc4466c71b23ce6c59e84c9cc0a08da79d"></p>
-</li>
-</ol>
-</li>
-</ul>
-]]></content>
+
+<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>将其修改为你需要的模式：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">top:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
       <categories>
         <category>技术教程</category>
       </categories>
       <tags>
-        <tag>PC使用教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>交易就是做好每一笔，战胜自己</title>
-    <url>/posts/4581d087/</url>
-    <content><![CDATA[<p>很多人交易一段时间后，经常会有一种感觉，通过技术模式或者观察市场，总觉得市场有无限的赚钱可能，但是自己却赚不到。认识市场和有能力把这个知识转化为持续一致的利润或者稳定的资金曲线之间有着巨大的差距</p>
-<span id="more"></span>
-
-<p>很多次预感到某个票要涨或者要跌，并且想象的事情真的发生了，但自己却只是看着，什么都没有做。实际上看到与做到只是“似乎”看起来很接近，但实际距离就像地球到月亮之间的距离，虽然我们每天都能看到月亮，似乎触手可得，但真正能登月的人却寥寥无几。</p>
-<p>这是因为市场虽然在不停地提供机会，但却会同时给我们造成持续、相反的心理状态，想做到持续一致性盈利，<strong>最重要的不是掌握何种方法，而是掌握交易时的心理，需要每时每刻都保持纪律、专注，更重要的是能在不利状态下保持自信。</strong></p>
-<p>交易天生就是有风险的，但是我们很多时候，<strong>只是在交易的时候被动承担了风险，而不是从内心深处接受了风险</strong>，如果做不到承受和拥抱风险，当市场走向与我们期望不一致时，就会感到巨大的心理落差。</p>
-<p>完全接受了风险，在交易时做到没有一丝一毫的犹豫或者冲突，很自然的承认这笔交易不行，退出交易时没有一点点的不舒服，这是一种理想状态，虽然是很难达到的，但如果不能做到不带情绪的交易，特别是不能摒弃掉“害怕”这种情绪去交易，那么就没有学会接受交易天生的风险。</p>
-<p>不论是何种程度的不接受风险，都等同于我们会竭力避免风险，总想避免无法避免的风险，会对我们的交易能力产生灾难性的影响。试想下，我们谁没有在不当的时机交易过呢，要么在市场发出信号之前很早就提前进场了，要么是在市场发出信号很久以后才慢吞吞的进场，过早的平仓赚钱的仓位，将盈利的仓位变为亏损的仓位，把止损点放在买入点附近，止损后市场又反弹向上，这样的例子太多了。</p>
-<p>但是这些错误并不是市场制造的，市场是中利的，只是波动和制造信息，让每个人能做点什么，仅此而已。市场不会控制我们解读理解信息，也不会控制我们的决定和行动，是因为我们的“害怕”情绪导致了很多错误，那么如果要做到持续一致盈利，最重要的就是做到“不害怕”和“不轻率”，按照市场提供的机会进出交易。</p>
-<p>因为当我们不害怕的时候，一般都会倾向于轻率，轻率后又回到害怕，“错了、亏钱了、错过了、失算了”是四种基本的交易恐惧，一旦连续做错后，因为害怕，本来应该操作的机会往往会犹豫错过，而连续获利成功后，又会轻率导致做模式外或者上过大的仓位，导致连续盈利后出现回撤。</p>
-<p>很多时候，我们不能持续一致性的盈利，会把原因归类为没有合适的技术，如果忽略了自己的信念和态度对我们认知的影响，就会不可避免的认为是市场行为导致了没有持续一致性，那么解决办法看起来就是不断的学市场，虽然几乎所有交易者都是这么认为，并且看起来很合理，但是这个方法没有效果。</p>
-<p>市场会通过很多经常是冲突的变数让我们思考，并且市场行为是无限的，因为市场是由交易者组成的，任何交易者都可以导致任何事的发生，这意味着，不管我们学了多少市场行为分析，不管分析能力多么优秀，永远不能学到足够多的知识避免市场让我们犯错或者亏钱。</p>
-<p>所以如果害怕市场让我们犯错和亏钱，在市场不确定性的恐惧下，就无法客观、毫不犹豫的行动。也就是说在持续的不确定性面前没有自信。市场分析绝对有必要的，但是它并不能解决没有自信、没有纪律或者不当聚焦造成的交易问题。</p>
-<p>不害怕首先要对亏损有正确的认识，之前看到很多人会跟大神留言，比如“打板XXX，错在哪”，其实问这句话的时候，他们认为自己这笔做错了，做对了是不会亏的，这种认识本身就已经偏离正轨了，无论使用任何一种战法模式，亏损都是不可避免的。</p>
-<p><strong>并不是说做错了才会亏，正确的方法去操作，也是会亏的</strong>，需要提前衡量风险，计算模式在过往的盈亏比，当有较高的获胜概率时，持续不断的交易，所有出现的机会全部抓住，最终实现赚大于亏，保持长期稳定一致性盈利。</p>
-<p>相信亏损是交易的自然结果，在交易操作前衡量风险，接受交易可能的最差结果，不但在金钱上，也在情绪上完全接受，这样当真的市场走弱时，至少个人的情绪和态度不会变差，可以简单进行客观的总结，投入下一笔操作。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>交易心态</tag>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -2270,6 +2263,216 @@
       </categories>
       <tags>
         <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>交易就是做好每一笔，战胜自己</title>
+    <url>/posts/4581d087/</url>
+    <content><![CDATA[<p>很多人交易一段时间后，经常会有一种感觉，通过技术模式或者观察市场，总觉得市场有无限的赚钱可能，但是自己却赚不到。认识市场和有能力把这个知识转化为持续一致的利润或者稳定的资金曲线之间有着巨大的差距</p>
+<span id="more"></span>
+
+<p>很多次预感到某个票要涨或者要跌，并且想象的事情真的发生了，但自己却只是看着，什么都没有做。实际上看到与做到只是“似乎”看起来很接近，但实际距离就像地球到月亮之间的距离，虽然我们每天都能看到月亮，似乎触手可得，但真正能登月的人却寥寥无几。</p>
+<p>这是因为市场虽然在不停地提供机会，但却会同时给我们造成持续、相反的心理状态，想做到持续一致性盈利，<strong>最重要的不是掌握何种方法，而是掌握交易时的心理，需要每时每刻都保持纪律、专注，更重要的是能在不利状态下保持自信。</strong></p>
+<p>交易天生就是有风险的，但是我们很多时候，<strong>只是在交易的时候被动承担了风险，而不是从内心深处接受了风险</strong>，如果做不到承受和拥抱风险，当市场走向与我们期望不一致时，就会感到巨大的心理落差。</p>
+<p>完全接受了风险，在交易时做到没有一丝一毫的犹豫或者冲突，很自然的承认这笔交易不行，退出交易时没有一点点的不舒服，这是一种理想状态，虽然是很难达到的，但如果不能做到不带情绪的交易，特别是不能摒弃掉“害怕”这种情绪去交易，那么就没有学会接受交易天生的风险。</p>
+<p>不论是何种程度的不接受风险，都等同于我们会竭力避免风险，总想避免无法避免的风险，会对我们的交易能力产生灾难性的影响。试想下，我们谁没有在不当的时机交易过呢，要么在市场发出信号之前很早就提前进场了，要么是在市场发出信号很久以后才慢吞吞的进场，过早的平仓赚钱的仓位，将盈利的仓位变为亏损的仓位，把止损点放在买入点附近，止损后市场又反弹向上，这样的例子太多了。</p>
+<p>但是这些错误并不是市场制造的，市场是中利的，只是波动和制造信息，让每个人能做点什么，仅此而已。市场不会控制我们解读理解信息，也不会控制我们的决定和行动，是因为我们的“害怕”情绪导致了很多错误，那么如果要做到持续一致盈利，最重要的就是做到“不害怕”和“不轻率”，按照市场提供的机会进出交易。</p>
+<p>因为当我们不害怕的时候，一般都会倾向于轻率，轻率后又回到害怕，“错了、亏钱了、错过了、失算了”是四种基本的交易恐惧，一旦连续做错后，因为害怕，本来应该操作的机会往往会犹豫错过，而连续获利成功后，又会轻率导致做模式外或者上过大的仓位，导致连续盈利后出现回撤。</p>
+<p>很多时候，我们不能持续一致性的盈利，会把原因归类为没有合适的技术，如果忽略了自己的信念和态度对我们认知的影响，就会不可避免的认为是市场行为导致了没有持续一致性，那么解决办法看起来就是不断的学市场，虽然几乎所有交易者都是这么认为，并且看起来很合理，但是这个方法没有效果。</p>
+<p>市场会通过很多经常是冲突的变数让我们思考，并且市场行为是无限的，因为市场是由交易者组成的，任何交易者都可以导致任何事的发生，这意味着，不管我们学了多少市场行为分析，不管分析能力多么优秀，永远不能学到足够多的知识避免市场让我们犯错或者亏钱。</p>
+<p>所以如果害怕市场让我们犯错和亏钱，在市场不确定性的恐惧下，就无法客观、毫不犹豫的行动。也就是说在持续的不确定性面前没有自信。市场分析绝对有必要的，但是它并不能解决没有自信、没有纪律或者不当聚焦造成的交易问题。</p>
+<p>不害怕首先要对亏损有正确的认识，之前看到很多人会跟大神留言，比如“打板XXX，错在哪”，其实问这句话的时候，他们认为自己这笔做错了，做对了是不会亏的，这种认识本身就已经偏离正轨了，无论使用任何一种战法模式，亏损都是不可避免的。</p>
+<p><strong>并不是说做错了才会亏，正确的方法去操作，也是会亏的</strong>，需要提前衡量风险，计算模式在过往的盈亏比，当有较高的获胜概率时，持续不断的交易，所有出现的机会全部抓住，最终实现赚大于亏，保持长期稳定一致性盈利。</p>
+<p>相信亏损是交易的自然结果，在交易操作前衡量风险，接受交易可能的最差结果，不但在金钱上，也在情绪上完全接受，这样当真的市场走弱时，至少个人的情绪和态度不会变差，可以简单进行客观的总结，投入下一笔操作。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>交易心态</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于做龙头的理解</title>
+    <url>/posts/d70efa21/</url>
+    <content><![CDATA[<p>一、自选股里，应该只放龙头，谁给买点买谁。<br>二、早盘前30分钟，只看几只龙头的走势。如果看非龙头，也都是为了服务龙头。<br>三、强制自己只与龙头发生关系。<br>四、有总龙头，就不要做分龙头。<br>五、有连板的龙头，就不要做反包的龙头。<br>六、有主升的龙头，就不要做反抽的龙头。<br>七、有主线的龙头，就不要做支线的龙头。<br>八、有明牌的龙头，就不要去挖暗线的龙头。<br>九、有市场选出的龙头，就不要做自己选的龙头。</p>
+<span id="more"></span>
+
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20231210_1702184865030.jpg" alt="xbtc08e1f05fb26f5bc0a20b2a9b53527f5c"></p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>龙头战法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于持续性的判断</title>
+    <url>/posts/8c8069df/</url>
+    <content><![CDATA[<p>当前热点风口的逻辑硬、延续时间长，一般情况下有两到三个月，所以不用抓在起爆点，中途上车利润就很丰厚。今天分享的就是判断热点板块和热点能否持续的方法，看懂以后，下次的大题材不再错过！</p>
+<span id="more"></span>
+
+<p>今天讲的是两个部分</p>
+<p>首先说的是怎么样找到热点板块</p>
+<p>然后说的是如何判断板块能否延续。</p>
+<p>此方式应当于盘后复盘时使用，然后第二天早上通过集合竞价再次进行观察确认。</p>
+<h3 id="一、确定热点板块"><a href="#一、确定热点板块" class="headerlink" title="一、确定热点板块"></a>一、确定热点板块</h3><p>1、看板块涨幅排名，选取前三名，板块内标的过少的除外。</p>
+<p>2、看概念涨幅排名，同样选取前三名，概念内股票过少的除外。</p>
+<p>3、看所有股票的涨幅排行，软件上把股票所属行业调到股价后面，把涨幅榜前两页出现频次居前的三个所属行业放在一起。</p>
+<p>这样得到的几个板块一般情况下为一致的，那么就是当天的热点无疑了。实际应该以盘后复盘统计为准。</p>
+<h3 id="二、确认板块会持续上涨，此为重点"><a href="#二、确认板块会持续上涨，此为重点" class="headerlink" title="二、确认板块会持续上涨，此为重点"></a>二、确认板块会持续上涨，此为重点</h3><p>热点板块有可能是消息刺激等因素而形成，一日游的行情比比皆是，判断其能否延续才是重中之重，否则进场就是一碗大面。判断对了就是躺赢，跟风吃热饭。</p>
+<p><strong>1、看板块的队形是否完整</strong></p>
+<p>强势板块才会走出几个月持续上涨的行情。其特点是队形完整，分为领涨股、标杆股、中军股、跟风股、补涨股。其中领涨股和标杆股多数会重叠，就是我们说的龙头股。</p>
+<p><strong>二、确认板块会持续上涨，此为重点</strong></p>
+<p>热点板块有可能是消息刺激等因素而形成，一日游的行情比比皆是，判断其能否延续才是重中之重，否则进场就是一碗大面。判断对了就是躺赢，跟风吃热饭。</p>
+<p><strong>1、看板块的队形是否完整</strong></p>
+<p>强势板块才会走出几个月持续上涨的行情。其特点是队形完整，分为领涨股、标杆股、中军股、跟风股、补涨股。其中领涨股和标杆股多数会重叠，就是我们说的龙头股。</p>
+<p><strong>2、龙头打出高度后，领涨股要切换，形成竞争的局面，争相冲锋</strong></p>
+<p>比如当初，碳中和时长源和华银 交替领涨，医美中后段朗姿 和哈三轮换上攻。此种情况盘面上反映出板块热度极高，强势股层出不穷，得到市场充分认可；</p>
+<p>基本面上意味着行业景气度大幅提升，一个行业的头部企业总会有几家，他们同时受到市场青睐，从而蜂拥而入。</p>
+<p>这种情况是一个板块持续能力强的一个标志。</p>
+<p>**3、中军股为一个板块最核心的标的，**它的确认极其重要。领涨股和龙头股会更换，标杆股会倒下，但是中军的旗帜是不会动摇的。</p>
+<p>就好比两方对阵，中军的大旗一旦倒下，就代表着一方失败，它是整个多头的定心丸，上涨的时候可以不是涨幅最多的，但是会稳健 的上升，板块调整的时候它会顶住压力，进行横盘震荡或小幅回调，保证人心不散。</p>
+<p>这是判断一个板块能否延续的一个重要标志。</p>
+<p>**4、板块指数持续走强，屡创高点，**大盘出现调整而板块不调整，甚至是逆势拉升</p>
+<p>这是热点板块的另一标志，有点一股功成万股枯的味道，盈利效应体现在少部分股票上是股市的根本体现，也就是股之道，损不足而补有余。</p>
+<p><strong>5、跟风、补涨股层出不穷，板块逻辑扩散到上下游</strong></p>
+<p>比如汽车板块扩散到锂电池、到锂矿、汽配、无人驾驶以及其中细分，碳中和从电力到环保到钢铁到清洁能源如光伏、风电、氢能源。</p>
+<p>这种情况出现代表着板块会继续延续，整个题材被完全激发，热情高涨，就算要调整也会反复，不会一波结束，安全系数相对较高。</p>
+<p>当以上5种情况都出现，就代表着板块热点已经炒作起来，会有比较好的延续，寻找其中的细分龙头积极参与即可，无论短线或者波段，一般会有不错的收益。</p>
+<p>市场价格行为包容一切，强势板块必然有过硬的逻辑，很多股友并没有相关的基础，无法判断板块热点和持续能力。今天说的就是通过盘面来判断，不求抓在起爆点，但求中途上车，感受稳稳的幸福</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分时图波形</title>
+    <url>/posts/48a7b9da/</url>
+    <content><![CDATA[<p>常见的分时图波形</p>
+<span id="more"></span>
+
+<ul>
+<li><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194756.jpg" alt="xbtc6ef20eea6593357216e7152d98ebdc39"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194757.jpg" alt="xbtc4d037377f82464d2614a8d427f6895e2"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194758.jpg" alt="xbtc6e426684c0790ef206dff5783bed13fa"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194759.jpg" alt="xbtcec2a4dec704c6c3d5690546a661f9efb"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194760.jpg" alt="xbtc041ca5f3e8a1a7899cbab448a2c49b2f"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194761.jpg" alt="xbtce4d0cd3b7c37429fc2029271011f5867"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194762.jpg" alt="xbtc3c5764eae6bbbfaf3b4c649e256ba0ec"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194763.jpg" alt="xbtc7128c76262ad8550820a5c6e8f5c29d3"></li>
+</ul>
+<p><strong>PS:本文节所有技术面参考均选自狙盘手老师，在此表示感谢。</strong></p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>卖点的总结</title>
+    <url>/posts/ecd37593/</url>
+    <content><![CDATA[<p>一：卖点有几种情况，个股地位，个股高度，情绪周期位置。</p>
+<span id="more"></span>
+
+<p>1、首先竞价阶段和开盘前10分钟应该判断是持股环境还是卖股环境。<br>持股环境，大盘好，个股涨多跌少，板块符合预期，没有大幅低开或跌停开个股，大单一字龙头封单够大，板块有涨停助攻，持有股竞价符合预期，量够，开盘迅速拉升，是龙头个股，那么可以多拿拿格局，或者拿几天。</p>
+<p>2、卖股环境。大盘不好，跌多涨少，竞价不符合预期，没有量，低开，板块有大幅低开和跌停开个股，开盘迅速核按钮，那么等下杀回升高点卖出。</p>
+<p>3、纯套利个股。不是龙头股，纯套利个股，那么开盘竞价阶段，不符合预期或者大高开，竞价就卖。竞价符合预期，开盘冲高4个点或5个点无脑卖。套利个股没有卖飞一说，</p>
+<p>4、提前想好是冲高卖还是要格局，不要矛盾，不要冲高舍不得卖，然后回落又吓得赶快卖结果卖在低点，提前做好预案，按照预期，是冲高卖还是涨停附近卖还是格局，严格按照交易计划执行，不能犹犹豫豫瞻前顾后。</p>
+<p>5、如果决定格局，仅限于龙头股，那么就死拿，不管分时上下怎么跳动，不管杀到水下还是直奔跌停去，就是不卖，最起码拿到尾盘再决定卖不卖，或者忽略分时，忽略日k,坚决锁仓，成功了就是大肉，失败了也损失不了多少，仅限于大龙头。</p>
+<p>6、止盈卖，龙头股已经有20到30个点利润，龙头位置已经高的吓人，已经风险大于机会，那么止盈无脑卖，不怕卖飞，不能想卖在最高点，不能想赚尽每一分钱，鱼尾肉少刺多，吃鱼身子最安全。</p>
+<p>7、个股地位，后盘跟风股，套利目的，冲高无脑卖。</p>
+<p>8、一字板打开个股，如果没高开是平开而且没有量是严重不符合预期的，竞价就直接卖。</p>
+<p>9、打板失败暂时被套个股，第二天处理，如果是龙头股，放量，第二天该弱不弱，平开高开有量，那可以博一个弱转强，反包。如果是被淘汰个股，后排，第二天低开没量，那么不要意淫反包涨停，冲高或者小亏也要割肉离场，不要等到快跌停了受不了再卖，小亏变大亏。</p>
+<p>10、卖点劲量卖在高点或者次高点，不要下杀一害怕就卖了，卖在最低点，因为下杀往往会有企稳拉升一个冲高，可以冲高再卖。</p>
+<p>11、开盘没有迅速拉升，而是上下震荡不过分时均线，表现为弱，不符合预期，可以找高点卖出。</p>
+<p>12、大幅高开7个点8个点，但是没有量，也不符合预期，不是龙头股，获利盘有可能开盘秒按，竞价卖，先把利润装口袋。</p>
+<p>13、跌停开，不要着急卖，视情况而定，如果是龙头股，大概率有资金翘板上冲，可以找高点卖出。如果当日是大阳日，板块活跃，那也有概率翘板上冲，找高点卖。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客备份到github仓库</title>
+    <url>/posts/a78d384a/</url>
+    <content><![CDATA[<p>备份自己的博客到github仓库，方便恢复使用，使用增量备份</p>
+<span id="more"></span>
+
+<h3 id="第一步创建仓库"><a href="#第一步创建仓库" class="headerlink" title="第一步创建仓库"></a>第一步创建仓库</h3><h4 id="新建一个仓库，写上仓库名，设置为私有"><a href="#新建一个仓库，写上仓库名，设置为私有" class="headerlink" title="新建一个仓库，写上仓库名，设置为私有"></a>新建一个仓库，写上仓库名，设置为私有</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009113035.jpg" alt="xbtc4cfa154c5847151c4cc47df11b7373e7"></p>
+<h4 id="点击创建"><a href="#点击创建" class="headerlink" title="点击创建"></a>点击创建</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009113034.jpg" alt="xbtcfbda6d8dcd634bf09119344a585485cf"></p>
+<h3 id="第二步初始化git仓库并链接上"><a href="#第二步初始化git仓库并链接上" class="headerlink" title="第二步初始化git仓库并链接上"></a>第二步初始化git仓库并链接上</h3><h4 id="打开博客根目录用git-init初始化为一个git仓库"><a href="#打开博客根目录用git-init初始化为一个git仓库" class="headerlink" title="打开博客根目录用git init初始化为一个git仓库"></a>打开博客根目录用<code>git init</code>初始化为一个git仓库</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009113036.jpg" alt="xbtcfcfb5f7ac49f98ee6ee34a1ebbbc4f0c"></p>
+<h4 id="复制一下ssh仓库链接地址"><a href="#复制一下ssh仓库链接地址" class="headerlink" title="复制一下ssh仓库链接地址"></a>复制一下ssh仓库链接地址</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009710856.jpg" alt="xbtc2c590b4ae38f372952359c63ff66f666"></p>
+<h4 id="再用这个命令git-remote-add-origin-ssh链接地址，输入回车就连接到了仓库。"><a href="#再用这个命令git-remote-add-origin-ssh链接地址，输入回车就连接到了仓库。" class="headerlink" title="再用这个命令git remote add origin +ssh链接地址，输入回车就连接到了仓库。"></a>再用这个命令<code>git remote add origin +ssh链接地址</code>，输入回车就连接到了仓库。</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010127523.jpg" alt="xbtcb4bb1742a773786cd7b5a7c7ac467deb"></p>
+<h3 id="第三步备份"><a href="#第三步备份" class="headerlink" title="第三步备份"></a>第三步备份</h3><h4 id="再新建一个sh文件在博客根目录"><a href="#再新建一个sh文件在博客根目录" class="headerlink" title="再新建一个sh文件在博客根目录"></a>再新建一个sh文件在博客根目录</h4><p>代码如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo -e &quot;\033[32m正在为你备份博客中.........\033[0m&quot;</span><br><span class="line">git add .</span><br><span class="line">echo -e &quot;\033[32m正在为你备份博客中.........\033[0m&quot;</span><br><span class="line">git commit -m &quot;update&quot;</span><br><span class="line">echo -e &quot;\033[32m正在为你备份博客中.........\033[0m&quot;</span><br><span class="line">git push origin master --force</span><br><span class="line">if [ $? -ne 0 ]; then</span><br><span class="line">    echo -e &quot;\033[31m 备份失败！请检查网络情况！\033[0m&quot;</span><br><span class="line">else</span><br><span class="line">    echo -e &quot;\033[32m恭喜你！已为你备份到你的GitHub仓库 \033[0m&quot;</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010351004.jpg" alt="xbtcab50998951a4ba5a26240d5f6676b220"></p>
+<h4 id="如图放在博客根目录"><a href="#如图放在博客根目录" class="headerlink" title="如图放在博客根目录"></a>如图放在博客根目录</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010409466.jpg" alt="xbtc0430e29b561f4df6924a846fe8b450fd"></p>
+<h4 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h4><p><code>在Myblog里打开bash执行./push.sh</code></p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010653982.jpg" alt="xbtc46295102ab1b61ebfb263afe793ea9ed"></p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何复盘</title>
+    <url>/posts/dbd302a9/</url>
+    <content><![CDATA[<p>对于短线选手来说，复盘可以说是必备的技能，也是每天都得进行的一项日常任务。那么复盘的意义是什么？如何进行高效复盘呢？</p>
+<span id="more"></span>
+
+<p>盘后静态地回顾整个盘面，寻找市场上的各种“信号”。不仅仅是某个板块和个股的涨跌，而是要整体的看，热点板块的运行情况、指数的拐点以及市场的赚钱效应和亏钱效应等。通过这一步骤，我们能够大致了解市场一天内发生的客观事实，为后续的交易决策提供依据。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222143145791.png" alt="202410261624251_waifu2x_4x_1n_png"></p>
+<h3 id="复盘的目的是什么？"><a href="#复盘的目的是什么？" class="headerlink" title="复盘的目的是什么？"></a>复盘的目的是什么？</h3><p>我认为，对于我们短线来说，复盘有三个主要的目的。<br><strong>一、分清个股地位，题材地位。</strong><br><strong>二、理解当下市场环境与情绪。</strong><br><strong>三、寻找赚钱效应，推测可能的发展方向。</strong></p>
+<h4 id="一、分清个股地位，题材地位。"><a href="#一、分清个股地位，题材地位。" class="headerlink" title="一、分清个股地位，题材地位。"></a>一、分清个股地位，题材地位。</h4><p>题材爆发，往往不会是只有一只涨停的标的，而是会有多只。我们需要知道哪只股是“龙头”地位最高。</p>
+<p>比如最经常用的是高度判断，高度最高，一个板块爆发，都是首板，但是有一只二板，这个二板是唯一高度那么大概率就是龙头。<br>如果高度都相同，那就看强度，涨停的速度，封单的大小，逻辑是否够硬人气够不够高等等，因为我们做短线接力的话，尽量是围绕龙头来参与，有绝对强势的龙头那么后排的跟风，很多时候都是没有确定性的。</p>
+<p>比如周四北交所的涨停复盘。先高度，只有天马和优机是二板，然后涨停的时间上天马又是比优机快的，同时天马的累计高度也是最高，5天走了3个涨停板，毫无疑问天马就是北交所地位最高的龙头。<br>然后是通过复盘分辨题材地位。每天有很多个题材，每个方向都有资金尝试，但我们不可能每个分支的龙头都去做。所以复盘还有一个比较重要的意义是，分辨出市场的主线题材，祖师爷利弗莫尔讲过，如果你在强势股上赚不到钱，那么你在其他股上也别想赚到钱！主线题、持续性、强度、人气之类的都是最强的，也是最适合参与接力的。支线题材，可能爆发一波过后可能就没影子了，往往就是因为一个突发利好起来的，昙花一现。</p>
+<h4 id="二、理解当下市场环境与情绪。"><a href="#二、理解当下市场环境与情绪。" class="headerlink" title="二、理解当下市场环境与情绪。"></a>二、理解当下市场环境与情绪。</h4><p>周期理论是每一个做短线的朋友都或多或少听过，接触过的东西。前面的涨停板复盘，分清个股地位，板块地位是帮助我们择股，让我们知道谁是龙头，我们要参与应该关注，围绕哪些标的。而复盘还有一个重点的作用就是，帮助我们“择时”。通过板块内个股的走势、分辨题材、市场情绪目前处于什么阶段，接下来的预期如何？只会择股不行，只会择时也不行，只有“择时”+“择股”才能帮助我们更好的在市场中获利，时来天地皆同力，在正确的节点，选择正确的标的参与，这样赚钱的概率才大。</p>
+<p>那么，如何判断当下的市场情绪如何呢？</p>
+<p>对于新手朋友来说，最有效的还是做表，把市场情绪的变化，每天数据的各项变化，用表格记录下来，做对比，观察每天的变化。我比较常用的一些数据见封面。炸板率、连板数、昨日涨停表现，昨日连板，昨日炸板，涨停家数，跌停家数，红盘家数等等。每一项数据都有他所代表的意义，但本质上，我们是要找“变化”的节点。比如说在一段退潮的行情中，每天市场都非常恐慌，跌停家数每天都很多，一直是“弱”的表现，但有一天跌停的家数突然大量减少了。这是不是就是在“弱”的趋势里出现了变化？跌停的减少了，恐慌程度减少了，开始由“弱”变“强”，那么就有可能出现情绪的拐点。而把握住这个“改变”的节点，结合前面对个股地位，对板块地位的复盘，选出其中前排高人气，强势的人气龙头，参与其中，就能大大提高成功率！这是基础的使用的方法，还有很多进阶的使用方法。</p>
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222143155280.png" alt="202410261626549_waifu2x_4x_1n_png"></p>
+<h4 id="三、寻找赚钱效应，推测可能的发展方向"><a href="#三、寻找赚钱效应，推测可能的发展方向" class="headerlink" title="三、寻找赚钱效应，推测可能的发展方向"></a>三、寻找赚钱效应，推测可能的发展方向</h4><p>市场赚钱效应是不断在变动的，不同的时期有不同的环境，资金有不同的风格。在前面复盘做好了“择股”和“择时”之后，我们还需要根据当下的市场环境，找出“赚钱效应”在哪里，跟随赚钱效应，推测后续市场可能的发展方向，并做出操作计划。市场赚钱效应是不断在变动的，不同的时期有不同的环境，资金有不同的风格。可能是10cm，可能是20cm、可能是北交所30cm，可能是趋势股，可能是连板高度，可能是大成交中军，可能是游资风格，可能是机构风格………比如上半年，艾艾精工见顶之后，短线市场迎来了一段杀伤力很强的退潮，主杀的就是10cm连板，那时候的很多10cm高标都是连续一字，高位打开见顶后，直接连续一字闷杀，怎么上去就怎么下来。所以当时这种情况，在10cm高标这么严重负反馈的情况下，还继续头铁做10cm高标接力，一定会亏的很惨，那段行情也戳破了很多假龙头战法的“高手”，无脑顶高标根本不是龙头战法，只会是亏光战法。</p>
+<p>直到正丹股份横空出世，以20cm趋势的形式，打出了巨大赚钱效应，顶着监管一路向上打开空间。对比一下，一边是杀人诛心的10cm高标，一边是不断超预期打开空间的20cm龙头，你是短线资金，你会怎么选？所以从5月份开始，20cm基本成了投机的主线。量化资金也喜欢在小盘20cm里面玩，10cm成了妈妈不疼姥姥不爱的孤儿，那我们无论是选股还是参与，都是得符合大环境，选择20cm的标的，成功率会更高。6月初有一波PCB板块的行情。10cm龙头是协和电子，但协和电子最后和前面的很多10cm高标一样，顶部天地板砸盘坑人，当然圈子里选择参与的是20cm的逸豪新材，在市场风格的加持下，最后成功脱离协和的负反馈独立走强，一波吃到几十个点的利润。</p>
+<p>总之，就是不要局限自己的思维。</p>
+<p>龙头10cm还是其它形式，只是表现形式不同。</p>
+<p>本质上都是情绪的载体，而我们要做的，就是追随赚钱效应。</p>
+<p>市场永远是对的，出错的只会是我们。</p>
+<p>复盘找出这种有赚钱效应的方向，找到关键的“信号”，我们就可以制定第二天的计划。</p>
+<p>怎么找这种信号？还是通过复盘，不单是每天的涨停股，近期的涨停股，包括龙头断板，炸板股,甚至是活跃前期龙头暴跌后的反馈，复盘都是得看的。</p>
+<p>大跌时复盘最轻松，因为只用看很少，有时候几百只红盘的标的快速过一遍看看K线，其中“不和谐”的那只就特别显眼，大家都在调整就你在涨，一眼就能看出来。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>新建文章时自动打开编辑器</title>
+    <url>/posts/9b0589b1/</url>
+    <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事，在网上发现有直接能在新建完后自动打开markdown文档的js脚本。</p>
+<span id="more"></span>
+
+<p>首先安装 shelljs模块，实现自动部署加载JS脚本，键入以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save shelljs</span><br></pre></td></tr></table></figure>
+
+<p>在 Hexo 根目录的 <code>scripts文件夹</code>下新建一个 <code>js文件</code>。</p>
+<p>稍微修改后用这个脚本成功：</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).<span class="property">exec</span>;</span><br><span class="line"></span><br><span class="line">hexo.<span class="title function_">on</span>(<span class="string">&#x27;new&#x27;</span>, <span class="keyword">function</span>(<span class="params">data</span>)&#123;</span><br><span class="line">  <span class="title function_">spawn</span>(<span class="string">&#x27;start  &quot;D:\Program Files\Typora\Typora.exe&quot; &#x27;</span> + data.<span class="property">path</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
   <entry>
@@ -2477,76 +2680,30 @@
       </tags>
   </entry>
   <entry>
-    <title>关于做龙头的理解</title>
-    <url>/posts/d70efa21/</url>
-    <content><![CDATA[<p>一、自选股里，应该只放龙头，谁给买点买谁。<br>二、早盘前30分钟，只看几只龙头的走势。如果看非龙头，也都是为了服务龙头。<br>三、强制自己只与龙头发生关系。<br>四、有总龙头，就不要做分龙头。<br>五、有连板的龙头，就不要做反包的龙头。<br>六、有主升的龙头，就不要做反抽的龙头。<br>七、有主线的龙头，就不要做支线的龙头。<br>八、有明牌的龙头，就不要去挖暗线的龙头。<br>九、有市场选出的龙头，就不要做自己选的龙头。</p>
+    <title>每一轮熊市，都会经历四个阶段</title>
+    <url>/posts/a9f5c860/</url>
+    <content><![CDATA[<p>每一轮熊市，都会经历四个阶段：第一阶段：少数投资者对经济和企业盈利的前景能否维持产生怀疑。过高的估值或信贷的收紧驱动产业资本的减持。边际减仓驱动的下跌。</p>
 <span id="more"></span>
 
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20231210_1702184865030.jpg" alt="xbtc08e1f05fb26f5bc0a20b2a9b53527f5c"></p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>龙头战法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>修改文章默认模板</title>
-    <url>/posts/e60806b9/</url>
-    <content><![CDATA[<p> Next文章内容会是丰富多彩的，但是要素主要为：标题、日期、标签、类别、摘要、more标签和正文，每次创建文章都需要创建这些内容过于繁琐而且容易出错，将相关内容加入到模板可以规范格式、省去重复劳动并且避免错误。</p>
-<span id="more"></span>
-
-<h3 id="修改方法"><a href="#修改方法" class="headerlink" title="修改方法"></a>修改方法</h3><p>hexo在新建文章时会默认套用<code>/hexo_root/scaffolds/post.md</code>模板，默认为：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p>将其修改为你需要的模式：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">categories:</span><br><span class="line">tags:</span><br><span class="line">top:</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h3 id="END"><a href="#END" class="headerlink" title="END"></a>END</h3>]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客备份到github仓库</title>
-    <url>/posts/a78d384a/</url>
-    <content><![CDATA[<p>备份自己的博客到github仓库，方便恢复使用，使用增量备份</p>
-<span id="more"></span>
-
-<h3 id="第一步创建仓库"><a href="#第一步创建仓库" class="headerlink" title="第一步创建仓库"></a>第一步创建仓库</h3><h4 id="新建一个仓库，写上仓库名，设置为私有"><a href="#新建一个仓库，写上仓库名，设置为私有" class="headerlink" title="新建一个仓库，写上仓库名，设置为私有"></a>新建一个仓库，写上仓库名，设置为私有</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009113035.jpg" alt="xbtc4cfa154c5847151c4cc47df11b7373e7"></p>
-<h4 id="点击创建"><a href="#点击创建" class="headerlink" title="点击创建"></a>点击创建</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009113034.jpg" alt="xbtcfbda6d8dcd634bf09119344a585485cf"></p>
-<h3 id="第二步初始化git仓库并链接上"><a href="#第二步初始化git仓库并链接上" class="headerlink" title="第二步初始化git仓库并链接上"></a>第二步初始化git仓库并链接上</h3><h4 id="打开博客根目录用git-init初始化为一个git仓库"><a href="#打开博客根目录用git-init初始化为一个git仓库" class="headerlink" title="打开博客根目录用git init初始化为一个git仓库"></a>打开博客根目录用<code>git init</code>初始化为一个git仓库</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009113036.jpg" alt="xbtcfcfb5f7ac49f98ee6ee34a1ebbbc4f0c"></p>
-<h4 id="复制一下ssh仓库链接地址"><a href="#复制一下ssh仓库链接地址" class="headerlink" title="复制一下ssh仓库链接地址"></a>复制一下ssh仓库链接地址</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713009710856.jpg" alt="xbtc2c590b4ae38f372952359c63ff66f666"></p>
-<h4 id="再用这个命令git-remote-add-origin-ssh链接地址，输入回车就连接到了仓库。"><a href="#再用这个命令git-remote-add-origin-ssh链接地址，输入回车就连接到了仓库。" class="headerlink" title="再用这个命令git remote add origin +ssh链接地址，输入回车就连接到了仓库。"></a>再用这个命令<code>git remote add origin +ssh链接地址</code>，输入回车就连接到了仓库。</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010127523.jpg" alt="xbtcb4bb1742a773786cd7b5a7c7ac467deb"></p>
-<h3 id="第三步备份"><a href="#第三步备份" class="headerlink" title="第三步备份"></a>第三步备份</h3><h4 id="再新建一个sh文件在博客根目录"><a href="#再新建一个sh文件在博客根目录" class="headerlink" title="再新建一个sh文件在博客根目录"></a>再新建一个sh文件在博客根目录</h4><p>代码如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo -e &quot;\033[32m正在为你备份博客中.........\033[0m&quot;</span><br><span class="line">git add .</span><br><span class="line">echo -e &quot;\033[32m正在为你备份博客中.........\033[0m&quot;</span><br><span class="line">git commit -m &quot;update&quot;</span><br><span class="line">echo -e &quot;\033[32m正在为你备份博客中.........\033[0m&quot;</span><br><span class="line">git push origin master --force</span><br><span class="line">if [ $? -ne 0 ]; then</span><br><span class="line">    echo -e &quot;\033[31m 备份失败！请检查网络情况！\033[0m&quot;</span><br><span class="line">else</span><br><span class="line">    echo -e &quot;\033[32m恭喜你！已为你备份到你的GitHub仓库 \033[0m&quot;</span><br><span class="line">fi</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010351004.jpg" alt="xbtcab50998951a4ba5a26240d5f6676b220"></p>
-<h4 id="如图放在博客根目录"><a href="#如图放在博客根目录" class="headerlink" title="如图放在博客根目录"></a>如图放在博客根目录</h4><p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010409466.jpg" alt="xbtc0430e29b561f4df6924a846fe8b450fd"></p>
-<h4 id="使用方法："><a href="#使用方法：" class="headerlink" title="使用方法："></a>使用方法：</h4><p><code>在Myblog里打开bash执行./push.sh</code></p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20240413_1713010653982.jpg" alt="xbtc46295102ab1b61ebfb263afe793ea9ed"></p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>分时图波形</title>
-    <url>/posts/48a7b9da/</url>
-    <content><![CDATA[<p>常见的分时图波形</p>
-<span id="more"></span>
-
-<ul>
-<li><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194756.jpg" alt="xbtc6ef20eea6593357216e7152d98ebdc39"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194757.jpg" alt="xbtc4d037377f82464d2614a8d427f6895e2"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194758.jpg" alt="xbtc6e426684c0790ef206dff5783bed13fa"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194759.jpg" alt="xbtcec2a4dec704c6c3d5690546a661f9efb"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194760.jpg" alt="xbtc041ca5f3e8a1a7899cbab448a2c49b2f"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194761.jpg" alt="xbtce4d0cd3b7c37429fc2029271011f5867"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194762.jpg" alt="xbtc3c5764eae6bbbfaf3b4c649e256ba0ec"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221031_1667227194763.jpg" alt="xbtc7128c76262ad8550820a5c6e8f5c29d3"></li>
-</ul>
-<p><strong>PS:本文节所有技术面参考均选自狙盘手老师，在此表示感谢。</strong></p>
+<p>第二阶段：经济和流动性的趋势性恶化，伴随一些长期的制度性的担心，使得投资人系统性普遍性的**主动避险减仓。**第三阶段：带止损线的资金，带杠杆的资金，资产管理的资金，因为止损、爆仓、赎回，**被迫抛售。**第四阶段：大部分投资人信心依然脆弱，盈利依然下行。但市场不再趋势下跌，转为震荡企稳。</p>
+<p>当前的A股，已经完成了第三阶段，进入第四阶段。</p>
+<p><strong>股市的三个底</strong></p>
+<p>股市经历大幅下跌后，总是容易出现快速大幅的反弹，因为：<strong>天下苦秦久矣，陈胜吴广揭竿而起，则应之者众。</strong></p>
+<p>股市一般有三个底：<strong>政策底、估值底、盈利底。</strong></p>
+<p>如果对应一下的话：</p>
+<p><strong>政策底</strong> 就是 <strong>陈胜吴广底</strong> </p>
+<p><strong>估值底</strong> 就是 <strong>项羽底</strong></p>
+<p>因为国内利率大幅下行，国内货币增速企稳，本土资产中证500和<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi8lRTQlQjglQUQlRTglQUYlODExMDA=">中证100<i class="fa fa-external-link-alt"></i></span>0等，估值底很可能在4月底的低点已经看到。</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi8lRTUlQTQlOTYlRTglQjUlODQlRTklODclOEQlRTQlQkIlOTM=">外资重仓<i class="fa fa-external-link-alt"></i></span>的<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL21TZWFyY2g/c2VhcmNoQ29udGVudD0lRTYlQjIlQUElRTYlQjclQjEzMDAmdHlwZT0y">沪深300<i class="fa fa-external-link-alt"></i></span> 等，因为美国利率才大幅上行，国外很多机构季末才会做投资决策调整资产，外资再平衡资产的过程还没有完成，当前估值水平也位于历史中位，应该还没有看到。</p>
+<p><strong>赢利底</strong> 就是 <strong>刘邦底</strong>，显然还没有到，还需要等至少几个月。尤其是后周期的金融和可选消费，即便剔除疫情的影响，盈利也有一段较长的下行道路要走。</p>
+<p>大家都知道，最后是刘邦得天下。</p>
+<p><strong>龙战于野</strong> 意味着熊市的结束，单并不意味着牛市立刻开始，牛市和熊之间，需要一段震荡收敛分化的时间。</p>
+<p>这段时间，需要有 <strong>潜龙勿用</strong> 的长期蛰伏蓄力，还需要经历 <strong>见龙在田</strong> 的萌芽阶段，后面还有<strong>终日乾乾</strong> 的再度蛰伏。才能做到 **或跃在渊，**才有会 <strong>飞龙在天。</strong></p>
+<p><strong>股市的时空法则</strong></p>
+<p>在股市里，时间和空间是同样重要的。如果位置到了，时间不到的话，就只能震荡等时间。</p>
+<p><strong>股市的吃饭法则</strong></p>
+<p>千与千寻里，千寻的爸爸妈妈太贪婪吃了太多肉，结果变成了猪。</p>
+<p>吃饭行情如果太贪婪不节制，总是容易变成饭。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -2556,100 +2713,44 @@
       </tags>
   </entry>
   <entry>
-    <title>关于持续性的判断</title>
-    <url>/posts/8c8069df/</url>
-    <content><![CDATA[<p>当前热点风口的逻辑硬、延续时间长，一般情况下有两到三个月，所以不用抓在起爆点，中途上车利润就很丰厚。今天分享的就是判断热点板块和热点能否持续的方法，看懂以后，下次的大题材不再错过！</p>
+    <title>浅谈小周期</title>
+    <url>/posts/e601a9a0/</url>
+    <content><![CDATA[<p>冰点-（止跌）-反弹-分化-修复</p>
+<p>每一个小周期是这样的。</p>
 <span id="more"></span>
 
-<p>今天讲的是两个部分</p>
-<p>首先说的是怎么样找到热点板块</p>
-<p>然后说的是如何判断板块能否延续。</p>
-<p>此方式应当于盘后复盘时使用，然后第二天早上通过集合竞价再次进行观察确认。</p>
-<h3 id="一、确定热点板块"><a href="#一、确定热点板块" class="headerlink" title="一、确定热点板块"></a>一、确定热点板块</h3><p>1、看板块涨幅排名，选取前三名，板块内标的过少的除外。</p>
-<p>2、看概念涨幅排名，同样选取前三名，概念内股票过少的除外。</p>
-<p>3、看所有股票的涨幅排行，软件上把股票所属行业调到股价后面，把涨幅榜前两页出现频次居前的三个所属行业放在一起。</p>
-<p>这样得到的几个板块一般情况下为一致的，那么就是当天的热点无疑了。实际应该以盘后复盘统计为准。</p>
-<h3 id="二、确认板块会持续上涨，此为重点"><a href="#二、确认板块会持续上涨，此为重点" class="headerlink" title="二、确认板块会持续上涨，此为重点"></a>二、确认板块会持续上涨，此为重点</h3><p>热点板块有可能是消息刺激等因素而形成，一日游的行情比比皆是，判断其能否延续才是重中之重，否则进场就是一碗大面。判断对了就是躺赢，跟风吃热饭。</p>
-<p><strong>1、看板块的队形是否完整</strong></p>
-<p>强势板块才会走出几个月持续上涨的行情。其特点是队形完整，分为领涨股、标杆股、中军股、跟风股、补涨股。其中领涨股和标杆股多数会重叠，就是我们说的龙头股。</p>
-<p><strong>二、确认板块会持续上涨，此为重点</strong></p>
-<p>热点板块有可能是消息刺激等因素而形成，一日游的行情比比皆是，判断其能否延续才是重中之重，否则进场就是一碗大面。判断对了就是躺赢，跟风吃热饭。</p>
-<p><strong>1、看板块的队形是否完整</strong></p>
-<p>强势板块才会走出几个月持续上涨的行情。其特点是队形完整，分为领涨股、标杆股、中军股、跟风股、补涨股。其中领涨股和标杆股多数会重叠，就是我们说的龙头股。</p>
-<p><strong>2、龙头打出高度后，领涨股要切换，形成竞争的局面，争相冲锋</strong></p>
-<p>比如当初，碳中和时长源和华银 交替领涨，医美中后段朗姿 和哈三轮换上攻。此种情况盘面上反映出板块热度极高，强势股层出不穷，得到市场充分认可；</p>
-<p>基本面上意味着行业景气度大幅提升，一个行业的头部企业总会有几家，他们同时受到市场青睐，从而蜂拥而入。</p>
-<p>这种情况是一个板块持续能力强的一个标志。</p>
-<p>**3、中军股为一个板块最核心的标的，**它的确认极其重要。领涨股和龙头股会更换，标杆股会倒下，但是中军的旗帜是不会动摇的。</p>
-<p>就好比两方对阵，中军的大旗一旦倒下，就代表着一方失败，它是整个多头的定心丸，上涨的时候可以不是涨幅最多的，但是会稳健 的上升，板块调整的时候它会顶住压力，进行横盘震荡或小幅回调，保证人心不散。</p>
-<p>这是判断一个板块能否延续的一个重要标志。</p>
-<p>**4、板块指数持续走强，屡创高点，**大盘出现调整而板块不调整，甚至是逆势拉升</p>
-<p>这是热点板块的另一标志，有点一股功成万股枯的味道，盈利效应体现在少部分股票上是股市的根本体现，也就是股之道，损不足而补有余。</p>
-<p><strong>5、跟风、补涨股层出不穷，板块逻辑扩散到上下游</strong></p>
-<p>比如汽车板块扩散到锂电池、到锂矿、汽配、无人驾驶以及其中细分，碳中和从电力到环保到钢铁到清洁能源如光伏、风电、氢能源。</p>
-<p>这种情况出现代表着板块会继续延续，整个题材被完全激发，热情高涨，就算要调整也会反复，不会一波结束，安全系数相对较高。</p>
-<p>当以上5种情况都出现，就代表着板块热点已经炒作起来，会有比较好的延续，寻找其中的细分龙头积极参与即可，无论短线或者波段，一般会有不错的收益。</p>
-<p>市场价格行为包容一切，强势板块必然有过硬的逻辑，很多股友并没有相关的基础，无法判断板块热点和持续能力。今天说的就是通过盘面来判断，不求抓在起爆点，但求中途上车，感受稳稳的幸福</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何复盘</title>
-    <url>/posts/dbd302a9/</url>
-    <content><![CDATA[<p>对于短线选手来说，复盘可以说是必备的技能，也是每天都得进行的一项日常任务。那么复盘的意义是什么？如何进行高效复盘呢？</p>
-<span id="more"></span>
-
-<p>盘后静态地回顾整个盘面，寻找市场上的各种“信号”。不仅仅是某个板块和个股的涨跌，而是要整体的看，热点板块的运行情况、指数的拐点以及市场的赚钱效应和亏钱效应等。通过这一步骤，我们能够大致了解市场一天内发生的客观事实，为后续的交易决策提供依据。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222143145791.png" alt="202410261624251_waifu2x_4x_1n_png"></p>
-<h3 id="复盘的目的是什么？"><a href="#复盘的目的是什么？" class="headerlink" title="复盘的目的是什么？"></a>复盘的目的是什么？</h3><p>我认为，对于我们短线来说，复盘有三个主要的目的。<br><strong>一、分清个股地位，题材地位。</strong><br><strong>二、理解当下市场环境与情绪。</strong><br><strong>三、寻找赚钱效应，推测可能的发展方向。</strong></p>
-<h4 id="一、分清个股地位，题材地位。"><a href="#一、分清个股地位，题材地位。" class="headerlink" title="一、分清个股地位，题材地位。"></a>一、分清个股地位，题材地位。</h4><p>题材爆发，往往不会是只有一只涨停的标的，而是会有多只。我们需要知道哪只股是“龙头”地位最高。</p>
-<p>比如最经常用的是高度判断，高度最高，一个板块爆发，都是首板，但是有一只二板，这个二板是唯一高度那么大概率就是龙头。<br>如果高度都相同，那就看强度，涨停的速度，封单的大小，逻辑是否够硬人气够不够高等等，因为我们做短线接力的话，尽量是围绕龙头来参与，有绝对强势的龙头那么后排的跟风，很多时候都是没有确定性的。</p>
-<p>比如周四北交所的涨停复盘。先高度，只有天马和优机是二板，然后涨停的时间上天马又是比优机快的，同时天马的累计高度也是最高，5天走了3个涨停板，毫无疑问天马就是北交所地位最高的龙头。<br>然后是通过复盘分辨题材地位。每天有很多个题材，每个方向都有资金尝试，但我们不可能每个分支的龙头都去做。所以复盘还有一个比较重要的意义是，分辨出市场的主线题材，祖师爷利弗莫尔讲过，如果你在强势股上赚不到钱，那么你在其他股上也别想赚到钱！主线题、持续性、强度、人气之类的都是最强的，也是最适合参与接力的。支线题材，可能爆发一波过后可能就没影子了，往往就是因为一个突发利好起来的，昙花一现。</p>
-<h4 id="二、理解当下市场环境与情绪。"><a href="#二、理解当下市场环境与情绪。" class="headerlink" title="二、理解当下市场环境与情绪。"></a>二、理解当下市场环境与情绪。</h4><p>周期理论是每一个做短线的朋友都或多或少听过，接触过的东西。前面的涨停板复盘，分清个股地位，板块地位是帮助我们择股，让我们知道谁是龙头，我们要参与应该关注，围绕哪些标的。而复盘还有一个重点的作用就是，帮助我们“择时”。通过板块内个股的走势、分辨题材、市场情绪目前处于什么阶段，接下来的预期如何？只会择股不行，只会择时也不行，只有“择时”+“择股”才能帮助我们更好的在市场中获利，时来天地皆同力，在正确的节点，选择正确的标的参与，这样赚钱的概率才大。</p>
-<p>那么，如何判断当下的市场情绪如何呢？</p>
-<p>对于新手朋友来说，最有效的还是做表，把市场情绪的变化，每天数据的各项变化，用表格记录下来，做对比，观察每天的变化。我比较常用的一些数据见封面。炸板率、连板数、昨日涨停表现，昨日连板，昨日炸板，涨停家数，跌停家数，红盘家数等等。每一项数据都有他所代表的意义，但本质上，我们是要找“变化”的节点。比如说在一段退潮的行情中，每天市场都非常恐慌，跌停家数每天都很多，一直是“弱”的表现，但有一天跌停的家数突然大量减少了。这是不是就是在“弱”的趋势里出现了变化？跌停的减少了，恐慌程度减少了，开始由“弱”变“强”，那么就有可能出现情绪的拐点。而把握住这个“改变”的节点，结合前面对个股地位，对板块地位的复盘，选出其中前排高人气，强势的人气龙头，参与其中，就能大大提高成功率！这是基础的使用的方法，还有很多进阶的使用方法。</p>
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241222143155280.png" alt="202410261626549_waifu2x_4x_1n_png"></p>
-<h4 id="三、寻找赚钱效应，推测可能的发展方向"><a href="#三、寻找赚钱效应，推测可能的发展方向" class="headerlink" title="三、寻找赚钱效应，推测可能的发展方向"></a>三、寻找赚钱效应，推测可能的发展方向</h4><p>市场赚钱效应是不断在变动的，不同的时期有不同的环境，资金有不同的风格。在前面复盘做好了“择股”和“择时”之后，我们还需要根据当下的市场环境，找出“赚钱效应”在哪里，跟随赚钱效应，推测后续市场可能的发展方向，并做出操作计划。市场赚钱效应是不断在变动的，不同的时期有不同的环境，资金有不同的风格。可能是10cm，可能是20cm、可能是北交所30cm，可能是趋势股，可能是连板高度，可能是大成交中军，可能是游资风格，可能是机构风格………比如上半年，艾艾精工见顶之后，短线市场迎来了一段杀伤力很强的退潮，主杀的就是10cm连板，那时候的很多10cm高标都是连续一字，高位打开见顶后，直接连续一字闷杀，怎么上去就怎么下来。所以当时这种情况，在10cm高标这么严重负反馈的情况下，还继续头铁做10cm高标接力，一定会亏的很惨，那段行情也戳破了很多假龙头战法的“高手”，无脑顶高标根本不是龙头战法，只会是亏光战法。</p>
-<p>直到正丹股份横空出世，以20cm趋势的形式，打出了巨大赚钱效应，顶着监管一路向上打开空间。对比一下，一边是杀人诛心的10cm高标，一边是不断超预期打开空间的20cm龙头，你是短线资金，你会怎么选？所以从5月份开始，20cm基本成了投机的主线。量化资金也喜欢在小盘20cm里面玩，10cm成了妈妈不疼姥姥不爱的孤儿，那我们无论是选股还是参与，都是得符合大环境，选择20cm的标的，成功率会更高。6月初有一波PCB板块的行情。10cm龙头是协和电子，但协和电子最后和前面的很多10cm高标一样，顶部天地板砸盘坑人，当然圈子里选择参与的是20cm的逸豪新材，在市场风格的加持下，最后成功脱离协和的负反馈独立走强，一波吃到几十个点的利润。</p>
-<p>总之，就是不要局限自己的思维。</p>
-<p>龙头10cm还是其它形式，只是表现形式不同。</p>
-<p>本质上都是情绪的载体，而我们要做的，就是追随赚钱效应。</p>
-<p>市场永远是对的，出错的只会是我们。</p>
-<p>复盘找出这种有赚钱效应的方向，找到关键的“信号”，我们就可以制定第二天的计划。</p>
-<p>怎么找这种信号？还是通过复盘，不单是每天的涨停股，近期的涨停股，包括龙头断板，炸板股,甚至是活跃前期龙头暴跌后的反馈，复盘都是得看的。</p>
-<p>大跌时复盘最轻松，因为只用看很少，有时候几百只红盘的标的快速过一遍看看K线，其中“不和谐”的那只就特别显眼，大家都在调整就你在涨，一眼就能看出来。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>卖点的总结</title>
-    <url>/posts/ecd37593/</url>
-    <content><![CDATA[<p>一：卖点有几种情况，个股地位，个股高度，情绪周期位置。</p>
-<span id="more"></span>
-
-<p>1、首先竞价阶段和开盘前10分钟应该判断是持股环境还是卖股环境。<br>持股环境，大盘好，个股涨多跌少，板块符合预期，没有大幅低开或跌停开个股，大单一字龙头封单够大，板块有涨停助攻，持有股竞价符合预期，量够，开盘迅速拉升，是龙头个股，那么可以多拿拿格局，或者拿几天。</p>
-<p>2、卖股环境。大盘不好，跌多涨少，竞价不符合预期，没有量，低开，板块有大幅低开和跌停开个股，开盘迅速核按钮，那么等下杀回升高点卖出。</p>
-<p>3、纯套利个股。不是龙头股，纯套利个股，那么开盘竞价阶段，不符合预期或者大高开，竞价就卖。竞价符合预期，开盘冲高4个点或5个点无脑卖。套利个股没有卖飞一说，</p>
-<p>4、提前想好是冲高卖还是要格局，不要矛盾，不要冲高舍不得卖，然后回落又吓得赶快卖结果卖在低点，提前做好预案，按照预期，是冲高卖还是涨停附近卖还是格局，严格按照交易计划执行，不能犹犹豫豫瞻前顾后。</p>
-<p>5、如果决定格局，仅限于龙头股，那么就死拿，不管分时上下怎么跳动，不管杀到水下还是直奔跌停去，就是不卖，最起码拿到尾盘再决定卖不卖，或者忽略分时，忽略日k,坚决锁仓，成功了就是大肉，失败了也损失不了多少，仅限于大龙头。</p>
-<p>6、止盈卖，龙头股已经有20到30个点利润，龙头位置已经高的吓人，已经风险大于机会，那么止盈无脑卖，不怕卖飞，不能想卖在最高点，不能想赚尽每一分钱，鱼尾肉少刺多，吃鱼身子最安全。</p>
-<p>7、个股地位，后盘跟风股，套利目的，冲高无脑卖。</p>
-<p>8、一字板打开个股，如果没高开是平开而且没有量是严重不符合预期的，竞价就直接卖。</p>
-<p>9、打板失败暂时被套个股，第二天处理，如果是龙头股，放量，第二天该弱不弱，平开高开有量，那可以博一个弱转强，反包。如果是被淘汰个股，后排，第二天低开没量，那么不要意淫反包涨停，冲高或者小亏也要割肉离场，不要等到快跌停了受不了再卖，小亏变大亏。</p>
-<p>10、卖点劲量卖在高点或者次高点，不要下杀一害怕就卖了，卖在最低点，因为下杀往往会有企稳拉升一个冲高，可以冲高再卖。</p>
-<p>11、开盘没有迅速拉升，而是上下震荡不过分时均线，表现为弱，不符合预期，可以找高点卖出。</p>
-<p>12、大幅高开7个点8个点，但是没有量，也不符合预期，不是龙头股，获利盘有可能开盘秒按，竞价卖，先把利润装口袋。</p>
-<p>13、跌停开，不要着急卖，视情况而定，如果是龙头股，大概率有资金翘板上冲，可以找高点卖出。如果当日是大阳日，板块活跃，那也有概率翘板上冲，找高点卖。</p>
+<p>冰点：</p>
+<p>上涨家数少于800，一般是阴线。</p>
+<p>注意事项:</p>
+<p>区别在于有的冰点之后，可能有连冰。</p>
+<p>取决于指数的形态和趋势、高度股的赚钱效应。在指数趋势下跌的时候，容易出现连续冰点，冰点的有效性降低。如果指数新低，高度上升，在突破高度，有板块保护，不是单纯的抱团，那么这个冰点依然有价值。</p>
+<p>在退潮期也容易连续出现连续冰点。如果量能比较大，整体衔接会快一些。</p>
+<p>止跌：</p>
+<p>小阳线或者十字星</p>
+<p>冰点次日，可能是直接反弹，也可能是先收一个十字星或者下影线止跌。</p>
+<p>收十字星，要看亏钱效应是否减少还是扩大，如果扩大，可能是下跌中继，次日会有惯性杀跌。</p>
+<p>或者是高位股亏钱效应扩大，指数和中证2000止跌，就有可能是高低位切换。</p>
+<p>这两个阶段，一般是试错为主。</p>
+<p>反弹：</p>
+<p>中阳线(上涨家数3000以上)。最好是情绪和指数共振回暖，一般有明确的领涨和热点，可以追涨，也可以找中军做大票。</p>
+<p>找强势，但没有爆发的板块（类似于之前的ai眼镜、华为海思、消费电子、鸿蒙信创第一波）</p>
+<p>失败点在于，有时候反弹不及预期，或者没有放量，可能会冲高回落。这种可能根据量能估计，但有的时候量能没有明显放大，也会反弹。</p>
+<p>稳妥的就是分批买。</p>
+<p>开盘走弱，放弃计划；开盘走强买，指数板块走强，继续买。</p>
+<p>争取在当日把仓位买足。</p>
+<p>如果反弹不及预期，就把试错仓位止损。</p>
+<p>分化、分歧：</p>
+<p>大涨后，就会分化。</p>
+<p>如果是小题材或者指数大跌区间，可以主动卖飞。</p>
+<p>如果是指数上升趋势，后排跟风股主动止盈。大题材可以适当格局，博弈大龙头，但也可能过山车。</p>
+<p>修复：</p>
+<p>可能再次强势大涨，再次爆发、也可能冲高回落，或者修复失败。这个阶段就比较难，主要是题材，市场环境等影响。</p>
+<p>基本每个小周期都是这个过程。不断重复和复制。一些大题材或者龙头会扛过分歧就穿越了。</p>
+<p>用模式捕捉龙头和机会。</p>
+<p>去年的龙头就不说了，最近的8.22、8.20的深圳华强，9.26的天风和银之杰都是如此。</p>
+<p>股票市场就是这样，有规律，有模式，有机会可以复制。</p>
+<p>也有一些小概率的事件发生，不符合大概率的规律等等，总会有风险的，总会有亏损的交易。</p>
+<p>比如一般来讲，板块第一次分歧后都会有修复，尽量以一个大周期、一个小周期为单位，尽量的保证大赚小亏，通过盈利覆盖掉亏损。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -2708,128 +2809,21 @@
       </tags>
   </entry>
   <entry>
-    <title>新建文章时自动打开编辑器</title>
-    <url>/posts/9b0589b1/</url>
-    <content><![CDATA[<p>由于每次使用hexo new新建之后都要到文件夹里自己去找出文件再打开，当文件多起来更是件麻烦事，在网上发现有直接能在新建完后自动打开markdown文档的js脚本。</p>
+    <title>游资92科比模式</title>
+    <url>/posts/f91684c5/</url>
+    <content><![CDATA[<p>今天想要跟大家聊的就是我的交易模式，几乎每一个成功走出来的游资，都是有了正确的适合自己的交易模式，然后做到稳定盈利，最后不断复制，利用复利做起来的！</p>
 <span id="more"></span>
 
-<p>首先安装 shelljs模块，实现自动部署加载JS脚本，键入以下命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install --save shelljs</span><br></pre></td></tr></table></figure>
-
-<p>在 Hexo 根目录的 <code>scripts文件夹</code>下新建一个 <code>js文件</code>。</p>
-<p>稍微修改后用这个脚本成功：</p>
-<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> spawn = <span class="built_in">require</span>(<span class="string">&#x27;child_process&#x27;</span>).<span class="property">exec</span>;</span><br><span class="line"></span><br><span class="line">hexo.<span class="title function_">on</span>(<span class="string">&#x27;new&#x27;</span>, <span class="keyword">function</span>(<span class="params">data</span>)&#123;</span><br><span class="line">  <span class="title function_">spawn</span>(<span class="string">&#x27;start  &quot;D:\Program Files\Typora\Typora.exe&quot; &#x27;</span> + data.<span class="property">path</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每一轮熊市，都会经历四个阶段</title>
-    <url>/posts/a9f5c860/</url>
-    <content><![CDATA[<p>每一轮熊市，都会经历四个阶段：第一阶段：少数投资者对经济和企业盈利的前景能否维持产生怀疑。过高的估值或信贷的收紧驱动产业资本的减持。边际减仓驱动的下跌。</p>
-<span id="more"></span>
-
-<p>第二阶段：经济和流动性的趋势性恶化，伴随一些长期的制度性的担心，使得投资人系统性普遍性的**主动避险减仓。**第三阶段：带止损线的资金，带杠杆的资金，资产管理的资金，因为止损、爆仓、赎回，**被迫抛售。**第四阶段：大部分投资人信心依然脆弱，盈利依然下行。但市场不再趋势下跌，转为震荡企稳。</p>
-<p>当前的A股，已经完成了第三阶段，进入第四阶段。</p>
-<p><strong>股市的三个底</strong></p>
-<p>股市经历大幅下跌后，总是容易出现快速大幅的反弹，因为：<strong>天下苦秦久矣，陈胜吴广揭竿而起，则应之者众。</strong></p>
-<p>股市一般有三个底：<strong>政策底、估值底、盈利底。</strong></p>
-<p>如果对应一下的话：</p>
-<p><strong>政策底</strong> 就是 <strong>陈胜吴广底</strong> </p>
-<p><strong>估值底</strong> 就是 <strong>项羽底</strong></p>
-<p>因为国内利率大幅下行，国内货币增速企稳，本土资产中证500和<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi8lRTQlQjglQUQlRTglQUYlODExMDA=">中证100<i class="fa fa-external-link-alt"></i></span>0等，估值底很可能在4月底的低点已经看到。</p>
-<p><span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi8lRTUlQTQlOTYlRTglQjUlODQlRTklODclOEQlRTQlQkIlOTM=">外资重仓<i class="fa fa-external-link-alt"></i></span>的<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL21TZWFyY2g/c2VhcmNoQ29udGVudD0lRTYlQjIlQUElRTYlQjclQjEzMDAmdHlwZT0y">沪深300<i class="fa fa-external-link-alt"></i></span> 等，因为美国利率才大幅上行，国外很多机构季末才会做投资决策调整资产，外资再平衡资产的过程还没有完成，当前估值水平也位于历史中位，应该还没有看到。</p>
-<p><strong>赢利底</strong> 就是 <strong>刘邦底</strong>，显然还没有到，还需要等至少几个月。尤其是后周期的金融和可选消费，即便剔除疫情的影响，盈利也有一段较长的下行道路要走。</p>
-<p>大家都知道，最后是刘邦得天下。</p>
-<p><strong>龙战于野</strong> 意味着熊市的结束，单并不意味着牛市立刻开始，牛市和熊之间，需要一段震荡收敛分化的时间。</p>
-<p>这段时间，需要有 <strong>潜龙勿用</strong> 的长期蛰伏蓄力，还需要经历 <strong>见龙在田</strong> 的萌芽阶段，后面还有<strong>终日乾乾</strong> 的再度蛰伏。才能做到 **或跃在渊，**才有会 <strong>飞龙在天。</strong></p>
-<p><strong>股市的时空法则</strong></p>
-<p>在股市里，时间和空间是同样重要的。如果位置到了，时间不到的话，就只能震荡等时间。</p>
-<p><strong>股市的吃饭法则</strong></p>
-<p>千与千寻里，千寻的爸爸妈妈太贪婪吃了太多肉，结果变成了猪。</p>
-<p>吃饭行情如果太贪婪不节制，总是容易变成饭。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>涅槃心法</title>
-    <url>/posts/f225cafa/</url>
-    <content><![CDATA[<p>树干（交易的总纲）</p>
-<p>投机做的到底是什么?<br>赚钱效应(情绪)的延续，对资金的吸引，赚钱资金来，亏钱资金走。跟着情绪（赚钱效应）走，千万不要自以为是，以前认为次新股只能做新开板的，结果贵州燃气 那一批就是超跌走的强。</p>
-<span id="more"></span>
-
-<p><strong>主要观察变量（6个情绪不是六个核桃）</strong></p>
-<p>a.市场情绪；b.投机情绪；c.板块情绪；<br>d.整体市场情绪；e.整体投机情绪；f.整体板块情绪。<br>市场由六个情绪构成，由变量去变化。最重要看清哪些变量和情绪是最重要，最确定，最先引领市场走向。</p>
-<p><strong>6大情绪如何观察(分为日内和中期)</strong></p>
-<p>(1)哪六种情绪<br>a.投机情绪(涨停数量，连板数量，连板高度，炸板率)<br>b.市场情绪(指数强度，涨跌比)<br>c.板块情绪(什么是板块情绪强，干柴烈火，资金偏好，有高度，主升，有强度(人气高，容易集体爆发.容易发酵等等需要具体分析，有位差，有走强点，指数强度）<br>d.整体市场情绪(综合的赚钱效应，最近的市场情绪，投机情绪，主流板块情绪，论坛氛围，消息面影响等等。突破阳线大幅强化)<br>e.整体投机情绪(最近阶段的投机氛围。出现高位妖股，大批量强势股大幅强化。涨停板溢价越来越高强化。炸板的负溢价越来越高弱化)<br>f.整体板块情绪(龙头拉开空间，不是一日游题材人气高，始终活跃)<br>(2)不同行情不同侧重<br>单靠整体情绪太迟钝，对日内，细节把握不够，很难具体到操作层面。<br>而单靠细分的情绪又太敏感，容易忽视趋势的巨大威力。<br>因此要结合分析，不同行情对这六个情绪侧重点不同。<br>(3)如何侧重<br>a.整体投机情绪强(高位龙头炸了依旧偏强)，那么低位超强前排，高板块情绪点，换手核心板块效应。<br>b.情绪不差，主动进攻点给仓位。<br>c.整体板块情绪强，龙头板给仓位5.24海汽<br>d.当情绪条件比较好，那么预判成分多点，走强点就上。如果强势股分歧厉害，有风险，那么低风险走强点上仓位。3.20的盘龙药业<br>e.整体投机情绪(市场情绪)强，整体板块情绪不强，资金轮动。<br>f.整体板块情绪极强(雄安)，只要等雄安板块情绪走强就行。<br>h.整体投机情绪极强，只要不停的做低位超强前排，高板块情绪点就行(万兴科技 这一波)。有板块等板块走强，无板块但有妖则低位前排或者做妖。</p>
-<p><strong>如果寻找确定性</strong></p>
-<p>一是打板，二是做核心（预判点，走强点，打的板要么位置，要么人气股性)<br>a.为什么一定要打板?<br>确定性(效率)好行情不打板太容易错失机会，烂行情不打板太容易犯错。鸡肋行情本身没有做的必要，浪费精力。当然有的确定性追高等同于打板。<br>b.为什么一定要做核心?<br>和打板一样，确定性(效率)问题。个股而言，市场地位最重要。<br>c.下降趋势不做，只做主升，主升品种容错率最高。轮动到下降趋势的品种做起来也要控制仓位，暴风哥吗？<br>以前的问题:过于深究对市场的理解，什么小机会都要抓，反倒做不好。<br>紧抓核心，做打板就行，5月份杀跌那波反抽，就等雄安高板块情绪点就行了。<br>(本质就那些，关键什么时候注重哪个变量要注意，最先最重要)</p>
-<p><strong>如何避免最容易亏钱的情形</strong></p>
-<p>a.最有赚钱效应板块的对立面。</p>
-<p>b.末期机会风险，收益大，做错代价也大，一定要追求确定性<br>c.非主流冷门，自认为低风险而重仓，往往因为情绪转差的时候才往那里思考，反倒亏损很大。<br>d.系统性风险<br>e.补跌，<br>f.市场情绪差抓一些小转折点，根本不能逆情绪。都从收益风险比，确定性考虑。</p>
+<p>我的模式主要有三种，第一种做主升，第二种做补涨，第三种做切换</p>
+<h3 id="第一种：主升"><a href="#第一种：主升" class="headerlink" title="第一种：主升"></a><strong>第一种：主升</strong></h3><p>主升这里主要指的是“龙头战法”，就是做个股和板块的主升段，加速段，这一段往往是最暴利的！<br>但是这里为何把龙头战法打引号，是因为我所说的龙头战法，并不是初学短线的投资者所理解的空间板数板战法<br>个人理解的龙头起码要具备以下几个特征：<br>1）连板高度或者阶段涨幅较大，非常醒目，需要鹤立鸡群，这里着重强调的是辨识度<br>2）自身逻辑非常硬，有想象空间，而且最好能反应到业绩上的，有国家级政策支持，炒股最终要反应到业绩上的，有业绩支撑的个股和板块会得到更多的资金认同与买入，走得更远<br>3）对市场和板块有带动力，一呼百应，龙头的上涨一定要得到板块和市场的响应，光杆司令走不远！<br>4）容量成交额要大，要有换手，要让大部分投资者能够从容上下车<br>那些连续一字或者缩量上来的，有高度，但是没有充分换手，容易直上直下，只能叫做情绪股而非龙头，真正的龙头一定是包容的，有换手的，成交额适中，给投资者充分的上下车机会<br>符合以上几大条件的（不一定全部，最好有3条及以上），这种龙头可遇不可求，往往都是在市场强势时才容易出现，大周期炒作才有<br>今年主要炒作了 碳中和，锂矿，周期股，清洁能源，去年主要炒的疫情，像这种大级别行情才容易出现绝对龙头<br>而现在很多短线投资者所说的数板战法，谁连板多谁就是龙头，是非常片面的<br>而且由于交易的一致性，导致情绪化非常严重，经常冲天炮上去，核按钮下来 ，这就容易给给模式带来致命性的打击，就是不稳定！<br>好的模式一定是要稳定的，大涨小回，而不是忽上忽下！大涨大跌！<br>根据龙头的走势形态不同，又分为两种<br><strong>连板模式和趋势波段模式</strong><br>连板模式特指换手上去的，连续一字缩量的，这种大多是情绪票，很难驾驭，这类缩量连板上来的，我基本不做<br>连板模式龙头,代表个股顺控发展<br>连板模式，有很多，这里自己则继续精简，个人主做的是弱转强，但是不太喜欢高开尤其高开太多的，那种极易形成一致性，真正好的弱转强，一定是买起来的，开的不高，开盘后快速叠量买起来的，成功率会更高<br>这种连板龙头战法，使用环境更多也要在强势市场，弱势市场资金风  险偏好不高，接力资金有限，失败概率自然就大<br>趋势波段模式<br>走势就是涨不停，不停涨，多从成交额排行榜和阶段涨幅去找，一般容量都比较大，成交额都在10亿以上，形式多是多头趋势走势<br>趋势龙头代表个股 联创股份<br>还有就是 想做好主升龙头战法，一定要多看，多练，看的多了，做的多了，熟能生巧，就能找到感觉</p>
+<h3 id="第二种-做补涨"><a href="#第二种-做补涨" class="headerlink" title="第二种 做补涨"></a><strong>第二种 做补涨</strong></h3><p>短线的核心 就是对赚钱效应的复制，补涨就是找出最强赚钱方向的板块和个股，然后去低位寻找类似个股 和板块 表现形式主要就是低位板(首板，2板）的套利<br>行情不好，弱势时，没有主线时，多是采用这种方法<br>但是随着量化资金的介入，难度也在加大，这就要求我们基本功更扎实，提前做好功课，<br>要么快一步，看好的直接扫，要么慢一步，做开板回封，都可以，适合自己的才是最好的<br>做首板 对新闻要有敏感度，其次就是多做高辨识度的个股，前排个股，股性好的个股，有利于提升封板率<br>做补涨首板，需要做非常多的功课，盘后的任务，工作量是非常大的，并不是收完盘就结束了，首板选手是靠辛苦和努力走出来的</p>
+<h3 id="第三种-切换"><a href="#第三种-切换" class="headerlink" title="第三种 切换"></a>第三种 切换</h3><p>这个更多是大方向的切换，<br>板块内部高低切（碳中和板块一个龙头炒完之后在板块内部新挖掘龙头反复复制出现了中材节能  ，豫能控股  ，长源电力  ，南网能源  等多只不同时期龙头），<br>不同板块之间高低切（锂矿炒完之后 沿着清洁能源同逻辑炒光伏，风电），<br>风格的转换，例如年初疯狂抱团各种传统白马，各种茅指数应运而生，随后连续大跌之后转向另外一种风格 价值成长 比拼市场想象力，新能源车  ，光伏，半导体  三驾马车轮番上涨<br>由看市盈率到看市梦率，从一种风格转向另一种风格<br>不同市场交易制度的切换，<br>创业  板注册制上市时疯狂炒作20cm个股，天山生物  短期霸气9连板，引领20cm个股走出主升行情，随后出现亏钱效应，主板出现智慧农业  短线黑马，资金逐步切换回主板<br>主板切到注册制创业板 科创板，然后再从注册制个股切换到主板个股<br>切换主要是讲究的时机，对热点和风向转变的敏感度</p>
 ]]></content>
       <categories>
         <category>炒股</category>
       </categories>
       <tags>
         <tag>游资成神录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>浅谈小周期</title>
-    <url>/posts/e601a9a0/</url>
-    <content><![CDATA[<p>冰点-（止跌）-反弹-分化-修复</p>
-<p>每一个小周期是这样的。</p>
-<span id="more"></span>
-
-<p>冰点：</p>
-<p>上涨家数少于800，一般是阴线。</p>
-<p>注意事项:</p>
-<p>区别在于有的冰点之后，可能有连冰。</p>
-<p>取决于指数的形态和趋势、高度股的赚钱效应。在指数趋势下跌的时候，容易出现连续冰点，冰点的有效性降低。如果指数新低，高度上升，在突破高度，有板块保护，不是单纯的抱团，那么这个冰点依然有价值。</p>
-<p>在退潮期也容易连续出现连续冰点。如果量能比较大，整体衔接会快一些。</p>
-<p>止跌：</p>
-<p>小阳线或者十字星</p>
-<p>冰点次日，可能是直接反弹，也可能是先收一个十字星或者下影线止跌。</p>
-<p>收十字星，要看亏钱效应是否减少还是扩大，如果扩大，可能是下跌中继，次日会有惯性杀跌。</p>
-<p>或者是高位股亏钱效应扩大，指数和中证2000止跌，就有可能是高低位切换。</p>
-<p>这两个阶段，一般是试错为主。</p>
-<p>反弹：</p>
-<p>中阳线(上涨家数3000以上)。最好是情绪和指数共振回暖，一般有明确的领涨和热点，可以追涨，也可以找中军做大票。</p>
-<p>找强势，但没有爆发的板块（类似于之前的ai眼镜、华为海思、消费电子、鸿蒙信创第一波）</p>
-<p>失败点在于，有时候反弹不及预期，或者没有放量，可能会冲高回落。这种可能根据量能估计，但有的时候量能没有明显放大，也会反弹。</p>
-<p>稳妥的就是分批买。</p>
-<p>开盘走弱，放弃计划；开盘走强买，指数板块走强，继续买。</p>
-<p>争取在当日把仓位买足。</p>
-<p>如果反弹不及预期，就把试错仓位止损。</p>
-<p>分化、分歧：</p>
-<p>大涨后，就会分化。</p>
-<p>如果是小题材或者指数大跌区间，可以主动卖飞。</p>
-<p>如果是指数上升趋势，后排跟风股主动止盈。大题材可以适当格局，博弈大龙头，但也可能过山车。</p>
-<p>修复：</p>
-<p>可能再次强势大涨，再次爆发、也可能冲高回落，或者修复失败。这个阶段就比较难，主要是题材，市场环境等影响。</p>
-<p>基本每个小周期都是这个过程。不断重复和复制。一些大题材或者龙头会扛过分歧就穿越了。</p>
-<p>用模式捕捉龙头和机会。</p>
-<p>去年的龙头就不说了，最近的8.22、8.20的深圳华强，9.26的天风和银之杰都是如此。</p>
-<p>股票市场就是这样，有规律，有模式，有机会可以复制。</p>
-<p>也有一些小概率的事件发生，不符合大概率的规律等等，总会有风险的，总会有亏损的交易。</p>
-<p>比如一般来讲，板块第一次分歧后都会有修复，尽量以一个大周期、一个小周期为单位，尽量的保证大赚小亏，通过盈利覆盖掉亏损。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -2850,24 +2844,6 @@
       </categories>
       <tags>
         <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>游资92科比模式</title>
-    <url>/posts/f91684c5/</url>
-    <content><![CDATA[<p>今天想要跟大家聊的就是我的交易模式，几乎每一个成功走出来的游资，都是有了正确的适合自己的交易模式，然后做到稳定盈利，最后不断复制，利用复利做起来的！</p>
-<span id="more"></span>
-
-<p>我的模式主要有三种，第一种做主升，第二种做补涨，第三种做切换</p>
-<h3 id="第一种：主升"><a href="#第一种：主升" class="headerlink" title="第一种：主升"></a><strong>第一种：主升</strong></h3><p>主升这里主要指的是“龙头战法”，就是做个股和板块的主升段，加速段，这一段往往是最暴利的！<br>但是这里为何把龙头战法打引号，是因为我所说的龙头战法，并不是初学短线的投资者所理解的空间板数板战法<br>个人理解的龙头起码要具备以下几个特征：<br>1）连板高度或者阶段涨幅较大，非常醒目，需要鹤立鸡群，这里着重强调的是辨识度<br>2）自身逻辑非常硬，有想象空间，而且最好能反应到业绩上的，有国家级政策支持，炒股最终要反应到业绩上的，有业绩支撑的个股和板块会得到更多的资金认同与买入，走得更远<br>3）对市场和板块有带动力，一呼百应，龙头的上涨一定要得到板块和市场的响应，光杆司令走不远！<br>4）容量成交额要大，要有换手，要让大部分投资者能够从容上下车<br>那些连续一字或者缩量上来的，有高度，但是没有充分换手，容易直上直下，只能叫做情绪股而非龙头，真正的龙头一定是包容的，有换手的，成交额适中，给投资者充分的上下车机会<br>符合以上几大条件的（不一定全部，最好有3条及以上），这种龙头可遇不可求，往往都是在市场强势时才容易出现，大周期炒作才有<br>今年主要炒作了 碳中和，锂矿，周期股，清洁能源，去年主要炒的疫情，像这种大级别行情才容易出现绝对龙头<br>而现在很多短线投资者所说的数板战法，谁连板多谁就是龙头，是非常片面的<br>而且由于交易的一致性，导致情绪化非常严重，经常冲天炮上去，核按钮下来 ，这就容易给给模式带来致命性的打击，就是不稳定！<br>好的模式一定是要稳定的，大涨小回，而不是忽上忽下！大涨大跌！<br>根据龙头的走势形态不同，又分为两种<br><strong>连板模式和趋势波段模式</strong><br>连板模式特指换手上去的，连续一字缩量的，这种大多是情绪票，很难驾驭，这类缩量连板上来的，我基本不做<br>连板模式龙头,代表个股顺控发展<br>连板模式，有很多，这里自己则继续精简，个人主做的是弱转强，但是不太喜欢高开尤其高开太多的，那种极易形成一致性，真正好的弱转强，一定是买起来的，开的不高，开盘后快速叠量买起来的，成功率会更高<br>这种连板龙头战法，使用环境更多也要在强势市场，弱势市场资金风  险偏好不高，接力资金有限，失败概率自然就大<br>趋势波段模式<br>走势就是涨不停，不停涨，多从成交额排行榜和阶段涨幅去找，一般容量都比较大，成交额都在10亿以上，形式多是多头趋势走势<br>趋势龙头代表个股 联创股份<br>还有就是 想做好主升龙头战法，一定要多看，多练，看的多了，做的多了，熟能生巧，就能找到感觉</p>
-<h3 id="第二种-做补涨"><a href="#第二种-做补涨" class="headerlink" title="第二种 做补涨"></a><strong>第二种 做补涨</strong></h3><p>短线的核心 就是对赚钱效应的复制，补涨就是找出最强赚钱方向的板块和个股，然后去低位寻找类似个股 和板块 表现形式主要就是低位板(首板，2板）的套利<br>行情不好，弱势时，没有主线时，多是采用这种方法<br>但是随着量化资金的介入，难度也在加大，这就要求我们基本功更扎实，提前做好功课，<br>要么快一步，看好的直接扫，要么慢一步，做开板回封，都可以，适合自己的才是最好的<br>做首板 对新闻要有敏感度，其次就是多做高辨识度的个股，前排个股，股性好的个股，有利于提升封板率<br>做补涨首板，需要做非常多的功课，盘后的任务，工作量是非常大的，并不是收完盘就结束了，首板选手是靠辛苦和努力走出来的</p>
-<h3 id="第三种-切换"><a href="#第三种-切换" class="headerlink" title="第三种 切换"></a>第三种 切换</h3><p>这个更多是大方向的切换，<br>板块内部高低切（碳中和板块一个龙头炒完之后在板块内部新挖掘龙头反复复制出现了中材节能  ，豫能控股  ，长源电力  ，南网能源  等多只不同时期龙头），<br>不同板块之间高低切（锂矿炒完之后 沿着清洁能源同逻辑炒光伏，风电），<br>风格的转换，例如年初疯狂抱团各种传统白马，各种茅指数应运而生，随后连续大跌之后转向另外一种风格 价值成长 比拼市场想象力，新能源车  ，光伏，半导体  三驾马车轮番上涨<br>由看市盈率到看市梦率，从一种风格转向另一种风格<br>不同市场交易制度的切换，<br>创业  板注册制上市时疯狂炒作20cm个股，天山生物  短期霸气9连板，引领20cm个股走出主升行情，随后出现亏钱效应，主板出现智慧农业  短线黑马，资金逐步切换回主板<br>主板切到注册制创业板 科创板，然后再从注册制个股切换到主板个股<br>切换主要是讲究的时机，对热点和风向转变的敏感度</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>游资成神录</tag>
       </tags>
   </entry>
   <entry>
@@ -2893,16 +2869,21 @@
       </tags>
   </entry>
   <entry>
-    <title>游资作手新一语录</title>
-    <url>/posts/55f3aac9/</url>
-    <content><![CDATA[<p>1，围着主线做，多研究龙头，研究涨停，不断积累，总结，反思等待进阶的到来。<br>2，炒股前期投入大，没有稳定盈利前尽量少投入资金多投入精力。刚入市不要想着赚钱要想着悟道。</p>
+    <title>涅槃心法</title>
+    <url>/posts/f225cafa/</url>
+    <content><![CDATA[<p>树干（交易的总纲）</p>
+<p>投机做的到底是什么?<br>赚钱效应(情绪)的延续，对资金的吸引，赚钱资金来，亏钱资金走。跟着情绪（赚钱效应）走，千万不要自以为是，以前认为次新股只能做新开板的，结果贵州燃气 那一批就是超跌走的强。</p>
 <span id="more"></span>
 
-<p>3，悟道的理解因人而异吧，于初入市小散来说，对市场有很好的认知和理解，能持续从市场赚钱，虽有反复，但始终能及时控制。<br>4，做涨停更有效率更确定，能力不足时需要这些。<br>5，涨停开了就开了，标的选择符合自己模式就行了。<br>6，熊市比的不是快而是稳，你既然有在熊市超短的斗志，那你也要有在这种市场发现确定性机会的能力，这种确定性不光是概率，还有实效性和高盈亏比。满仓出击，要有确定性。<br>7，熊市比的是稳定性，不是牛市，多在选股和节奏上做文章。<br>8，我现在擅长和  amp; amp; 交易本能还是做涨停，低吸是应市场而生的策略，也是顺着市场节奏低吸绝对热门股。</p>
-<p>9，小资金，我这种级别的资金，包括一亿内的资金都可以等盘面出现反转动作时再出手。<br>10，索罗斯所说的，判断对错不重要，关键是对的时候我能赚多少，亏的时候我亏多少！<br>11，我低吸盾安  的时候做了当天大盘破位它跌停，周一重仓加的准备的。<br>12，小资金控制回撤难在控仓，不控仓回撤必然大，无论何种模式！所以小资金在行情好赚钱的时候要拼命赚，以功代守（但也不是说不控仓）；<br>13，15年以前的以小做大阶段，我的操盘临盘选择的交易很多，强势股超预期，涨停板打开的票，分时穿云箭，超预期高开，盘中资金的板块切换这些强势买点都是盘中给你的，这些买点的选择都需要盘感和眼光。</p>
-<p>14，技术分析我基本只看k线图形、均线、量能，其实人气逆转在标的的选择时还是很考究这些的。<br>15，游资重要的不是预判消息，而是消息出来后的应变。<br>16，有时候你选好股，觉得很有短线交易价值，可为什么不动呢，为什么没有大资金把它打上去呢，那是因为大资金买股票比你更讲究时机，也更讲究确定性。底下要不到筹码，封住涨停筹码要够了，还要顾及明天的承接，主线和分支的关系要照顾，既要围绕主流又要做好切换，要维护自己的江湖地位，也要局部战役全身而退…这些矛盾都是这个市场生态中不同的体量资金需要考虑的，而1000万以内的资金分仓做，根本不需要考虑这些，所以说为什么只有结构性大热点，牛市才能成就亿级资金，因为仓位。深刻理解仓位二字是理解大资金的行为逻辑的开始。</p>
-<p>17，市场趋势向下时我的仓位控制，对杂毛机会的屏蔽做的的很好。<br>18，只有有外挂的股票打出空间打出赚钱效应才能由点带面。<br>19，我认识的几个做短线亏钱厉害的都是盘中管不住手，买了杂毛买点，真的机会来了没票子了，提高自己的判断和定力，别无他途，你就告诉自己，短线乱打是回归赤贫的捷径。<br>20，正确的决定永远不嫌迟。<br>21，妖股的逻辑其实无需多讲，就是人心思涨又找不到逻辑，唯有靠超跌妖股先打出赚钱效应，既然要打出赚钱效应空间就要拓开。<br>22，牛股更多是考量板块契机，和自身形态，位置，题材，分时让你决定上的其中一个因素。<br>23，股票不是从你争我夺的收割中获益的，利润来自对价值的发掘，对人性的纠错。<br>24，在这个市场你的核心竞争力是思维  见识和执行力，自我成长也该是围着这两点进行。<br>25，个人攻击爆表的亏了，打回来。攻击不够（主要是牛股眼光和把握能力）就在利润出现回撤时谨慎起来，等待自己积累的确定模式或大盘有利时。<br>26，股市最好的地方就是不缺机会，再绝望时一根大阳线就改变三观了。<br>27，行情不好很少超过1&#x2F;10仓位。<br>28，我的理解是理解投机的价值，你买了然后接你棒的人还会有念想！<br>29，好的超短选手复盘要选股，盘中更要选股<br>30，捕捉大资金承载票，这种票和龙头一样不会每天都有，讲究逻辑要绝对主流，成交要大，小票打的欢时大资金看的蛋疼需要这样的票作为火力输出的。<br>31，这个市场不在主线的追涨都是自己找难受，封住了第二天也没接力。</p>
-<p>32，图形很重要，绝世美女肯定是各方面俱佳，看图形好比远观女人身段，查股本，题材，行业好比近观女人的容颜身材，炒作过程的内核节奏理解好比交往了解女人内涵！<br>33，逻辑内核是最强源动力。<br>34，培根大师的话，在这个市场，狡诈者轻鄙逻辑,愚鲁者羡慕逻辑,唯聪明者善于运用逻辑！而最后集大成者都是不断修行的聪明人。<br>35，小资金，有天赋最好是以攻代守，因为现实会给你压力；能力不够的就少投入资金，边学边练！<br>36，鉴别烂板价值，关键是理解逻辑，了解公司质地！这些是决定分歧后方向的内核，情绪博弈越来越需要结合股票内在价值了。纯粹操作情绪的分歧转一致当天板了，隔夜一冷静啥都明白了。<br>37，索罗斯说，世界经济史是一部基于假象和谎言的连续剧。要获得财富，做法就是认清其假象，投入其中，然后在假象被公众认知之前退出游戏。</p>
+<p><strong>主要观察变量（6个情绪不是六个核桃）</strong></p>
+<p>a.市场情绪；b.投机情绪；c.板块情绪；<br>d.整体市场情绪；e.整体投机情绪；f.整体板块情绪。<br>市场由六个情绪构成，由变量去变化。最重要看清哪些变量和情绪是最重要，最确定，最先引领市场走向。</p>
+<p><strong>6大情绪如何观察(分为日内和中期)</strong></p>
+<p>(1)哪六种情绪<br>a.投机情绪(涨停数量，连板数量，连板高度，炸板率)<br>b.市场情绪(指数强度，涨跌比)<br>c.板块情绪(什么是板块情绪强，干柴烈火，资金偏好，有高度，主升，有强度(人气高，容易集体爆发.容易发酵等等需要具体分析，有位差，有走强点，指数强度）<br>d.整体市场情绪(综合的赚钱效应，最近的市场情绪，投机情绪，主流板块情绪，论坛氛围，消息面影响等等。突破阳线大幅强化)<br>e.整体投机情绪(最近阶段的投机氛围。出现高位妖股，大批量强势股大幅强化。涨停板溢价越来越高强化。炸板的负溢价越来越高弱化)<br>f.整体板块情绪(龙头拉开空间，不是一日游题材人气高，始终活跃)<br>(2)不同行情不同侧重<br>单靠整体情绪太迟钝，对日内，细节把握不够，很难具体到操作层面。<br>而单靠细分的情绪又太敏感，容易忽视趋势的巨大威力。<br>因此要结合分析，不同行情对这六个情绪侧重点不同。<br>(3)如何侧重<br>a.整体投机情绪强(高位龙头炸了依旧偏强)，那么低位超强前排，高板块情绪点，换手核心板块效应。<br>b.情绪不差，主动进攻点给仓位。<br>c.整体板块情绪强，龙头板给仓位5.24海汽<br>d.当情绪条件比较好，那么预判成分多点，走强点就上。如果强势股分歧厉害，有风险，那么低风险走强点上仓位。3.20的盘龙药业<br>e.整体投机情绪(市场情绪)强，整体板块情绪不强，资金轮动。<br>f.整体板块情绪极强(雄安)，只要等雄安板块情绪走强就行。<br>h.整体投机情绪极强，只要不停的做低位超强前排，高板块情绪点就行(万兴科技 这一波)。有板块等板块走强，无板块但有妖则低位前排或者做妖。</p>
+<p><strong>如果寻找确定性</strong></p>
+<p>一是打板，二是做核心（预判点，走强点，打的板要么位置，要么人气股性)<br>a.为什么一定要打板?<br>确定性(效率)好行情不打板太容易错失机会，烂行情不打板太容易犯错。鸡肋行情本身没有做的必要，浪费精力。当然有的确定性追高等同于打板。<br>b.为什么一定要做核心?<br>和打板一样，确定性(效率)问题。个股而言，市场地位最重要。<br>c.下降趋势不做，只做主升，主升品种容错率最高。轮动到下降趋势的品种做起来也要控制仓位，暴风哥吗？<br>以前的问题:过于深究对市场的理解，什么小机会都要抓，反倒做不好。<br>紧抓核心，做打板就行，5月份杀跌那波反抽，就等雄安高板块情绪点就行了。<br>(本质就那些，关键什么时候注重哪个变量要注意，最先最重要)</p>
+<p><strong>如何避免最容易亏钱的情形</strong></p>
+<p>a.最有赚钱效应板块的对立面。</p>
+<p>b.末期机会风险，收益大，做错代价也大，一定要追求确定性<br>c.非主流冷门，自认为低风险而重仓，往往因为情绪转差的时候才往那里思考，反倒亏损很大。<br>d.系统性风险<br>e.补跌，<br>f.市场情绪差抓一些小转折点，根本不能逆情绪。都从收益风险比，确定性考虑。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -2945,33 +2926,16 @@
       </tags>
   </entry>
   <entry>
-    <title>源道悟道分享</title>
-    <url>/posts/77168929/</url>
-    <content><![CDATA[<h4 id="（一）个人经历"><a href="#（一）个人经历" class="headerlink" title="（一）个人经历"></a>（一）个人经历</h4><p>2015年受赵老哥“8年一万倍”帖子影响进入短线圈子,2016年初正式开始打板,前期获利后信心爆棚,10万块开启职业炒股之旅,但2018-2019年遭遇严重亏损,从15万亏到4万,后因2019年短线环境回暖及自身交易策略调整实现资金增长,2020年在短线牛市中资金翻了20多倍,此后持续盈利。其认为短线存在稳定盈利方法,如同行业中从无到有产生众多成功案例,背后有可掌握的“道”。</p>
+    <title>游资作手新一语录</title>
+    <url>/posts/55f3aac9/</url>
+    <content><![CDATA[<p>1，围着主线做，多研究龙头，研究涨停，不断积累，总结，反思等待进阶的到来。<br>2，炒股前期投入大，没有稳定盈利前尽量少投入资金多投入精力。刚入市不要想着赚钱要想着悟道。</p>
 <span id="more"></span>
 
-<p>七年前吧,我在上海参加了一个类似的聚会,我是剩下的这三个人之中做得最差的,另外两个人如今是龙虎榜上的常客,一个一瞬流光、一个叶子阿猪,现在资金体量,非常大,当时我们就说啊,短线市场,源源不断的产生这种从10万块钱,做到大几千万到上亿的人,不是用运气能解释的,就是存在一种方法如果掌握了,就一定能赚钱,那么这个方法是什么,就是你悟道悟得的这个道啊,是能复制的,才是真正的道。</p>
-<h4 id="（二）赚钱效应"><a href="#（二）赚钱效应" class="headerlink" title="（二）赚钱效应"></a>（二）赚钱效应</h4><p>我先举一个我读大学时候的例子,那个时候是电瓶车刚刚开始爆发的时候,往往一条街开了一家电瓶车店之后,马上就会有第2家、第3家、第4家、第5家疯狂的来开,包括像什么腾讯之类的企业,大家都知道,往往一个很火爆的游戏出来以后,它马上就去做一个类似的,虽然大家可能看不起这种,普遍对此有点意见,但是实际上它是获得了非常巨额的利润的,就拿去年11月份这个核心妖股日出东方来举个例子,它的核心是扩散了东方两个字,那么赚钱效应的术,就体现在这两个字的准确性和及时性上面,这个日出东方就体现了准确性这一点,我们事后都得知,实际上后续市场发散的是日出东方东方两个字,玄学炒作,但实际上日出东方是有非常多的属性的,它有华为储能,有这个光伏,反正就是各种杂七杂八的概念,它的标签是非常多的,你能不能在一只个股走出这种大牛股的行情时,准确把握它核心的赚钱本质是什么,这是非常考验你的个人功底的,及时性,赚钱效应出来的第一瞬间,你就应该发现并且参与,我们说一个龙头的赚钱效应扩散出去以后,第1个能赚钱,第2个、第3个能赚钱,难道第20个、第30个也能赚钱吗?这显然是不可能的,所以说,当你挖掘出这个赚钱效应之后,你必须要第1时间去把握到。<br>另外一个其实前面也有人提到,就是情绪周期,情绪周期也是悟道呀,人有生老病死,任何行业都有一个初生期,从蓝海到红海的演变变化的过程,对于一支股票来讲,从酝酿到加速、高潮、退潮,这个情绪周期实际上是在股市中无数次的重复,这几年我看的一些别人的公众号,其实很多人都在普及所谓的情绪周期和冰点战法,情绪的冰点,其实就是这个亏钱效应的极点,赚钱效应的低点;而周期的高点实际上就是赚钱效应的极致,亏钱效应的低点;这里我要强调一下,不要借助杠杆,有多少钱就用多少钱比如说,你如果判断了一段时间的这个情绪周期是向上的,那么肯定是要放大仓位,比如说仓位在5成甚至说在7成或满仓;如果说你判断目前是在一个下降周期,就比如说现在这个行情,就是大家肉眼可见的这个指数走势很差,然后整个情绪也很差,那么你就要控制仓位,比如说2成仓、3成仓,就以这种模式去进行一个短线的交易。这就是情绪周期的一个很直观的应用吧,反正这两点,就是我理解的放之四海而皆准的道理,其实还有很多类似的道理,其实每个行业,优秀的人具有的品质,你一样可以应用在股市中来,你把这个规律运用的好,至于说技术方面的东西,那肯定是要有,但是你一定要高屋建瓴的站在一个很高的角度去思考总结你的交易体系,那么你才能真正的做到控制回撤长期稳定的复利,我认为这是非常重要的一点,好,谢谢大家!</p>
-<h4 id="（三）情绪周期"><a href="#（三）情绪周期" class="headerlink" title="（三）情绪周期"></a>（三）情绪周期</h4><p>情绪周期类似各行业从初生到红海的演变,股市中股票从酝酿到加速、高潮、退潮不断重复,如美股十年牛市也有月线分歧周期,A股周期效应更明显。情绪周期与赚钱效应紧密相连,情绪冰点即亏钱效应极点和赚钱效应低点,周期高点则相反。可通过情绪周期进行仓位控制,判断向上时放大仓位（不借杠杆）,向下时控制仓位,如当前指数走势差、情绪不佳,应降低仓位。</p>
-<h4 id="四、现场问答"><a href="#四、现场问答" class="headerlink" title="四、现场问答"></a>四、现场问答</h4><h5 id="问题1-老师你好-您刚刚讲的这个赚钱效应-怎么应用这个东西非常困难-我现在就遇到这个问题-比如说在我们的市场做龙头-可能龙头的形式有连板的形式-现在又有断板的形式-还有龙头的高度问题-这个赚钱效应有扩散的高度-还有下降的高度-这个要怎么运用才能把握好-谢谢老师"><a href="#问题1-老师你好-您刚刚讲的这个赚钱效应-怎么应用这个东西非常困难-我现在就遇到这个问题-比如说在我们的市场做龙头-可能龙头的形式有连板的形式-现在又有断板的形式-还有龙头的高度问题-这个赚钱效应有扩散的高度-还有下降的高度-这个要怎么运用才能把握好-谢谢老师" class="headerlink" title="问题1:老师你好,您刚刚讲的这个赚钱效应,怎么应用这个东西非常困难,我现在就遇到这个问题,比如说在我们的市场做龙头,可能龙头的形式有连板的形式,现在又有断板的形式,还有龙头的高度问题,这个赚钱效应有扩散的高度,还有下降的高度,这个要怎么运用才能把握好?谢谢老师!"></a>问题1:老师你好,您刚刚讲的这个赚钱效应,怎么应用这个东西非常困难,我现在就遇到这个问题,比如说在我们的市场做龙头,可能龙头的形式有连板的形式,现在又有断板的形式,还有龙头的高度问题,这个赚钱效应有扩散的高度,还有下降的高度,这个要怎么运用才能把握好?谢谢老师!</h5><p>回答:刚刚讲到一点是准确性,你刚刚问的这个赚钱效应实际上是概念化的,不具体的,你一定要把这个赚钱效应具体化,比如说,就对应到六一路,就是六一路的席位出现在龙虎榜上,第二天就能开一字,这就是非常具体可以执行的策略,<br>我再多说一点啊,比如前面的形态复制,有一段时间,高标的这个反包板非常非常赚钱,比如说反包,上来就是5个涨停,那么继续下一个反包板,可能是3个涨停,下一个高标的反包板,2个涨停,你如果准确的认识到,就是龙头高标第1次断板的第2天反包,一定能赚钱,那你就运用就行了呀,怎么会存在不能运用呢,对不对?你一定要把赚钱效应具体化。</p>
-<h5 id="问题2-我也代表一下我们的小散户-想问一下-上亿之前-几万块钱是怎么走出来这个艰难的困境的-很多人是坚持不下来啊-这怎么办啊老师-我好煎熬的呀"><a href="#问题2-我也代表一下我们的小散户-想问一下-上亿之前-几万块钱是怎么走出来这个艰难的困境的-很多人是坚持不下来啊-这怎么办啊老师-我好煎熬的呀" class="headerlink" title="问题2:我也代表一下我们的小散户,想问一下,上亿之前,几万块钱是怎么走出来这个艰难的困境的?很多人是坚持不下来啊,这怎么办啊老师,我好煎熬的呀"></a>问题2:我也代表一下我们的小散户,想问一下,上亿之前,几万块钱是怎么走出来这个艰难的困境的?很多人是坚持不下来啊,这怎么办啊老师,我好煎熬的呀</h5><p>回答:首先,我没有上亿，然后就是一个人适不适合这个炒股,你要自己试了才知道,但是你试了之后这个长期的失败啊,我觉得可能是不适合的,就拿我个人的经历来说,亏到了2018年,但是这个2019年行情氛围突然好转以后,我就开始迅速的爆炸性的收益出来了</p>
-<h5 id="问题3-老师你好-当出现了一个跌停后-它会不会反拉到反包-这种的情况-怎么去做分辨和判断"><a href="#问题3-老师你好-当出现了一个跌停后-它会不会反拉到反包-这种的情况-怎么去做分辨和判断" class="headerlink" title="问题3:老师你好,当出现了一个跌停后,它会不会反拉到反包,这种的情况,怎么去做分辨和判断?"></a>问题3:老师你好,当出现了一个跌停后,它会不会反拉到反包,这种的情况,怎么去做分辨和判断?</h5><p>回答:首先,我的交易模式就是打板,它不涨停,我是肯定不会去买的,反包板的例子来说,这个赚钱效应,它是逐级递减的,当一个反包板,走出了5个连板的高度之后,那么我们会认为这个周期会逐级下降到5个、3个、2个,高度是5板,你现在第3个板,可能明天就是很危险的,肯定就要快点走了你要有个周期性的认知,你必须站在一个高度的角度去认知这支股票能走多远。</p>
-<h5 id="问题4-在节点把控的时候-却很难把控-就是该收的时候收不住-如何在这个节点上面如何去收"><a href="#问题4-在节点把控的时候-却很难把控-就是该收的时候收不住-如何在这个节点上面如何去收" class="headerlink" title="问题4:在节点把控的时候,却很难把控,就是该收的时候收不住,如何在这个节点上面如何去收?"></a>问题4:在节点把控的时候,却很难把控,就是该收的时候收不住,如何在这个节点上面如何去收?</h5><p>回答:就是认知不到位的问题,比如说现在面前有一团火,我会去触碰它吗?肯定不会去触碰它啊。按过来如果说地下有1000块钱,你会不会去捡啊?那你肯定会去捡啊,你知道是个捡钱的机会了,你怎么可能不买呢?是不是捡钱的机会,就取决于你个人对股票市场的认知,你的认知到位了,你就一定觉得是捡钱,那你就一定会买。不敢买、手软了、或者说不敢下手,就是你认知不到位。</p>
-<h5 id="问题5-怎么样去把握情绪周期节点的判断-就是说冰点冰点冰点-那下一次如何去判断它的回暖以及周期的主线的开启"><a href="#问题5-怎么样去把握情绪周期节点的判断-就是说冰点冰点冰点-那下一次如何去判断它的回暖以及周期的主线的开启" class="headerlink" title="问题5:怎么样去把握情绪周期节点的判断,就是说冰点冰点冰点,那下一次如何去判断它的回暖以及周期的主线的开启?"></a>问题5:怎么样去把握情绪周期节点的判断,就是说冰点冰点冰点,那下一次如何去判断它的回暖以及周期的主线的开启?</h5><p>回答:因为目前我们的这个市场情绪、指数,它其实走的不一样的,比如说周四、周五这个指数很差,其实情绪是不差的,要判断真正的冰点,我认为是指数和情绪的共振杀跌,就是指数和情绪都非常非常差,且是处于一个杀跌周期的末期,对于普通投资者而言,我其实不建议去做冰点博弈的,因为这个冰点博弈啊,你成功了肯定是大肉,但是你一旦失败啊,你这个亏损,就拿上个星期来说,这种连板高标来说,动不动就是天地板,日内就亏20个点,第二天一字跌停,有几个人能扛得住这种30个点的亏损?我推荐的交易是顺周期交易,处于一个指数上涨的周期,情绪上涨的周期,你去做,有句老话对我影响很大,就是“行情好你多做,行情不好少做,少博弈冰点”。</p>
-<h5 id="问题6-有一些股市9-25分就涨停了-我怎么做他的跟随-怎么找到9-30分左右涨停的票"><a href="#问题6-有一些股市9-25分就涨停了-我怎么做他的跟随-怎么找到9-30分左右涨停的票" class="headerlink" title="问题6:有一些股市9:25分就涨停了,我怎么做他的跟随,怎么找到9:30分左右涨停的票"></a>问题6:有一些股市9:25分就涨停了,我怎么做他的跟随,怎么找到9:30分左右涨停的票</h5><p>回答:我现在基本上全市场80%的股票我都能知道它是干什么的,主营业务是什么,有什么题材属性,我不需要去看任何的复盘,就这个股票代码跳出来我就知道它是干什么的,这个是非常重要的一个素质 我每天复盘这100多只股票,总共就四五千只股票嘛,看上个一年,难道你每只股票还认不清吗?你如果说没有这种信息搜集能力啊,那么说你还是需要锻炼。</p>
-<h5 id="问题7-量化跟情绪周期之间-不知道老师这个地方是怎么考虑的"><a href="#问题7-量化跟情绪周期之间-不知道老师这个地方是怎么考虑的" class="headerlink" title="问题7:量化跟情绪周期之间,不知道老师这个地方是怎么考虑的?"></a>问题7:量化跟情绪周期之间,不知道老师这个地方是怎么考虑的?</h5><p>回答:我认为量化影响最大的不是情绪周期,而是赚钱效应,为什么这么说呢,当一个龙头高标走出这个赚钱效应之后,量化是可以疯狂的复制这种赚钱效应的,所以说我们现在看这个市场的行情,当一支龙头股百万手封单一字涨停的时候,整个板块的助攻力度是远远强于前面几年的,就是因为量化在挖掘它的属性,比如说杂七杂八AI眼镜什么的,各种概念,它只要抓住了这个关键属性,比如AI眼镜或者什么杂七杂八概念,马上就去复制,所以说如何去应对,我个人的理解就是你对这个赚钱效应的准确性上面有更进一步的提高,有一些属性的赚钱效应它是在递减的,那么同时也有一些属性的赚钱效应它是在增加的。</p>
-<h5 id="反问-对于做中位-比如我们做3进4-或者做5板的选手来说-经常就会出现这种很惨的A杀-是量化在里面削弱了我们市场一些做多资金的做多力度"><a href="#反问-对于做中位-比如我们做3进4-或者做5板的选手来说-经常就会出现这种很惨的A杀-是量化在里面削弱了我们市场一些做多资金的做多力度" class="headerlink" title="反问:对于做中位,比如我们做3进4,或者做5板的选手来说,经常就会出现这种很惨的A杀,是量化在里面削弱了我们市场一些做多资金的做多力度?"></a>反问:对于做中位,比如我们做3进4,或者做5板的选手来说,经常就会出现这种很惨的A杀,是量化在里面削弱了我们市场一些做多资金的做多力度?</h5><p>回答:量化肯定是有影响的,但是你如果说到情绪周期啊,前面分享末尾我提到过一句话——行情好多做,行情好少做。我没有听到过9月底、10月份、11月份有人会去骂量化的,骂量化的都是最近媒体集中爆发,为什么呢?因为这个行情差了,你还想着去收割别人,对不对?这本来这行情这么差,你还想去收割别人,你就是互相捅刀子呀,就是每个高手之间,你捅我一刀我捅你一刀,对不对?你不参与啊,就等这个周期向上的时候你再参与啊。</p>
-<h5 id="问题8-您关于卖点的这个就是参考哪些依据-经常卖飞或者是经常卖在地板上-这个方面您有什么心得可以分享"><a href="#问题8-您关于卖点的这个就是参考哪些依据-经常卖飞或者是经常卖在地板上-这个方面您有什么心得可以分享" class="headerlink" title="问题8:您关于卖点的这个就是参考哪些依据 经常卖飞或者是经常卖在地板上,这个方面您有什么心得可以分享?"></a>问题8:您关于卖点的这个就是参考哪些依据 经常卖飞或者是经常卖在地板上,这个方面您有什么心得可以分享?</h5><p>回答:这个卖出啊,首先你要有市场的准确预期,这支股票第二天会怎么走,一个板块爆发,它的龙一第二天是不是开一字板,比如说有30个以上的助攻,那龙一是毫无疑问的一字板,那么你如果买了这个龙一,第二天没有开一字,是不是就不及预期了呢?那不就是标准卖点吗?如果说它不加速,那么就说明这个行情是有问题的,就一定是要卖出的,我认为我的卖点,如果说符合或者超出我的预期,我都会选择持有,只有一种情况,就是说低于我的预期,我肯定是毫不犹豫的就会卖掉。</p>
-<h5 id="问题9-像我们这种职业做的-行情好的时候其实感觉大家收益都差不多-其实差距应该是在行情不好的时候-就一下就拉出来了-就在这种行情不好的时候-您一般是通过什么方式来应对这种不好的行情的"><a href="#问题9-像我们这种职业做的-行情好的时候其实感觉大家收益都差不多-其实差距应该是在行情不好的时候-就一下就拉出来了-就在这种行情不好的时候-您一般是通过什么方式来应对这种不好的行情的" class="headerlink" title="问题9:像我们这种职业做的,行情好的时候其实感觉大家收益都差不多,其实差距应该是在行情不好的时候,就一下就拉出来了,就在这种行情不好的时候,您一般是通过什么方式来应对这种不好的行情的?"></a>问题9:像我们这种职业做的,行情好的时候其实感觉大家收益都差不多,其实差距应该是在行情不好的时候,就一下就拉出来了,就在这种行情不好的时候,您一般是通过什么方式来应对这种不好的行情的?</h5><p>回答:我最长的空仓记录,不是出去玩那种空仓,而是坐到电脑面前认真看股票,最长的空仓记录有一个月,我能做到坐到电脑前面一个月看股票但是不买任何股票。我认为空仓是短线龙空龙选手必须要学会的一个重要的方法。</p>
-<h5 id="问题10-从从开盘到集合竞价这短短的十分钟之内-这个票它要不要打板的因素有哪些-特别是对当前这种量化高开秒板的这种情况"><a href="#问题10-从从开盘到集合竞价这短短的十分钟之内-这个票它要不要打板的因素有哪些-特别是对当前这种量化高开秒板的这种情况" class="headerlink" title="问题10:从从开盘到集合竞价这短短的十分钟之内,这个票它要不要打板的因素有哪些?特别是对当前这种量化高开秒板的这种情况?"></a>问题10:从从开盘到集合竞价这短短的十分钟之内,这个票它要不要打板的因素有哪些?特别是对当前这种量化高开秒板的这种情况?</h5><p>回答:我会去做加速板,我就讲讲我做加速板的逻辑,其实这个和我的卖点是一样的,这个股票应不应该第二天加速,是我在前一天重点思考的问题,假设,在我的预期里面昨天是一个情绪+指数共振性周期性上涨的关键节点,那么这种票第二天就该加速,它成功加速了,高开7个点直接秒板,那我毫不犹豫会直接扫板,你本来就预期开的很低 例如3个点开,结果它高开了7个点冲板了,超预期了,完全是在你的这个交易体系中不存在的,你可能就受到它的诱惑,暴涨了,那肯定是不应该买的。</p>
-<h5 id="反问-它直接高开8个点9个点-这个时候就非常的纠结-它这个上板该不该去打"><a href="#反问-它直接高开8个点9个点-这个时候就非常的纠结-它这个上板该不该去打" class="headerlink" title="反问:它直接高开8个点9个点,这个时候就非常的纠结,它这个上板该不该去打?"></a>反问:它直接高开8个点9个点,这个时候就非常的纠结,它这个上板该不该去打?</h5><p>回答:就拿张表格嘛,自己去打印,这个是涨停板嘛,几点几分涨停的,然后你就在后面标注,明天我预判竞价高开5个点就写个+5,或者+3、平开0、低开-3你全部都写上,第二天你一个个去验证你判断对不对,这个工作对你对市场的理解会比较好。</p>
-<h5 id="问题11-这个龙空龙的话-比方说-就是2024年12月份从下半个月-从中旬开始吧-就行情不是太好-这个时候您空仓了吗"><a href="#问题11-这个龙空龙的话-比方说-就是2024年12月份从下半个月-从中旬开始吧-就行情不是太好-这个时候您空仓了吗" class="headerlink" title="问题11:这个龙空龙的话,比方说,就是2024年12月份从下半个月,从中旬开始吧,就行情不是太好,这个时候您空仓了吗?"></a>问题11:这个龙空龙的话,比方说,就是2024年12月份从下半个月,从中旬开始吧,就行情不是太好,这个时候您空仓了吗?</h5><p>回答:我有空仓,也有大亏,我也有亏。</p>
-<h5 id="反问-你是彻底不看盘了-还是你盯着盘让自己空仓-我觉得你很牛逼啊能空仓不买"><a href="#反问-你是彻底不看盘了-还是你盯着盘让自己空仓-我觉得你很牛逼啊能空仓不买" class="headerlink" title="反问:你是彻底不看盘了,还是你盯着盘让自己空仓?我觉得你很牛逼啊能空仓不买"></a>反问:你是彻底不看盘了,还是你盯着盘让自己空仓?我觉得你很牛逼啊能空仓不买</h5><p>回答:一定是盯盘空仓,而不是不看盘空仓。能控制住自己的交易欲望,那么你才有价值嘛。我个人的经历就是真的是亏得太多了,亏多了以后你就知道这个时候就该空仓啊,亏怕了之后就产生这种生理反应了。</p>
-<h5 id="问题12-简单就AI来说的-它从下游中游到上游-这是一个阶段性的-然后从硬件炒到软件-再到应用层-我想确认一下-刚刚所说的赚钱效应-因为中百集团是这一波的高度-比如它还没有打破前面双成的二波七板高度-所以的话电光炸板之后-是不是可以接-他就是有这个赚钱效应了-因为它是跟随中百一起走过来的-是不是可以在当天它跌停的时候介入"><a href="#问题12-简单就AI来说的-它从下游中游到上游-这是一个阶段性的-然后从硬件炒到软件-再到应用层-我想确认一下-刚刚所说的赚钱效应-因为中百集团是这一波的高度-比如它还没有打破前面双成的二波七板高度-所以的话电光炸板之后-是不是可以接-他就是有这个赚钱效应了-因为它是跟随中百一起走过来的-是不是可以在当天它跌停的时候介入" class="headerlink" title="问题12:简单就AI来说的,它从下游中游到上游,这是一个阶段性的,然后从硬件炒到软件,再到应用层,我想确认一下,刚刚所说的赚钱效应,因为中百集团是这一波的高度,比如它还没有打破前面双成的二波七板高度,所以的话电光炸板之后,是不是可以接,他就是有这个赚钱效应了,因为它是跟随中百一起走过来的,是不是可以在当天它跌停的时候介入"></a>问题12:简单就AI来说的,它从下游中游到上游,这是一个阶段性的,然后从硬件炒到软件,再到应用层,我想确认一下,刚刚所说的赚钱效应,因为中百集团是这一波的高度,比如它还没有打破前面双成的二波七板高度,所以的话电光炸板之后,是不是可以接,他就是有这个赚钱效应了,因为它是跟随中百一起走过来的,是不是可以在当天它跌停的时候介入</h5><p>回答:我的理解就是周四就是一个情绪达到高点了,虽然说指数下跌,但是周四电光科技那个地天板,是一个买点,不管是跌停,哪怕是涨停也是我的一个买点,因为周四开盘开出来,以中百集团、东百集团、来伊份为代表的它们三个的一个弱转强啊,那就时以他们那三个为代表的打出了上午的一个情绪高点,所以在这种情绪高点,尤其是在元旦节前的一天,指数情绪是非常差的,不是3连阴嘛,你短线情绪能给出这么强烈的一个正反馈,那么在我的模式中是个标准的买点</p>
-<h5 id="问题13-你说行情好多做-行情差少做-是不是说你认为的行情好的时候多做-你认为的行情不好的时候少做-是这个意思吗"><a href="#问题13-你说行情好多做-行情差少做-是不是说你认为的行情好的时候多做-你认为的行情不好的时候少做-是这个意思吗" class="headerlink" title="问题13:你说行情好多做,行情差少做,是不是说你认为的行情好的时候多做,你认为的行情不好的时候少做?是这个意思吗?"></a>问题13:你说行情好多做,行情差少做,是不是说你认为的行情好的时候多做,你认为的行情不好的时候少做?是这个意思吗?</h5><p>回答:实际上是有个客观标准的,什么客观标准啊,我们怎么去判断一个行情好与坏,比如说昨天的一个爆量分歧板,假设它是一个有代表性的个股,第二天弱转强,实际上这就是短线周期性的一个转好的节点,对应到周四就是中百集团我看各大股票群都说要去核死它,说要去核它,结果第二天呢,直接高开高走秒板,在如此负面舆论的发酵下,还能走出这种强烈的赚钱效应,那么不就是行情好的一个很客观的标准吗?你不能自己去想啊,自己去想什么明天行情好,明天行情差,那一定是要有个标杆的,这个标杆就是旗帜,就是龙头,龙头的弱转强,就是旗帜性的引领,就是行情好转的标志。</p>
-<h5 id="反问-那么这个从空到上的这个迅速转变-怎从空到猛干"><a href="#反问-那么这个从空到上的这个迅速转变-怎从空到猛干" class="headerlink" title="反问:那么这个从空到上的这个迅速转变,怎从空到猛干?"></a>反问:那么这个从空到上的这个迅速转变,怎从空到猛干?</h5><p>回答:我自己也是本身落后于整个市场的,就是说行情突然涨好了,我也不可能就第一时间就上车,少赚钱永远比亏钱重要。哪怕最近一段时间比如说空仓了一个星期,行情突然一下转好了,我没有跟得上趟,那肯定就这个钱就赚不到嘛,那我赚不到前面3天的钱,我赚第4天、第5天的钱,赚的少点是没关系的,不亏钱就行。</p>
-<h5 id="反问-就说我宁可踏空了-也不应该有巨大的回撤-最终我慢半拍的话我要确定性-对不对？"><a href="#反问-就说我宁可踏空了-也不应该有巨大的回撤-最终我慢半拍的话我要确定性-对不对？" class="headerlink" title="反问:就说我宁可踏空了,也不应该有巨大的回撤,最终我慢半拍的话我要确定性,对不对？"></a>反问:就说我宁可踏空了,也不应该有巨大的回撤,最终我慢半拍的话我要确定性,对不对？</h5><p>回答:对对对。<br>PS:得有纪律,纪律指的是仓位控制,行情差上仓位就完犊子了</p>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3hxLmxhbnpvdWUuY29tL2lQeUlJMmtsa2JtaA==">详细语音文件<i class="fa fa-external-link-alt"></i></span>密码:6666</p>
+<p>3，悟道的理解因人而异吧，于初入市小散来说，对市场有很好的认知和理解，能持续从市场赚钱，虽有反复，但始终能及时控制。<br>4，做涨停更有效率更确定，能力不足时需要这些。<br>5，涨停开了就开了，标的选择符合自己模式就行了。<br>6，熊市比的不是快而是稳，你既然有在熊市超短的斗志，那你也要有在这种市场发现确定性机会的能力，这种确定性不光是概率，还有实效性和高盈亏比。满仓出击，要有确定性。<br>7，熊市比的是稳定性，不是牛市，多在选股和节奏上做文章。<br>8，我现在擅长和  amp; amp; 交易本能还是做涨停，低吸是应市场而生的策略，也是顺着市场节奏低吸绝对热门股。</p>
+<p>9，小资金，我这种级别的资金，包括一亿内的资金都可以等盘面出现反转动作时再出手。<br>10，索罗斯所说的，判断对错不重要，关键是对的时候我能赚多少，亏的时候我亏多少！<br>11，我低吸盾安  的时候做了当天大盘破位它跌停，周一重仓加的准备的。<br>12，小资金控制回撤难在控仓，不控仓回撤必然大，无论何种模式！所以小资金在行情好赚钱的时候要拼命赚，以功代守（但也不是说不控仓）；<br>13，15年以前的以小做大阶段，我的操盘临盘选择的交易很多，强势股超预期，涨停板打开的票，分时穿云箭，超预期高开，盘中资金的板块切换这些强势买点都是盘中给你的，这些买点的选择都需要盘感和眼光。</p>
+<p>14，技术分析我基本只看k线图形、均线、量能，其实人气逆转在标的的选择时还是很考究这些的。<br>15，游资重要的不是预判消息，而是消息出来后的应变。<br>16，有时候你选好股，觉得很有短线交易价值，可为什么不动呢，为什么没有大资金把它打上去呢，那是因为大资金买股票比你更讲究时机，也更讲究确定性。底下要不到筹码，封住涨停筹码要够了，还要顾及明天的承接，主线和分支的关系要照顾，既要围绕主流又要做好切换，要维护自己的江湖地位，也要局部战役全身而退…这些矛盾都是这个市场生态中不同的体量资金需要考虑的，而1000万以内的资金分仓做，根本不需要考虑这些，所以说为什么只有结构性大热点，牛市才能成就亿级资金，因为仓位。深刻理解仓位二字是理解大资金的行为逻辑的开始。</p>
+<p>17，市场趋势向下时我的仓位控制，对杂毛机会的屏蔽做的的很好。<br>18，只有有外挂的股票打出空间打出赚钱效应才能由点带面。<br>19，我认识的几个做短线亏钱厉害的都是盘中管不住手，买了杂毛买点，真的机会来了没票子了，提高自己的判断和定力，别无他途，你就告诉自己，短线乱打是回归赤贫的捷径。<br>20，正确的决定永远不嫌迟。<br>21，妖股的逻辑其实无需多讲，就是人心思涨又找不到逻辑，唯有靠超跌妖股先打出赚钱效应，既然要打出赚钱效应空间就要拓开。<br>22，牛股更多是考量板块契机，和自身形态，位置，题材，分时让你决定上的其中一个因素。<br>23，股票不是从你争我夺的收割中获益的，利润来自对价值的发掘，对人性的纠错。<br>24，在这个市场你的核心竞争力是思维  见识和执行力，自我成长也该是围着这两点进行。<br>25，个人攻击爆表的亏了，打回来。攻击不够（主要是牛股眼光和把握能力）就在利润出现回撤时谨慎起来，等待自己积累的确定模式或大盘有利时。<br>26，股市最好的地方就是不缺机会，再绝望时一根大阳线就改变三观了。<br>27，行情不好很少超过1&#x2F;10仓位。<br>28，我的理解是理解投机的价值，你买了然后接你棒的人还会有念想！<br>29，好的超短选手复盘要选股，盘中更要选股<br>30，捕捉大资金承载票，这种票和龙头一样不会每天都有，讲究逻辑要绝对主流，成交要大，小票打的欢时大资金看的蛋疼需要这样的票作为火力输出的。<br>31，这个市场不在主线的追涨都是自己找难受，封住了第二天也没接力。</p>
+<p>32，图形很重要，绝世美女肯定是各方面俱佳，看图形好比远观女人身段，查股本，题材，行业好比近观女人的容颜身材，炒作过程的内核节奏理解好比交往了解女人内涵！<br>33，逻辑内核是最强源动力。<br>34，培根大师的话，在这个市场，狡诈者轻鄙逻辑,愚鲁者羡慕逻辑,唯聪明者善于运用逻辑！而最后集大成者都是不断修行的聪明人。<br>35，小资金，有天赋最好是以攻代守，因为现实会给你压力；能力不够的就少投入资金，边学边练！<br>36，鉴别烂板价值，关键是理解逻辑，了解公司质地！这些是决定分歧后方向的内核，情绪博弈越来越需要结合股票内在价值了。纯粹操作情绪的分歧转一致当天板了，隔夜一冷静啥都明白了。<br>37，索罗斯说，世界经济史是一部基于假象和谎言的连续剧。要获得财富，做法就是认清其假象，投入其中，然后在假象被公众认知之前退出游戏。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -2999,6 +2963,42 @@
 <p>（1）牛市的运行节奏为慢涨急跌，熊市为慢跌急涨。 有人提出牛市持股利润最大，实际上是书呆子语言，牛市避不开急跌基本就赚不到钱。牛市在短时间的跌幅不比熊市少。 </p>
 <p>（2）熊市下跌无量，股价呆滞，牛市下跌有量，股价活跃。</p>
 <p>（3）不管怎么大跌，牛市中总有大量股票不断创新高。 所以有牛市不做超跌做抗跌的说法。基金做的票，涨势没有连续性。长阳都少见，更别说涨停了。但如能形成短期的上涨趋势，不用追涨，买它的阴线就行了。<br>个人看法，一涨一跌总有人出来判断后市多空。实际都是假老练。是涨是跌，是多是空，毫无意义，判断市场不需要这些，确定市场强弱才操作是根本。 在弱市市场（持续80亿以下），任何人都是亏多赢少。在强势市场（持续120亿以上，单指上海），大部分人都能赢多亏少。这就是规律。在大盘正在下跌时期,不操作是最好的操作. 最大的风险是补跌,它甚至比抢反弹的风险更大. —下跌不做上涨满仓（看涨幅榜） 经常为多空判断争论得不可开交,职业短线者大可不必理会.实际上在下跌末期,成交已经开始持续放大,强势板块已经开始想上运行,赚钱效应也开始显现.趋势上虽然还看不出来,但通过盘面已经可以看出强势特征的征兆.在舆论和股评还在看空的时候,职业短线者可以结束修假考虑进场找感觉了.超短线在强势中,系统的限制条件可适当放宽.在跌势中必须严格又严格. 今年很多个股的炒做都是这样.其中并无主力庄家.只是走出来后,得到市场各路资金的认同.行情好时我都是满仓滚动操做，因为这时亏钱概率小。不好时应尽量轻仓小玩玩大盘急跌告一段落，可以做一做大盘的反弹行情。<br>选股方面，牛市的思路不应做超跌，而应做抗跌。大盘一稳，抗跌品种的行情远远大于超跌。抗跌品种分两种，真抗跌，假抗跌。真抗跌要大涨，假抗跌要补跌，欲下先上，假突破再补跌。能分清楚全靠经验，亏出来的经验。 牛市的思路不应做超跌，而应做抗跌行内有句名言，看对三日行情，便可富可敌国。隔日交易的基础只是看对两日走势就行。所以不会富可敌国，可以只能挣点小钱。两日走势包括看对当日大盘和目标个股走势。看对次日大盘和目标个股走势。在看对的基础上再追求做对。 超短线确定性大 过多的随意性操作是隔日交易收益不稳定的主要因素。因此超短线的计划性越来越重要，做有计划的超短线在我现在的交易中越来越多。盘后静态选股远比盘中动态选股要重要。其操作出来的成功率要高得多。实盘小单多练，然后在形成一套操作系统。 股价上涨和下跌的内因是资金的注入和流出。成长和 高业绩只是诱使资金注入的一个因素，而不是全部。再好的成长和业绩，资金源源不段的流出，股价一样要跌。操作的要点只有两条。弱市忍手不住，强市踩准节奏。交易之道没有捷径，只能炼，不然的话，卖股经的不早发了。没有捷径,也没什么秘诀.<br>12、 以前看一位朋友以前写过一个帖《我想成为一路游资》以前也零零散散总结过一些，归纳一下有几个大的要点：<br>第一，信念，志向。这个不多讲，很玄但又很重要， 成就高低往往和这个有关。<br>第二，专注，专业。专注于一种方法， 一种模式，贵在精一，重在坚持。把你赚钱的模式发挥到极致。<br>第三，寻师访友。有师傅带可以少走弯路。也是学的捷径。多走走多看看你会发现， 水平越高越谦虚，资金越大越平和。<br>第四 ，控制、理解。在两方面的不断用功，加强，进步，达到一种微妙的平衡可步入超一流高手行列。<br>第五，反复。总有一个错误等着你。无论任何阶段都有新问题让你出现亏损，这个是无法避免的事。需要正确认识和理解。这个阶段需要通过不断的领悟，反思，反省这个来解决这个问题。<br>第六，持续。这个阶段基本对所有的一切了然于心，出现问题会警觉，大赚大赢也不高估自己。不追求完美， 淡然接受盈亏，市值持续增长，无论牛熊， 资金一路新高。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>游资成神录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>源道悟道分享</title>
+    <url>/posts/77168929/</url>
+    <content><![CDATA[<h4 id="（一）个人经历"><a href="#（一）个人经历" class="headerlink" title="（一）个人经历"></a>（一）个人经历</h4><p>2015年受赵老哥“8年一万倍”帖子影响进入短线圈子,2016年初正式开始打板,前期获利后信心爆棚,10万块开启职业炒股之旅,但2018-2019年遭遇严重亏损,从15万亏到4万,后因2019年短线环境回暖及自身交易策略调整实现资金增长,2020年在短线牛市中资金翻了20多倍,此后持续盈利。其认为短线存在稳定盈利方法,如同行业中从无到有产生众多成功案例,背后有可掌握的“道”。</p>
+<span id="more"></span>
+
+<p>七年前吧,我在上海参加了一个类似的聚会,我是剩下的这三个人之中做得最差的,另外两个人如今是龙虎榜上的常客,一个一瞬流光、一个叶子阿猪,现在资金体量,非常大,当时我们就说啊,短线市场,源源不断的产生这种从10万块钱,做到大几千万到上亿的人,不是用运气能解释的,就是存在一种方法如果掌握了,就一定能赚钱,那么这个方法是什么,就是你悟道悟得的这个道啊,是能复制的,才是真正的道。</p>
+<h4 id="（二）赚钱效应"><a href="#（二）赚钱效应" class="headerlink" title="（二）赚钱效应"></a>（二）赚钱效应</h4><p>我先举一个我读大学时候的例子,那个时候是电瓶车刚刚开始爆发的时候,往往一条街开了一家电瓶车店之后,马上就会有第2家、第3家、第4家、第5家疯狂的来开,包括像什么腾讯之类的企业,大家都知道,往往一个很火爆的游戏出来以后,它马上就去做一个类似的,虽然大家可能看不起这种,普遍对此有点意见,但是实际上它是获得了非常巨额的利润的,就拿去年11月份这个核心妖股日出东方来举个例子,它的核心是扩散了东方两个字,那么赚钱效应的术,就体现在这两个字的准确性和及时性上面,这个日出东方就体现了准确性这一点,我们事后都得知,实际上后续市场发散的是日出东方东方两个字,玄学炒作,但实际上日出东方是有非常多的属性的,它有华为储能,有这个光伏,反正就是各种杂七杂八的概念,它的标签是非常多的,你能不能在一只个股走出这种大牛股的行情时,准确把握它核心的赚钱本质是什么,这是非常考验你的个人功底的,及时性,赚钱效应出来的第一瞬间,你就应该发现并且参与,我们说一个龙头的赚钱效应扩散出去以后,第1个能赚钱,第2个、第3个能赚钱,难道第20个、第30个也能赚钱吗?这显然是不可能的,所以说,当你挖掘出这个赚钱效应之后,你必须要第1时间去把握到。<br>另外一个其实前面也有人提到,就是情绪周期,情绪周期也是悟道呀,人有生老病死,任何行业都有一个初生期,从蓝海到红海的演变变化的过程,对于一支股票来讲,从酝酿到加速、高潮、退潮,这个情绪周期实际上是在股市中无数次的重复,这几年我看的一些别人的公众号,其实很多人都在普及所谓的情绪周期和冰点战法,情绪的冰点,其实就是这个亏钱效应的极点,赚钱效应的低点;而周期的高点实际上就是赚钱效应的极致,亏钱效应的低点;这里我要强调一下,不要借助杠杆,有多少钱就用多少钱比如说,你如果判断了一段时间的这个情绪周期是向上的,那么肯定是要放大仓位,比如说仓位在5成甚至说在7成或满仓;如果说你判断目前是在一个下降周期,就比如说现在这个行情,就是大家肉眼可见的这个指数走势很差,然后整个情绪也很差,那么你就要控制仓位,比如说2成仓、3成仓,就以这种模式去进行一个短线的交易。这就是情绪周期的一个很直观的应用吧,反正这两点,就是我理解的放之四海而皆准的道理,其实还有很多类似的道理,其实每个行业,优秀的人具有的品质,你一样可以应用在股市中来,你把这个规律运用的好,至于说技术方面的东西,那肯定是要有,但是你一定要高屋建瓴的站在一个很高的角度去思考总结你的交易体系,那么你才能真正的做到控制回撤长期稳定的复利,我认为这是非常重要的一点,好,谢谢大家!</p>
+<h4 id="（三）情绪周期"><a href="#（三）情绪周期" class="headerlink" title="（三）情绪周期"></a>（三）情绪周期</h4><p>情绪周期类似各行业从初生到红海的演变,股市中股票从酝酿到加速、高潮、退潮不断重复,如美股十年牛市也有月线分歧周期,A股周期效应更明显。情绪周期与赚钱效应紧密相连,情绪冰点即亏钱效应极点和赚钱效应低点,周期高点则相反。可通过情绪周期进行仓位控制,判断向上时放大仓位（不借杠杆）,向下时控制仓位,如当前指数走势差、情绪不佳,应降低仓位。</p>
+<h4 id="四、现场问答"><a href="#四、现场问答" class="headerlink" title="四、现场问答"></a>四、现场问答</h4><h5 id="问题1-老师你好-您刚刚讲的这个赚钱效应-怎么应用这个东西非常困难-我现在就遇到这个问题-比如说在我们的市场做龙头-可能龙头的形式有连板的形式-现在又有断板的形式-还有龙头的高度问题-这个赚钱效应有扩散的高度-还有下降的高度-这个要怎么运用才能把握好-谢谢老师"><a href="#问题1-老师你好-您刚刚讲的这个赚钱效应-怎么应用这个东西非常困难-我现在就遇到这个问题-比如说在我们的市场做龙头-可能龙头的形式有连板的形式-现在又有断板的形式-还有龙头的高度问题-这个赚钱效应有扩散的高度-还有下降的高度-这个要怎么运用才能把握好-谢谢老师" class="headerlink" title="问题1:老师你好,您刚刚讲的这个赚钱效应,怎么应用这个东西非常困难,我现在就遇到这个问题,比如说在我们的市场做龙头,可能龙头的形式有连板的形式,现在又有断板的形式,还有龙头的高度问题,这个赚钱效应有扩散的高度,还有下降的高度,这个要怎么运用才能把握好?谢谢老师!"></a>问题1:老师你好,您刚刚讲的这个赚钱效应,怎么应用这个东西非常困难,我现在就遇到这个问题,比如说在我们的市场做龙头,可能龙头的形式有连板的形式,现在又有断板的形式,还有龙头的高度问题,这个赚钱效应有扩散的高度,还有下降的高度,这个要怎么运用才能把握好?谢谢老师!</h5><p>回答:刚刚讲到一点是准确性,你刚刚问的这个赚钱效应实际上是概念化的,不具体的,你一定要把这个赚钱效应具体化,比如说,就对应到六一路,就是六一路的席位出现在龙虎榜上,第二天就能开一字,这就是非常具体可以执行的策略,<br>我再多说一点啊,比如前面的形态复制,有一段时间,高标的这个反包板非常非常赚钱,比如说反包,上来就是5个涨停,那么继续下一个反包板,可能是3个涨停,下一个高标的反包板,2个涨停,你如果准确的认识到,就是龙头高标第1次断板的第2天反包,一定能赚钱,那你就运用就行了呀,怎么会存在不能运用呢,对不对?你一定要把赚钱效应具体化。</p>
+<h5 id="问题2-我也代表一下我们的小散户-想问一下-上亿之前-几万块钱是怎么走出来这个艰难的困境的-很多人是坚持不下来啊-这怎么办啊老师-我好煎熬的呀"><a href="#问题2-我也代表一下我们的小散户-想问一下-上亿之前-几万块钱是怎么走出来这个艰难的困境的-很多人是坚持不下来啊-这怎么办啊老师-我好煎熬的呀" class="headerlink" title="问题2:我也代表一下我们的小散户,想问一下,上亿之前,几万块钱是怎么走出来这个艰难的困境的?很多人是坚持不下来啊,这怎么办啊老师,我好煎熬的呀"></a>问题2:我也代表一下我们的小散户,想问一下,上亿之前,几万块钱是怎么走出来这个艰难的困境的?很多人是坚持不下来啊,这怎么办啊老师,我好煎熬的呀</h5><p>回答:首先,我没有上亿，然后就是一个人适不适合这个炒股,你要自己试了才知道,但是你试了之后这个长期的失败啊,我觉得可能是不适合的,就拿我个人的经历来说,亏到了2018年,但是这个2019年行情氛围突然好转以后,我就开始迅速的爆炸性的收益出来了</p>
+<h5 id="问题3-老师你好-当出现了一个跌停后-它会不会反拉到反包-这种的情况-怎么去做分辨和判断"><a href="#问题3-老师你好-当出现了一个跌停后-它会不会反拉到反包-这种的情况-怎么去做分辨和判断" class="headerlink" title="问题3:老师你好,当出现了一个跌停后,它会不会反拉到反包,这种的情况,怎么去做分辨和判断?"></a>问题3:老师你好,当出现了一个跌停后,它会不会反拉到反包,这种的情况,怎么去做分辨和判断?</h5><p>回答:首先,我的交易模式就是打板,它不涨停,我是肯定不会去买的,反包板的例子来说,这个赚钱效应,它是逐级递减的,当一个反包板,走出了5个连板的高度之后,那么我们会认为这个周期会逐级下降到5个、3个、2个,高度是5板,你现在第3个板,可能明天就是很危险的,肯定就要快点走了你要有个周期性的认知,你必须站在一个高度的角度去认知这支股票能走多远。</p>
+<h5 id="问题4-在节点把控的时候-却很难把控-就是该收的时候收不住-如何在这个节点上面如何去收"><a href="#问题4-在节点把控的时候-却很难把控-就是该收的时候收不住-如何在这个节点上面如何去收" class="headerlink" title="问题4:在节点把控的时候,却很难把控,就是该收的时候收不住,如何在这个节点上面如何去收?"></a>问题4:在节点把控的时候,却很难把控,就是该收的时候收不住,如何在这个节点上面如何去收?</h5><p>回答:就是认知不到位的问题,比如说现在面前有一团火,我会去触碰它吗?肯定不会去触碰它啊。按过来如果说地下有1000块钱,你会不会去捡啊?那你肯定会去捡啊,你知道是个捡钱的机会了,你怎么可能不买呢?是不是捡钱的机会,就取决于你个人对股票市场的认知,你的认知到位了,你就一定觉得是捡钱,那你就一定会买。不敢买、手软了、或者说不敢下手,就是你认知不到位。</p>
+<h5 id="问题5-怎么样去把握情绪周期节点的判断-就是说冰点冰点冰点-那下一次如何去判断它的回暖以及周期的主线的开启"><a href="#问题5-怎么样去把握情绪周期节点的判断-就是说冰点冰点冰点-那下一次如何去判断它的回暖以及周期的主线的开启" class="headerlink" title="问题5:怎么样去把握情绪周期节点的判断,就是说冰点冰点冰点,那下一次如何去判断它的回暖以及周期的主线的开启?"></a>问题5:怎么样去把握情绪周期节点的判断,就是说冰点冰点冰点,那下一次如何去判断它的回暖以及周期的主线的开启?</h5><p>回答:因为目前我们的这个市场情绪、指数,它其实走的不一样的,比如说周四、周五这个指数很差,其实情绪是不差的,要判断真正的冰点,我认为是指数和情绪的共振杀跌,就是指数和情绪都非常非常差,且是处于一个杀跌周期的末期,对于普通投资者而言,我其实不建议去做冰点博弈的,因为这个冰点博弈啊,你成功了肯定是大肉,但是你一旦失败啊,你这个亏损,就拿上个星期来说,这种连板高标来说,动不动就是天地板,日内就亏20个点,第二天一字跌停,有几个人能扛得住这种30个点的亏损?我推荐的交易是顺周期交易,处于一个指数上涨的周期,情绪上涨的周期,你去做,有句老话对我影响很大,就是“行情好你多做,行情不好少做,少博弈冰点”。</p>
+<h5 id="问题6-有一些股市9-25分就涨停了-我怎么做他的跟随-怎么找到9-30分左右涨停的票"><a href="#问题6-有一些股市9-25分就涨停了-我怎么做他的跟随-怎么找到9-30分左右涨停的票" class="headerlink" title="问题6:有一些股市9:25分就涨停了,我怎么做他的跟随,怎么找到9:30分左右涨停的票"></a>问题6:有一些股市9:25分就涨停了,我怎么做他的跟随,怎么找到9:30分左右涨停的票</h5><p>回答:我现在基本上全市场80%的股票我都能知道它是干什么的,主营业务是什么,有什么题材属性,我不需要去看任何的复盘,就这个股票代码跳出来我就知道它是干什么的,这个是非常重要的一个素质 我每天复盘这100多只股票,总共就四五千只股票嘛,看上个一年,难道你每只股票还认不清吗?你如果说没有这种信息搜集能力啊,那么说你还是需要锻炼。</p>
+<h5 id="问题7-量化跟情绪周期之间-不知道老师这个地方是怎么考虑的"><a href="#问题7-量化跟情绪周期之间-不知道老师这个地方是怎么考虑的" class="headerlink" title="问题7:量化跟情绪周期之间,不知道老师这个地方是怎么考虑的?"></a>问题7:量化跟情绪周期之间,不知道老师这个地方是怎么考虑的?</h5><p>回答:我认为量化影响最大的不是情绪周期,而是赚钱效应,为什么这么说呢,当一个龙头高标走出这个赚钱效应之后,量化是可以疯狂的复制这种赚钱效应的,所以说我们现在看这个市场的行情,当一支龙头股百万手封单一字涨停的时候,整个板块的助攻力度是远远强于前面几年的,就是因为量化在挖掘它的属性,比如说杂七杂八AI眼镜什么的,各种概念,它只要抓住了这个关键属性,比如AI眼镜或者什么杂七杂八概念,马上就去复制,所以说如何去应对,我个人的理解就是你对这个赚钱效应的准确性上面有更进一步的提高,有一些属性的赚钱效应它是在递减的,那么同时也有一些属性的赚钱效应它是在增加的。</p>
+<h5 id="反问-对于做中位-比如我们做3进4-或者做5板的选手来说-经常就会出现这种很惨的A杀-是量化在里面削弱了我们市场一些做多资金的做多力度"><a href="#反问-对于做中位-比如我们做3进4-或者做5板的选手来说-经常就会出现这种很惨的A杀-是量化在里面削弱了我们市场一些做多资金的做多力度" class="headerlink" title="反问:对于做中位,比如我们做3进4,或者做5板的选手来说,经常就会出现这种很惨的A杀,是量化在里面削弱了我们市场一些做多资金的做多力度?"></a>反问:对于做中位,比如我们做3进4,或者做5板的选手来说,经常就会出现这种很惨的A杀,是量化在里面削弱了我们市场一些做多资金的做多力度?</h5><p>回答:量化肯定是有影响的,但是你如果说到情绪周期啊,前面分享末尾我提到过一句话——行情好多做,行情好少做。我没有听到过9月底、10月份、11月份有人会去骂量化的,骂量化的都是最近媒体集中爆发,为什么呢?因为这个行情差了,你还想着去收割别人,对不对?这本来这行情这么差,你还想去收割别人,你就是互相捅刀子呀,就是每个高手之间,你捅我一刀我捅你一刀,对不对?你不参与啊,就等这个周期向上的时候你再参与啊。</p>
+<h5 id="问题8-您关于卖点的这个就是参考哪些依据-经常卖飞或者是经常卖在地板上-这个方面您有什么心得可以分享"><a href="#问题8-您关于卖点的这个就是参考哪些依据-经常卖飞或者是经常卖在地板上-这个方面您有什么心得可以分享" class="headerlink" title="问题8:您关于卖点的这个就是参考哪些依据 经常卖飞或者是经常卖在地板上,这个方面您有什么心得可以分享?"></a>问题8:您关于卖点的这个就是参考哪些依据 经常卖飞或者是经常卖在地板上,这个方面您有什么心得可以分享?</h5><p>回答:这个卖出啊,首先你要有市场的准确预期,这支股票第二天会怎么走,一个板块爆发,它的龙一第二天是不是开一字板,比如说有30个以上的助攻,那龙一是毫无疑问的一字板,那么你如果买了这个龙一,第二天没有开一字,是不是就不及预期了呢?那不就是标准卖点吗?如果说它不加速,那么就说明这个行情是有问题的,就一定是要卖出的,我认为我的卖点,如果说符合或者超出我的预期,我都会选择持有,只有一种情况,就是说低于我的预期,我肯定是毫不犹豫的就会卖掉。</p>
+<h5 id="问题9-像我们这种职业做的-行情好的时候其实感觉大家收益都差不多-其实差距应该是在行情不好的时候-就一下就拉出来了-就在这种行情不好的时候-您一般是通过什么方式来应对这种不好的行情的"><a href="#问题9-像我们这种职业做的-行情好的时候其实感觉大家收益都差不多-其实差距应该是在行情不好的时候-就一下就拉出来了-就在这种行情不好的时候-您一般是通过什么方式来应对这种不好的行情的" class="headerlink" title="问题9:像我们这种职业做的,行情好的时候其实感觉大家收益都差不多,其实差距应该是在行情不好的时候,就一下就拉出来了,就在这种行情不好的时候,您一般是通过什么方式来应对这种不好的行情的?"></a>问题9:像我们这种职业做的,行情好的时候其实感觉大家收益都差不多,其实差距应该是在行情不好的时候,就一下就拉出来了,就在这种行情不好的时候,您一般是通过什么方式来应对这种不好的行情的?</h5><p>回答:我最长的空仓记录,不是出去玩那种空仓,而是坐到电脑面前认真看股票,最长的空仓记录有一个月,我能做到坐到电脑前面一个月看股票但是不买任何股票。我认为空仓是短线龙空龙选手必须要学会的一个重要的方法。</p>
+<h5 id="问题10-从从开盘到集合竞价这短短的十分钟之内-这个票它要不要打板的因素有哪些-特别是对当前这种量化高开秒板的这种情况"><a href="#问题10-从从开盘到集合竞价这短短的十分钟之内-这个票它要不要打板的因素有哪些-特别是对当前这种量化高开秒板的这种情况" class="headerlink" title="问题10:从从开盘到集合竞价这短短的十分钟之内,这个票它要不要打板的因素有哪些?特别是对当前这种量化高开秒板的这种情况?"></a>问题10:从从开盘到集合竞价这短短的十分钟之内,这个票它要不要打板的因素有哪些?特别是对当前这种量化高开秒板的这种情况?</h5><p>回答:我会去做加速板,我就讲讲我做加速板的逻辑,其实这个和我的卖点是一样的,这个股票应不应该第二天加速,是我在前一天重点思考的问题,假设,在我的预期里面昨天是一个情绪+指数共振性周期性上涨的关键节点,那么这种票第二天就该加速,它成功加速了,高开7个点直接秒板,那我毫不犹豫会直接扫板,你本来就预期开的很低 例如3个点开,结果它高开了7个点冲板了,超预期了,完全是在你的这个交易体系中不存在的,你可能就受到它的诱惑,暴涨了,那肯定是不应该买的。</p>
+<h5 id="反问-它直接高开8个点9个点-这个时候就非常的纠结-它这个上板该不该去打"><a href="#反问-它直接高开8个点9个点-这个时候就非常的纠结-它这个上板该不该去打" class="headerlink" title="反问:它直接高开8个点9个点,这个时候就非常的纠结,它这个上板该不该去打?"></a>反问:它直接高开8个点9个点,这个时候就非常的纠结,它这个上板该不该去打?</h5><p>回答:就拿张表格嘛,自己去打印,这个是涨停板嘛,几点几分涨停的,然后你就在后面标注,明天我预判竞价高开5个点就写个+5,或者+3、平开0、低开-3你全部都写上,第二天你一个个去验证你判断对不对,这个工作对你对市场的理解会比较好。</p>
+<h5 id="问题11-这个龙空龙的话-比方说-就是2024年12月份从下半个月-从中旬开始吧-就行情不是太好-这个时候您空仓了吗"><a href="#问题11-这个龙空龙的话-比方说-就是2024年12月份从下半个月-从中旬开始吧-就行情不是太好-这个时候您空仓了吗" class="headerlink" title="问题11:这个龙空龙的话,比方说,就是2024年12月份从下半个月,从中旬开始吧,就行情不是太好,这个时候您空仓了吗?"></a>问题11:这个龙空龙的话,比方说,就是2024年12月份从下半个月,从中旬开始吧,就行情不是太好,这个时候您空仓了吗?</h5><p>回答:我有空仓,也有大亏,我也有亏。</p>
+<h5 id="反问-你是彻底不看盘了-还是你盯着盘让自己空仓-我觉得你很牛逼啊能空仓不买"><a href="#反问-你是彻底不看盘了-还是你盯着盘让自己空仓-我觉得你很牛逼啊能空仓不买" class="headerlink" title="反问:你是彻底不看盘了,还是你盯着盘让自己空仓?我觉得你很牛逼啊能空仓不买"></a>反问:你是彻底不看盘了,还是你盯着盘让自己空仓?我觉得你很牛逼啊能空仓不买</h5><p>回答:一定是盯盘空仓,而不是不看盘空仓。能控制住自己的交易欲望,那么你才有价值嘛。我个人的经历就是真的是亏得太多了,亏多了以后你就知道这个时候就该空仓啊,亏怕了之后就产生这种生理反应了。</p>
+<h5 id="问题12-简单就AI来说的-它从下游中游到上游-这是一个阶段性的-然后从硬件炒到软件-再到应用层-我想确认一下-刚刚所说的赚钱效应-因为中百集团是这一波的高度-比如它还没有打破前面双成的二波七板高度-所以的话电光炸板之后-是不是可以接-他就是有这个赚钱效应了-因为它是跟随中百一起走过来的-是不是可以在当天它跌停的时候介入"><a href="#问题12-简单就AI来说的-它从下游中游到上游-这是一个阶段性的-然后从硬件炒到软件-再到应用层-我想确认一下-刚刚所说的赚钱效应-因为中百集团是这一波的高度-比如它还没有打破前面双成的二波七板高度-所以的话电光炸板之后-是不是可以接-他就是有这个赚钱效应了-因为它是跟随中百一起走过来的-是不是可以在当天它跌停的时候介入" class="headerlink" title="问题12:简单就AI来说的,它从下游中游到上游,这是一个阶段性的,然后从硬件炒到软件,再到应用层,我想确认一下,刚刚所说的赚钱效应,因为中百集团是这一波的高度,比如它还没有打破前面双成的二波七板高度,所以的话电光炸板之后,是不是可以接,他就是有这个赚钱效应了,因为它是跟随中百一起走过来的,是不是可以在当天它跌停的时候介入"></a>问题12:简单就AI来说的,它从下游中游到上游,这是一个阶段性的,然后从硬件炒到软件,再到应用层,我想确认一下,刚刚所说的赚钱效应,因为中百集团是这一波的高度,比如它还没有打破前面双成的二波七板高度,所以的话电光炸板之后,是不是可以接,他就是有这个赚钱效应了,因为它是跟随中百一起走过来的,是不是可以在当天它跌停的时候介入</h5><p>回答:我的理解就是周四就是一个情绪达到高点了,虽然说指数下跌,但是周四电光科技那个地天板,是一个买点,不管是跌停,哪怕是涨停也是我的一个买点,因为周四开盘开出来,以中百集团、东百集团、来伊份为代表的它们三个的一个弱转强啊,那就时以他们那三个为代表的打出了上午的一个情绪高点,所以在这种情绪高点,尤其是在元旦节前的一天,指数情绪是非常差的,不是3连阴嘛,你短线情绪能给出这么强烈的一个正反馈,那么在我的模式中是个标准的买点</p>
+<h5 id="问题13-你说行情好多做-行情差少做-是不是说你认为的行情好的时候多做-你认为的行情不好的时候少做-是这个意思吗"><a href="#问题13-你说行情好多做-行情差少做-是不是说你认为的行情好的时候多做-你认为的行情不好的时候少做-是这个意思吗" class="headerlink" title="问题13:你说行情好多做,行情差少做,是不是说你认为的行情好的时候多做,你认为的行情不好的时候少做?是这个意思吗?"></a>问题13:你说行情好多做,行情差少做,是不是说你认为的行情好的时候多做,你认为的行情不好的时候少做?是这个意思吗?</h5><p>回答:实际上是有个客观标准的,什么客观标准啊,我们怎么去判断一个行情好与坏,比如说昨天的一个爆量分歧板,假设它是一个有代表性的个股,第二天弱转强,实际上这就是短线周期性的一个转好的节点,对应到周四就是中百集团我看各大股票群都说要去核死它,说要去核它,结果第二天呢,直接高开高走秒板,在如此负面舆论的发酵下,还能走出这种强烈的赚钱效应,那么不就是行情好的一个很客观的标准吗?你不能自己去想啊,自己去想什么明天行情好,明天行情差,那一定是要有个标杆的,这个标杆就是旗帜,就是龙头,龙头的弱转强,就是旗帜性的引领,就是行情好转的标志。</p>
+<h5 id="反问-那么这个从空到上的这个迅速转变-怎从空到猛干"><a href="#反问-那么这个从空到上的这个迅速转变-怎从空到猛干" class="headerlink" title="反问:那么这个从空到上的这个迅速转变,怎从空到猛干?"></a>反问:那么这个从空到上的这个迅速转变,怎从空到猛干?</h5><p>回答:我自己也是本身落后于整个市场的,就是说行情突然涨好了,我也不可能就第一时间就上车,少赚钱永远比亏钱重要。哪怕最近一段时间比如说空仓了一个星期,行情突然一下转好了,我没有跟得上趟,那肯定就这个钱就赚不到嘛,那我赚不到前面3天的钱,我赚第4天、第5天的钱,赚的少点是没关系的,不亏钱就行。</p>
+<h5 id="反问-就说我宁可踏空了-也不应该有巨大的回撤-最终我慢半拍的话我要确定性-对不对？"><a href="#反问-就说我宁可踏空了-也不应该有巨大的回撤-最终我慢半拍的话我要确定性-对不对？" class="headerlink" title="反问:就说我宁可踏空了,也不应该有巨大的回撤,最终我慢半拍的话我要确定性,对不对？"></a>反问:就说我宁可踏空了,也不应该有巨大的回撤,最终我慢半拍的话我要确定性,对不对？</h5><p>回答:对对对。<br>PS:得有纪律,纪律指的是仓位控制,行情差上仓位就完犊子了</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3hxLmxhbnpvdWUuY29tL2lQeUlJMmtsa2JtaA==">详细语音文件<i class="fa fa-external-link-alt"></i></span>密码:6666</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -3102,11 +3102,43 @@
       </tags>
   </entry>
   <entry>
-    <title>炒股的基本功</title>
-    <url>/posts/c40c439e/</url>
-    <content><![CDATA[<p>炒股的基本功是什么？<br>如果能做到以下这几点，并且牢牢记住，你就能成功从韭菜中脱颖而出了。有人以为炒股的基本功是看一些技术指标，看盘口分时、看趋势战法等等各种战法理论。这些东西学会要不了一个月时间，但是并不能在根本上解决交易的难题，这就是为什么很多人研究了多年的技术最终依然不能获利的原因。</p>
+    <title>盈利交易的思维逻辑</title>
+    <url>/posts/f3edb022/</url>
+    <content><![CDATA[<p>在做多的市场，所有的盈利模式都可以用四个字概括：低买高卖。</p>
 <span id="more"></span>
-<p>大体上分为五个方面：<br>第一，股票市场的基本运行逻辑。为什么有的股票就是可以不停的长一年为单位不停的上涨，而大多数股票要么是横盘不动，要么是震荡整理，要么是持续下跌。做股票一定要搞清楚为什么有的股票持续下跌，而有的股票却可以持续上涨，这才是买卖股票背后必须搞清楚的一个逻辑。<br>第二，对于主线、行情核心基本信息的解读。对于股票交易，你再怎么努力，技术再牛逼，也没有选择一个正确的赛道好用，也就说的主线行情才是最重要的，有的行业就是人生好赚钱的行业，而有的行业注定利润低的可怜，也没什么成长性，有些行业在政策和行业的驱动之下，就注定了它的高成长性。<br>第三，价格的波动基础。最核心的点在于增量，记住这个词，这就是一个行业，一个产业链到最终的标的必须牢牢把握的一个点，增量。政策引导行业，行业引导产业链，重组，产业链引导个股，最终的直接表现就在行业的增量上面，个股的增量，增量才是引发股价中长期上涨的最根本原因。<br>第四，对于价格和趋势的认识。有资金的地方才会有博弈，有博弈的地方才会有分歧，有分歧才会最终达成共识，伴随着共识的达成，也就形成的趋势和超势的进一步加强。<br>第五，情绪共振。短线周期，要懂市场的情绪，在两者形成共振之时，市场就容易产生对于短线交易的重要核心基础，市场合力，也就是容易带出市场赚钱效应！</p>
+
+<p>无论你是价值投资、趋势投资、量化交易，还是其它任何一种策略，想赚钱，本质都是赚差价，都脱离不了上面这四个字。</p>
+<p>想明白这一点，交易就是简单的低点买入，高点卖出。</p>
+<p>但是，很多人对低点和高点有误解。这里讲的低点，并非是绝对数学意义上的低或者高，而是相对的低或者高。</p>
+<p>相对的低或者高的意思是，只要你卖的比买的高，就可以实现盈利。</p>
+<p>理解了这一层，我们日常要做的，就是结合走势，识别低点和高点。</p>
+<p>所有的走势，无非分为三种，上升趋势、区间震荡和下降趋势。那么，基于上述“低买高卖”的原则，我们的买点，按走势划分，就要买在三个位置：</p>
+<p>①上升趋势的波段低点；</p>
+<p>②区间震荡的波段低点；</p>
+<p>③下降趋势的波段低点。</p>
+<p>我们从概率、逻辑和交易三个层面，来分析下这三个位置。</p>
+<p>1、概率层面</p>
+<p>概率层面来讲，这三个位置的获胜概率是不同的，为依次递减。</p>
+<p>上升趋势胜率最高，区间震荡胜率次之，下降趋势胜率最低。所以，实际买点选择中，优选上升趋势的波段低点，次选区间震荡的波段低点，而下降趋势的波段低点，要忽略或者放弃。</p>
+<p>我们之所以选择上升趋势的回踩，就是为了增加获胜概率。</p>
+<p>同理，我们之所以恐慌或者衰竭，也是为了增加获胜概率。</p>
+<p>但是，很多人对趋势理解很片面，认为选择上升趋势就万无一失了。其实不然。上升趋势也有下跌的概率大的时候，比如加速后或出现某种逆转量价行为（放量长阴、反包等），这些位置都是高风险位置，需要回避。反之亦然，区间震荡或者下降趋势也有上升概率大的时候，比如恐慌后。</p>
+<p>但是，即便是恐慌性抛售后有概率优势，从个股的角度，我不建议在下跌中抄底（明确的反转信号出现后除外）。我讲的恐慌，通常指的都是大盘，因为恐慌的逻辑，是建立在群体效应上的。对于个股来讲，个股恐慌抄底是很危险的，假如大盘走势正常，个股恐慌，反而有可能是个股有基本面问题或逻辑的变化。这一点，要区分清楚。</p>
+<p>2、逻辑层面</p>
+<p>从逻辑层面来讲，这三个位置逻辑的重要性也是不同的，为依次递增。</p>
+<p>上升趋势中，逻辑不是很重要，强劲的上升趋势，已经包含了走强的逻辑。区间震荡中逻辑相对重要。而下降趋势中如果想做反转，逻辑非常重要，逆势中，强劲的逻辑，才有可能形成共识。</p>
+<p>3、交易层面</p>
+<p>最终到交易落地，就是识别有概率优势的波段低点和高点的量价行为，转化为交易信号。</p>
+<p>①上升趋势中，识别回踩趋势线或关键点的波段低点（强势市场或者非常强的个股，突破也可以看作是一个波段的起始点或低点），作为买入信号，而加速或者逆转作为卖出信号。</p>
+<p>②区间震荡中，识别回踩区间底部的波段低点，作为买入信号，而加速或区间顶部作为卖出信号。</p>
+<p>③下降趋势中，尽量放弃（明确的反转信号出现后除外）。</p>
+<p>下降趋势的股（包括恐慌性抛售），最好是等底部区间形成，也就是说，至少等下降趋势转变为区间震荡，这个时候，走势的性质已经改变了，从供大于求转变为供需平衡，概率优势上升。区间回踩的“右底”，才是有概率优势的位置。</p>
+<p>以上三种位置的低点，往往都会伴随着衰竭或者恐慌的量价行为。衰竭或者恐慌的本质，是供应的消耗殆尽。总是在供应被消耗殆尽入场，就是有概率优势的，因为没有供应的情况下，不需要太多的需求，就可以拉动上涨。</p>
+<p>将上升趋势和区间震荡拆分为波段观察和操作，我们就是用波段的眼光看待市场，底层思维是上升趋势和区间震荡，但是实际落地就是波段。因为上升趋势和区间震荡，是有概率优势的，上升趋势的优势最大，成功的概率更高，而下降趋势，虽然也有波段机会，但是成功率会降低，所以，要尽量避免。</p>
+<p>综上所述，就像是计算一道应用题一样，我们通过复杂的演算算出来答案，然后要把过程都擦掉，只保留答案，这个答案就是波段。</p>
+<p> 我们到最终交易落地层面，眼里只有波段。</p>
+<p>训练你自己，识别出所有适合交易的走势中的一个个波段。到了这个层面，忘掉过程（忘掉过程不代表过程可以省略，没有过程你是算不出答案的，一定是先复杂后简单），眼里就没有了趋势，没有了区间震荡，只有波段。然后，在波段低点正确的买点入场，在波段高点正确的卖点退出，如此滚动和循环。</p>
+<p>这个过程就是：见山是山，见山不是山，见山还是山。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -3211,52 +3243,6 @@
       </tags>
   </entry>
   <entry>
-    <title>盈利交易的思维逻辑</title>
-    <url>/posts/f3edb022/</url>
-    <content><![CDATA[<p>在做多的市场，所有的盈利模式都可以用四个字概括：低买高卖。</p>
-<span id="more"></span>
-
-<p>无论你是价值投资、趋势投资、量化交易，还是其它任何一种策略，想赚钱，本质都是赚差价，都脱离不了上面这四个字。</p>
-<p>想明白这一点，交易就是简单的低点买入，高点卖出。</p>
-<p>但是，很多人对低点和高点有误解。这里讲的低点，并非是绝对数学意义上的低或者高，而是相对的低或者高。</p>
-<p>相对的低或者高的意思是，只要你卖的比买的高，就可以实现盈利。</p>
-<p>理解了这一层，我们日常要做的，就是结合走势，识别低点和高点。</p>
-<p>所有的走势，无非分为三种，上升趋势、区间震荡和下降趋势。那么，基于上述“低买高卖”的原则，我们的买点，按走势划分，就要买在三个位置：</p>
-<p>①上升趋势的波段低点；</p>
-<p>②区间震荡的波段低点；</p>
-<p>③下降趋势的波段低点。</p>
-<p>我们从概率、逻辑和交易三个层面，来分析下这三个位置。</p>
-<p>1、概率层面</p>
-<p>概率层面来讲，这三个位置的获胜概率是不同的，为依次递减。</p>
-<p>上升趋势胜率最高，区间震荡胜率次之，下降趋势胜率最低。所以，实际买点选择中，优选上升趋势的波段低点，次选区间震荡的波段低点，而下降趋势的波段低点，要忽略或者放弃。</p>
-<p>我们之所以选择上升趋势的回踩，就是为了增加获胜概率。</p>
-<p>同理，我们之所以恐慌或者衰竭，也是为了增加获胜概率。</p>
-<p>但是，很多人对趋势理解很片面，认为选择上升趋势就万无一失了。其实不然。上升趋势也有下跌的概率大的时候，比如加速后或出现某种逆转量价行为（放量长阴、反包等），这些位置都是高风险位置，需要回避。反之亦然，区间震荡或者下降趋势也有上升概率大的时候，比如恐慌后。</p>
-<p>但是，即便是恐慌性抛售后有概率优势，从个股的角度，我不建议在下跌中抄底（明确的反转信号出现后除外）。我讲的恐慌，通常指的都是大盘，因为恐慌的逻辑，是建立在群体效应上的。对于个股来讲，个股恐慌抄底是很危险的，假如大盘走势正常，个股恐慌，反而有可能是个股有基本面问题或逻辑的变化。这一点，要区分清楚。</p>
-<p>2、逻辑层面</p>
-<p>从逻辑层面来讲，这三个位置逻辑的重要性也是不同的，为依次递增。</p>
-<p>上升趋势中，逻辑不是很重要，强劲的上升趋势，已经包含了走强的逻辑。区间震荡中逻辑相对重要。而下降趋势中如果想做反转，逻辑非常重要，逆势中，强劲的逻辑，才有可能形成共识。</p>
-<p>3、交易层面</p>
-<p>最终到交易落地，就是识别有概率优势的波段低点和高点的量价行为，转化为交易信号。</p>
-<p>①上升趋势中，识别回踩趋势线或关键点的波段低点（强势市场或者非常强的个股，突破也可以看作是一个波段的起始点或低点），作为买入信号，而加速或者逆转作为卖出信号。</p>
-<p>②区间震荡中，识别回踩区间底部的波段低点，作为买入信号，而加速或区间顶部作为卖出信号。</p>
-<p>③下降趋势中，尽量放弃（明确的反转信号出现后除外）。</p>
-<p>下降趋势的股（包括恐慌性抛售），最好是等底部区间形成，也就是说，至少等下降趋势转变为区间震荡，这个时候，走势的性质已经改变了，从供大于求转变为供需平衡，概率优势上升。区间回踩的“右底”，才是有概率优势的位置。</p>
-<p>以上三种位置的低点，往往都会伴随着衰竭或者恐慌的量价行为。衰竭或者恐慌的本质，是供应的消耗殆尽。总是在供应被消耗殆尽入场，就是有概率优势的，因为没有供应的情况下，不需要太多的需求，就可以拉动上涨。</p>
-<p>将上升趋势和区间震荡拆分为波段观察和操作，我们就是用波段的眼光看待市场，底层思维是上升趋势和区间震荡，但是实际落地就是波段。因为上升趋势和区间震荡，是有概率优势的，上升趋势的优势最大，成功的概率更高，而下降趋势，虽然也有波段机会，但是成功率会降低，所以，要尽量避免。</p>
-<p>综上所述，就像是计算一道应用题一样，我们通过复杂的演算算出来答案，然后要把过程都擦掉，只保留答案，这个答案就是波段。</p>
-<p> 我们到最终交易落地层面，眼里只有波段。</p>
-<p>训练你自己，识别出所有适合交易的走势中的一个个波段。到了这个层面，忘掉过程（忘掉过程不代表过程可以省略，没有过程你是算不出答案的，一定是先复杂后简单），眼里就没有了趋势，没有了区间震荡，只有波段。然后，在波段低点正确的买点入场，在波段高点正确的卖点退出，如此滚动和循环。</p>
-<p>这个过程就是：见山是山，见山不是山，见山还是山。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>盘面普涨顺周期和价值红利为何跌？</title>
     <url>/posts/f00c36c8/</url>
     <content><![CDATA[<p>这次就从内外因来分析这个问题。首先了解这个东西的基本作用和属性，要明白他是什么，他是来干嘛的？</p>
@@ -3309,6 +3295,32 @@
       </tags>
   </entry>
   <entry>
+    <title>炒股的基本功</title>
+    <url>/posts/c40c439e/</url>
+    <content><![CDATA[<p>炒股的基本功是什么？<br>如果能做到以下这几点，并且牢牢记住，你就能成功从韭菜中脱颖而出了。有人以为炒股的基本功是看一些技术指标，看盘口分时、看趋势战法等等各种战法理论。这些东西学会要不了一个月时间，但是并不能在根本上解决交易的难题，这就是为什么很多人研究了多年的技术最终依然不能获利的原因。</p>
+<span id="more"></span>
+<p>大体上分为五个方面：<br>第一，股票市场的基本运行逻辑。为什么有的股票就是可以不停的长一年为单位不停的上涨，而大多数股票要么是横盘不动，要么是震荡整理，要么是持续下跌。做股票一定要搞清楚为什么有的股票持续下跌，而有的股票却可以持续上涨，这才是买卖股票背后必须搞清楚的一个逻辑。<br>第二，对于主线、行情核心基本信息的解读。对于股票交易，你再怎么努力，技术再牛逼，也没有选择一个正确的赛道好用，也就说的主线行情才是最重要的，有的行业就是人生好赚钱的行业，而有的行业注定利润低的可怜，也没什么成长性，有些行业在政策和行业的驱动之下，就注定了它的高成长性。<br>第三，价格的波动基础。最核心的点在于增量，记住这个词，这就是一个行业，一个产业链到最终的标的必须牢牢把握的一个点，增量。政策引导行业，行业引导产业链，重组，产业链引导个股，最终的直接表现就在行业的增量上面，个股的增量，增量才是引发股价中长期上涨的最根本原因。<br>第四，对于价格和趋势的认识。有资金的地方才会有博弈，有博弈的地方才会有分歧，有分歧才会最终达成共识，伴随着共识的达成，也就形成的趋势和超势的进一步加强。<br>第五，情绪共振。短线周期，要懂市场的情绪，在两者形成共振之时，市场就容易产生对于短线交易的重要核心基础，市场合力，也就是容易带出市场赚钱效应！</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>看盘的四个时间点</title>
+    <url>/posts/f210e755/</url>
+    <content><![CDATA[<p>1、9点钟看富时A50的涨跌情况，基本就能确定今天大盘走向<br>2、9点30分快速浏览板块排行，看下集合竞价资金去了哪些板块。<br>3、10点30分，看指数位置。<br>如果高于10点钟的位置，今天最坏的情况就是收平<br>4、看下午2点45分，今天决定交易的人，基本在这个时间进行，因为收盘价已经固定了。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>短线中的常见的行业术语</title>
     <url>/posts/8406f523/</url>
     <content><![CDATA[<p>我们做短线，很多名词很多新手听不懂，我们就来大概了解一下这些名词的解释。</p>
@@ -3333,18 +3345,6 @@
 <li><strong>震荡止盈法</strong><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221027_1666843339806.jpg" alt="xbtc1cdb05b01e1968809b52d64df297108f"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221027_1666843339808.jpg" alt="xbtcca839c961b58c6f8d3c52de411492594"><br><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20221027_1666843339809.jpg" alt="xbtc8c256070a16312ee856bd1920ac52de8"></li>
 </ul>
 <p><strong>PS:本文节所有技术面参考均选自狙盘手老师，在此表示感谢。</strong></p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>看盘的四个时间点</title>
-    <url>/posts/f210e755/</url>
-    <content><![CDATA[<p>1、9点钟看富时A50的涨跌情况，基本就能确定今天大盘走向<br>2、9点30分快速浏览板块排行，看下集合竞价资金去了哪些板块。<br>3、10点30分，看指数位置。<br>如果高于10点钟的位置，今天最坏的情况就是收平<br>4、看下午2点45分，今天决定交易的人，基本在这个时间进行，因为收盘价已经固定了。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -3544,70 +3544,6 @@
       </tags>
   </entry>
   <entry>
-    <title>竞价一进二抓涨停</title>
-    <url>/posts/99d63bb0/</url>
-    <content><![CDATA[<p>竞价一进二77%概率抓涨停，看了你也行</p>
-<span id="more"></span>
-
-<p>一、使用的工具：<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL21TZWFyY2g/c2VhcmNoQ29udGVudD0lRTUlOTAlOEMlRTglOEElQjElRTklQTElQkEmdHlwZT0y">同花顺<i class="fa fa-external-link-alt"></i></span> 问财选股。</p>
-<p>二、如何选出一进二当日将涨停的股？</p>
-<p>步骤一：一进二毫无疑问就是昨日首次涨停的股票中选标的。做一进二最好不要选昨日是一字板，容易被砸。<br>条件1：(<strong>昨日首板非一字板</strong>)还剩A股<strong>51只</strong></p>
-<p>步骤二：从主板中选股。经过我的测试，创业板公式选股胜率波动较大，因此我的公式只选主板股票。<br>条件2：(<strong>主板</strong>)还剩A股<strong>45只</strong></p>
-<p>步骤三：排除被标记为ST的股票。<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi9TVCVFOCU4MiVBMQ==">ST股<i class="fa fa-external-link-alt"></i></span>面临退市风险，作为小散没必要火中取栗，因此ST股一定要排除。<br>条件3：(<strong>非ST</strong>)还剩A股<strong>42只</strong></p>
-<p>步骤四：竞价涨幅在0%-7%之间。竞价涨停的股票买不进，涨幅在7%-9%的股票，容易被砸。经过测试3%-7%是胜率最高区间，但选出股少；0%-7%胜率次之，选出股多。<br>条件4：(<strong>竞价涨幅大于0小于7</strong>)选出A股<strong>24只</strong></p>
-<p>步骤五：资金在哪，我们就去哪。涨停都是靠钱堆出来的！<br>条件5：(<strong>竞价金额大于1000万</strong>)选出A股<strong>15只</strong></p>
-<p>步骤六：一进二<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi8lRTclQUQlQjklRTclQTAlODElRTklOUIlODYlRTQlQjglQUQ=">筹码集中<i class="fa fa-external-link-alt"></i></span>度90%不宜太高，后续才有动力。<br>条件6：(<strong>昨日90%筹码大于10</strong>)选出A股<strong>13只</strong></p>
-<p>步骤七：振幅过大，昨日获利不菲，次日容易被砸。振幅过小换手不充足，就是为别人接盘。<br>条件7：(<strong>昨日振幅大于8小于15</strong>)选出A股<strong>12只</strong></p>
-<p>步骤八：最重要的一步，就如我开篇说的，如何解决选出股太多？很简单，我认为<strong>竞价换手率是一进二的核心</strong>，甭管公式选出几只股，我们只要选择换手率最高的那只就行了。无脑怼！<strong>近半个月77%的当日涨停率</strong>还不能盈利？<br>条件8：(<strong>竞价换手率大于0.6</strong>)选出A股<strong>1只</strong></p>
-<p>结束，最后选出的是 <span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL21TZWFyY2g/c2VhcmNoQ29udGVudD1zejAwMjE5OSZ0eXBlPTI=">$东晶电子(sz002199)$<i class="fa fa-external-link-alt"></i></span> 今天涨停收盘！</p>
-<p>编写公式的顺序：4-5-8-1-7-6-2-3</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>股市操作手法</title>
-    <url>/posts/4b2ac99/</url>
-    <content><![CDATA[<p>选股的时候多参考量是否达标，做的时候确认做的阶段</p>
-<span id="more"></span>
-
-<p>个股竞价量能需要达到前一日总成交量的4～20%之间，具体是多少，按成交量来细分一下：<br>1、前一日成交额2个亿以下，次日竞价量能至少要10～20%才算符合预期；<br>2、前一日成交额2～5个亿，次日竞价量能占比10%左右基本就符合预期了；<br>3、前一日成交额5～10个亿，次日竞价量能8～10%左右基本就符合预期了；<br>4、前一日成交额10～20个亿，次日竞价量能5～8%基本上就符合预期了；<br>5、20个亿以上，基本上竞价量能只要4%以上，就算是符合预期的；<br>这里是也只是大概范围，具体的细化需要多积累经验，再细化一下。<br>主要关注强趋势和强势连板股的接力，趋势波段硬核逻辑加短线连板混合双打，紧紧围绕低吸、波段做T、半路等手法，分享市场常见的关注手法，只关注市场深度核心逻辑。<br>避坑指南：<br>1、退潮期不要去参与高位数板，退潮期专杀最高板；<br>2、退潮期不要去参与高位滞涨震荡票；<br>3、在所有的逻辑推演，所有的条件设置结束后，在你最后准备关注之前，反问自己一句“它是否超预期？如果答案是否定的，那么宁错过别做错<br>4、临盘关注，宁错过，不做错， 大数据看下来，确实临盘出击的胜率极差，负反馈多数来自于此；<br>5、前面关注过得，今天取关飞的，次日不去，魔咒如此，那是不是又可以避开很多坑；<br>6、鸡蛋不要放在一个篮子里面，有十个鸡蛋，分三个篮子放，其中一个坏了，你还有两个，否则一次错误，有可能你十个鸡蛋就都全没了；<br>7、慢就是快，交易有错误是在在所难免的，要静下心来，重新审视自己，是模式的问题，还是冲动导致，如果是后者，那么出错后自然也就不在冲动了，不要让负面情绪扩大，导致一错再错；</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>解决本地博客无法显示图片的问题</title>
-    <url>/posts/1a857221/</url>
-    <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>Hexo使用图床的方式加载在blog中加载图片，会在非本人的电脑或者手机端报“html访问图片资源403问题(http referrer)”，导致采用图床方式加载的图片全部无法加载。</p>
-<span id="more"></span>
-
-<h3 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h3><p>http请求体的header中有一个referrer字段，用来表示发起http请求的源地址信息，这个referrer信息是可以省略但是不可修改的，就是说你只能设置是否带上这个referrer信息，不能定制referrer里面的值。</p>
-<p>服务器端在拿到这个referrer值后就可以进行相关的处理，比如图片资源，可以通过referrer值判断请求是否来自本站，若不是则返回403或者重定向返回其他信息，从而实现图片的防盗链。上面出现403就是因为，请求的是别人服务器上的资源，但把自己的referrer信息带过去了，被对方服务器拦截返回了403。</p>
-<p>在前端可以通过meta来设置referrer policy(来源策略)，具体可以设置哪些值以及对应的结果参考<span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRUUC9IZWFkZXJzL1JlZmVycmVyLVBvbGljeQ==">这里<i class="fa fa-external-link-alt"></i></span>。所以针对上面的403情况的解决方法，就是把referrer设置成<code>no-referrer</code>，这样发送请求不会带上referrer信息，对方服务器也就无法拦截了。</p>
-<p>浏览器中referrer默认的值是<code>no-referrer-when-downgrade</code>，就是除了降级请求的情况以外都会带上referrer信息。降级请求是指https协议的地址去请求http协议，所以上面403的情况还有另一种解决方法就是，请求的图片地址换成http协议，自己的地址使用http协议，这样降级请求也不会带上referrer。</p>
-<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>在<code>D:\myblog\themes\next\layout\_partials\head</code>目录下有一个head.swig，同样在head.swig文件中添加如下meta信息即可</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20231231_1704035247861.jpg" alt="xbtc29ebed71063aaf8275d90bf6fd816586"></p>
-<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p>使用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>指令将工程同步到github即可</p>
-]]></content>
-      <categories>
-        <category>技术教程</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>股票的走势构成</title>
     <url>/posts/2799c676/</url>
     <content><![CDATA[<p>所有股票走势都是由这三种构成：《上》<br>一，上行趋势，高低点不断抬高，上升趋势线是将低点相连接的一条直线。一旦趋势跌破则意味着趋势将发生变化、有可能转折向下。</p>
@@ -3622,380 +3558,73 @@
       </tags>
   </entry>
   <entry>
-    <title>解决软件禁止windows自动熄屏和睡眠的方法</title>
-    <url>/posts/c02bd982/</url>
-    <content><![CDATA[<p>最近发现笔记本不会自动休眠，经过排查发现是由于一款软件导致的，但是又不能不用，经过一段时间的摸索，终于把问题解决了。</p>
+    <title>虚拟化已开启但仍无法安装WSL2</title>
+    <url>/posts/d07d1b51/</url>
+    <content><![CDATA[<p>最近安装Docker的时候遇到无法安装WSL2的问题，搞了好久，最后发现，好像是虚拟机平台这个功能缺失，因为我确实打开了，但是不生效，最后搜了下，解决方法如下。</p>
 <span id="more"></span>
 
-<p>先介绍一下具体操作原理，它就是通过Windows 电源管理命令来管控具体的某一个软件的对系统的电源请求。</p>
-<p>具体如下：</p>
-<p><strong>先来看官方文档介绍<span class="exturl" data-url="aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL3dpbmRvd3MtaGFyZHdhcmUvZGVzaWduL2RldmljZS1leHBlcmllbmNlcy9wb3dlcmNmZy1jb21tYW5kLWxpbmUtb3B0aW9ucw==">Powercfg 命令行选项<i class="fa fa-external-link-alt"></i></span></strong></p>
-<table>
-<thead>
-<tr>
-<th>选项</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>&#x2F;?、-help</td>
-<td>显示有关命令行参数的信息。</td>
-</tr>
-<tr>
-<td>&#x2F;list、&#x2F;L</td>
-<td>列出所有电源方案。</td>
-</tr>
-<tr>
-<td>&#x2F;query、&#x2F;Q</td>
-<td>显示电源方案的内容。</td>
-</tr>
-<tr>
-<td>&#x2F;change、&#x2F;X</td>
-<td>修改当前电源方案中的设置值。</td>
-</tr>
-<tr>
-<td>&#x2F;changename</td>
-<td>修改电源方案的名称和说明。</td>
-</tr>
-<tr>
-<td>&#x2F;duplicatescheme</td>
-<td>复制电源方案。</td>
-</tr>
-<tr>
-<td>&#x2F;delete、&#x2F;D</td>
-<td>删除电源方案。</td>
-</tr>
-<tr>
-<td>&#x2F;deletesetting</td>
-<td>删除电源设置。</td>
-</tr>
-<tr>
-<td>&#x2F;setactive、&#x2F;S</td>
-<td>使某个电源方案在系统上处于活动状态。</td>
-</tr>
-<tr>
-<td>&#x2F;getactivescheme</td>
-<td>检索当前活动的电源方案。</td>
-</tr>
-<tr>
-<td>&#x2F;setacvalueindex</td>
-<td>设置当系统由交流电源供电时与某项电源设置关联的值。</td>
-</tr>
-<tr>
-<td>&#x2F;setdcvalueindex</td>
-<td>设置当系统由直流电源供电时与某项电源设置关联的值。</td>
-</tr>
-<tr>
-<td>&#x2F;import</td>
-<td>从文件中导入所有电源设置。</td>
-</tr>
-<tr>
-<td>&#x2F;export</td>
-<td>将电源方案导出到文件。</td>
-</tr>
-<tr>
-<td>&#x2F;aliases</td>
-<td>显示所有别名及其相应的GUID。</td>
-</tr>
-<tr>
-<td>&#x2F;getsecuritydescriptor</td>
-<td>获取与指定的电源设置、电源方案或操作相关联的安全描述符。</td>
-</tr>
-<tr>
-<td>&#x2F;setsecuritydescriptor</td>
-<td>获取与电源设置、电源方案或操作关联的安全描述符。</td>
-</tr>
-<tr>
-<td>&#x2F;hibernate、&#x2F;H</td>
-<td>启用和禁用休眠功能。</td>
-</tr>
-<tr>
-<td>&#x2F;availablesleepstates、&#x2F;A</td>
-<td>报告系统上可用的睡眠状态。</td>
-</tr>
-<tr>
-<td>&#x2F;devicequery</td>
-<td>返回符合指定条件的设备列表。</td>
-</tr>
-<tr>
-<td>&#x2F;deviceenableawake</td>
-<td>启用设备将系统从睡眠状态唤醒的功能。</td>
-</tr>
-<tr>
-<td>&#x2F;devicedisablewake</td>
-<td>禁用设备将系统从睡眠状态唤醒的功能。</td>
-</tr>
-<tr>
-<td>&#x2F;lastwake</td>
-<td>报告有关哪个组件将系统从上次睡眠转换状态唤醒的信息。</td>
-</tr>
-<tr>
-<td>&#x2F;waketimers</td>
-<td>枚举活动的唤醒计时器。</td>
-</tr>
-<tr>
-<td>&#x2F;requests</td>
-<td>枚举应用程序和驱动程序电源请求。</td>
-</tr>
-<tr>
-<td>&#x2F;requestsoverride</td>
-<td>为特定的进程、服务或驱动程序设置电源请求重写。</td>
-</tr>
-<tr>
-<td>&#x2F;energy</td>
-<td>分析系统中常见的能效和电池寿命问题。</td>
-</tr>
-<tr>
-<td>&#x2F;batteryreport</td>
-<td>生成电池使用情况的报告。</td>
-</tr>
-<tr>
-<td>&#x2F;sleepstudy</td>
-<td>生成诊断系统电源转换报告。</td>
-</tr>
-<tr>
-<td>&#x2F;srumutil</td>
-<td>转储来自系统资源使用情况监视器 (SRUM) 的能源估算数据。</td>
-</tr>
-<tr>
-<td>&#x2F;systemsleepdiagnostics</td>
-<td>生成系统睡眠转换的诊断报告。</td>
-</tr>
-<tr>
-<td>&#x2F;systempowerreport</td>
-<td>生成诊断系统电源转换报告。</td>
-</tr>
-</tbody></table>
-<p>详细的具体命令使用方法在这里就不阐述了，感兴趣的可以去参考官方文档自己测试。</p>
-<p>大家看完以后会发现有一个 <code>/REQUESTS</code> 命令介绍是枚举应用程序和<span class="exturl" data-url="aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT0lRTklQTklQjElRTUlOEElQTglRTclQTglOEIlRTUlQkElOEYmc3BtPTEwMDEuMjEwMS4zMDAxLjcwMjA=">驱动程序<i class="fa fa-external-link-alt"></i></span>的电源请求，执行这个命令，就能列出驱动程序和应用程序的电源请求。</p>
-<p>语法是：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">powercfg /requests</span><br></pre></td></tr></table></figure>
+<h2 id="一、确认虚拟化是否真的启用"><a href="#一、确认虚拟化是否真的启用" class="headerlink" title="一、确认虚拟化是否真的启用"></a>一、确认虚拟化是否真的启用</h2><ol>
+<li><p><strong>任务管理器检查</strong></p>
+<ul>
+<li>按<code>Ctrl+Shift+Esc</code>打开任务管理器</li>
+<li>切换到”性能”选项卡，查看CPU部分</li>
+<li><strong>关键：确认”虚拟化”状态显示为”已启用”</strong></li>
+</ul>
+</li>
+<li><p><strong>命令行验证</strong></p>
+<ul>
+<li>以管理员身份打开PowerShell</li>
+<li>运行：<code>systeminfo | findstr /I &quot;虚拟化 已启用&quot;</code></li>
+<li>若输出包含”固件中已启用虚拟化: 是”，则表示已启用</li>
+</ul>
+</li>
+<li><p><strong>若显示未启用：</strong></p>
+<ul>
+<li>重启电脑，按F2&#x2F;Del&#x2F;Esc等键进入BIOS设置</li>
+<li>在”Advanced”或”CPU Configuration”中找到”Intel VT-x&#x2F;AMD-V”选项，设为”Enabled”</li>
+<li>保存并重启</li>
+</ul>
+</li>
+</ol>
+<h2 id="二、检查Windows功能设置"><a href="#二、检查Windows功能设置" class="headerlink" title="二、检查Windows功能设置"></a>二、检查Windows功能设置</h2><ol>
+<li>按<code>Win+R</code>，输入<code>optionalfeatures.exe</code>并回车，打开”启用或关闭Windows功能”</li>
+<li><strong>确保勾选以下两项：</strong><ul>
+<li>✅ 适用于Linux的Windows子系统</li>
+<li>✅ 虚拟机平台</li>
+</ul>
+</li>
+<li>点击确定，<strong>重启电脑</strong></li>
+</ol>
+<h2 id="三、若仍无法安装（常见错误：0x80370102）"><a href="#三、若仍无法安装（常见错误：0x80370102）" class="headerlink" title="三、若仍无法安装（常见错误：0x80370102）"></a>三、若仍无法安装（常见错误：0x80370102）</h2><h3 id="方法1：手动启用功能（推荐）"><a href="#方法1：手动启用功能（推荐）" class="headerlink" title="方法1：手动启用功能（推荐）"></a>方法1：手动启用功能（推荐）</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以管理员身份打开PowerShell</span></span><br><span class="line">dism.exe /online /<span class="built_in">enable-feature</span> /featurename:Microsoft<span class="literal">-Windows-Subsystem-Linux</span> /all /norestart</span><br><span class="line">dism.exe /online /<span class="built_in">enable-feature</span> /featurename:VirtualMachinePlatform /all /norestart</span><br><span class="line"><span class="comment"># 重启电脑</span></span><br></pre></td></tr></table></figure>
 
-<p>于是我们就自己测试一下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Windows PowerShell</span><br><span class="line">版权所有（C） Microsoft Corporation。保留所有权利。</span><br><span class="line"></span><br><span class="line">安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows</span><br><span class="line"></span><br><span class="line">PS C:\Users\rkdawn&gt; powercfg /requests</span><br><span class="line">DISPLAY:</span><br><span class="line">[PROCESS] \Device\HarddiskVolume4\电脑软件\抖音直播监控录制工具\抖音直播监控录制工具.exe</span><br><span class="line"></span><br><span class="line">SYSTEM:</span><br><span class="line">[PROCESS] \Device\HarddiskVolume4\电脑软件\抖音直播监控录制工具\抖音直播监控录制工具.exe</span><br><span class="line"></span><br><span class="line">AWAYMODE:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">执行:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">PERFBOOST:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">ACTIVELOCKSCREEN:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">PS C:\Users\rkdawn&gt;</span><br></pre></td></tr></table></figure>
 
-<p>通过执行枚举电源请求命令我们能发现，有一个软件请求了 DISPLAY和SYSTEM两个电源请求，根据字面意思可以知道这个软件阻止电脑自动息屏以及电脑自动睡眠。<br>然后在官方文档中发现<code>/REQUESTSOVERRIDE</code>这个命令的介绍是为特定的进程、服务或驱动程序设置电源请求重写。 如果未指定任何参数，此命令将显示当前的电源请求重写列表。也就是说我们只要使用<code>/REQUESTSOVERRIDE</code>忽略指定的软件、驱动、服务的电源请求，就可以实现阻止软件、驱动、服务导致的显示器不自动息屏，以及系统不自动休眠。</p>
-<p>语法是：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">powercfg /requestsoverride [caller_type name request]</span><br></pre></td></tr></table></figure>
+<h3 id="方法2：重置WSL并重新安装"><a href="#方法2：重置WSL并重新安装" class="headerlink" title="方法2：重置WSL并重新安装"></a>方法2：重置WSL并重新安装</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以管理员身份打开PowerShell</span></span><br><span class="line">wsl <span class="literal">--shutdown</span></span><br><span class="line">wsl <span class="literal">--unregister</span> &lt;已安装的Linux发行版名称&gt;  <span class="comment"># 如Ubuntu</span></span><br><span class="line">wsl <span class="literal">--uninstall</span></span><br><span class="line">wsl <span class="literal">--install</span>  <span class="comment"># 自动安装WSL2并下载默认发行版</span></span><br><span class="line"><span class="comment"># 重启电脑</span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">powercfg /REQUESTSOVERRIDE -?</span><br><span class="line"> </span><br><span class="line">POWERCFG /REQUESTSOVERRIDE [&lt;CALLER_TYPE&gt; &lt;NAME&gt; &lt;REQUEST&gt;]</span><br><span class="line"> </span><br><span class="line">描述:</span><br><span class="line">  为特定进程、服务或驱动程序设置电源请求替代。</span><br><span class="line">  如果未指定任何参数，则该命令显示</span><br><span class="line">  电源请求替代的当前列表。</span><br><span class="line"> </span><br><span class="line">参数列表:</span><br><span class="line">  &lt;CALLER_TYPE&gt;    指定下列调用方类型之一: PROCESS、</span><br><span class="line">                   SERVICE、DRIVER。可以通过调用</span><br><span class="line">                   &quot;POWERCFG /REQUESTS&quot; 命令获取。</span><br><span class="line"> </span><br><span class="line">  &lt;NAME&gt;           指定调用方名称。这是通过</span><br><span class="line">                   调用 &quot;POWERCFG /REQUESTS&quot; 命令返回的名称。</span><br><span class="line"> </span><br><span class="line">  &lt;REQUEST&gt;        指定下列一个或多个电源请求类型:</span><br><span class="line">                   DISPLAY、SYSTEM、 AWAYMODE。</span><br><span class="line"> </span><br><span class="line">示例:</span><br><span class="line">  POWERCFG /REQUESTSOVERRIDE PROCESS wmplayer.exe DISPLAY SYSTEM</span><br></pre></td></tr></table></figure>
 
-<p>通过帮助程序能看到“忽略电源请求”这条命令的使用方式</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POWERCFG  /REQUESTSOVERRIDE [&lt;应用程序类型&gt; &lt;程序名称&gt; &lt;电源请求类型&gt;]</span><br></pre></td></tr></table></figure>
-
-<p>最终命令</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POWERCFG /REQUESTSOVERRIDE PROCESS 抖音直播监控录制工具.exe DISPLAY SYSTEM</span><br></pre></td></tr></table></figure>
-
-<p>接下来执行命令后测试，然后无参调用<code>REQUESTSOVERRIDE</code>来查看我们的设置是否成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">PS C:\Users\rkdawn&gt; POWERCFG /REQUESTSOVERRIDE</span><br><span class="line">[SERVICE]</span><br><span class="line"></span><br><span class="line">[PROCESS]</span><br><span class="line">抖音直播监控录制工具.exe DISPLAY SYSTEM</span><br><span class="line"></span><br><span class="line">[DRIVER]</span><br></pre></td></tr></table></figure>
-
-<p>但是这时候会发现一个问题，经过我测试，貌似每次更新文件以后都要重新添加，例如改变了版本号，那该如何取消呢，经过我搜索后发现，有大佬给出了答案。</p>
-<p>那就是添加的这个是可以在注册表删除的，老规矩，win+R打开CMD输入<code>regedit</code>进入注册表</p>
-<p>它的目录是</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerRequestOverride\Process</span><br></pre></td></tr></table></figure>
-
-<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241221173601328.png"></p>
-<p>结语：感谢大佬提供的教程和思路。</p>
-<p>PS：参考文章：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FwYXRoaWEvYXJ0aWNsZS9kZXRhaWxzLzEyNTA5NDMxNQ==">Windows系统禁止软件、驱动阻止系统息屏、睡眠<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly90aWViYS5iYWlkdS5jb20vcC82ODk4NTAyNTM5">一劳永逸解决WIN10所有睡眠问题<i class="fa fa-external-link-alt"></i></span></p>
+<h3 id="方法3：检查并更新WSL内核"><a href="#方法3：检查并更新WSL内核" class="headerlink" title="方法3：检查并更新WSL内核"></a>方法3：检查并更新WSL内核</h3><ol>
+<li>打开Microsoft Store，搜索”Windows Subsystem for Linux”</li>
+<li>确保已安装”Windows Subsystem for Linux Update” </li>
+<li>或运行：<code>wsl --update</code></li>
+</ol>
+<h2 id="四、其他可能原因"><a href="#四、其他可能原因" class="headerlink" title="四、其他可能原因"></a>四、其他可能原因</h2><ul>
+<li><strong>系统版本不支持</strong>：确保Windows 10&#x2F;11版本≥18362 </li>
+<li><strong>第三方虚拟化软件冲突</strong>：暂时关闭或卸载VMware、VirtualBox等 </li>
+<li><strong>缺少Windows更新</strong>：检查并安装所有更新 </li>
+<li><strong>虚拟机平台选项缺失</strong>：<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以管理员身份运行</span></span><br><span class="line">dism.exe /online /<span class="built_in">enable-feature</span> /featurename:VirtualMachinePlatform /all /norestart</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="五、验证安装是否成功"><a href="#五、验证安装是否成功" class="headerlink" title="五、验证安装是否成功"></a>五、验证安装是否成功</h2><p>安装完成后：</p>
+<ul>
+<li>打开PowerShell，运行：<code>wsl --list --verbose</code></li>
+<li>确认已安装的发行版”版本”列为”2” </li>
+<li>运行：<code>wsl</code>，应能进入Linux环境</li>
+</ul>
+<p><strong>总结</strong>：WSL2安装失败最常见原因是虚拟化未真正启用或Windows功能设置缺失。按照上述步骤依次检查，90%以上的安装问题都能解决。如仍有问题，建议查看具体错误代码并参考微软官方文档(<span class="exturl" data-url="aHR0cHM6Ly9ha2EubXMvd3NsLWluc3RhbGwpJUUzJTgwJTgy">https://aka.ms/wsl-install)。<i class="fa fa-external-link-alt"></i></span></p>
 ]]></content>
       <categories>
-        <category>技术教程</category>
+        <category>PC使用教程</category>
       </categories>
       <tags>
-        <tag>PC使用教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超短交易节点</title>
-    <url>/posts/27088ca4/</url>
-    <content><![CDATA[<p>针对活跃股、板块龙头、分支龙头、大盘中军、次新股、无涨跌、可转债等标的，通过打板、低吸、半路等模式博弈收益。</p>
-<p>核心：择时</p>
-<p>三个关键词：节点、个股、模式</p>
-<p>在合适的时间，用合适的模式，介入相匹配个股，用模式覆盖机会。</p>
-<p>个股选择：市场高度股、最强板块高度股、新启动的前排个股、板块大盘中军分支龙头、次新股、无涨跌股、可转债、老妖股、大盘指标股</p>
-<p>仓位原则：</p>
-<p>共振节点加仓分歧节点底仓</p>
-<p>模式选择：</p>
-<p>顺应市场风格，趋势风格做趋势，连板风格做连板。</p>
-<span id="more"></span>
-
-<h4 id="一、指数节点"><a href="#一、指数节点" class="headerlink" title="一、指数节点"></a>一、指数节点</h4><p>1、共振大阳线</p>
-<p>通常的标准，指数涨幅1%以上，上涨家数超过3500家（以前是3000家）。连续阳线，通常以第一根阳线作为关键节点。<br>加分项：指数位置越低，量能越大，越有利于后面的行情。存在明显爆发的低位主流板块，高位板块延续性可能相对差。</p>
-<p>常见位置：<br>指数连续下跌后，尾盘放量拉升、指数连续小阳线后，早盘高开高走、指数缩量后早盘放量拉升<br>交易节点：通常为阳线当日<br>常用模式：高度股打板、低吸（市场连板高度低吸&#x2F;打板、最强板块高度打板）大盘中军半路、打板、最强板块首板套利、转债龙头套利分支龙头套利、大盘指标股套利</p>
-<p>2、指数阳线后低开</p>
-<p>指数阳线次日往往因为高潮分化很难操作。但如果指数次日低开，那么就是非常好的节点。指数阳线后，次日低开，后面修复的概率很大，是常见的分歧节点。<br>常见模式：主流板块前排接力、活口回封、 主流板块中军低吸、当日新爆发的最强板块套利</p>
-<p>3、冰点</p>
-<p>两市上涨家数小于800家、在17、18年采用的数据是500，当时两市3000只个股左右，采用的比例大致是15%。随着两市个股的增多，数据的限制也有所变化，目前采用800。等十年、二十年后，两市大部分的个股沦为仙股，那么数据的取样指数可能变为中证2000。<br>加分项：如果市场连板高度在 2-3板，冰点的有效应增加。<br>常见位置：指数上升趋势，突发利空 指数下跌趋势，加速下跌、指数无法突破前高，冲高回落。<br>交易节点：冰点当日、冰点次日（可能是十字星、继续冰点、也可能是反弹日）<br>冰点日能否交易主要取决于指数的形态，如果指数处于上升趋势中，或者是震荡区间内，冰点日尾盘可以尝试博弈次日修复。如果指数处于下跌趋势中，容易出现连续冰点的行情；如果冰点当日跌停家数过多，容易出现连续冰点的行情。相对稳妥的方式是在冰点次日出手，防止冰点次日的惯性杀跌。同时，二连冰的修复概率比单日冰点修复的概率更大。</p>
-<p>常用模式：冰点尾盘高度股回封、主流板块活口回封、趋势新高股、大盘指标股套利、冰点次日高度股弱转强（高风险高收益）、筹码错位低吸、高度股断板低吸（反核）最强板块龙头、<br>趋势股加速，高开、反包上影线、新题材首板 分支龙头</p>
-<p>4、利好高开低走</p>
-<p>指数出现利好高开低走后，往往会在1-2天后出现修复。<br>常用模式：大盘指标股低吸</p>
-<h4 id="二、板块节点"><a href="#二、板块节点" class="headerlink" title="二、板块节点"></a>二、板块节点</h4><p>1、板块酝酿期</p>
-<p>板块指数趋势向上，连续阳线，但板块没有明显的涨停潮，有3-5家涨停。如果市场上有主流板块，这类板块是轮动的非主流板块。如果没有主流板块，此类板块可能强化成主流板块。</p>
-<p>常用模式：板块首个二板</p>
-<p>2、板块爆发日</p>
-<p>板块指数大幅拉升，通常在3%以上。板块出现涨停潮，通常在15家以上。板块涨停个股成交额，通常在100亿以上。<br>加分项：与指数共振大涨， 板块位置越低，板块越新，<br>行情软件新增的板块指数，<br>板块越强，板块的延续性越好，对应模式越容易成功；降低要求依然可以做，但成功率下降。<br>常见模式：板块最高股打板<br>板块中军打板、套利、板块次新股、板块无涨跌套利板块最强20cm打板、板块最强债、板块股性好后排首板套利</p>
-<p>3、板块爆发次日，分化日</p>
-<p>板块常见的节奏，爆发—分化——回流<br>板块爆发次日，有可能是大分歧，也可能是小分歧。对于，底部新爆发的板块，前排活口是可以关注的，如果爆发日没参与，可以早盘先上车再说。<br>注意：不要参与高位爆发的板块。也就是说，板块已经反复炒作后，再次爆发，这时很可能要大幅兑现，尽量不要早盘参与，等尾盘做活口。<br>交易节点：板块爆发次日分化日，分化次日回流日<br>分化日常见模式：主流板块前排接力、活口回封、一字板首开、分支龙头接力</p>
-<p>回流日常见模式：一字板开板低吸、打板趋势新高股半路</p>
-<p>4、板块指数阴线</p>
-<p>主流板块指数连续拉升后，第一次小阴线往往都是分歧节点，可以博弈回流。主流板块指数大阴线，早盘大跌要敢买，尾盘大跌等次日</p>
-<p>常见模式：板块活口接力中军低吸、趋势新高股分时低吸、尾盘先手、打板</p>
-<h4 id="三、个股节点"><a href="#三、个股节点" class="headerlink" title="三、个股节点"></a>三、个股节点</h4><p>1、连板高度为2-3</p>
-<p>连板高度2-3，从高度股上是冰点。市场很少出现没有连板的行情。<br>常见模式：辨识度连板接力，试错</p>
-<p>2、主流板块龙头调整20%板块可能会反弹。</p>
-<p>常见模式：板块新启动的高度股趋势新高股半路</p>
-<p>3、主流板块龙头龙回头</p>
-<p>龙回头可能是板块新的一波，也可能是板块回光返照。根据指数的位置，如果指数调整后，再次出现龙回头，那么板块可能启动了二波。如果指数高位震荡，阳线中出现了龙回头，那么可能是风险信号。</p>
-<p>常见模式：板块新启动的高度股趋势新高股半路</p>
-<p>4、一字龙头开板</p>
-<p>一字龙头开板往往是板块分歧的时候，但不一定代表着板块要回暖。一字龙头开板后，板块可能继续分歧调整，等板块龙头跌了20%点，板块再回暖；也可能次日直接加强。这个时候，很多人都会去做开板的龙头，但从历史数据看，成功率一般。<br>高难度模式：一字龙头开板低吸（如果大幅下杀，可以博弈日内修复的性价比） 分支龙头。</p>
-<h4 id="四、其他节点"><a href="#四、其他节点" class="headerlink" title="四、其他节点"></a>四、其他节点</h4><p>1、月初</p>
-<p>如果没有什么新题材，月初的新题材值得关注</p>
-<p>2、节前</p>
-<p>节前的高标，可能会被博弈</p>
-<p>3、星期五</p>
-<p>如果有什么新启动的首板或者二板，周末可能会有利好，或者消息催化。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>赵老哥游资心法</title>
-    <url>/posts/d54da0e8/</url>
-    <content><![CDATA[<p>我相信好的投资理论还是有很多道理是相通的，心法更是如此；要不炒股养家前辈说，无论任何模式，要想成功率高，有一点是一致的，那就是对市场的充分理解；</p>
-<span id="more"></span>
-
-<p>一、二板定龙头，一板能看出来个毛。</p>
-<p>从资金面讲，没有新题材，老热点就继续。<br>短期交易，不讲价值，不讲技术，只讲故事。<br>如果一定要捏造技术的话，就是看“人气”，一口气上不来就要去见马克思。<br>有故事，有大量资金活跃的票，就有肉吃，吃完撤退，慢的买单。<br>人生难得几回搏，热点来了全力以赴，热点退潮果断卖出。<br>热点就是印钞机。</p>
-<p>二、有新题材，坚决抛弃旧题材。<br>只有新题材，才有凝聚市场里最敏锐，最犀利的那股资金。<br>这股资金，以亿为单位。<br>所到之处，只有涨停。<br>只要能跟上这股资金，想不赚钱都难。<br>对别人赚钱的模式，不关注，不关心。<br>没有关注，就没有伤害。</p>
-<p>三、市场差不怕，成交额少也不怕，就怕题材多。<br>题材多势必切换快。<br>龙头战法的核心：<br>第一时间发现市场的精神领袖<br>第一时间上了她<br>一直持有<br>直到发现市场新的精神领袖<br>果断切换<br>没爆量的都不能说是龙头<br>既然是领袖，必须爆量，接受群众的检验<br>先预测，后跟随。</p>
-<p>四、大龙头都是多点共振的结果。<br>题材派，龙头派，技术派都认同。<br>筹码供不应求。<br>越走越轻。<br>加速。<br>不少纯打板战法，过分看重分时板的质量，打的是分时板，而不是日线板。</p>
-<p>五、模式不同的人，尽量少交流。<br>交流多了，容易受影响。<br>想法越少越好，模式越简单越好。<br>跟着合力，有吃有喝。</p>
-<p>六、开盘不接力<br>技术面看，分时走稳，换手够了再说<br>市场大局看，是不是当天的G点<br>确定性，远比利润的多少重要。<br>非G点不看，不研究。<br>不研究，因此也就不会买。</p>
-<p>七、只做龙头，只做主升，只做惯性。<br>不做反抽，不做波动，屌丝才爱逆袭。<br>没有主升的龙头，就守候。<br>有，就一击。<br>坚持龙头主升战法，必有回报。<br>这个是执行力。<br>是不是真龙头，这个考验的是理解力。</p>
-<p>八、跟风B，不看，不买，不研究。<br>好的惯，才能保证稳定赚钱。<br>心猿意马，赚不到钱。<br>喜欢操跟风逼的一定会被市场淘汰，这是定律。</p>
-<p>九、交易一定要纯粹。<br>做加法容易，做减法难。</p>
-<p>十、选股，必须新题材龙头。<br>但买卖点，要注意节奏。<br>亏钱都是没有坚持自己的模式。</p>
-<p>十一、对龙头一定要有一颗尊重的心，必有厚报。<br>忍一步海阔天空。<br>错误的交易，第二天集合竞价时割，效果最好。<br>忘掉它，马上进入一个新的交易状态。</p>
-<p>十二、每个热点，高潮过后的消退期，都会留一个活口。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>游资成神录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超短第一人A神asking心法2篇</title>
-    <url>/posts/4f360a6d/</url>
-    <content><![CDATA[<p>Asking名为邱宝裕。所在席位,兴业证券股份有限公司福州湖东路证券  营业部。新大陆  第二波的推手。进入十大股东。破产二次，最穷时，买一份报纸也不舍得买，母亲置信  他的才能，高利贷款10万，作为炒股的原始资金，现个人资本十亿以上。</p>
-<span id="more"></span>
-
-<h3 id="篇1："><a href="#篇1：" class="headerlink" title="篇1："></a>篇1：</h3><p>一.闲谈龙头和领涨<br>谁先涨停谁就是龙头，谁的封单越多谁就是领涨。那太肤浅了，阶段性龙头或者说是阶段性人气个股，往往是随机产生而非有些书上所说的，在大盘否级泰来的那一关键时刻，同时会出现几只强势个股，能否成为龙头或人气股，要看个股是否具备当前容易被市场认可的题材，这一点比基本面重要得多。</p>
-<p>还有选择图形炒做，个股的选择一定要考虑符合当下的炒做热点。相对低位的第一根放量大阳线。或者说二次探底后的再次启动，必须是放量大阳线，出现这种阳线，都是超短线的好品种。</p>
-<p>大盘背景的判断是回避这些风险的唯一办法。指数在走下跌通道时，符合条件的交易，全部放弃，也不为错。<br>这个市场本来就是反应快的赚反应慢的人钱。<br>龙头不在盘子大小。而在启动的时机。只要先于大盘连续上涨并能带动关联个股上涨，就是龙头。<br>趋势的力量引导市场合力。所以在今后的交易中，对势的理解超过一切。<br>市场合力大与一切。宁波短线资金流有时也只是起到点燃引暴的作用。很多暴涨股开始是他们启动，早就出局了，结果还在涨，实际上后来是整个市场短线资金流都参与了。<br>涨停板操作，追求的是高买高卖，频率上不快不行。90%以上的操作都必须第二天结束。</p>
-<p>二.强弱市的看法<br>除了专业的职业做手,一般人很少用。实际上,精力在好的炒手也不可能每天把所有的股票全部复盘,而且也没必要.用好的板块功能,每天只需复盘100来只股票,基本就能做到去繁为简,把握主流资金运作的意图了。短线炒做除了大势配合外,必须还有板块的强势才能提供较高的成功率。自选股提供可操作侯选目标,而这些目标必须从板块股中筛选.</p>
-<p>目前的市道,板块轮动特征明显,对与大涨且放大量的个股,除板块领头羊外,一般都可以不在做关注。反而应该在思维  上先人一步,提前介入有启动迹象但还没大幅拉升的板块.否则,操作节奏上始终就要比市场慢半拍. 资金运作自然  不能运转如意.</p>
-<p>三种方法中,早盘和尾盘做的最多,午间开盘做得少.</p>
-<p>都说短线操作易与流为频繁的随意操作,成功率不高。但不知道有准备的短线交易不能等同于随意操作.成功率的高低取决于盘后的准备程度,用功时间,一分耕耘,一分收获.</p>
-<p>午间收盘前拉高的个股,开盘后价格易成为当日盘中高点.这可能和机构做盘手法有关.所以午盘交易尽量少做.</p>
-<p>只要能看懂,并能做对,低吸和追涨都一样.不过从成功率来说,追涨靠的是瞬间的反映和直觉,而低吸有更多的理性思考,所以成功率低吸要高得多,从长时间的收益来看,应该比追涨还要高.</p>
-<p>追涨&#x3D;&#x3D;&#x3D;市场热点(最好是第一次放量上穿5天线、涨停品种)低吸&#x3D;&#x3D;&#x3D;龙头品种(均线附近买)</p>
-<p>短线炒手必须遵循的第一原则–弱市不做，弱市不操作就是最好的操作。弱市行情中看得懂也未必做得对。风险市场原则,知易行难.能做好这一条就已经不错了，没有大环境的配合,成功率会降低.<br>弱市中只有一种行情可以参与，那就是极度超跌后的反弹行情。</p>
-<p>强势市场：<br>（1）牛市的运行节奏为慢涨急跌，熊市为慢跌急涨。有人提出牛市持股利润最大，实际上是书呆子语言，牛市避不开急跌基本就赚不到钱，牛市在短时间的跌幅不比熊市少。<br>（2）熊市下跌无量，股价呆滞，牛市下跌有量，股价活跃。<br>（3）不管怎么大跌，牛市中总有大量股票不断创新高。所以有牛市不做超跌做抗跌的说法。基金做的票，涨势没有连续性。长阳  都少见，更别说涨停了。但如能形成短期的上涨趋势，不用追涨，买它的阴线就行了。</p>
-<p>个人看法：<br>一涨一跌总有人出来判断后市多空。实际都是假老练。是涨是跌，是多是空，毫无意义。判断市场不需要这些，确定市场强弱才操作是根本。在大盘正在下跌时期,不操作是最好的操作，最大的风险是补跌,它甚至比抢反弹的风险更大.</p>
-<p>下跌不做，上涨满仓（看涨幅榜），论坛上经常为多空判断争论得不可开交,职业短线者大可不必理会。实际上在下跌末期,成交已经开  始持续放大,强势板块已经开始向上运行,赚钱效应也开始显现.趋势上虽然还看不出来,但通过盘面已经可以看出强势特征的征兆.在舆论和股评还在看空的时候,职业短线者可以结束修假考虑进场找感觉。</p>
-<p>超短线在强势中,系统的限制条件可适当放宽.在跌势中必须严格又严格.很多个股的炒做都是这样.其中并无主力庄家。只是走出来后,得到市场各路资金的认同。行情好时我都是满仓滚动操做，因为这时亏钱概率小。不好时应尽量轻仓小玩玩.</p>
-<p>大盘急跌告一段落，可以做一做大盘的反弹行情。</p>
-<p>选股方面，牛市的思路不应做超跌，而应做抗跌(逆势黑马股)。大盘一稳，抗跌品种的行情远远大于超跌。抗跌品种分两种，真抗跌，假抗跌。真抗跌要大涨，假抗跌要补跌，欲下先上，假突破再补跌。能分清楚全靠经验，亏出来的经验。牛市的思路不应做超跌，而应做抗跌。行内有句名言，看对三日行情，便富可敌国。隔日交易操作的基础只是看对两日走势就行。所以不会富可敌国，可以只能挣点小钱。两日走势包括看对当日大盘和目标个股走势。看对次日大盘和目标个股走势。在看对的基础上再追求做对。</p>
-<p>超短线确定性大</p>
-<p>过多的随意性操作是隔日交易收益不稳定的主要因素。因此超短线的计划性越来越重要，做有计划的超短线在我现在的交易中越来越多。盘后静态选股远比盘中动态选股要重要。其操作出来的成功率要高得多。实盘小单多练，然后在形成一套操作系统。</p>
-<p>大盘上升趋势时，乱操作乱有理，没有什么技巧可言。看热点的本领是短线客必须掌握的基本功，否则你永远在门外。股价上涨和下跌的内因是资金的注入和流出。成长和  高业绩只是诱使资金注入的一个因素，而不是全部。再好的成长和业绩，资金源源不段的流出，股价一样要跌。</p>
-<p>操作的要点只有两条。弱市忍手不动，强市踩准节奏。</p>
-<p>交易之道没有捷径，只能炼，不然的话，卖股经的不早发了。没有捷径,也没什么秘诀.每天盘后认真总结得失，每天不能间断。</p>
-<p>三.Asking的一些心得<br>涨停那一定要行情活络才好搞，等股票行情来的时候那不是随便买随便赚，一点也不难。赚大钱的都是在行情好，要大干快上。其余的看看啦，有机会赚点生活费就OK啦。炒股很简单，个股活跃你就追涨，追板块的龙头就行啦。反之你就看看好啦，有超跌，你抢一把就走。道理谁都懂，但没几个人能管得住自己的手脚，这就是杯具。</p>
-<p>我只跟市场走，不预测，不操纵。。十分里边，心态，控制力占7分，技术占3分（技术指标主要看）成交量 均线 K线（收盘后），不用（翻看大量个股），主要看公告，再结合市场热点锁定相关个股。（至于做下跌股的反弹选择）前期热门强势股。</p>
-<p>小钱要博，大钱要稳。(关于操作的随意性)这是人性的弱点，我也经常犯。一般随意了一二把，第二天立  马就纠错，不会跟他纠缠，然后把他忘记，重新谨慎再来。超短一定要及时获利了解，在稳建的前提下尽量做大成交量，行情好时我都是满仓滚动操做。</p>
-<p>有量就能来钱，操短对行情好坏只有一个标准—量。</p>
-<p>大盘在走牛，炒股炒的就是想象力，人有多大胆价就有多高。炒股一定要借力打力,四两拨千斤,硬干是不行的,顺势最关键。一定要做市场高度认同的票,要不独脚戏可不好唱哦。</p>
-<p>追涨停.风险偏大,逢大跌买点更稳妥，上涨靠的是市场合力。</p>
-<p>大盘量小,个股活跃度欠佳,短线少做,仓位应当控制.当然这是针对数百万以上的短线资金而言.对小资金来说,天天有机会,天天都要满仓。</p>
-<p>其实,股票投机跟艺术创作一样,是有天赋的.它没有什么太多比较固定的规律,经常是飘忽不定的,买入卖出有时就是靠感觉或突然的灵感,当然这需要长期专注看盘积累的。没有天赋,有的一辈子的努力也悟不透其中的窍窍。</p>
-<p>我是很少去预测大盘或个股的，一切以盘中走势为准，因为我们不是神仙,即使你有80%的准确率.那20%的失误都有可能把你的利润都  磨平。</p>
-<p>追涨停是一件很耗精力的事,手脚要快,反应还要更快.一般人没个一,二年的实战,很难胜任。短炒做龙头，做热点，先涨后跌。很简单的道理，你都不懂，还想从别人袋子里拿钱，不是笑话吗。</p>
-<p>行情好多做，一般都轻仓。这样子人轻松，不累。多赚少赚没事，身体要紧。不做龙头的心理障碍就是龙头涨的多了，想做便宜的，事实证明是错误的–短炒就是一夜情，就像你去嫖娼，你肯定只管挑漂亮的上，你还会管她前面搞了几个。</p>
-<p>炒股吧，最重要的是心态，控制力。炒股技术的问题，熟能生巧，只要多努力，下苦工，没有什么学不会的。大盘不好就少做点.但是天天都要做,锻炼盘感,免得行情一来摸不找北.反正现在能赚点零花钱就好了。</p>
-<p>(1)出击的时间,必须把握住大盘否级泰来的临界点.这点最为重要,必须借大盘的势.<br>(2)必须认清热点,借板块的势.或借赚钱示范效应的势.<br>(3)个股的选择,和上面两点相比,相应简单一些.即时图走势强于同类个股,有涨停潜力,与其跟风,不如主动发力,吸引别人跟风,使自己的资金处于相对有利的价位.<br>(4)相同既时走势的个股,有些封住了,有些封不住.有些打了上千万也封不住,有些2-3百万就停了,且第二日的走势也不错.其成功的关键在于对大盘的理解,是大局观的问题,不是操作技巧的问题.<br>总的来说,做好前面两点,自然能体会四两拨千斤感觉.</p>
-<p>四.人生感想<br>超短线我最有发言权了,5.19到现在2006.7.23,资金从10几万到几千万,成交量从两三百万到7,8个亿.豪宅,名车,吃喝玩乐,通通从股市中来.我看全中国也没几个啊.榜样的力量是伟大的.周围的人现在不做中长线,只做超短啦.把营业部老总给乐坏啦.但是我现在想做中长线啦,超短太累啦.有钱啦,想轻松一点,享受生活吧。</p>
-<p>论坛没几个人有AUDI，BMW，保时捷吧，我做超短把它们都赚到了。明年准备买一法拉  利。没钱人，要想爽，做超短 。听我的，错不了。我一个月的返佣，几乎都够买一部保时捷，哈哈。有点好高了，见谅，见谅注明一下，当年的10几万还都是借的，一分半利息，我妈帮我借的。当时我家从乡下上来，租了一15平米民房，铺了三张床，煤气灶放在阳台，还经常被房东及邻居欺负。谁叫你没钱，没办法啊，一份5毛钱的都市报都舍不得买，经常站在报摊前看一会儿就走，看久了摊主会赶人啊。当时可谓是坚苦卓绝，背水一战啊做超短，应该是从陶永根处得到启发。96年上证报举行的一场比赛，他第一，赵笑云第二。好象是3个月，赚了4倍多。经常是尾市买，第二天就卖。我当时就尝试一下，效果不行，上班没时间，顾不过来。只好做中长线，当时买了一只东大阿派  ，上市就买，96年行情如火如荼，他就股一只，那个急啊，恨不得甩他两巴掌。还好最后不辜负厚望，隔年高位卖掉赚了四倍多。就此把工作辞了专职炒股。</p>
-<p>没想到被人拉去做期货 三个月就被打爆了。今年又去做了，还是不行，亏了我N多钱。还好5。8以后行情来，一周就把他扳回。还是做股票好啊，安全，包赚。以后打也不去做了，可能包括股指期货。他坏就坏在一点，你做的再好，也绝不能犯一次大错误，一次就能要你的命。你说跟这样的老板  还怎么混。而股市，只要你足够优秀，即使犯了好多次大错误，只要勇于及时认错。股市老板还是会原谅你的，职位还给留着，薪水照发，加薪还有机会。现在不说了，吃饭了。有空再聊聊我是怎么做发家的。</p>
-<p>97年期货打暴以后，休息了几个月，钱没了，再去上班赚千把块钱也没这心情了。怎么办，以后路怎么走，想想只能再去炒股了。还好我妈很支持我。到处张罗，总算凑了10来万。于是98春节后，我又回来了。其实这是我第三次重返股市了，最早要从94年说起。那一年指数从1500点一直绵绵阴跌到600点时，忠言在收音机里一直狂吹界龙  ，直听得我热血沸腾，恨不得马上去买。于是我极力怂恿我妈，我前面说那么多话干吗，主要是告诉大家，做超短一样可以发家致富。特别是职业小散们。做超短可能是一个最佳选择。你一点点钱，做中长线，普通年景一年一倍，已经是很好了，但你很难很难都做到年年都一倍。请问你如何发财。做超短，一年1倍2倍随便赚，5倍10倍也是有可能的。2，3年就能实现资本的快速积累。只要你入门了，一切尽在掌握。不象中长线，运气成分太大，收益不可控。当然钱多了，做中线是必然了，但现在你一年只要赚30％，可能相当于原始资金的10倍，20倍。一年10-20倍，而神光的3年才10倍都吹到天上去了，我们岂不是比他NB多了。</p>
-<h3 id="篇2："><a href="#篇2：" class="headerlink" title="篇2："></a>篇2：</h3><p>一、Asking<br>1.炒股一定要炒龙头股，有板块效应的最好；因为龙头股：涨—–比别人先涨；跌—–比别人后跌!<br>2.永远都要跟随着市场主流走，主流板块龙头，资金易形成合力，容易形成持续性上涨；<br>一般性题材，主力资金一  般都是抱着日一把就走的心态，收益率很难上去<br>永远牢记纪律：耐心 顺势而为 知行合一 !<br>个股活跃，就满仓出击主流板块龙头股；没有明显的延续行情，空仓休息是最好的防守!</p>
-<p>3.小资金要想快速变大一定要超短线，只有超短线才能做到一年10多倍,才能最快速度挖到第一桶金!<br>要注意的是:做短线,不等于天天去做,没有把握就休息!（会空仓的，才是高手）<br>4.炒股其实很简单，个股活跃你就追涨，追板块的龙头就行啦。反之你就看看好啦，有超跌，你抢一把就走。<br>道理谁都懂，但没几个人能管得住自己的手脚。<br>这就是悲剧（交易最大的对手不是别人，而是自己的贪婪，深以为然，以我自己为例，90%的交易只产生了10%的收益，甚至带来亏损，剩下的10%交易却产生了90%的收益）</p>
-<p>5.我只跟市场走，不预测，不操纵。<br>6.抢钱吧，一定要月黑风高才行，涨停那一定要行情活络才好搞。<br>7.十分里边，心态，控制力占7分，技术占3分。</p>
-<p>二、钢铁战士<br>1.在一个下降通道赚钱是偶然的，亏钱是必然的！（个人理解放量跌破20日线，视为下降通道）<br>2.在一个上升通道赚钱是必然的，亏钱是偶然的！（放量上攻，短期均线突破长期均线，视为上升通道）<br>3.如果你没有耐心，那你将注定在股市一无所获！<br>4.不会空仓的人，他永远不会战斗！<br>5.一个不会止损的人，死路一条！<br>6.不要狂妄，不要自大，不要骄傲，市场很快会告诉你，呵呵！谁才是真正的老大！<br>7.盲目的冲动和频繁的交易是造成亏损的主要原因！</p>
-<p>三、深南中路<br>1.把握住了市场的热点和焦点  ，认清了市场赚钱效应的所在，短线资金可以抛弃以前那种盘中靠反应追强势股的方法，而选择我现在这种比较稳健  的选股思路。当然，这种思路的前提的在强市市场。<br>2.技术分析的最高层次是抛弃所有的技术指标，最后只剩下资金流向的分析。我认清了热点，看准的赚钱效应，我已经不在去盘中跟风，我可以打提前量。说穿了就是资金之间的博弈，我的反应比你敏锐，我先进去的就赚你后进去的钱。<br>3.短线的目的并不是要追求短期的利润最大化，稳定获利的境界才是交易者追求的最高目标。<br>我追求的是那种帐户市值大涨小回，不断创新高的那种状态,并不追求大起大落的赚钱速度。</p>
-<p>4.这个行业最不怕的就是不怕没钱,最怕的是怕没本事。给你说个cdrr真实的故事,519之前，他已经分文没有，每天坐一元钱公交车回家，中午我还经常请他吃饭，唯一有的就是5年的炒股经历。<br>519行情一来，朋友给了他一个12万元帐户代为操作，那一年翻了挣10倍，从此发家。<br>葵花  宝典，99年5000元起家，做到05年我认识他的时候才20万，现在后面在加三个零（20万到2个亿的故事）<br>5.再说一次学的次序，成就的大小就看各人悟性的高低:<br>第一,入门贵在精一，选择一种适合自己的方法入门。<br>目前教的几种模式已经是市场上最优化的短线方法，但没看到一个人能把方法吃透，没有掌握和领悟到方法的核心实质。（一招鲜，吃遍天）<br>第二,重在坚持，熟练掌握一种方法后，三五年内方法不要随意改变,一招鲜，吃遍天。<br>第三,法无定法，第一个10倍利润完成技术积累，自有资金或者操作规模到了500万至1000万，然后才可以学各种方法，博采众家之长。<br>第四,万法归宗,方法已经无所谓了，怎么做都有道理。</p>
-<p>6.做龙头股，说得容易,做起来难.要眼到,手到，心到。<br>眼到，龙头品种一启动一般很快就张停，一般人看到的时候已经买不到了。<br>手到，看到的时候手脚要快，慢一秒种可能都抢不到。<br>心到，心里对龙头品种要敏感，有强烈的感应。瞬间发现，瞬间操作，还要敢下重手。否则轻仓就浪费机会。<br>道理简单，做好很难，知易行难。</p>
-<p>7.操作的时候全靠反应，没有多的时间考虑，全靠平时的经验积累。做龙头股全靠打快。大资金要学慢,小资金要学快，越快越好。<br>8.弱市不亏钱，这才是复利增长的关键,而且是关键中的关键。<br>9.每次大盘疯狂的时候，关注滞涨的权重股突然启动，这往往是大盘变盘的信号，可以准确的把握大盘的拐点。（刚过去的，2019年9月9日，中兴通讯  放量涨停3，并在9月10日触及37.67的高点回落；3个工作日之后的9月16日，上涨指数触及9月的最高点3042点回落，个人理解为宣告本轮科技股的行情，短期内结束了）。<br>亏了钱能打回来,赚了钱能守得住,这是职业选手起码的要求。</p>
-<p>10.炒股就是炒概率,其实就是这么回事.打板也就是打概率,有高成功率的方法也可以不打板,玩低吸也行.<br>所有的操作方法都是以概率原理上总结,然后有高成功率保证,自然就进入赚钱的行列.<br>11.有了高胜率的保证,资金可以从几万做到几十万,几百万,几千万,甚至上亿。<br>为啥短线比中线和长线更容易完成结累的过程,就是因为有了成功率的保证,做得越块的赚得越多.<br>所以超短线是完成资金从小到大最块的方式，几位一线游资更是，几分种就决定上亿的资金买入一只票。<br>这些临时起意大手笔买入的基础都是建立在慨率的基础.</p>
-<p>12.弱市学会空仓是度过漫漫熊市的唯一法门.不会空仓,不管他做股票做了多少年,都可以说还没入门.<br>13.龙头和领涨:谁先涨停谁就是龙头，谁的封单越多谁就是领涨。<br>那又太肤浅了,阶段性龙头或者说是阶段性人气个股，往往是随机产生，在大盘否级泰来的那一关键时刻，同时会出现几只强势个股，能否成为龙头或人气股，要看个股是否具备当前容易被市场认可的题材，这一点比基本面重要得多。<br>还有选择图形炒做，个股的选择一定要考虑符合当下的炒做热点。<br>相对低位的第一根放量大阳线，或者说二次探底后的再次启动，必须是放量大阳线。出现这种阳线，都是超短线的好品种.<br>大盘背景的判断是回避这些风险的唯一办法。<br>指数在走下跌通道时，符合条件的交易，全部放弃，也不为错。<br>这个市场本来就是反应快的赚反应慢的人钱。（短线就是拼刺刀，手法快准狠的人，收割手慢的人）<br>14.龙头不在盘子大小,而在启动的时机。<br>只要先于大盘连续上涨，并能带动关联个股上涨，就是龙头。<br>趋势的力量引导市场合力。<br>所以在今后的交易中，对势的理解超过一切。市场合力大于一切。</p>
-<p>15.一个真正的持续市场热点，必须要得到市场各方面资金的高度认同。<br>是需要多种综合型因素叠加产生的，真正做得好的,都会尽量的去做到放弃自己的主观看法，主动去顺应市场热点 。<br>16.攻在量中，退在量后—–这是绝对的短线级别信条:<br>买入，攻在量中。——跟随放大的成交量进军，可以迅速拓展空间卖出，只在带量的时候买入，<br>一般情况下很快就会顺，拉离自己的成本区域,卖出,退在量后。<br>——跟随成交量的萎缩而退却，可以捕捉到较高点。<br>强者恒强，弱者只是跟随强者，强者涨的时候涨幅更大些，跌的时候跌幅更小些.</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>游资成神录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>超短线选牛股的两个精髓</title>
-    <url>/posts/36a27738/</url>
-    <content><![CDATA[<p>一、做超短的核心要点</p>
-<p>(1)空仓即主动！资金在手，天下我有；</p>
-<p>(2)顺势而为只做最强；</p>
-<p>(3)只做确定性模式内交易；</p>
-<span id="more"></span>
-
-<p>(4)认真复盘后的临盘空灵一脚；</p>
-<p>(5)超短的本质是接力-弱转强、强更强；</p>
-<p>(6)机械操作、截断亏损、利润奔跑，一路向北；</p>
-<p>(7)控制回撤的确是大难题，感觉投机越到后面，技术方面都是次要的了。</p>
-<p>心境和心性却最是难以突破，修心和舍得才是最后的归宿，一旦有所突破，回撤的问题就自然得到了控制。</p>
-<p>二、超短线的精髓</p>
-<p>你们知道超短线相比于中长线最大的优势是什么吗？很多人觉得相较于中长线是正规军、正面战，超短是游击战、麻雀战，不入流。但是大家都没搞清楚超短的精髓！</p>
-<p>超短是以天为单位计算收益的。你们应该都算过，一天赚1%，一年200个交易日是7倍多，但这有个前提条件就是不能回撤。一天赚 1%，收益是不是很少，但是积累到一年，能翻7倍的股票是不是寥寥无几?</p>
-<p>所以，超短相比于中长线的优势在于，中长线选手日内回撤时优秀的超短选手是不回撤的！</p>
-<p>总有些人跑过来看我的实盘说：“帮主你格局太小了啊，就赚两三个点就跑了啊。你就是钱多，除了钱多啥都没有。你看人家中长线的持有某某某赚了几倍。”</p>
-<p>说实话，对于这种人，相比打假的人更加有拉黑他的冲动。因为我们超短线选手的收益是在日积月累中体现的，而没有显示在当前的账面上。而中长线的是把半年、一年的收益全部积累并展示在账面上。</p>
-<p>三、超短线选牛股的两个精髓</p>
-<p>在弱市市场，什么选股思路都会失灵，什么有效 的方法都会失效，所以弱市市场没有思路就是最好的思路。在强市市场，我的选股思路，就是两点：一是热点板块，一是赚钱效应。赚钱效应可以引发大热点板块。赚钱效应可以引发和诱导热点板块。</p>
-<p>龙头和领涨我们不一定能把握，但板块行情应该不会错过。因此，选股把握住了市场的热点和焦点，认清市场赚钱效应的所在。短线资金可以抛弃以前那种盘中靠反应追强势股的方法，而选择我现在这种比较稳健的选股思路。当然，这种思路的前提是在强市市场。技术分析的最高层次是抛弃所有的技术指标，最后只剩下资金流向的分析。</p>
-<p>我认清了热点，看准了赚钱效应，我已经不在去盘中跟风，我可以打提前量。说穿了就是资金之间的博弈，我的反应比你敏锐，我先进去的就赚你后进去的钱。</p>
-<p>四、分时起爆秘诀-资金决定一切</p>
-<p>量能代表资金，资金决定一切。所有股票上涨原动力全部来自资金。所以均线也好，筹码也罢，一切都以量能为依托。甚至有量能其他的统统不关注也无所谓。</p>
-<p>不管是追涨的也好，抄底的也好，总归是一切做短线交易者都期望能够买在起爆点，起爆点必然爆量。所谓攻在量中，无量不上，无量不追，无量无视价格。就如生产力决定生产关系，量能决定价格，无量的个股在拉升时要当作没看见。只有伴随爆量的个股，才可能在买后几分钟内就远远抛开你的成本价。有量才安全。</p>
-<p>五、何为退在量后?</p>
-<p>当爆量拉升遇到阻力，大多数伴随的急速滑落，这就是最典型的退在量后，此时卖出，未必就是今天的高点，但是起码是高点之一。</p>
-<p>分时图上的高点基本上都在量能爆发以后，如果缩量后不能维持股价，随之而来的就是迅速下跌。回撤幅度可以用来检验个股的强度。小到分时，大到K线，个股形态都可以用成交量来分析。不过个股形态千变万化。</p>
-<p>量能也充满着变化。所以不能一概而论，不管怎么说，量能代表着核心生产力，生产力决定了生产关系也就是股价。所以一切短线分析都部必须建立在量能也就是成交的基础上。大道万变不离其宗，方向对了才可能走对时。整天痴迷于指标、股评，一开始就错了，自然没法走向正确的终点！</p>
-<p>六、量能在超短中的作用</p>
-<p>量能是超短强势股的操作中，非常重要的观察点。我不是简单机械的看多么大的量能是具有什么意义。而是看量价之间的关系，不同的阶段，不一样的量能，有些还需要看量能的持续演变。</p>
-<p>可以挑选历史上的一些主升清晰的个股，观察他们量能的演变过程。并重点关注强势股，起动、拉升、高位盘整、第 2波拉升、下跌大反抽等各个不同阶段的量、价关系。并在未来的牛股身上，小仓参与体会，慢慢会有属于自己的心得，而不是机械的去看书本，寻求秘籍。</p>
-<p>围绕市场的热点，涨停做文章，是我的交易系统的选股策略。不同的个性、理解会出现各自不同的重点参与阶段。有的做拉升段，有的做高位盘整段，有的做2波。还是细化到各个阶段的每个细节，这里绝对是有规律性的东西，变化很多，但是有共性的东西存在。</p>
-<p>温故而知新，看过历史上几千张K线图的,经历过无数次同类型战斗的，就有明确的心得。至于盘中实时操作，更多时靠即时盘感与条件反射。盘后的复盘也很重要，我比较喜欢去揣摩强势股的运行思路。看参与者的进出角度，并在不断的验证之中，逐步接近主流游资的思维、理念。但并不需要花大力气去感知未来大盘的上下、感叹机会的错失。当你高效的跟随了市场，机会几乎是接踵而至。</p>
-]]></content>
-      <categories>
-        <category>炒股</category>
-      </categories>
-      <tags>
-        <tag>炒股技巧</tag>
+        <tag>电脑优化</tag>
       </tags>
   </entry>
   <entry>
@@ -4216,15 +3845,374 @@
       </tags>
   </entry>
   <entry>
-    <title>量能的重要性</title>
-    <url>/posts/29625a4/</url>
-    <content><![CDATA[<p>这是技术篇，就是所谓的术，基本功，只有基本功非常扎实，才能走的长远。<br>量能是选股和交易中的辅助参考指标，虽然不是绝对起作用，但是必须要参考。</p>
+    <title>竞价一进二抓涨停</title>
+    <url>/posts/99d63bb0/</url>
+    <content><![CDATA[<p>竞价一进二77%概率抓涨停，看了你也行</p>
 <span id="more"></span>
 
-<p>1   量能选股：过往牛股，人气股是量价齐升。堆量上涨，我们看汉宇，中通，攀钢，巨轮等都是堆量，堆量就是日均成交量比平时放大3倍或以上 ，有时我们选股无从下手，并不是人们随意选的股，先通过量能选股。打开成交额排名，从大的成交额往下翻，底部连续2天放大量的股进入我的視线，不局限于涨不涨停。<br>股票选好以后，研究基本面，炒什么题材，是否热门，是机构参与还是游资？<br>炒作逻辑，补涨还是其它？    那么综合分析判断是否建仓。<br>2  量能在交易中的参考作用，举例：<br>道恩股份 ：周四小幅放量上涨，周五缩量回调，这是底部的缩量，表达了周四买入的大多周五没有卖出，为何没有卖出那是因为看好后市。<br>这只是辅助分析，道恩参与的资金是机构或中线思维的人，所以底部的放量，再缩量是健康的，周五缩量也与大盘下跌有关系。<br>盾安股份：周四缩量调整，这种中，高位的缩量，表示场内资金惜售，场外资金观望，那么次日可下跌可上涨，与大盘和板块，或情绪的走势非常有关，周五同板块三花，银轮，银邦，松芝上涨，那么它也上涨。<br>所以说放量上涨，放量下跌才是健康的。<br>3  量能在竞价中的参考。<br>通常分2种，涨停股的量跟一般股的量有区别。<br>涨停股竞价的量，一般要高于昨日总成交额的10%以上，量太小代表没有人气，很谨慎的。爆量，要结合炒作逻辑，情绪，个股所处位置，板块，综合分析。低位的爆量比高位的爆量好。<br>一般股的量，一定放量高开才好，没有绝对的量化量在多少，竞价量比大于2以上，代表有人气。<br>就是说所有股竞价要有量，放量高开才有人气。<br>谨记：竞价的量也有骗人的，有些是主力做出来的放量高开，吸引场外资金接力，我曾经被忽悠过几次，就是放量高开，后一直低走，  所以是辅助参考指标不是绝对。<br>4  高位放量     如广汇物流 周五这是大分岐，大分岐短期有不确定性，还需要跟据资金面，基本面，上涨逻辑综合判断后市是后看好。</p>
-<p>股价在5日均线上属强，10日均线是我认为的生命线。量能，换手代表人气，这是辅助参考指标，虽然不是绝对适用，但是大概率适用。<br>庄股，一般是平量或缩量，小幅放量。</p>
-<p>通过量能，K线分析，99%以上的股我只要看上一眼，就能排除。<br>目前4千只左右股票，除了自选股7只外，另外观察了3只，但不确定。其余的通过量能，K线全部排除，然后在几只股里择强去弱，留下好学生，开除差学生。这个比例是4000：8，500挑1。<br>当然10只股我不仅只看K线，量能，还要看炒作逻辑，基本面，同板块，资金面因素。</p>
-<p>所以我一直认为基本功是重中之重，K线，量能这是炒股最底层的知识必须看懂，否则如何炒股？</p>
+<p>一、使用的工具：<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL21TZWFyY2g/c2VhcmNoQ29udGVudD0lRTUlOTAlOEMlRTglOEElQjElRTklQTElQkEmdHlwZT0y">同花顺<i class="fa fa-external-link-alt"></i></span> 问财选股。</p>
+<p>二、如何选出一进二当日将涨停的股？</p>
+<p>步骤一：一进二毫无疑问就是昨日首次涨停的股票中选标的。做一进二最好不要选昨日是一字板，容易被砸。<br>条件1：(<strong>昨日首板非一字板</strong>)还剩A股<strong>51只</strong></p>
+<p>步骤二：从主板中选股。经过我的测试，创业板公式选股胜率波动较大，因此我的公式只选主板股票。<br>条件2：(<strong>主板</strong>)还剩A股<strong>45只</strong></p>
+<p>步骤三：排除被标记为ST的股票。<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi9TVCVFOCU4MiVBMQ==">ST股<i class="fa fa-external-link-alt"></i></span>面临退市风险，作为小散没必要火中取栗，因此ST股一定要排除。<br>条件3：(<strong>非ST</strong>)还剩A股<strong>42只</strong></p>
+<p>步骤四：竞价涨幅在0%-7%之间。竞价涨停的股票买不进，涨幅在7%-9%的股票，容易被砸。经过测试3%-7%是胜率最高区间，但选出股少；0%-7%胜率次之，选出股多。<br>条件4：(<strong>竞价涨幅大于0小于7</strong>)选出A股<strong>24只</strong></p>
+<p>步骤五：资金在哪，我们就去哪。涨停都是靠钱堆出来的！<br>条件5：(<strong>竞价金额大于1000万</strong>)选出A股<strong>15只</strong></p>
+<p>步骤六：一进二<span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL3F1b3Rlcy9nbi8lRTclQUQlQjklRTclQTAlODElRTklOUIlODYlRTQlQjglQUQ=">筹码集中<i class="fa fa-external-link-alt"></i></span>度90%不宜太高，后续才有动力。<br>条件6：(<strong>昨日90%筹码大于10</strong>)选出A股<strong>13只</strong></p>
+<p>步骤七：振幅过大，昨日获利不菲，次日容易被砸。振幅过小换手不充足，就是为别人接盘。<br>条件7：(<strong>昨日振幅大于8小于15</strong>)选出A股<strong>12只</strong></p>
+<p>步骤八：最重要的一步，就如我开篇说的，如何解决选出股太多？很简单，我认为<strong>竞价换手率是一进二的核心</strong>，甭管公式选出几只股，我们只要选择换手率最高的那只就行了。无脑怼！<strong>近半个月77%的当日涨停率</strong>还不能盈利？<br>条件8：(<strong>竞价换手率大于0.6</strong>)选出A股<strong>1只</strong></p>
+<p>结束，最后选出的是 <span class="exturl" data-url="aHR0cHM6Ly9tLnRhb2d1YmEuY29tLmNuL21TZWFyY2g/c2VhcmNoQ29udGVudD1zejAwMjE5OSZ0eXBlPTI=">$东晶电子(sz002199)$<i class="fa fa-external-link-alt"></i></span> 今天涨停收盘！</p>
+<p>编写公式的顺序：4-5-8-1-7-6-2-3</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>股市操作手法</title>
+    <url>/posts/4b2ac99/</url>
+    <content><![CDATA[<p>选股的时候多参考量是否达标，做的时候确认做的阶段</p>
+<span id="more"></span>
+
+<p>个股竞价量能需要达到前一日总成交量的4～20%之间，具体是多少，按成交量来细分一下：<br>1、前一日成交额2个亿以下，次日竞价量能至少要10～20%才算符合预期；<br>2、前一日成交额2～5个亿，次日竞价量能占比10%左右基本就符合预期了；<br>3、前一日成交额5～10个亿，次日竞价量能8～10%左右基本就符合预期了；<br>4、前一日成交额10～20个亿，次日竞价量能5～8%基本上就符合预期了；<br>5、20个亿以上，基本上竞价量能只要4%以上，就算是符合预期的；<br>这里是也只是大概范围，具体的细化需要多积累经验，再细化一下。<br>主要关注强趋势和强势连板股的接力，趋势波段硬核逻辑加短线连板混合双打，紧紧围绕低吸、波段做T、半路等手法，分享市场常见的关注手法，只关注市场深度核心逻辑。<br>避坑指南：<br>1、退潮期不要去参与高位数板，退潮期专杀最高板；<br>2、退潮期不要去参与高位滞涨震荡票；<br>3、在所有的逻辑推演，所有的条件设置结束后，在你最后准备关注之前，反问自己一句“它是否超预期？如果答案是否定的，那么宁错过别做错<br>4、临盘关注，宁错过，不做错， 大数据看下来，确实临盘出击的胜率极差，负反馈多数来自于此；<br>5、前面关注过得，今天取关飞的，次日不去，魔咒如此，那是不是又可以避开很多坑；<br>6、鸡蛋不要放在一个篮子里面，有十个鸡蛋，分三个篮子放，其中一个坏了，你还有两个，否则一次错误，有可能你十个鸡蛋就都全没了；<br>7、慢就是快，交易有错误是在在所难免的，要静下心来，重新审视自己，是模式的问题，还是冲动导致，如果是后者，那么出错后自然也就不在冲动了，不要让负面情绪扩大，导致一错再错；</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决本地博客无法显示图片的问题</title>
+    <url>/posts/1a857221/</url>
+    <content><![CDATA[<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>Hexo使用图床的方式加载在blog中加载图片，会在非本人的电脑或者手机端报“html访问图片资源403问题(http referrer)”，导致采用图床方式加载的图片全部无法加载。</p>
+<span id="more"></span>
+
+<h3 id="问题原因"><a href="#问题原因" class="headerlink" title="问题原因"></a>问题原因</h3><p>http请求体的header中有一个referrer字段，用来表示发起http请求的源地址信息，这个referrer信息是可以省略但是不可修改的，就是说你只能设置是否带上这个referrer信息，不能定制referrer里面的值。</p>
+<p>服务器端在拿到这个referrer值后就可以进行相关的处理，比如图片资源，可以通过referrer值判断请求是否来自本站，若不是则返回403或者重定向返回其他信息，从而实现图片的防盗链。上面出现403就是因为，请求的是别人服务器上的资源，但把自己的referrer信息带过去了，被对方服务器拦截返回了403。</p>
+<p>在前端可以通过meta来设置referrer policy(来源策略)，具体可以设置哪些值以及对应的结果参考<span class="exturl" data-url="aHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvemgtQ04vZG9jcy9XZWIvSFRUUC9IZWFkZXJzL1JlZmVycmVyLVBvbGljeQ==">这里<i class="fa fa-external-link-alt"></i></span>。所以针对上面的403情况的解决方法，就是把referrer设置成<code>no-referrer</code>，这样发送请求不会带上referrer信息，对方服务器也就无法拦截了。</p>
+<p>浏览器中referrer默认的值是<code>no-referrer-when-downgrade</code>，就是除了降级请求的情况以外都会带上referrer信息。降级请求是指https协议的地址去请求http协议，所以上面403的情况还有另一种解决方法就是，请求的图片地址换成http协议，自己的地址使用http协议，这样降级请求也不会带上referrer。</p>
+<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>在<code>D:\myblog\themes\next\layout\_partials\head</code>目录下有一个head.swig，同样在head.swig文件中添加如下meta信息即可</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot; /&gt;</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20231231_1704035247861.jpg" alt="xbtc29ebed71063aaf8275d90bf6fd816586"></p>
+<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><p>使用<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>指令将工程同步到github即可</p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>解决软件禁止windows自动熄屏和睡眠的方法</title>
+    <url>/posts/c02bd982/</url>
+    <content><![CDATA[<p>最近发现笔记本不会自动休眠，经过排查发现是由于一款软件导致的，但是又不能不用，经过一段时间的摸索，终于把问题解决了。</p>
+<span id="more"></span>
+
+<p>先介绍一下具体操作原理，它就是通过Windows 电源管理命令来管控具体的某一个软件的对系统的电源请求。</p>
+<p>具体如下：</p>
+<p><strong>先来看官方文档介绍<span class="exturl" data-url="aHR0cHM6Ly9sZWFybi5taWNyb3NvZnQuY29tL3poLWNuL3dpbmRvd3MtaGFyZHdhcmUvZGVzaWduL2RldmljZS1leHBlcmllbmNlcy9wb3dlcmNmZy1jb21tYW5kLWxpbmUtb3B0aW9ucw==">Powercfg 命令行选项<i class="fa fa-external-link-alt"></i></span></strong></p>
+<table>
+<thead>
+<tr>
+<th>选项</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&#x2F;?、-help</td>
+<td>显示有关命令行参数的信息。</td>
+</tr>
+<tr>
+<td>&#x2F;list、&#x2F;L</td>
+<td>列出所有电源方案。</td>
+</tr>
+<tr>
+<td>&#x2F;query、&#x2F;Q</td>
+<td>显示电源方案的内容。</td>
+</tr>
+<tr>
+<td>&#x2F;change、&#x2F;X</td>
+<td>修改当前电源方案中的设置值。</td>
+</tr>
+<tr>
+<td>&#x2F;changename</td>
+<td>修改电源方案的名称和说明。</td>
+</tr>
+<tr>
+<td>&#x2F;duplicatescheme</td>
+<td>复制电源方案。</td>
+</tr>
+<tr>
+<td>&#x2F;delete、&#x2F;D</td>
+<td>删除电源方案。</td>
+</tr>
+<tr>
+<td>&#x2F;deletesetting</td>
+<td>删除电源设置。</td>
+</tr>
+<tr>
+<td>&#x2F;setactive、&#x2F;S</td>
+<td>使某个电源方案在系统上处于活动状态。</td>
+</tr>
+<tr>
+<td>&#x2F;getactivescheme</td>
+<td>检索当前活动的电源方案。</td>
+</tr>
+<tr>
+<td>&#x2F;setacvalueindex</td>
+<td>设置当系统由交流电源供电时与某项电源设置关联的值。</td>
+</tr>
+<tr>
+<td>&#x2F;setdcvalueindex</td>
+<td>设置当系统由直流电源供电时与某项电源设置关联的值。</td>
+</tr>
+<tr>
+<td>&#x2F;import</td>
+<td>从文件中导入所有电源设置。</td>
+</tr>
+<tr>
+<td>&#x2F;export</td>
+<td>将电源方案导出到文件。</td>
+</tr>
+<tr>
+<td>&#x2F;aliases</td>
+<td>显示所有别名及其相应的GUID。</td>
+</tr>
+<tr>
+<td>&#x2F;getsecuritydescriptor</td>
+<td>获取与指定的电源设置、电源方案或操作相关联的安全描述符。</td>
+</tr>
+<tr>
+<td>&#x2F;setsecuritydescriptor</td>
+<td>获取与电源设置、电源方案或操作关联的安全描述符。</td>
+</tr>
+<tr>
+<td>&#x2F;hibernate、&#x2F;H</td>
+<td>启用和禁用休眠功能。</td>
+</tr>
+<tr>
+<td>&#x2F;availablesleepstates、&#x2F;A</td>
+<td>报告系统上可用的睡眠状态。</td>
+</tr>
+<tr>
+<td>&#x2F;devicequery</td>
+<td>返回符合指定条件的设备列表。</td>
+</tr>
+<tr>
+<td>&#x2F;deviceenableawake</td>
+<td>启用设备将系统从睡眠状态唤醒的功能。</td>
+</tr>
+<tr>
+<td>&#x2F;devicedisablewake</td>
+<td>禁用设备将系统从睡眠状态唤醒的功能。</td>
+</tr>
+<tr>
+<td>&#x2F;lastwake</td>
+<td>报告有关哪个组件将系统从上次睡眠转换状态唤醒的信息。</td>
+</tr>
+<tr>
+<td>&#x2F;waketimers</td>
+<td>枚举活动的唤醒计时器。</td>
+</tr>
+<tr>
+<td>&#x2F;requests</td>
+<td>枚举应用程序和驱动程序电源请求。</td>
+</tr>
+<tr>
+<td>&#x2F;requestsoverride</td>
+<td>为特定的进程、服务或驱动程序设置电源请求重写。</td>
+</tr>
+<tr>
+<td>&#x2F;energy</td>
+<td>分析系统中常见的能效和电池寿命问题。</td>
+</tr>
+<tr>
+<td>&#x2F;batteryreport</td>
+<td>生成电池使用情况的报告。</td>
+</tr>
+<tr>
+<td>&#x2F;sleepstudy</td>
+<td>生成诊断系统电源转换报告。</td>
+</tr>
+<tr>
+<td>&#x2F;srumutil</td>
+<td>转储来自系统资源使用情况监视器 (SRUM) 的能源估算数据。</td>
+</tr>
+<tr>
+<td>&#x2F;systemsleepdiagnostics</td>
+<td>生成系统睡眠转换的诊断报告。</td>
+</tr>
+<tr>
+<td>&#x2F;systempowerreport</td>
+<td>生成诊断系统电源转换报告。</td>
+</tr>
+</tbody></table>
+<p>详细的具体命令使用方法在这里就不阐述了，感兴趣的可以去参考官方文档自己测试。</p>
+<p>大家看完以后会发现有一个 <code>/REQUESTS</code> 命令介绍是枚举应用程序和<span class="exturl" data-url="aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT0lRTklQTklQjElRTUlOEElQTglRTclQTglOEIlRTUlQkElOEYmc3BtPTEwMDEuMjEwMS4zMDAxLjcwMjA=">驱动程序<i class="fa fa-external-link-alt"></i></span>的电源请求，执行这个命令，就能列出驱动程序和应用程序的电源请求。</p>
+<p>语法是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">powercfg /requests</span><br></pre></td></tr></table></figure>
+
+<p>于是我们就自己测试一下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Windows PowerShell</span><br><span class="line">版权所有（C） Microsoft Corporation。保留所有权利。</span><br><span class="line"></span><br><span class="line">安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows</span><br><span class="line"></span><br><span class="line">PS C:\Users\rkdawn&gt; powercfg /requests</span><br><span class="line">DISPLAY:</span><br><span class="line">[PROCESS] \Device\HarddiskVolume4\电脑软件\抖音直播监控录制工具\抖音直播监控录制工具.exe</span><br><span class="line"></span><br><span class="line">SYSTEM:</span><br><span class="line">[PROCESS] \Device\HarddiskVolume4\电脑软件\抖音直播监控录制工具\抖音直播监控录制工具.exe</span><br><span class="line"></span><br><span class="line">AWAYMODE:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">执行:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">PERFBOOST:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">ACTIVELOCKSCREEN:</span><br><span class="line">无。</span><br><span class="line"></span><br><span class="line">PS C:\Users\rkdawn&gt;</span><br></pre></td></tr></table></figure>
+
+<p>通过执行枚举电源请求命令我们能发现，有一个软件请求了 DISPLAY和SYSTEM两个电源请求，根据字面意思可以知道这个软件阻止电脑自动息屏以及电脑自动睡眠。<br>然后在官方文档中发现<code>/REQUESTSOVERRIDE</code>这个命令的介绍是为特定的进程、服务或驱动程序设置电源请求重写。 如果未指定任何参数，此命令将显示当前的电源请求重写列表。也就是说我们只要使用<code>/REQUESTSOVERRIDE</code>忽略指定的软件、驱动、服务的电源请求，就可以实现阻止软件、驱动、服务导致的显示器不自动息屏，以及系统不自动休眠。</p>
+<p>语法是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">powercfg /requestsoverride [caller_type name request]</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">powercfg /REQUESTSOVERRIDE -?</span><br><span class="line"> </span><br><span class="line">POWERCFG /REQUESTSOVERRIDE [&lt;CALLER_TYPE&gt; &lt;NAME&gt; &lt;REQUEST&gt;]</span><br><span class="line"> </span><br><span class="line">描述:</span><br><span class="line">  为特定进程、服务或驱动程序设置电源请求替代。</span><br><span class="line">  如果未指定任何参数，则该命令显示</span><br><span class="line">  电源请求替代的当前列表。</span><br><span class="line"> </span><br><span class="line">参数列表:</span><br><span class="line">  &lt;CALLER_TYPE&gt;    指定下列调用方类型之一: PROCESS、</span><br><span class="line">                   SERVICE、DRIVER。可以通过调用</span><br><span class="line">                   &quot;POWERCFG /REQUESTS&quot; 命令获取。</span><br><span class="line"> </span><br><span class="line">  &lt;NAME&gt;           指定调用方名称。这是通过</span><br><span class="line">                   调用 &quot;POWERCFG /REQUESTS&quot; 命令返回的名称。</span><br><span class="line"> </span><br><span class="line">  &lt;REQUEST&gt;        指定下列一个或多个电源请求类型:</span><br><span class="line">                   DISPLAY、SYSTEM、 AWAYMODE。</span><br><span class="line"> </span><br><span class="line">示例:</span><br><span class="line">  POWERCFG /REQUESTSOVERRIDE PROCESS wmplayer.exe DISPLAY SYSTEM</span><br></pre></td></tr></table></figure>
+
+<p>通过帮助程序能看到“忽略电源请求”这条命令的使用方式</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POWERCFG  /REQUESTSOVERRIDE [&lt;应用程序类型&gt; &lt;程序名称&gt; &lt;电源请求类型&gt;]</span><br></pre></td></tr></table></figure>
+
+<p>最终命令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">POWERCFG /REQUESTSOVERRIDE PROCESS 抖音直播监控录制工具.exe DISPLAY SYSTEM</span><br></pre></td></tr></table></figure>
+
+<p>接下来执行命令后测试，然后无参调用<code>REQUESTSOVERRIDE</code>来查看我们的设置是否成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">PS C:\Users\rkdawn&gt; POWERCFG /REQUESTSOVERRIDE</span><br><span class="line">[SERVICE]</span><br><span class="line"></span><br><span class="line">[PROCESS]</span><br><span class="line">抖音直播监控录制工具.exe DISPLAY SYSTEM</span><br><span class="line"></span><br><span class="line">[DRIVER]</span><br></pre></td></tr></table></figure>
+
+<p>但是这时候会发现一个问题，经过我测试，貌似每次更新文件以后都要重新添加，例如改变了版本号，那该如何取消呢，经过我搜索后发现，有大佬给出了答案。</p>
+<p>那就是添加的这个是可以在注册表删除的，老规矩，win+R打开CMD输入<code>regedit</code>进入注册表</p>
+<p>它的目录是</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerRequestOverride\Process</span><br></pre></td></tr></table></figure>
+
+<p><img data-src="https://imagedawn.oss-cn-shenzhen.aliyuncs.com/20241221173601328.png"></p>
+<p>结语：感谢大佬提供的教程和思路。</p>
+<p>PS：参考文章：<span class="exturl" data-url="aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2FwYXRoaWEvYXJ0aWNsZS9kZXRhaWxzLzEyNTA5NDMxNQ==">Windows系统禁止软件、驱动阻止系统息屏、睡眠<i class="fa fa-external-link-alt"></i></span>、<span class="exturl" data-url="aHR0cHM6Ly90aWViYS5iYWlkdS5jb20vcC82ODk4NTAyNTM5">一劳永逸解决WIN10所有睡眠问题<i class="fa fa-external-link-alt"></i></span></p>
+]]></content>
+      <categories>
+        <category>技术教程</category>
+      </categories>
+      <tags>
+        <tag>PC使用教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>赵老哥游资心法</title>
+    <url>/posts/d54da0e8/</url>
+    <content><![CDATA[<p>我相信好的投资理论还是有很多道理是相通的，心法更是如此；要不炒股养家前辈说，无论任何模式，要想成功率高，有一点是一致的，那就是对市场的充分理解；</p>
+<span id="more"></span>
+
+<p>一、二板定龙头，一板能看出来个毛。</p>
+<p>从资金面讲，没有新题材，老热点就继续。<br>短期交易，不讲价值，不讲技术，只讲故事。<br>如果一定要捏造技术的话，就是看“人气”，一口气上不来就要去见马克思。<br>有故事，有大量资金活跃的票，就有肉吃，吃完撤退，慢的买单。<br>人生难得几回搏，热点来了全力以赴，热点退潮果断卖出。<br>热点就是印钞机。</p>
+<p>二、有新题材，坚决抛弃旧题材。<br>只有新题材，才有凝聚市场里最敏锐，最犀利的那股资金。<br>这股资金，以亿为单位。<br>所到之处，只有涨停。<br>只要能跟上这股资金，想不赚钱都难。<br>对别人赚钱的模式，不关注，不关心。<br>没有关注，就没有伤害。</p>
+<p>三、市场差不怕，成交额少也不怕，就怕题材多。<br>题材多势必切换快。<br>龙头战法的核心：<br>第一时间发现市场的精神领袖<br>第一时间上了她<br>一直持有<br>直到发现市场新的精神领袖<br>果断切换<br>没爆量的都不能说是龙头<br>既然是领袖，必须爆量，接受群众的检验<br>先预测，后跟随。</p>
+<p>四、大龙头都是多点共振的结果。<br>题材派，龙头派，技术派都认同。<br>筹码供不应求。<br>越走越轻。<br>加速。<br>不少纯打板战法，过分看重分时板的质量，打的是分时板，而不是日线板。</p>
+<p>五、模式不同的人，尽量少交流。<br>交流多了，容易受影响。<br>想法越少越好，模式越简单越好。<br>跟着合力，有吃有喝。</p>
+<p>六、开盘不接力<br>技术面看，分时走稳，换手够了再说<br>市场大局看，是不是当天的G点<br>确定性，远比利润的多少重要。<br>非G点不看，不研究。<br>不研究，因此也就不会买。</p>
+<p>七、只做龙头，只做主升，只做惯性。<br>不做反抽，不做波动，屌丝才爱逆袭。<br>没有主升的龙头，就守候。<br>有，就一击。<br>坚持龙头主升战法，必有回报。<br>这个是执行力。<br>是不是真龙头，这个考验的是理解力。</p>
+<p>八、跟风B，不看，不买，不研究。<br>好的惯，才能保证稳定赚钱。<br>心猿意马，赚不到钱。<br>喜欢操跟风逼的一定会被市场淘汰，这是定律。</p>
+<p>九、交易一定要纯粹。<br>做加法容易，做减法难。</p>
+<p>十、选股，必须新题材龙头。<br>但买卖点，要注意节奏。<br>亏钱都是没有坚持自己的模式。</p>
+<p>十一、对龙头一定要有一颗尊重的心，必有厚报。<br>忍一步海阔天空。<br>错误的交易，第二天集合竞价时割，效果最好。<br>忘掉它，马上进入一个新的交易状态。</p>
+<p>十二、每个热点，高潮过后的消退期，都会留一个活口。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>游资成神录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超短交易节点</title>
+    <url>/posts/27088ca4/</url>
+    <content><![CDATA[<p>针对活跃股、板块龙头、分支龙头、大盘中军、次新股、无涨跌、可转债等标的，通过打板、低吸、半路等模式博弈收益。</p>
+<p>核心：择时</p>
+<p>三个关键词：节点、个股、模式</p>
+<p>在合适的时间，用合适的模式，介入相匹配个股，用模式覆盖机会。</p>
+<p>个股选择：市场高度股、最强板块高度股、新启动的前排个股、板块大盘中军分支龙头、次新股、无涨跌股、可转债、老妖股、大盘指标股</p>
+<p>仓位原则：</p>
+<p>共振节点加仓分歧节点底仓</p>
+<p>模式选择：</p>
+<p>顺应市场风格，趋势风格做趋势，连板风格做连板。</p>
+<span id="more"></span>
+
+<h4 id="一、指数节点"><a href="#一、指数节点" class="headerlink" title="一、指数节点"></a>一、指数节点</h4><p>1、共振大阳线</p>
+<p>通常的标准，指数涨幅1%以上，上涨家数超过3500家（以前是3000家）。连续阳线，通常以第一根阳线作为关键节点。<br>加分项：指数位置越低，量能越大，越有利于后面的行情。存在明显爆发的低位主流板块，高位板块延续性可能相对差。</p>
+<p>常见位置：<br>指数连续下跌后，尾盘放量拉升、指数连续小阳线后，早盘高开高走、指数缩量后早盘放量拉升<br>交易节点：通常为阳线当日<br>常用模式：高度股打板、低吸（市场连板高度低吸&#x2F;打板、最强板块高度打板）大盘中军半路、打板、最强板块首板套利、转债龙头套利分支龙头套利、大盘指标股套利</p>
+<p>2、指数阳线后低开</p>
+<p>指数阳线次日往往因为高潮分化很难操作。但如果指数次日低开，那么就是非常好的节点。指数阳线后，次日低开，后面修复的概率很大，是常见的分歧节点。<br>常见模式：主流板块前排接力、活口回封、 主流板块中军低吸、当日新爆发的最强板块套利</p>
+<p>3、冰点</p>
+<p>两市上涨家数小于800家、在17、18年采用的数据是500，当时两市3000只个股左右，采用的比例大致是15%。随着两市个股的增多，数据的限制也有所变化，目前采用800。等十年、二十年后，两市大部分的个股沦为仙股，那么数据的取样指数可能变为中证2000。<br>加分项：如果市场连板高度在 2-3板，冰点的有效应增加。<br>常见位置：指数上升趋势，突发利空 指数下跌趋势，加速下跌、指数无法突破前高，冲高回落。<br>交易节点：冰点当日、冰点次日（可能是十字星、继续冰点、也可能是反弹日）<br>冰点日能否交易主要取决于指数的形态，如果指数处于上升趋势中，或者是震荡区间内，冰点日尾盘可以尝试博弈次日修复。如果指数处于下跌趋势中，容易出现连续冰点的行情；如果冰点当日跌停家数过多，容易出现连续冰点的行情。相对稳妥的方式是在冰点次日出手，防止冰点次日的惯性杀跌。同时，二连冰的修复概率比单日冰点修复的概率更大。</p>
+<p>常用模式：冰点尾盘高度股回封、主流板块活口回封、趋势新高股、大盘指标股套利、冰点次日高度股弱转强（高风险高收益）、筹码错位低吸、高度股断板低吸（反核）最强板块龙头、<br>趋势股加速，高开、反包上影线、新题材首板 分支龙头</p>
+<p>4、利好高开低走</p>
+<p>指数出现利好高开低走后，往往会在1-2天后出现修复。<br>常用模式：大盘指标股低吸</p>
+<h4 id="二、板块节点"><a href="#二、板块节点" class="headerlink" title="二、板块节点"></a>二、板块节点</h4><p>1、板块酝酿期</p>
+<p>板块指数趋势向上，连续阳线，但板块没有明显的涨停潮，有3-5家涨停。如果市场上有主流板块，这类板块是轮动的非主流板块。如果没有主流板块，此类板块可能强化成主流板块。</p>
+<p>常用模式：板块首个二板</p>
+<p>2、板块爆发日</p>
+<p>板块指数大幅拉升，通常在3%以上。板块出现涨停潮，通常在15家以上。板块涨停个股成交额，通常在100亿以上。<br>加分项：与指数共振大涨， 板块位置越低，板块越新，<br>行情软件新增的板块指数，<br>板块越强，板块的延续性越好，对应模式越容易成功；降低要求依然可以做，但成功率下降。<br>常见模式：板块最高股打板<br>板块中军打板、套利、板块次新股、板块无涨跌套利板块最强20cm打板、板块最强债、板块股性好后排首板套利</p>
+<p>3、板块爆发次日，分化日</p>
+<p>板块常见的节奏，爆发—分化——回流<br>板块爆发次日，有可能是大分歧，也可能是小分歧。对于，底部新爆发的板块，前排活口是可以关注的，如果爆发日没参与，可以早盘先上车再说。<br>注意：不要参与高位爆发的板块。也就是说，板块已经反复炒作后，再次爆发，这时很可能要大幅兑现，尽量不要早盘参与，等尾盘做活口。<br>交易节点：板块爆发次日分化日，分化次日回流日<br>分化日常见模式：主流板块前排接力、活口回封、一字板首开、分支龙头接力</p>
+<p>回流日常见模式：一字板开板低吸、打板趋势新高股半路</p>
+<p>4、板块指数阴线</p>
+<p>主流板块指数连续拉升后，第一次小阴线往往都是分歧节点，可以博弈回流。主流板块指数大阴线，早盘大跌要敢买，尾盘大跌等次日</p>
+<p>常见模式：板块活口接力中军低吸、趋势新高股分时低吸、尾盘先手、打板</p>
+<h4 id="三、个股节点"><a href="#三、个股节点" class="headerlink" title="三、个股节点"></a>三、个股节点</h4><p>1、连板高度为2-3</p>
+<p>连板高度2-3，从高度股上是冰点。市场很少出现没有连板的行情。<br>常见模式：辨识度连板接力，试错</p>
+<p>2、主流板块龙头调整20%板块可能会反弹。</p>
+<p>常见模式：板块新启动的高度股趋势新高股半路</p>
+<p>3、主流板块龙头龙回头</p>
+<p>龙回头可能是板块新的一波，也可能是板块回光返照。根据指数的位置，如果指数调整后，再次出现龙回头，那么板块可能启动了二波。如果指数高位震荡，阳线中出现了龙回头，那么可能是风险信号。</p>
+<p>常见模式：板块新启动的高度股趋势新高股半路</p>
+<p>4、一字龙头开板</p>
+<p>一字龙头开板往往是板块分歧的时候，但不一定代表着板块要回暖。一字龙头开板后，板块可能继续分歧调整，等板块龙头跌了20%点，板块再回暖；也可能次日直接加强。这个时候，很多人都会去做开板的龙头，但从历史数据看，成功率一般。<br>高难度模式：一字龙头开板低吸（如果大幅下杀，可以博弈日内修复的性价比） 分支龙头。</p>
+<h4 id="四、其他节点"><a href="#四、其他节点" class="headerlink" title="四、其他节点"></a>四、其他节点</h4><p>1、月初</p>
+<p>如果没有什么新题材，月初的新题材值得关注</p>
+<p>2、节前</p>
+<p>节前的高标，可能会被博弈</p>
+<p>3、星期五</p>
+<p>如果有什么新启动的首板或者二板，周末可能会有利好，或者消息催化。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>炒股技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超短线选牛股的两个精髓</title>
+    <url>/posts/36a27738/</url>
+    <content><![CDATA[<p>一、做超短的核心要点</p>
+<p>(1)空仓即主动！资金在手，天下我有；</p>
+<p>(2)顺势而为只做最强；</p>
+<p>(3)只做确定性模式内交易；</p>
+<span id="more"></span>
+
+<p>(4)认真复盘后的临盘空灵一脚；</p>
+<p>(5)超短的本质是接力-弱转强、强更强；</p>
+<p>(6)机械操作、截断亏损、利润奔跑，一路向北；</p>
+<p>(7)控制回撤的确是大难题，感觉投机越到后面，技术方面都是次要的了。</p>
+<p>心境和心性却最是难以突破，修心和舍得才是最后的归宿，一旦有所突破，回撤的问题就自然得到了控制。</p>
+<p>二、超短线的精髓</p>
+<p>你们知道超短线相比于中长线最大的优势是什么吗？很多人觉得相较于中长线是正规军、正面战，超短是游击战、麻雀战，不入流。但是大家都没搞清楚超短的精髓！</p>
+<p>超短是以天为单位计算收益的。你们应该都算过，一天赚1%，一年200个交易日是7倍多，但这有个前提条件就是不能回撤。一天赚 1%，收益是不是很少，但是积累到一年，能翻7倍的股票是不是寥寥无几?</p>
+<p>所以，超短相比于中长线的优势在于，中长线选手日内回撤时优秀的超短选手是不回撤的！</p>
+<p>总有些人跑过来看我的实盘说：“帮主你格局太小了啊，就赚两三个点就跑了啊。你就是钱多，除了钱多啥都没有。你看人家中长线的持有某某某赚了几倍。”</p>
+<p>说实话，对于这种人，相比打假的人更加有拉黑他的冲动。因为我们超短线选手的收益是在日积月累中体现的，而没有显示在当前的账面上。而中长线的是把半年、一年的收益全部积累并展示在账面上。</p>
+<p>三、超短线选牛股的两个精髓</p>
+<p>在弱市市场，什么选股思路都会失灵，什么有效 的方法都会失效，所以弱市市场没有思路就是最好的思路。在强市市场，我的选股思路，就是两点：一是热点板块，一是赚钱效应。赚钱效应可以引发大热点板块。赚钱效应可以引发和诱导热点板块。</p>
+<p>龙头和领涨我们不一定能把握，但板块行情应该不会错过。因此，选股把握住了市场的热点和焦点，认清市场赚钱效应的所在。短线资金可以抛弃以前那种盘中靠反应追强势股的方法，而选择我现在这种比较稳健的选股思路。当然，这种思路的前提是在强市市场。技术分析的最高层次是抛弃所有的技术指标，最后只剩下资金流向的分析。</p>
+<p>我认清了热点，看准了赚钱效应，我已经不在去盘中跟风，我可以打提前量。说穿了就是资金之间的博弈，我的反应比你敏锐，我先进去的就赚你后进去的钱。</p>
+<p>四、分时起爆秘诀-资金决定一切</p>
+<p>量能代表资金，资金决定一切。所有股票上涨原动力全部来自资金。所以均线也好，筹码也罢，一切都以量能为依托。甚至有量能其他的统统不关注也无所谓。</p>
+<p>不管是追涨的也好，抄底的也好，总归是一切做短线交易者都期望能够买在起爆点，起爆点必然爆量。所谓攻在量中，无量不上，无量不追，无量无视价格。就如生产力决定生产关系，量能决定价格，无量的个股在拉升时要当作没看见。只有伴随爆量的个股，才可能在买后几分钟内就远远抛开你的成本价。有量才安全。</p>
+<p>五、何为退在量后?</p>
+<p>当爆量拉升遇到阻力，大多数伴随的急速滑落，这就是最典型的退在量后，此时卖出，未必就是今天的高点，但是起码是高点之一。</p>
+<p>分时图上的高点基本上都在量能爆发以后，如果缩量后不能维持股价，随之而来的就是迅速下跌。回撤幅度可以用来检验个股的强度。小到分时，大到K线，个股形态都可以用成交量来分析。不过个股形态千变万化。</p>
+<p>量能也充满着变化。所以不能一概而论，不管怎么说，量能代表着核心生产力，生产力决定了生产关系也就是股价。所以一切短线分析都部必须建立在量能也就是成交的基础上。大道万变不离其宗，方向对了才可能走对时。整天痴迷于指标、股评，一开始就错了，自然没法走向正确的终点！</p>
+<p>六、量能在超短中的作用</p>
+<p>量能是超短强势股的操作中，非常重要的观察点。我不是简单机械的看多么大的量能是具有什么意义。而是看量价之间的关系，不同的阶段，不一样的量能，有些还需要看量能的持续演变。</p>
+<p>可以挑选历史上的一些主升清晰的个股，观察他们量能的演变过程。并重点关注强势股，起动、拉升、高位盘整、第 2波拉升、下跌大反抽等各个不同阶段的量、价关系。并在未来的牛股身上，小仓参与体会，慢慢会有属于自己的心得，而不是机械的去看书本，寻求秘籍。</p>
+<p>围绕市场的热点，涨停做文章，是我的交易系统的选股策略。不同的个性、理解会出现各自不同的重点参与阶段。有的做拉升段，有的做高位盘整段，有的做2波。还是细化到各个阶段的每个细节，这里绝对是有规律性的东西，变化很多，但是有共性的东西存在。</p>
+<p>温故而知新，看过历史上几千张K线图的,经历过无数次同类型战斗的，就有明确的心得。至于盘中实时操作，更多时靠即时盘感与条件反射。盘后的复盘也很重要，我比较喜欢去揣摩强势股的运行思路。看参与者的进出角度，并在不断的验证之中，逐步接近主流游资的思维、理念。但并不需要花大力气去感知未来大盘的上下、感叹机会的错失。当你高效的跟随了市场，机会几乎是接踵而至。</p>
 ]]></content>
       <categories>
         <category>炒股</category>
@@ -4271,48 +4259,85 @@
       </tags>
   </entry>
   <entry>
-    <title>龙头战法完整知识体系</title>
-    <url>/posts/64eb0735/</url>
-    <content><![CDATA[<p><strong>一、什么是龙头股？</strong></p>
-<p>龙头股是一波行情中最核心的标的，它引领市场情绪，带动板块，辨识度最高，地位最高，市场炒作的整体情绪因它而起伏</p>
+    <title>超短第一人A神asking心法2篇</title>
+    <url>/posts/4f360a6d/</url>
+    <content><![CDATA[<p>Asking名为邱宝裕。所在席位,兴业证券股份有限公司福州湖东路证券  营业部。新大陆  第二波的推手。进入十大股东。破产二次，最穷时，买一份报纸也不舍得买，母亲置信  他的才能，高利贷款10万，作为炒股的原始资金，现个人资本十亿以上。</p>
 <span id="more"></span>
 
-<p>由于资金偏好的不同，机构资金偏好行业龙头及基本面龙头，如贵州茅台、宁德时代变动很小，而游资和散户偏好情绪龙头，更新换代快，龙头一般是一个阶段中涨幅最大的，但并不是所有涨幅最高的就是龙头，人气、属性、涨幅都会影响到龙头的地位，我们这里主要说情绪龙头，基本面龙头少数时候也能演变成情绪龙头，如去年消息刺激下短期暴涨，像宁德时代、比亚迪等。</p>
-<p><strong>二、龙头的种类有哪些？</strong></p>
-<p>我们大家只知道“龙头”二字，可小散不知道龙头股又分总龙头、高标龙、卡位龙、板块龙、先手龙、补涨龙、日内龙、龙二龙三（共8种）<br>（1）总龙头人气最旺，也是最容易抱团的核心，辨识度最高，是合力上去的结果，如之前的中国医药、浙江建投等，所以总龙头适用于一切龙头战法，如龙头首阴、龙回头、二波等。<br>（2）高标龙，一般指连板高标，也有一些走出近期新高的股，随后走出连板的，称为连板高标，这类龙头有时候不好的地方，是涨停太快，普通散户根本买不到，买到就容易被坑。<br>（3）卡位龙，卡位龙指的是在龙头初期，会有一些个股来竞争龙头，于是经常开盘卡了龙头的位置，最先上板，而龙头反而在当天表现一般，或者到了尾盘才拉升。<br>（4）板块龙：每个板块在某一个阶段，都有一些资金尝试发动行情，有时候成功了，板块内的龙头就存在炒作起来的可能，这类如果是单日的，是以试错为主，有持续性后就会不断吸引资金靠向龙头。<br>（5）先手龙一般是突然的利好，导致资金认可，提前涨停启动，比板块其它个股领先身位，率先启动，相对抛压更小，阴力更小，资金更容易形成合力。<br>（6）初涨龙，总龙头退潮后，市场开始挖掘补涨龙，有时也有一些跟风股会演变成补涨龙，现在的补涨龙容易形成一致性，即大家认可后直接一字上去，导致要么买不到，买到就被砸。<br>（7）日内龙，即走势日内最强，市场震荡混沌期，市场没有真正的龙头，持续性不够好，有资金抢日内核心，一般发生在早盘前15分钟就已经产生或者板块受消息刺激，从而演变成日内龙。<br>（8）龙二龙三，当一个市场情绪被总龙头带起，龙头往往会有小弟共同前进，总龙头承载的资金有限，有时候龙二龙三的涨幅还要大于总龙，因此如果是指数与情绪共振的市场有主流热点时，龙二龙三也值得重视。<br>只听这些各种龙，估计很多人已经蒙圈了，想要在市场中分辨出这些，需要大量时间去复盘。</p>
-<p><strong>三、龙头股的属性特征。</strong></p>
-<p>（1）龙头股第一个特点，就是领涨两市，龙头打出高度和赚钱效应，这个高度是靠龙头打出来的，一个周期的情绪龙头，它的涨幅直接影响到其它小弟，龙头股就是带头大哥，如果带头大哥倒了，跟风小弟基本也是凉凉。<br>（2）龙头股的第二个特点，就是换手充足，流动性好，关注度高，人气足，几乎所有短线高手都会关注龙头，因为既使不买入龙头股，它的动向也会影响到其它情绪股。<br>（3）龙头股的第三个特点，是无视利空，真正的龙头敢于直面减持和关注函，利空增加换手，反而走的更远，龙头股不怕有分岐，就怕一致。<br>（4）龙头股的第四个特点，刷新认知，每一个龙头的诞生，都会有一些我们想不到的东西，如果贸然去猜顶，就很容易过早下车，龙头真要涨起来，往往是要打破常规的，会让绝大多数人感觉没想到，然后就是一路看着它涨，一直关注一直不敢买。</p>
-<p>（5）龙头股的第四个特点，属性被不断挖掘，当一只龙头股成长起来后，各种跟风资金，由于恐高或者抢不到龙头，就会去挖掘它的属性，挖掘补涨股，资金就好像攀亲戚一样，总要和它沾点边，有些公司也会去蹭它的热度。</p>
-<p>总结龙头股特点，<br>1、涨幅大，起步翻倍<br>2、超预期，不断刷新认知<br>3、抗打压，经得住利空考验<br>4、带动性好<br>5、属性被不断挖掘</p>
-<p><strong>四、如何从技术面判断龙头股？</strong></p>
-<p>指数型龙头股，指数与情绪共振产生，人气最旺，成交量大，最先打出高度，指数型龙头的判断方法，龙头总是先打出一定高度，带动指数和情绪回暖，龙头成交不断放大，人气越来越高。<br>连板型龙头，这类是游资引导与散户合力，所产生的结果，往往先是游资强势拉出三连板以上，带动情绪回暖，又带动了相关板块题材，而题材里又不断有消息来刺激催化，从而演变成总龙头。如九安医疗。连板情绪龙头主要看换手和累讲涨幅，换手上去的往往是合力的结果，一次上去的要看换手后的承接，没有换手的考验，就没有群众基础，算不上真正的龙头。无论怎么判断，只要涨跌停制度还在，涨停就是衡量一只龙头股的首要因素。</p>
-<p><strong>总结：</strong>（1）爆量持续换手；（2）涨停；（3）领先涨幅。</p>
+<h3 id="篇1："><a href="#篇1：" class="headerlink" title="篇1："></a>篇1：</h3><p>一.闲谈龙头和领涨<br>谁先涨停谁就是龙头，谁的封单越多谁就是领涨。那太肤浅了，阶段性龙头或者说是阶段性人气个股，往往是随机产生而非有些书上所说的，在大盘否级泰来的那一关键时刻，同时会出现几只强势个股，能否成为龙头或人气股，要看个股是否具备当前容易被市场认可的题材，这一点比基本面重要得多。</p>
+<p>还有选择图形炒做，个股的选择一定要考虑符合当下的炒做热点。相对低位的第一根放量大阳线。或者说二次探底后的再次启动，必须是放量大阳线，出现这种阳线，都是超短线的好品种。</p>
+<p>大盘背景的判断是回避这些风险的唯一办法。指数在走下跌通道时，符合条件的交易，全部放弃，也不为错。<br>这个市场本来就是反应快的赚反应慢的人钱。<br>龙头不在盘子大小。而在启动的时机。只要先于大盘连续上涨并能带动关联个股上涨，就是龙头。<br>趋势的力量引导市场合力。所以在今后的交易中，对势的理解超过一切。<br>市场合力大与一切。宁波短线资金流有时也只是起到点燃引暴的作用。很多暴涨股开始是他们启动，早就出局了，结果还在涨，实际上后来是整个市场短线资金流都参与了。<br>涨停板操作，追求的是高买高卖，频率上不快不行。90%以上的操作都必须第二天结束。</p>
+<p>二.强弱市的看法<br>除了专业的职业做手,一般人很少用。实际上,精力在好的炒手也不可能每天把所有的股票全部复盘,而且也没必要.用好的板块功能,每天只需复盘100来只股票,基本就能做到去繁为简,把握主流资金运作的意图了。短线炒做除了大势配合外,必须还有板块的强势才能提供较高的成功率。自选股提供可操作侯选目标,而这些目标必须从板块股中筛选.</p>
+<p>目前的市道,板块轮动特征明显,对与大涨且放大量的个股,除板块领头羊外,一般都可以不在做关注。反而应该在思维  上先人一步,提前介入有启动迹象但还没大幅拉升的板块.否则,操作节奏上始终就要比市场慢半拍. 资金运作自然  不能运转如意.</p>
+<p>三种方法中,早盘和尾盘做的最多,午间开盘做得少.</p>
+<p>都说短线操作易与流为频繁的随意操作,成功率不高。但不知道有准备的短线交易不能等同于随意操作.成功率的高低取决于盘后的准备程度,用功时间,一分耕耘,一分收获.</p>
+<p>午间收盘前拉高的个股,开盘后价格易成为当日盘中高点.这可能和机构做盘手法有关.所以午盘交易尽量少做.</p>
+<p>只要能看懂,并能做对,低吸和追涨都一样.不过从成功率来说,追涨靠的是瞬间的反映和直觉,而低吸有更多的理性思考,所以成功率低吸要高得多,从长时间的收益来看,应该比追涨还要高.</p>
+<p>追涨&#x3D;&#x3D;&#x3D;市场热点(最好是第一次放量上穿5天线、涨停品种)低吸&#x3D;&#x3D;&#x3D;龙头品种(均线附近买)</p>
+<p>短线炒手必须遵循的第一原则–弱市不做，弱市不操作就是最好的操作。弱市行情中看得懂也未必做得对。风险市场原则,知易行难.能做好这一条就已经不错了，没有大环境的配合,成功率会降低.<br>弱市中只有一种行情可以参与，那就是极度超跌后的反弹行情。</p>
+<p>强势市场：<br>（1）牛市的运行节奏为慢涨急跌，熊市为慢跌急涨。有人提出牛市持股利润最大，实际上是书呆子语言，牛市避不开急跌基本就赚不到钱，牛市在短时间的跌幅不比熊市少。<br>（2）熊市下跌无量，股价呆滞，牛市下跌有量，股价活跃。<br>（3）不管怎么大跌，牛市中总有大量股票不断创新高。所以有牛市不做超跌做抗跌的说法。基金做的票，涨势没有连续性。长阳  都少见，更别说涨停了。但如能形成短期的上涨趋势，不用追涨，买它的阴线就行了。</p>
+<p>个人看法：<br>一涨一跌总有人出来判断后市多空。实际都是假老练。是涨是跌，是多是空，毫无意义。判断市场不需要这些，确定市场强弱才操作是根本。在大盘正在下跌时期,不操作是最好的操作，最大的风险是补跌,它甚至比抢反弹的风险更大.</p>
+<p>下跌不做，上涨满仓（看涨幅榜），论坛上经常为多空判断争论得不可开交,职业短线者大可不必理会。实际上在下跌末期,成交已经开  始持续放大,强势板块已经开始向上运行,赚钱效应也开始显现.趋势上虽然还看不出来,但通过盘面已经可以看出强势特征的征兆.在舆论和股评还在看空的时候,职业短线者可以结束修假考虑进场找感觉。</p>
+<p>超短线在强势中,系统的限制条件可适当放宽.在跌势中必须严格又严格.很多个股的炒做都是这样.其中并无主力庄家。只是走出来后,得到市场各路资金的认同。行情好时我都是满仓滚动操做，因为这时亏钱概率小。不好时应尽量轻仓小玩玩.</p>
+<p>大盘急跌告一段落，可以做一做大盘的反弹行情。</p>
+<p>选股方面，牛市的思路不应做超跌，而应做抗跌(逆势黑马股)。大盘一稳，抗跌品种的行情远远大于超跌。抗跌品种分两种，真抗跌，假抗跌。真抗跌要大涨，假抗跌要补跌，欲下先上，假突破再补跌。能分清楚全靠经验，亏出来的经验。牛市的思路不应做超跌，而应做抗跌。行内有句名言，看对三日行情，便富可敌国。隔日交易操作的基础只是看对两日走势就行。所以不会富可敌国，可以只能挣点小钱。两日走势包括看对当日大盘和目标个股走势。看对次日大盘和目标个股走势。在看对的基础上再追求做对。</p>
+<p>超短线确定性大</p>
+<p>过多的随意性操作是隔日交易收益不稳定的主要因素。因此超短线的计划性越来越重要，做有计划的超短线在我现在的交易中越来越多。盘后静态选股远比盘中动态选股要重要。其操作出来的成功率要高得多。实盘小单多练，然后在形成一套操作系统。</p>
+<p>大盘上升趋势时，乱操作乱有理，没有什么技巧可言。看热点的本领是短线客必须掌握的基本功，否则你永远在门外。股价上涨和下跌的内因是资金的注入和流出。成长和  高业绩只是诱使资金注入的一个因素，而不是全部。再好的成长和业绩，资金源源不段的流出，股价一样要跌。</p>
+<p>操作的要点只有两条。弱市忍手不动，强市踩准节奏。</p>
+<p>交易之道没有捷径，只能炼，不然的话，卖股经的不早发了。没有捷径,也没什么秘诀.每天盘后认真总结得失，每天不能间断。</p>
+<p>三.Asking的一些心得<br>涨停那一定要行情活络才好搞，等股票行情来的时候那不是随便买随便赚，一点也不难。赚大钱的都是在行情好，要大干快上。其余的看看啦，有机会赚点生活费就OK啦。炒股很简单，个股活跃你就追涨，追板块的龙头就行啦。反之你就看看好啦，有超跌，你抢一把就走。道理谁都懂，但没几个人能管得住自己的手脚，这就是杯具。</p>
+<p>我只跟市场走，不预测，不操纵。。十分里边，心态，控制力占7分，技术占3分（技术指标主要看）成交量 均线 K线（收盘后），不用（翻看大量个股），主要看公告，再结合市场热点锁定相关个股。（至于做下跌股的反弹选择）前期热门强势股。</p>
+<p>小钱要博，大钱要稳。(关于操作的随意性)这是人性的弱点，我也经常犯。一般随意了一二把，第二天立  马就纠错，不会跟他纠缠，然后把他忘记，重新谨慎再来。超短一定要及时获利了解，在稳建的前提下尽量做大成交量，行情好时我都是满仓滚动操做。</p>
+<p>有量就能来钱，操短对行情好坏只有一个标准—量。</p>
+<p>大盘在走牛，炒股炒的就是想象力，人有多大胆价就有多高。炒股一定要借力打力,四两拨千斤,硬干是不行的,顺势最关键。一定要做市场高度认同的票,要不独脚戏可不好唱哦。</p>
+<p>追涨停.风险偏大,逢大跌买点更稳妥，上涨靠的是市场合力。</p>
+<p>大盘量小,个股活跃度欠佳,短线少做,仓位应当控制.当然这是针对数百万以上的短线资金而言.对小资金来说,天天有机会,天天都要满仓。</p>
+<p>其实,股票投机跟艺术创作一样,是有天赋的.它没有什么太多比较固定的规律,经常是飘忽不定的,买入卖出有时就是靠感觉或突然的灵感,当然这需要长期专注看盘积累的。没有天赋,有的一辈子的努力也悟不透其中的窍窍。</p>
+<p>我是很少去预测大盘或个股的，一切以盘中走势为准，因为我们不是神仙,即使你有80%的准确率.那20%的失误都有可能把你的利润都  磨平。</p>
+<p>追涨停是一件很耗精力的事,手脚要快,反应还要更快.一般人没个一,二年的实战,很难胜任。短炒做龙头，做热点，先涨后跌。很简单的道理，你都不懂，还想从别人袋子里拿钱，不是笑话吗。</p>
+<p>行情好多做，一般都轻仓。这样子人轻松，不累。多赚少赚没事，身体要紧。不做龙头的心理障碍就是龙头涨的多了，想做便宜的，事实证明是错误的–短炒就是一夜情，就像你去嫖娼，你肯定只管挑漂亮的上，你还会管她前面搞了几个。</p>
+<p>炒股吧，最重要的是心态，控制力。炒股技术的问题，熟能生巧，只要多努力，下苦工，没有什么学不会的。大盘不好就少做点.但是天天都要做,锻炼盘感,免得行情一来摸不找北.反正现在能赚点零花钱就好了。</p>
+<p>(1)出击的时间,必须把握住大盘否级泰来的临界点.这点最为重要,必须借大盘的势.<br>(2)必须认清热点,借板块的势.或借赚钱示范效应的势.<br>(3)个股的选择,和上面两点相比,相应简单一些.即时图走势强于同类个股,有涨停潜力,与其跟风,不如主动发力,吸引别人跟风,使自己的资金处于相对有利的价位.<br>(4)相同既时走势的个股,有些封住了,有些封不住.有些打了上千万也封不住,有些2-3百万就停了,且第二日的走势也不错.其成功的关键在于对大盘的理解,是大局观的问题,不是操作技巧的问题.<br>总的来说,做好前面两点,自然能体会四两拨千斤感觉.</p>
+<p>四.人生感想<br>超短线我最有发言权了,5.19到现在2006.7.23,资金从10几万到几千万,成交量从两三百万到7,8个亿.豪宅,名车,吃喝玩乐,通通从股市中来.我看全中国也没几个啊.榜样的力量是伟大的.周围的人现在不做中长线,只做超短啦.把营业部老总给乐坏啦.但是我现在想做中长线啦,超短太累啦.有钱啦,想轻松一点,享受生活吧。</p>
+<p>论坛没几个人有AUDI，BMW，保时捷吧，我做超短把它们都赚到了。明年准备买一法拉  利。没钱人，要想爽，做超短 。听我的，错不了。我一个月的返佣，几乎都够买一部保时捷，哈哈。有点好高了，见谅，见谅注明一下，当年的10几万还都是借的，一分半利息，我妈帮我借的。当时我家从乡下上来，租了一15平米民房，铺了三张床，煤气灶放在阳台，还经常被房东及邻居欺负。谁叫你没钱，没办法啊，一份5毛钱的都市报都舍不得买，经常站在报摊前看一会儿就走，看久了摊主会赶人啊。当时可谓是坚苦卓绝，背水一战啊做超短，应该是从陶永根处得到启发。96年上证报举行的一场比赛，他第一，赵笑云第二。好象是3个月，赚了4倍多。经常是尾市买，第二天就卖。我当时就尝试一下，效果不行，上班没时间，顾不过来。只好做中长线，当时买了一只东大阿派  ，上市就买，96年行情如火如荼，他就股一只，那个急啊，恨不得甩他两巴掌。还好最后不辜负厚望，隔年高位卖掉赚了四倍多。就此把工作辞了专职炒股。</p>
+<p>没想到被人拉去做期货 三个月就被打爆了。今年又去做了，还是不行，亏了我N多钱。还好5。8以后行情来，一周就把他扳回。还是做股票好啊，安全，包赚。以后打也不去做了，可能包括股指期货。他坏就坏在一点，你做的再好，也绝不能犯一次大错误，一次就能要你的命。你说跟这样的老板  还怎么混。而股市，只要你足够优秀，即使犯了好多次大错误，只要勇于及时认错。股市老板还是会原谅你的，职位还给留着，薪水照发，加薪还有机会。现在不说了，吃饭了。有空再聊聊我是怎么做发家的。</p>
+<p>97年期货打暴以后，休息了几个月，钱没了，再去上班赚千把块钱也没这心情了。怎么办，以后路怎么走，想想只能再去炒股了。还好我妈很支持我。到处张罗，总算凑了10来万。于是98春节后，我又回来了。其实这是我第三次重返股市了，最早要从94年说起。那一年指数从1500点一直绵绵阴跌到600点时，忠言在收音机里一直狂吹界龙  ，直听得我热血沸腾，恨不得马上去买。于是我极力怂恿我妈，我前面说那么多话干吗，主要是告诉大家，做超短一样可以发家致富。特别是职业小散们。做超短可能是一个最佳选择。你一点点钱，做中长线，普通年景一年一倍，已经是很好了，但你很难很难都做到年年都一倍。请问你如何发财。做超短，一年1倍2倍随便赚，5倍10倍也是有可能的。2，3年就能实现资本的快速积累。只要你入门了，一切尽在掌握。不象中长线，运气成分太大，收益不可控。当然钱多了，做中线是必然了，但现在你一年只要赚30％，可能相当于原始资金的10倍，20倍。一年10-20倍，而神光的3年才10倍都吹到天上去了，我们岂不是比他NB多了。</p>
+<h3 id="篇2："><a href="#篇2：" class="headerlink" title="篇2："></a>篇2：</h3><p>一、Asking<br>1.炒股一定要炒龙头股，有板块效应的最好；因为龙头股：涨—–比别人先涨；跌—–比别人后跌!<br>2.永远都要跟随着市场主流走，主流板块龙头，资金易形成合力，容易形成持续性上涨；<br>一般性题材，主力资金一  般都是抱着日一把就走的心态，收益率很难上去<br>永远牢记纪律：耐心 顺势而为 知行合一 !<br>个股活跃，就满仓出击主流板块龙头股；没有明显的延续行情，空仓休息是最好的防守!</p>
+<p>3.小资金要想快速变大一定要超短线，只有超短线才能做到一年10多倍,才能最快速度挖到第一桶金!<br>要注意的是:做短线,不等于天天去做,没有把握就休息!（会空仓的，才是高手）<br>4.炒股其实很简单，个股活跃你就追涨，追板块的龙头就行啦。反之你就看看好啦，有超跌，你抢一把就走。<br>道理谁都懂，但没几个人能管得住自己的手脚。<br>这就是悲剧（交易最大的对手不是别人，而是自己的贪婪，深以为然，以我自己为例，90%的交易只产生了10%的收益，甚至带来亏损，剩下的10%交易却产生了90%的收益）</p>
+<p>5.我只跟市场走，不预测，不操纵。<br>6.抢钱吧，一定要月黑风高才行，涨停那一定要行情活络才好搞。<br>7.十分里边，心态，控制力占7分，技术占3分。</p>
+<p>二、钢铁战士<br>1.在一个下降通道赚钱是偶然的，亏钱是必然的！（个人理解放量跌破20日线，视为下降通道）<br>2.在一个上升通道赚钱是必然的，亏钱是偶然的！（放量上攻，短期均线突破长期均线，视为上升通道）<br>3.如果你没有耐心，那你将注定在股市一无所获！<br>4.不会空仓的人，他永远不会战斗！<br>5.一个不会止损的人，死路一条！<br>6.不要狂妄，不要自大，不要骄傲，市场很快会告诉你，呵呵！谁才是真正的老大！<br>7.盲目的冲动和频繁的交易是造成亏损的主要原因！</p>
+<p>三、深南中路<br>1.把握住了市场的热点和焦点  ，认清了市场赚钱效应的所在，短线资金可以抛弃以前那种盘中靠反应追强势股的方法，而选择我现在这种比较稳健  的选股思路。当然，这种思路的前提的在强市市场。<br>2.技术分析的最高层次是抛弃所有的技术指标，最后只剩下资金流向的分析。我认清了热点，看准的赚钱效应，我已经不在去盘中跟风，我可以打提前量。说穿了就是资金之间的博弈，我的反应比你敏锐，我先进去的就赚你后进去的钱。<br>3.短线的目的并不是要追求短期的利润最大化，稳定获利的境界才是交易者追求的最高目标。<br>我追求的是那种帐户市值大涨小回，不断创新高的那种状态,并不追求大起大落的赚钱速度。</p>
+<p>4.这个行业最不怕的就是不怕没钱,最怕的是怕没本事。给你说个cdrr真实的故事,519之前，他已经分文没有，每天坐一元钱公交车回家，中午我还经常请他吃饭，唯一有的就是5年的炒股经历。<br>519行情一来，朋友给了他一个12万元帐户代为操作，那一年翻了挣10倍，从此发家。<br>葵花  宝典，99年5000元起家，做到05年我认识他的时候才20万，现在后面在加三个零（20万到2个亿的故事）<br>5.再说一次学的次序，成就的大小就看各人悟性的高低:<br>第一,入门贵在精一，选择一种适合自己的方法入门。<br>目前教的几种模式已经是市场上最优化的短线方法，但没看到一个人能把方法吃透，没有掌握和领悟到方法的核心实质。（一招鲜，吃遍天）<br>第二,重在坚持，熟练掌握一种方法后，三五年内方法不要随意改变,一招鲜，吃遍天。<br>第三,法无定法，第一个10倍利润完成技术积累，自有资金或者操作规模到了500万至1000万，然后才可以学各种方法，博采众家之长。<br>第四,万法归宗,方法已经无所谓了，怎么做都有道理。</p>
+<p>6.做龙头股，说得容易,做起来难.要眼到,手到，心到。<br>眼到，龙头品种一启动一般很快就张停，一般人看到的时候已经买不到了。<br>手到，看到的时候手脚要快，慢一秒种可能都抢不到。<br>心到，心里对龙头品种要敏感，有强烈的感应。瞬间发现，瞬间操作，还要敢下重手。否则轻仓就浪费机会。<br>道理简单，做好很难，知易行难。</p>
+<p>7.操作的时候全靠反应，没有多的时间考虑，全靠平时的经验积累。做龙头股全靠打快。大资金要学慢,小资金要学快，越快越好。<br>8.弱市不亏钱，这才是复利增长的关键,而且是关键中的关键。<br>9.每次大盘疯狂的时候，关注滞涨的权重股突然启动，这往往是大盘变盘的信号，可以准确的把握大盘的拐点。（刚过去的，2019年9月9日，中兴通讯  放量涨停3，并在9月10日触及37.67的高点回落；3个工作日之后的9月16日，上涨指数触及9月的最高点3042点回落，个人理解为宣告本轮科技股的行情，短期内结束了）。<br>亏了钱能打回来,赚了钱能守得住,这是职业选手起码的要求。</p>
+<p>10.炒股就是炒概率,其实就是这么回事.打板也就是打概率,有高成功率的方法也可以不打板,玩低吸也行.<br>所有的操作方法都是以概率原理上总结,然后有高成功率保证,自然就进入赚钱的行列.<br>11.有了高胜率的保证,资金可以从几万做到几十万,几百万,几千万,甚至上亿。<br>为啥短线比中线和长线更容易完成结累的过程,就是因为有了成功率的保证,做得越块的赚得越多.<br>所以超短线是完成资金从小到大最块的方式，几位一线游资更是，几分种就决定上亿的资金买入一只票。<br>这些临时起意大手笔买入的基础都是建立在慨率的基础.</p>
+<p>12.弱市学会空仓是度过漫漫熊市的唯一法门.不会空仓,不管他做股票做了多少年,都可以说还没入门.<br>13.龙头和领涨:谁先涨停谁就是龙头，谁的封单越多谁就是领涨。<br>那又太肤浅了,阶段性龙头或者说是阶段性人气个股，往往是随机产生，在大盘否级泰来的那一关键时刻，同时会出现几只强势个股，能否成为龙头或人气股，要看个股是否具备当前容易被市场认可的题材，这一点比基本面重要得多。<br>还有选择图形炒做，个股的选择一定要考虑符合当下的炒做热点。<br>相对低位的第一根放量大阳线，或者说二次探底后的再次启动，必须是放量大阳线。出现这种阳线，都是超短线的好品种.<br>大盘背景的判断是回避这些风险的唯一办法。<br>指数在走下跌通道时，符合条件的交易，全部放弃，也不为错。<br>这个市场本来就是反应快的赚反应慢的人钱。（短线就是拼刺刀，手法快准狠的人，收割手慢的人）<br>14.龙头不在盘子大小,而在启动的时机。<br>只要先于大盘连续上涨，并能带动关联个股上涨，就是龙头。<br>趋势的力量引导市场合力。<br>所以在今后的交易中，对势的理解超过一切。市场合力大于一切。</p>
+<p>15.一个真正的持续市场热点，必须要得到市场各方面资金的高度认同。<br>是需要多种综合型因素叠加产生的，真正做得好的,都会尽量的去做到放弃自己的主观看法，主动去顺应市场热点 。<br>16.攻在量中，退在量后—–这是绝对的短线级别信条:<br>买入，攻在量中。——跟随放大的成交量进军，可以迅速拓展空间卖出，只在带量的时候买入，<br>一般情况下很快就会顺，拉离自己的成本区域,卖出,退在量后。<br>——跟随成交量的萎缩而退却，可以捕捉到较高点。<br>强者恒强，弱者只是跟随强者，强者涨的时候涨幅更大些，跌的时候跌幅更小些.</p>
 ]]></content>
       <categories>
         <category>炒股</category>
       </categories>
       <tags>
-        <tag>龙头战法</tag>
+        <tag>游资成神录</tag>
       </tags>
   </entry>
   <entry>
-    <title>龙头战法，低吸模式</title>
-    <url>/posts/73d4f8b9/</url>
-    <content><![CDATA[<p>龙头低吸战法：<br>全仓一支个股，以近期主流资金和持续题材的强势龙头股为目标，以预测具有持续性的主流人气题材为第一动力，采用回调低吸模式，以大盘分时择时来应对系统风险，次日必须卖出，严格反预期止损纪律，以控制资产回撤的超短线高频复利操盘模式！</p>
+    <title>量能的重要性</title>
+    <url>/posts/29625a4/</url>
+    <content><![CDATA[<p>这是技术篇，就是所谓的术，基本功，只有基本功非常扎实，才能走的长远。<br>量能是选股和交易中的辅助参考指标，虽然不是绝对起作用，但是必须要参考。</p>
 <span id="more"></span>
 
-<p>核心思想：小赚小亏，偶尔大赚，杜绝大亏，不断试错的复利增值模式！<br>操盘准则：1.主流题材 2.人气龙头 3.资金换手 4.均线原则</p>
-<p>实战操盘详解：</p>
-<p>1.主流题材：这是体系的核心，笔者信奉：题材是第一生产力，只有抓住市场的主流资金的主流题材，才能好找足够的人气，而核心的核心是：判断题材的持续性，只有主流的持续性会较好，偏小题材建议回避。</p>
-<p>2.人气龙头：确定好主流题材之后，便是寻找该题材的龙头或者人气股，只有龙头，才是资金的聚焦，人气所至，资金所到，得人气者得天下，这也是主流游资操盘的核心，没有人气，意味着没有接盘，后果你懂。</p>
-<p>3.资金换手：这个只是个人体系选择个股的一些条件，因为股市没有保证，一切都是概率，我们选择标准的动机，仅仅是为了提升概率，而非获得确定性，所以，短线中，资金进出的偏好更大一些，换手一般20%意味着人气。</p>
-<p>4.均线原则：这个是真针对回调来说的，一般回调5日或者10日均线附近低吸，概率较高，也有人说，很多龙头没回调到这个位置，这个就属于心态修炼了，一种贪婪心态，只做体系内的利润，没到不符合就放弃，只做看得懂的符合体系即可，这点舍得心态都没有是不行的。严格按照体系，只做龙头低吸模式，并严格止盈止损，纪律大于一切，只有纪律可以规避人性的贪婪，恐惧，能做到平时小赚小亏，偶尔大赚，杜绝大亏（严格止损），最终在复利帮助下，资金成为一个台阶成长，重要的是言行合一，以及心态的修炼。</p>
+<p>1   量能选股：过往牛股，人气股是量价齐升。堆量上涨，我们看汉宇，中通，攀钢，巨轮等都是堆量，堆量就是日均成交量比平时放大3倍或以上 ，有时我们选股无从下手，并不是人们随意选的股，先通过量能选股。打开成交额排名，从大的成交额往下翻，底部连续2天放大量的股进入我的視线，不局限于涨不涨停。<br>股票选好以后，研究基本面，炒什么题材，是否热门，是机构参与还是游资？<br>炒作逻辑，补涨还是其它？    那么综合分析判断是否建仓。<br>2  量能在交易中的参考作用，举例：<br>道恩股份 ：周四小幅放量上涨，周五缩量回调，这是底部的缩量，表达了周四买入的大多周五没有卖出，为何没有卖出那是因为看好后市。<br>这只是辅助分析，道恩参与的资金是机构或中线思维的人，所以底部的放量，再缩量是健康的，周五缩量也与大盘下跌有关系。<br>盾安股份：周四缩量调整，这种中，高位的缩量，表示场内资金惜售，场外资金观望，那么次日可下跌可上涨，与大盘和板块，或情绪的走势非常有关，周五同板块三花，银轮，银邦，松芝上涨，那么它也上涨。<br>所以说放量上涨，放量下跌才是健康的。<br>3  量能在竞价中的参考。<br>通常分2种，涨停股的量跟一般股的量有区别。<br>涨停股竞价的量，一般要高于昨日总成交额的10%以上，量太小代表没有人气，很谨慎的。爆量，要结合炒作逻辑，情绪，个股所处位置，板块，综合分析。低位的爆量比高位的爆量好。<br>一般股的量，一定放量高开才好，没有绝对的量化量在多少，竞价量比大于2以上，代表有人气。<br>就是说所有股竞价要有量，放量高开才有人气。<br>谨记：竞价的量也有骗人的，有些是主力做出来的放量高开，吸引场外资金接力，我曾经被忽悠过几次，就是放量高开，后一直低走，  所以是辅助参考指标不是绝对。<br>4  高位放量     如广汇物流 周五这是大分岐，大分岐短期有不确定性，还需要跟据资金面，基本面，上涨逻辑综合判断后市是后看好。</p>
+<p>股价在5日均线上属强，10日均线是我认为的生命线。量能，换手代表人气，这是辅助参考指标，虽然不是绝对适用，但是大概率适用。<br>庄股，一般是平量或缩量，小幅放量。</p>
+<p>通过量能，K线分析，99%以上的股我只要看上一眼，就能排除。<br>目前4千只左右股票，除了自选股7只外，另外观察了3只，但不确定。其余的通过量能，K线全部排除，然后在几只股里择强去弱，留下好学生，开除差学生。这个比例是4000：8，500挑1。<br>当然10只股我不仅只看K线，量能，还要看炒作逻辑，基本面，同板块，资金面因素。</p>
+<p>所以我一直认为基本功是重中之重，K线，量能这是炒股最底层的知识必须看懂，否则如何炒股？</p>
 ]]></content>
       <categories>
         <category>炒股</category>
       </categories>
       <tags>
-        <tag>龙头战法</tag>
+        <tag>炒股技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -4384,6 +4409,51 @@
       </categories>
       <tags>
         <tag>游资成神录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>龙头战法完整知识体系</title>
+    <url>/posts/64eb0735/</url>
+    <content><![CDATA[<p><strong>一、什么是龙头股？</strong></p>
+<p>龙头股是一波行情中最核心的标的，它引领市场情绪，带动板块，辨识度最高，地位最高，市场炒作的整体情绪因它而起伏</p>
+<span id="more"></span>
+
+<p>由于资金偏好的不同，机构资金偏好行业龙头及基本面龙头，如贵州茅台、宁德时代变动很小，而游资和散户偏好情绪龙头，更新换代快，龙头一般是一个阶段中涨幅最大的，但并不是所有涨幅最高的就是龙头，人气、属性、涨幅都会影响到龙头的地位，我们这里主要说情绪龙头，基本面龙头少数时候也能演变成情绪龙头，如去年消息刺激下短期暴涨，像宁德时代、比亚迪等。</p>
+<p><strong>二、龙头的种类有哪些？</strong></p>
+<p>我们大家只知道“龙头”二字，可小散不知道龙头股又分总龙头、高标龙、卡位龙、板块龙、先手龙、补涨龙、日内龙、龙二龙三（共8种）<br>（1）总龙头人气最旺，也是最容易抱团的核心，辨识度最高，是合力上去的结果，如之前的中国医药、浙江建投等，所以总龙头适用于一切龙头战法，如龙头首阴、龙回头、二波等。<br>（2）高标龙，一般指连板高标，也有一些走出近期新高的股，随后走出连板的，称为连板高标，这类龙头有时候不好的地方，是涨停太快，普通散户根本买不到，买到就容易被坑。<br>（3）卡位龙，卡位龙指的是在龙头初期，会有一些个股来竞争龙头，于是经常开盘卡了龙头的位置，最先上板，而龙头反而在当天表现一般，或者到了尾盘才拉升。<br>（4）板块龙：每个板块在某一个阶段，都有一些资金尝试发动行情，有时候成功了，板块内的龙头就存在炒作起来的可能，这类如果是单日的，是以试错为主，有持续性后就会不断吸引资金靠向龙头。<br>（5）先手龙一般是突然的利好，导致资金认可，提前涨停启动，比板块其它个股领先身位，率先启动，相对抛压更小，阴力更小，资金更容易形成合力。<br>（6）初涨龙，总龙头退潮后，市场开始挖掘补涨龙，有时也有一些跟风股会演变成补涨龙，现在的补涨龙容易形成一致性，即大家认可后直接一字上去，导致要么买不到，买到就被砸。<br>（7）日内龙，即走势日内最强，市场震荡混沌期，市场没有真正的龙头，持续性不够好，有资金抢日内核心，一般发生在早盘前15分钟就已经产生或者板块受消息刺激，从而演变成日内龙。<br>（8）龙二龙三，当一个市场情绪被总龙头带起，龙头往往会有小弟共同前进，总龙头承载的资金有限，有时候龙二龙三的涨幅还要大于总龙，因此如果是指数与情绪共振的市场有主流热点时，龙二龙三也值得重视。<br>只听这些各种龙，估计很多人已经蒙圈了，想要在市场中分辨出这些，需要大量时间去复盘。</p>
+<p><strong>三、龙头股的属性特征。</strong></p>
+<p>（1）龙头股第一个特点，就是领涨两市，龙头打出高度和赚钱效应，这个高度是靠龙头打出来的，一个周期的情绪龙头，它的涨幅直接影响到其它小弟，龙头股就是带头大哥，如果带头大哥倒了，跟风小弟基本也是凉凉。<br>（2）龙头股的第二个特点，就是换手充足，流动性好，关注度高，人气足，几乎所有短线高手都会关注龙头，因为既使不买入龙头股，它的动向也会影响到其它情绪股。<br>（3）龙头股的第三个特点，是无视利空，真正的龙头敢于直面减持和关注函，利空增加换手，反而走的更远，龙头股不怕有分岐，就怕一致。<br>（4）龙头股的第四个特点，刷新认知，每一个龙头的诞生，都会有一些我们想不到的东西，如果贸然去猜顶，就很容易过早下车，龙头真要涨起来，往往是要打破常规的，会让绝大多数人感觉没想到，然后就是一路看着它涨，一直关注一直不敢买。</p>
+<p>（5）龙头股的第四个特点，属性被不断挖掘，当一只龙头股成长起来后，各种跟风资金，由于恐高或者抢不到龙头，就会去挖掘它的属性，挖掘补涨股，资金就好像攀亲戚一样，总要和它沾点边，有些公司也会去蹭它的热度。</p>
+<p>总结龙头股特点，<br>1、涨幅大，起步翻倍<br>2、超预期，不断刷新认知<br>3、抗打压，经得住利空考验<br>4、带动性好<br>5、属性被不断挖掘</p>
+<p><strong>四、如何从技术面判断龙头股？</strong></p>
+<p>指数型龙头股，指数与情绪共振产生，人气最旺，成交量大，最先打出高度，指数型龙头的判断方法，龙头总是先打出一定高度，带动指数和情绪回暖，龙头成交不断放大，人气越来越高。<br>连板型龙头，这类是游资引导与散户合力，所产生的结果，往往先是游资强势拉出三连板以上，带动情绪回暖，又带动了相关板块题材，而题材里又不断有消息来刺激催化，从而演变成总龙头。如九安医疗。连板情绪龙头主要看换手和累讲涨幅，换手上去的往往是合力的结果，一次上去的要看换手后的承接，没有换手的考验，就没有群众基础，算不上真正的龙头。无论怎么判断，只要涨跌停制度还在，涨停就是衡量一只龙头股的首要因素。</p>
+<p><strong>总结：</strong>（1）爆量持续换手；（2）涨停；（3）领先涨幅。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>龙头战法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>龙头战法，低吸模式</title>
+    <url>/posts/73d4f8b9/</url>
+    <content><![CDATA[<p>龙头低吸战法：<br>全仓一支个股，以近期主流资金和持续题材的强势龙头股为目标，以预测具有持续性的主流人气题材为第一动力，采用回调低吸模式，以大盘分时择时来应对系统风险，次日必须卖出，严格反预期止损纪律，以控制资产回撤的超短线高频复利操盘模式！</p>
+<span id="more"></span>
+
+<p>核心思想：小赚小亏，偶尔大赚，杜绝大亏，不断试错的复利增值模式！<br>操盘准则：1.主流题材 2.人气龙头 3.资金换手 4.均线原则</p>
+<p>实战操盘详解：</p>
+<p>1.主流题材：这是体系的核心，笔者信奉：题材是第一生产力，只有抓住市场的主流资金的主流题材，才能好找足够的人气，而核心的核心是：判断题材的持续性，只有主流的持续性会较好，偏小题材建议回避。</p>
+<p>2.人气龙头：确定好主流题材之后，便是寻找该题材的龙头或者人气股，只有龙头，才是资金的聚焦，人气所至，资金所到，得人气者得天下，这也是主流游资操盘的核心，没有人气，意味着没有接盘，后果你懂。</p>
+<p>3.资金换手：这个只是个人体系选择个股的一些条件，因为股市没有保证，一切都是概率，我们选择标准的动机，仅仅是为了提升概率，而非获得确定性，所以，短线中，资金进出的偏好更大一些，换手一般20%意味着人气。</p>
+<p>4.均线原则：这个是真针对回调来说的，一般回调5日或者10日均线附近低吸，概率较高，也有人说，很多龙头没回调到这个位置，这个就属于心态修炼了，一种贪婪心态，只做体系内的利润，没到不符合就放弃，只做看得懂的符合体系即可，这点舍得心态都没有是不行的。严格按照体系，只做龙头低吸模式，并严格止盈止损，纪律大于一切，只有纪律可以规避人性的贪婪，恐惧，能做到平时小赚小亏，偶尔大赚，杜绝大亏（严格止损），最终在复利帮助下，资金成为一个台阶成长，重要的是言行合一，以及心态的修炼。</p>
+]]></content>
+      <categories>
+        <category>炒股</category>
+      </categories>
+      <tags>
+        <tag>龙头战法</tag>
       </tags>
   </entry>
 </search>
